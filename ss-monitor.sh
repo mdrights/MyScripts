@@ -1,5 +1,6 @@
 #!/bin/bash
 # Monitoring 1) who connects to my ssserver; 2)what ip/websites do they visit.
+# Modified on the 2nd of Apr, 2016. I stop printing the 2), rather print the output flow numbers overall.
 
 if [ $UID != 0 ];then
 	echo "Sorry, you must be root!"
@@ -20,7 +21,12 @@ echo >> $Result
 
 # Filter and writing the Incoming IPs within today.
 
-grep 'SS-in' /var/log/messages | grep "$CurMonth $CurDay" > $Filein
+if [ `echo ${CurDay:0:1}` ];then
+        CurDay="${CurDay:1:1}"
+	grep 'SS-in' /var/log/messages | grep "$CurMonth  $CurDay" > $Filein
+else
+	grep 'SS-in' /var/log/messages | grep "$CurMonth $CurDay" > $Filein
+fi
 
 echo "`date`, `hostname`." >> $Result
 echo "Shadowsocks Incoming IPs:" >> $Result
@@ -40,6 +46,12 @@ echo "---------------------------------------" >> $Result
 #echo >> $Result
 
 #/usr/bin/awk '{print $1$2; print $10}' $Fileout >> $Result
+
+
+echo >> $Result
+echo "The total OUTPUT packets and bytes."
+
+/sbin/iptables -vnL OUTPUT | sed -n '1p' >> $Result
 
 echo >> $Result
 
