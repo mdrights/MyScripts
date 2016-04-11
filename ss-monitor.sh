@@ -16,7 +16,7 @@ Tmp=/tmp/incoming-ip.txt
 
 CurMonth=`date +%b`
 CurDay=`date +%d`
-
+zero=`echo ${CurDay:0:1}`
 
 echo "Your host's listening ports." > $Result
 ss -tulp | grep -o "users.*" >> $Result
@@ -24,7 +24,7 @@ echo >> $Result
 
 # Filter and writing the Incoming IPs within today.
 
-if [ `echo ${CurDay:0:1}` ];then
+if [ $zero == 0 ];then
         CurDay="${CurDay:1:1}"
 	grep 'SS-in' /var/log/messages | grep "$CurMonth  $CurDay" > $Filein
 else
