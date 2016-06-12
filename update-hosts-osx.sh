@@ -12,9 +12,19 @@ fi
 
 cat << EOF >> /etc/hosts
 
-# Subnet hosts
-127.0.1.1	kali-T450
-192.168.10.10	raspberrypi
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+192.168.10.10	Raspberrypi
+127.0.0.1	icloud.com
+127.0.0.1	apple.com
+
 
 EOF
 
