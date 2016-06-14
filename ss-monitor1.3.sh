@@ -78,7 +78,7 @@ echo >> $Result
 echo "Done.
 Sending email..."
 
-cat $Result | mutt -s "SS usage at `date`, `hostname`" linusyeung@live.com
+cat $Result | mutt -s "SS usage at `date`, `hostname`" .com
 
 echo
 exit 0

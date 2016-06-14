@@ -65,7 +65,7 @@ ss -tu >> $Result
 
 echo "Sending email..." >> $Result
 
-cat $Result | mutt -s "VPS info at `date`, `hostname`" linusyeung@live.com
+cat $Result | mutt -s "VPS info at `date`, `hostname`" @.com
 
 echo
 
