@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/bash 
 # Showing system info. 2015-12-23
 # And email them. 2016-03-29
 
-Result=/home/linus/system-info.txt
+
+Result="$HOME/system-info.txt"
 
 echo -e "\e[31;43m***** HOSTNAME INFORMATION *****\e[0m" > $Result
 hostnamectl >> $Result
@@ -65,7 +66,7 @@ ss -tu >> $Result
 
 echo "Sending email..." >> $Result
 
-cat $Result | mutt -s "VPS info at `date`, `hostname`" linusyeung@live.com
+cat $Result | mutt -s "VPS info at `date`, `hostname`" @.com
 
 echo
 

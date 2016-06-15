@@ -65,13 +65,15 @@ ss -tu >> $Result
 
 
 
-echo "Sending email..." >> $Result
+# echo "Sending email..." >> $Result
 
-cat $Result | mutt -s "VPS info at `date`, `hostname`" mdrights@icloud.com
+# cat $Result | mutt -s "VPS info at `date`, `hostname`" mdrights@icloud.com
 
 echo
 
 echo -e "Done." >> $Result
+
+echo "Save to $Result."
 
 echo
 exit 0
