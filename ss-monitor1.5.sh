@@ -19,7 +19,11 @@ CurMonth=`date +%b`
 CurDay=`date +%d`
 zero=`echo ${CurDay:0:1}`
 
-echo "Your host's listening ports." > $Result
+
+echo "-----------------------------" > $Result
+echo "`date`, `hostname`." >> $Result
+echo "Your host's listening ports:" >> $Result
+echo "-----------------------------" >> $Result
 ss -tulp | grep -o "users.*" >> $Result
 echo >> $Result
 
@@ -32,8 +36,9 @@ else
 	grep 'SS-in' /var/log/messages | grep "$CurMonth $CurDay" > $Filein
 fi
 
-echo "`date`, `hostname`." >> $Result
+echo "-----------------------------" >> $Result
 echo "Shadowsocks Incoming IPs:" >> $Result
+echo "-----------------------------" >> $Result
 echo >> $Result
 
 /usr/bin/awk '{print $1$2; print $11}' $Filein > $Tmp
@@ -80,8 +85,10 @@ echo >> $Result
 # 3.--------------------
 # Send result to my TG bot.
 
+Token="242296535:AAFAzUU1YUH5n8G9Xi-VJQauVJmCHNt5ZMs"
+
 echo "Sending the result to my TG bot:"
-w3m "https://api.telegram.org/bot260947680:AAF87IQ2967PLVOhVWdU2xlGZnHz5_gq49o/sendmessage?chat_id=64960773&text=`cat $Result`" 1&>/dev/null
+w3m "https://api.telegram.org/bot$Token/sendmessage?chat_id=64960773&text=`cat $Result`" 1&>/dev/null
 
 # echo "Done.  Sending email..."
 
