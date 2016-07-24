@@ -1,27 +1,28 @@
-#!/bin/bash 
+#!/bin/bash
 # Showing system info. 2015-12-23
 # And email them. 2016-03-29
+# Remove colorized tag for email_version. 2016-06-11
 
-
+touch $HOME/system-info.txt 
 Result="$HOME/system-info.txt"
 
-echo -e "\e[31;43m***** HOSTNAME INFORMATION *****\e[0m" > $Result
+echo -e "***** HOSTNAME INFORMATION *****" > $Result
 hostnamectl >> $Result
 echo >> $Result
 
-echo -e "\e[31;43m***** DISK SPACE USAGE *****\e[0m" >> $Result
+echo -e "***** DISK SPACE USAGE *****" >> $Result
 df -h >> $Result
 echo >> $Result
 
-echo -e "\e[31;43m***** FREE AND USED MEMORY *****\e[0m" >> $Result
+echo -e "***** FREE AND USED MEMORY *****" >> $Result
 free -h >> $Result
 echo >> $Result
 
-echo -e "\e[31;43m***** SYSTEM UPTIME AND LOAD *****\e[0m" >> $Result
+echo -e "***** SYSTEM UPTIME AND LOAD *****" >> $Result
 uptime >> $Result
 echo >> $Result
 
-echo -e "\e[31;43m***** CURRENTLY LOGGED-IN USERS *****\e[0m" >> $Result
+echo -e "***** CURRENTLY LOGGED-IN USERS *****" >> $Result
 who >> $Result
 echo >> $Result
 
@@ -34,7 +35,7 @@ echo >> $Result
 #Checking FILE SYSTEM USAGE
 
 echo >> $Result
-echo -e "\e[4;32mCHECKING FILE SYSTEM USAGE....\e[0m" >> $Result
+echo -e "CHECKING FILE SYSTEM USAGE...." >> $Result
 
 THRESOLD=80
 n=2
@@ -56,26 +57,25 @@ done
 #< <(df -h --total | grep -vi filesystem)
 
 # The open ports and services.
-echo -e "\e[31;43m***** OPEN SERVICES *****\e[0m" >> $Result
+echo -e "***** OPEN SERVICES *****" >> $Result
 ss -tulp | grep -o "users.*" >> $Result
 
-echo -e "\e[31;43m***** ESTABLISHED CONNECTIONS *****\e[0m" >> $Result
+echo -e "***** ESTABLISHED CONNECTIONS *****" >> $Result
 ss -tu >> $Result
 
 
 
-echo "Sending email..." >> $Result
+# echo "Sending email..." >> $Result
 
-cat $Result | mutt -s "VPS info at `date`, `hostname`" @.com
+# cat $Result | mutt -s "VPS info at `date`, `hostname`" mdrights@icloud.com
 
 echo
 
-echo -e "\e[1;32mDone.\e[0m" >> $Result
+echo -e "Done." >> $Result
+
+echo "Save to $Result."
 
 echo
 exit 0
-
-
-
 
 

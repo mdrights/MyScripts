@@ -2,6 +2,7 @@
 # Monitoring 1) who connects to my ssserver; 2)what ip/websites do they visit.
 # Modified on the 2nd of Apr, 2016. I stop printing the 2), rather print the output flow numbers overall.
 # Modified on the 4th of Apr, adding statistic feature of incoming ip addresses.
+# Add a function: send result to my TG bot..
 
 if [ $UID != 0 ];then
 	echo "Sorry, you must be root!"
@@ -18,7 +19,11 @@ CurMonth=`date +%b`
 CurDay=`date +%d`
 zero=`echo ${CurDay:0:1}`
 
-echo "Your host's listening ports." > $Result
+
+echo "-----------------------------" > $Result
+echo "`date`, `hostname`." >> $Result
+echo "Your host's listening ports:" >> $Result
+echo "-----------------------------" >> $Result
 ss -tulp | grep -o "users.*" >> $Result
 echo >> $Result
 
@@ -31,8 +36,9 @@ else
 	grep 'SS-in' /var/log/messages | grep "$CurMonth $CurDay" > $Filein
 fi
 
-echo "`date`, `hostname`." >> $Result
+echo "-----------------------------" >> $Result
 echo "Shadowsocks Incoming IPs:" >> $Result
+echo "-----------------------------" >> $Result
 echo >> $Result
 
 /usr/bin/awk '{print $1$2; print $11}' $Filein > $Tmp
@@ -57,6 +63,7 @@ echo "    Total $t connections." >> $Result
 echo >> $Result
 echo "---------------------------------------" >> $Result
 
+# 2.--------------------
 # Filter and writing the Destination IPs within today.
 # Not doing it now.
 
@@ -75,10 +82,17 @@ echo "The total OUTPUT packets and bytes." >> $Result
 
 echo >> $Result
 
-echo "Done.
-Sending email..."
+# 3.--------------------
+# Send result to my TG bot.
 
-cat $Result | mutt -s "SS usage at `date`, `hostname`" **@**.com
+Token="242296535:AAFAzUU1YUH5n8G9Xi-VJQauVJmCHNt5ZMs"
+
+echo "Sending the result to my TG bot:"
+w3m "https://api.telegram.org/bot$Token/sendmessage?chat_id=64960773&text=`cat $Result`" 1&>/dev/null
+
+# echo "Done.  Sending email..."
+
+# cat $Result | mutt -s "SS usage at `date`, `hostname`" **@**.com
 
 echo
 exit 0

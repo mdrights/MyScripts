@@ -2,6 +2,8 @@
 # Monitoring 1) who connects to my ssserver; 2)what ip/websites do they visit.
 # Modified on the 2nd of Apr, 2016. I stop printing the 2), rather print the output flow numbers overall.
 # Modified on the 4th of Apr, adding statistic feature of incoming ip addresses.
+# Add a non-emailing version as 2.0. 2016-06-15.
+
 
 if [ $UID != 0 ];then
 	echo "Sorry, you must be root!"
@@ -75,10 +77,10 @@ echo "The total OUTPUT packets and bytes." >> $Result
 
 echo >> $Result
 
-echo "Done.
-Sending email..."
+#echo "Done.  Sending email..." 
 
-cat $Result | mutt -s "SS usage at `date`, `hostname`" **@**.com
+# cat $Result | mutt -s "SS usage at `date`, `hostname`" **@**.com
 
+echo "Save to $Result."
 echo
 exit 0

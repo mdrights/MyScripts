@@ -19,7 +19,7 @@ cp /etc/ssh/ssh_config /root/ssh_config
 # 0.1 Install some software.
 echo "0.1 Install some software."
 apt-get update
-apt-get install wget git iftop htop python python-pip mutt w3m
+apt-get install openvpn wget git iftop htop python python-pip mutt w3m
 
 echo "Install Shadowsocks."
 pip install shadowsocks
