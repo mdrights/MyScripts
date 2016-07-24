@@ -15,11 +15,15 @@ cat << EOF >> /etc/hosts
 # Subnet hosts
 127.0.1.1	kali-T450
 192.168.10.10	raspberrypi
+128.30.2.26	ftp.us.debian.org
 
 EOF
 
 echo "Done. Now the hosts file is : "
 ls -l /etc/hosts
+
+echo "First few lines of the Hosts:"
+head /etc/hosts
 
 exit
 
