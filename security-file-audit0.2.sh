@@ -1,4 +1,6 @@
+#!/bin/bash
 #3 File Auditing
+# Reviewed and updated at 2016.08.23
 
 echo "3 File Auditing..."
 echo "1. Wildcarding"
@@ -54,11 +56,11 @@ cat /etc/shadow | cut -d: -f 1,2 | grep '!!'
 echo "10. The permission of /boot should be at least 644, even 600."
 n10=$(ls -l /boot)
 echo "$n10"
-
+chmod 600 /boot/*
 
 echo "11. find out the executable files with suid/sgid."
 find / -xdev -user root \( -perm -4000 -o -perm -2000 \)
 
-
+echo "Done."
 echo
 exit 0
