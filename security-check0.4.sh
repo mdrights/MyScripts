@@ -107,6 +107,12 @@ find / -maxdepth 3|grep -i bash_history|while read line; do chattr +a "$line"; d
 #echo "9. Browser (Firefox) privacy settings...please go there."
 # Any other...
 
+#10 Checking startup apps.
+echo "Checking startup programs."
+
+echo "Showing the listening ports:"
+ss -tulp
+
 #echo "Want to exit and cope with that? (y or n)"
 #read b
 #if [ "$b" == "y" ];then
