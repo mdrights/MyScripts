@@ -2,6 +2,10 @@
 # Showing system info. 2015-12-23
 # And email them. 2016-03-29
 # Remove colorized tag for email_version. 2016-06-11
+# Updated: send the info to my TG bot. 2016-08-25
+
+
+Token="242296535:AAFAzUU1YUH5n8G9Xi-VJQauVJmCHNt5ZMs"
 
 touch $HOME/system-info.txt 
 Result="$HOME/system-info.txt"
@@ -66,8 +70,10 @@ ss -tu >> $Result
 
 
 # echo "Sending email..." >> $Result
-
 # cat $Result | mutt -s "VPS info at `date`, `hostname`" mdrights@icloud.com
+
+echo "Sending the result to my TG bot:"
+w3m "https://api.telegram.org/bot$Token/sendmessage?chat_id=64960773&text=`cat $Result`" 1&>/dev/null
 
 echo
 
