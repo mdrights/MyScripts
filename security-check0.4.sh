@@ -31,9 +31,9 @@ pip install shadowsocks
 echo "1 Checking security upgrade."
 apt-get upgrade -s 
 
-echo "Do you want to upgrade now?"
+echo "Do you want to upgrade now? If yes, press y:"
 read u
-if [ "$u" == "y" ];then
+if [ "$u" = "y" ];then
 	apt-get upgrade -y
 fi
 

@@ -9,9 +9,9 @@ find / -path /proc -prune -name "-*"
 echo "2. World-writable files. need to be changed."
 n2=$(find / -path /proc -prune -o -perm -2 ! -type l -ls | awk '{print $11}')
 echo "$n2"
-for file in $n2;do
-	chmod o-w $file
-done	
+#for file in $n2;do
+#	chmod o-w $file
+#done	
 
 
 echo "Log files should not be read by others: rw-r----- /var/log/"

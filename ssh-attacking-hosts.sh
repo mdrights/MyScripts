@@ -4,7 +4,7 @@
 # On Feb 16, 2016.
 
 
-DIR="/var/www"
+DIR="$HOME"
 TXT="who-attacks-me.html"
 HOST=$(hostname)
 
