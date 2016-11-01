@@ -12,7 +12,7 @@ fi
 
 Filein=/tmp/SS-in.txt
 Fileout=/tmp/SS-out.txt
-Result=/home/linus/SS-Result.txt
+Result=$HOME/SS-Result.txt
 Tmp=/tmp/incoming-ip.txt
 
 CurMonth=`date +%b`
