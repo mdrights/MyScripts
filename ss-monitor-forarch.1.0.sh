@@ -17,7 +17,7 @@ Tmp=/tmp/incoming-ip.txt
 
 CurMonth=`date +%b`
 CurDay=`date +%d`
-zero=`echo ${CurDay:0:1}`
+#zero=`echo ${CurDay:0:1}`
 
 
 echo "-----------------------------" > $Result
@@ -28,13 +28,14 @@ ss -tulp | grep -o "users.*" >> $Result
 echo >> $Result
 
 # Filter and writing the Incoming IPs within today.
+# Make specific path for Arch of logging the Iptables records.
 
-if [ $zero == 0 ];then
-        CurDay="${CurDay:1:1}"
-	grep 'SS-in' /var/log/messages | grep "$CurMonth  $CurDay" > $Filein
-else
-	grep 'SS-in' /var/log/messages | grep "$CurMonth $CurDay" > $Filein
-fi
+#if [ $zero == 0 ];then
+#        CurDay="${CurDay:1:1}"
+	journalctl -k | grep 'SS-in' | grep "$CurMonth $CurDay" > $Filein
+#else
+#	journalctl -k | grep 'SS-in' | grep "$CurMonth $CurDay" > $Filein
+#fi
 
 echo "-----------------------------" >> $Result
 echo "Shadowsocks Incoming IPs:" >> $Result

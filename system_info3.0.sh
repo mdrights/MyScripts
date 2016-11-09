@@ -73,7 +73,7 @@ ss -tu >> $Result
 # cat $Result | mutt -s "VPS info at `date`, `hostname`" mdrights@icloud.com
 
 echo "Sending the result to my TG bot:"
-w3m "https://api.telegram.org/bot$Token/sendmessage?chat_id=64960773&text=`cat $Result`" 1&>/dev/null
+w3m "https://api.telegram.org/bot$Token/sendmessage?chat_id=64960773&text=`cat $Result`" 1>&/dev/null
 
 echo
 
