@@ -59,15 +59,6 @@ case "$1" in
         # Rate limiting rules: 
         #      Set rates with burst for new conns, then log/drop the excess
         #$IPT -A inbound -p tcp --syn -m limit --limit 4/s --limit-burst 10 -j ACCEPT
-        $IPT -A inbound -p tcp --dport 22 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
-	$IPT -A inbound -p tcp -m tcp --dport 443 -j LOG --log-prefix "[SS-in] "
-        $IPT -A inbound -p tcp --dport 443 -m limit --limit 4/s --limit-burst 10      -j ACCEPT
-        $IPT -A inbound -p tcp --syn -j LOG
-        $IPT -A inbound -p tcp --syn -j DROP
-
-        $IPT -A inbound -p udp -m state --state NEW -m limit --limit 1/s --limit-burst 5 -j ACCEPT
-        $IPT -A inbound -p udp -m state --state NEW                                      -j LOG
-        $IPT -A inbound -p udp -m state --state NEW                                      -j DROP
         $IPT -A inbound -p icmp           --icmp-type 8 -m limit --limit 1/s --limit-burst 5  -j ACCEPT
         $IPT -A inbound -p icmp           --icmp-type 11 -m limit --limit 1/s --limit-burst 5  -j ACCEPT
 
@@ -83,6 +74,7 @@ case "$1" in
         # Outbound traffic to allow
         echo "    Setting rules for outbound traffic..."
         #$IPT -A OUTPUT -p tcp -d $lan     --dport 80    -j REJECT
+        $IPT -A OUTPUT -p tcp     --dport 80    -j REJECT
         ########
 
         # Log all dropped packets
