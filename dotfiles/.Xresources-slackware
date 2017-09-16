@@ -1,0 +1,6 @@
+*foreground: rgb:ff/ef/d5
+*background: #000000
+*faceSize: 14
+
+*font: xft:LiberationMono-Regular:size=11
+*vt100*geometry: 70*90
