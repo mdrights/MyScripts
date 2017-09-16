@@ -1,0 +1,13 @@
+*font: 9x15
+
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+
+*resize-font.smaller: C-Down
+*resize-font.bigger: C-Up
+
+*iso14755: false
+*iso14755_52: false
+
+*perl-ext:
+*perl-ext-common:
