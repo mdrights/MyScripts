@@ -1,0 +1,1765 @@
+2017-10-27 14:13:35	--	irc: connecting to server irc.oftc.net:6697/6667 (SSL)...
+2017-10-27 14:13:35	=!=	irc: TLS handshake failed
+2017-10-27 14:13:35	=!=	irc: error: TLS 链接非正常地终止了。
+2017-10-27 14:13:35	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:13:45	--	irc: reconnecting to server...
+2017-10-27 14:13:45	--	irc: connecting to server irc.oftc.net:6697/6667 (SSL)...
+2017-10-27 14:13:46	=!=	irc: TLS handshake failed
+2017-10-27 14:13:46	=!=	irc: error: TLS 链接非正常地终止了。
+2017-10-27 14:13:46	--	irc: reconnecting to server in 20 seconds
+2017-10-27 14:14:06	--	irc: reconnecting to server...
+2017-10-27 14:14:06	--	irc: connecting to server irc.oftc.net:6697/6667 (SSL)...
+2017-10-27 14:14:36	=!=	irc: TLS handshake failed
+2017-10-27 14:14:36	=!=	irc: error: 请求的会话已过期。
+2017-10-27 14:14:36	--	irc: reconnecting to server in 40 seconds
+2017-10-27 14:15:16	--	irc: reconnecting to server...
+2017-10-27 14:15:16	--	irc: connecting to server irc.oftc.net:6697/6667 (SSL)...
+2017-10-27 14:15:17	=!=	irc: TLS handshake failed
+2017-10-27 14:15:17	=!=	irc: error: TLS 链接非正常地终止了。
+2017-10-27 14:15:17	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-27 14:16:25	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:16:26	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-27 14:16:26	--	gnutls: receiving 2 certificates
+2017-10-27 14:16:26	--	 - certificate[1] info:
+2017-10-27 14:16:26	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-27 14:16:26	--	 - certificate[2] info:
+2017-10-27 14:16:26	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-27 14:16:26	--	gnutls: peer's certificate is trusted
+2017-10-27 14:16:26	--	irc: connected to irc.oftc.net/6697 (224.0.0.2)
+2017-10-27 14:16:26	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-27 14:16:26	--	helix.oftc.net: *** Checking Ident
+2017-10-27 14:16:27	--	helix.oftc.net: *** No Ident response
+2017-10-27 14:16:29	--	helix.oftc.net: *** Couldn't look up your hostname
+2017-10-27 14:16:29	--	helix.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-27 14:16:29	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-27 14:16:29	--	Your host is helix.oftc.net[130.239.18.116/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-27 14:16:29	--	This server was created Jun 24 2017 at 17:04:07
+2017-10-27 14:16:29	--	helix.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-27 14:16:29	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-27 14:16:29	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-27 14:16:29	--	4G4AAC8SG :your unique ID
+2017-10-27 14:16:29	--	There are 34 users and 12640 invisible on 19 servers
+2017-10-27 14:16:29	--	17 :IRC Operators online
+2017-10-27 14:16:29	--	2590 :channels formed
+2017-10-27 14:16:29	--	I have 2175 clients and 1 servers
+2017-10-27 14:16:29	--	Current local users: 2175  Max: 3125
+2017-10-27 14:16:29	--	Current global users: 12674  Max: 12810
+2017-10-27 14:16:29	--	Highest connection count: 3126 (3125 clients) (138031 connections received)
+2017-10-27 14:16:29	--	- helix.oftc.net Message of the Day -
+2017-10-27 14:16:29	--	-   O
+2017-10-27 14:16:29	--	-    \   The Open and Free
+2017-10-27 14:16:29	--	-     O
+2017-10-27 14:16:29	--	-    /|  Technology Community
+2017-10-27 14:16:29	--	- O-O O
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- Welcome to OFTC's IRC network.
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- The Open and Free Technology Community was founded at the
+2017-10-27 14:16:29	--	- end of 2001 by a group of experienced members of the Open
+2017-10-27 14:16:29	--	- Source and Free Software communities; it is aimed at
+2017-10-27 14:16:29	--	- providing these communities with better communication,
+2017-10-27 14:16:29	--	- development, and support infrastructure. Our goal is to
+2017-10-27 14:16:29	--	- provide stable services to members of the community in any
+2017-10-27 14:16:29	--	- part of the world, while listening closely to their needs
+2017-10-27 14:16:29	--	- and desires.
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- We are not a general purpose chat platform, but a topical
+2017-10-27 14:16:29	--	- network intent on providing the open source and free
+2017-10-27 14:16:29	--	- software communities a means to cooperate and communicate.
+2017-10-27 14:16:29	--	- As such, illegal and off-topic activity, such as warez
+2017-10-27 14:16:29	--	- trading, may result in being barred from access.
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-27 14:16:29	--	- support@oftc.net with details.
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	- Thanks and enjoy your stay,
+2017-10-27 14:16:29	--	-
+2017-10-27 14:16:29	--	-         The OFTC team
+2017-10-27 14:16:29	--	End of /MOTD command.
+2017-10-27 14:16:29	--	User mode [+i] by MDrights[SW
+2017-10-27 14:19:34	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:19:48	=!=	irc: TLS handshake failed
+2017-10-27 14:19:48	=!=	irc: error: 在 push 函数中出错。
+2017-10-27 14:19:48	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:19:58	--	irc: reconnecting to server...
+2017-10-27 14:19:58	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:19:59	=!=	irc: TLS handshake failed
+2017-10-27 14:19:59	=!=	irc: error: 在 push 函数中出错。
+2017-10-27 14:19:59	--	irc: reconnecting to server in 20 seconds
+2017-10-27 14:20:19	--	irc: reconnecting to server...
+2017-10-27 14:20:19	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:20:20	=!=	irc: TLS handshake failed
+2017-10-27 14:20:20	=!=	irc: error: 在 push 函数中出错。
+2017-10-27 14:20:20	--	irc: reconnecting to server in 40 seconds
+2017-10-27 14:21:00	--	irc: reconnecting to server...
+2017-10-27 14:21:00	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:21:01	=!=	irc: TLS handshake failed
+2017-10-27 14:21:01	=!=	irc: error: 在 push 函数中出错。
+2017-10-27 14:21:01	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-27 14:21:45	=!=	irc: proxy "127.0.0.1/9050" not found for server "OFTC", cannot connect
+2017-10-27 14:21:45	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:21:51	=!=	irc: proxy "127.0.0.1/9050" not found for server "OFTC", cannot connect
+2017-10-27 14:21:51	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:22:01	--	irc: reconnecting to server...
+2017-10-27 14:22:01	=!=	irc: proxy "127.0.0.1/9050" not found for server "OFTC", cannot connect
+2017-10-27 14:22:01	--	irc: reconnecting to server in 20 seconds
+2017-10-27 14:22:21	--	irc: reconnecting to server...
+2017-10-27 14:22:21	=!=	irc: proxy "127.0.0.1/9050" not found for server "OFTC", cannot connect
+2017-10-27 14:22:21	--	irc: reconnecting to server in 40 seconds
+2017-10-27 14:23:01	--	irc: reconnecting to server...
+2017-10-27 14:23:01	=!=	irc: proxy "127.0.0.1/9050" not found for server "OFTC", cannot connect
+2017-10-27 14:23:01	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-27 14:24:21	--	irc: reconnecting to server...
+2017-10-27 14:24:21	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:25:21	=!=	irc: timeout
+2017-10-27 14:25:21	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-27 14:26:57	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:27:57	=!=	irc: timeout
+2017-10-27 14:27:57	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:28:07	--	irc: reconnecting to server...
+2017-10-27 14:28:07	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:28:40	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-27 14:28:40	--	gnutls: receiving 2 certificates
+2017-10-27 14:28:40	--	 - certificate[1] info:
+2017-10-27 14:28:40	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-27 14:28:40	--	 - certificate[2] info:
+2017-10-27 14:28:40	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-27 14:28:40	--	gnutls: peer's certificate is trusted
+2017-10-27 14:28:41	--	irc: connected to irc.oftc.net/6697 (109.74.200.93)
+2017-10-27 14:28:41	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-27 14:28:41	--	coulomb.oftc.net: *** Checking Ident
+2017-10-27 14:28:47	--	coulomb.oftc.net: *** Couldn't look up your hostname
+2017-10-27 14:28:51	--	coulomb.oftc.net: *** No Ident response
+2017-10-27 14:28:51	--	coulomb.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-27 14:28:51	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-27 14:28:51	--	Your host is coulomb.oftc.net[109.74.200.93/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-27 14:28:51	--	This server was created Jun 28 2017 at 11:02:35
+2017-10-27 14:28:51	--	coulomb.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-27 14:28:51	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-27 14:28:51	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-27 14:28:51	--	0BGAAC9TR :your unique ID
+2017-10-27 14:28:51	--	There are 35 users and 12630 invisible on 19 servers
+2017-10-27 14:28:51	--	17 :IRC Operators online
+2017-10-27 14:28:51	--	2593 :channels formed
+2017-10-27 14:28:51	--	I have 2129 clients and 1 servers
+2017-10-27 14:28:51	--	Current local users: 2129  Max: 2418
+2017-10-27 14:28:51	--	Current global users: 12665  Max: 12810
+2017-10-27 14:28:51	--	Highest connection count: 2419 (2418 clients) (139374 connections received)
+2017-10-27 14:28:51	--	- coulomb.oftc.net Message of the Day -
+2017-10-27 14:28:51	--	-   O
+2017-10-27 14:28:51	--	-    \   The Open and Free
+2017-10-27 14:28:51	--	-     O
+2017-10-27 14:28:51	--	-    /|  Technology Community
+2017-10-27 14:28:51	--	- O-O O
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- Welcome to OFTC's IRC network.
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- The Open and Free Technology Community was founded at the
+2017-10-27 14:28:51	--	- end of 2001 by a group of experienced members of the Open
+2017-10-27 14:28:51	--	- Source and Free Software communities; it is aimed at
+2017-10-27 14:28:51	--	- providing these communities with better communication,
+2017-10-27 14:28:51	--	- development, and support infrastructure. Our goal is to
+2017-10-27 14:28:51	--	- provide stable services to members of the community in any
+2017-10-27 14:28:51	--	- part of the world, while listening closely to their needs
+2017-10-27 14:28:51	--	- and desires.
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- We are not a general purpose chat platform, but a topical
+2017-10-27 14:28:51	--	- network intent on providing the open source and free
+2017-10-27 14:28:51	--	- software communities a means to cooperate and communicate.
+2017-10-27 14:28:51	--	- As such, illegal and off-topic activity, such as warez
+2017-10-27 14:28:51	--	- trading, may result in being barred from access.
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-27 14:28:51	--	- support@oftc.net with details.
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	- Thanks and enjoy your stay,
+2017-10-27 14:28:51	--	-
+2017-10-27 14:28:51	--	-         The OFTC team
+2017-10-27 14:28:51	--	End of /MOTD command.
+2017-10-27 14:28:51	--	User mode [+i] by MDrights[SW
+2017-10-27 14:32:20	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:33:20	=!=	irc: timeout
+2017-10-27 14:33:20	--	irc: reconnecting to server in 10 seconds
+2017-10-27 14:33:30	--	irc: reconnecting to server...
+2017-10-27 14:33:30	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-27 14:34:30	=!=	irc: timeout
+2017-10-27 14:34:30	--	irc: reconnecting to server in 20 seconds
+2017-10-27 14:34:50	--	irc: reconnecting to server...
+2017-10-27 14:34:50	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-29 08:22:22	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-29 08:22:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 08:22:23	--	gnutls: receiving 2 certificates
+2017-10-29 08:22:23	--	 - certificate[1] info:
+2017-10-29 08:22:23	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-29 08:22:23	--	 - certificate[2] info:
+2017-10-29 08:22:23	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-29 08:22:23	--	gnutls: peer's certificate is trusted
+2017-10-29 08:22:23	--	irc: connected to irc.oftc.net/6697 (224.0.0.2)
+2017-10-29 08:22:23	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-29 08:22:23	--	kinetic.oftc.net: *** Checking Ident
+2017-10-29 08:22:23	--	kinetic.oftc.net: *** No Ident response
+2017-10-29 08:22:23	--	kinetic.oftc.net: *** Couldn't look up your hostname
+2017-10-29 08:22:24	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-29 08:22:24	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-29 08:22:24	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-29 08:22:24	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-29 08:22:24	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-29 08:22:24	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-29 08:22:24	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-29 08:22:24	--	8VQAADCC2 :your unique ID
+2017-10-29 08:22:24	--	There are 30 users and 12100 invisible on 19 servers
+2017-10-29 08:22:24	--	16 :IRC Operators online
+2017-10-29 08:22:24	--	1 :unknown connection(s)
+2017-10-29 08:22:24	--	2569 :channels formed
+2017-10-29 08:22:24	--	I have 2206 clients and 1 servers
+2017-10-29 08:22:24	--	Current local users: 2206  Max: 2583
+2017-10-29 08:22:24	--	Current global users: 12130  Max: 12810
+2017-10-29 08:22:24	--	Highest connection count: 2584 (2583 clients) (142661 connections received)
+2017-10-29 08:22:24	--	- kinetic.oftc.net Message of the Day -
+2017-10-29 08:22:24	--	-   O
+2017-10-29 08:22:24	--	-    \   The Open and Free
+2017-10-29 08:22:24	--	-     O
+2017-10-29 08:22:24	--	-    /|  Technology Community
+2017-10-29 08:22:24	--	- O-O O
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- Welcome to OFTC's IRC network.
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- The Open and Free Technology Community was founded at the
+2017-10-29 08:22:24	--	- end of 2001 by a group of experienced members of the Open
+2017-10-29 08:22:24	--	- Source and Free Software communities; it is aimed at
+2017-10-29 08:22:24	--	- providing these communities with better communication,
+2017-10-29 08:22:24	--	- development, and support infrastructure. Our goal is to
+2017-10-29 08:22:24	--	- provide stable services to members of the community in any
+2017-10-29 08:22:24	--	- part of the world, while listening closely to their needs
+2017-10-29 08:22:24	--	- and desires.
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- We are not a general purpose chat platform, but a topical
+2017-10-29 08:22:24	--	- network intent on providing the open source and free
+2017-10-29 08:22:24	--	- software communities a means to cooperate and communicate.
+2017-10-29 08:22:24	--	- As such, illegal and off-topic activity, such as warez
+2017-10-29 08:22:24	--	- trading, may result in being barred from access.
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-29 08:22:24	--	- support@oftc.net with details.
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	- Thanks and enjoy your stay,
+2017-10-29 08:22:24	--	-
+2017-10-29 08:22:24	--	-         The OFTC team
+2017-10-29 08:22:24	--	End of /MOTD command.
+2017-10-29 08:22:24	--	User mode [+i] by MDrights[SW
+2017-10-29 08:23:38	--	[MDrights[SW] (~MDrights@31.220.42.234): MDrights
+2017-10-29 08:23:38	--	[MDrights[SW] #whonix #tor #debian-zh
+2017-10-29 08:23:38	--	[MDrights[SW] kinetic.oftc.net (London, United Kingdom)
+2017-10-29 08:23:38	--	[MDrights[SW] actually using host 31.220.42.234
+2017-10-29 08:23:38	--	[MDrights[SW] is connected via SSL (secure link)
+2017-10-29 08:23:38	--	[MDrights[SW] idle: 00 hours 01 minute 14 seconds, signon at: 日, 29 10月 2017 08:17:26
+2017-10-29 08:23:38	--	[MDrights[SW] End of /WHOIS list.
+2017-10-29 12:09:55	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-29 12:09:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 12:09:56	--	gnutls: receiving 2 certificates
+2017-10-29 12:09:56	--	 - certificate[1] info:
+2017-10-29 12:09:56	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-29 12:09:56	--	 - certificate[2] info:
+2017-10-29 12:09:56	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-29 12:09:56	--	gnutls: peer's certificate is trusted
+2017-10-29 12:09:56	--	irc: connected to irc.oftc.net/6697 (224.0.0.2)
+2017-10-29 12:09:56	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-29 12:09:56	--	coulomb.oftc.net: *** Checking Ident
+2017-10-29 12:09:56	--	coulomb.oftc.net: *** No Ident response
+2017-10-29 12:09:57	--	coulomb.oftc.net: *** Couldn't look up your hostname
+2017-10-29 12:09:57	--	coulomb.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-29 12:09:57	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-29 12:09:57	--	Your host is coulomb.oftc.net[109.74.200.93/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-29 12:09:57	--	This server was created Jun 28 2017 at 11:02:35
+2017-10-29 12:09:57	--	coulomb.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-29 12:09:57	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-29 12:09:57	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-29 12:09:57	--	0BGAADBCJ :your unique ID
+2017-10-29 12:09:57	--	There are 30 users and 12211 invisible on 19 servers
+2017-10-29 12:09:57	--	16 :IRC Operators online
+2017-10-29 12:09:57	--	2568 :channels formed
+2017-10-29 12:09:57	--	I have 2115 clients and 1 servers
+2017-10-29 12:09:57	--	Current local users: 2115  Max: 2418
+2017-10-29 12:09:57	--	Current global users: 12241  Max: 12810
+2017-10-29 12:09:57	--	Highest connection count: 2419 (2418 clients) (141346 connections received)
+2017-10-29 12:09:57	--	- coulomb.oftc.net Message of the Day -
+2017-10-29 12:09:57	--	-   O
+2017-10-29 12:09:57	--	-    \   The Open and Free
+2017-10-29 12:09:57	--	-     O
+2017-10-29 12:09:57	--	-    /|  Technology Community
+2017-10-29 12:09:57	--	- O-O O
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- Welcome to OFTC's IRC network.
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- The Open and Free Technology Community was founded at the
+2017-10-29 12:09:57	--	- end of 2001 by a group of experienced members of the Open
+2017-10-29 12:09:57	--	- Source and Free Software communities; it is aimed at
+2017-10-29 12:09:57	--	- providing these communities with better communication,
+2017-10-29 12:09:57	--	- development, and support infrastructure. Our goal is to
+2017-10-29 12:09:57	--	- provide stable services to members of the community in any
+2017-10-29 12:09:57	--	- part of the world, while listening closely to their needs
+2017-10-29 12:09:57	--	- and desires.
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- We are not a general purpose chat platform, but a topical
+2017-10-29 12:09:57	--	- network intent on providing the open source and free
+2017-10-29 12:09:57	--	- software communities a means to cooperate and communicate.
+2017-10-29 12:09:57	--	- As such, illegal and off-topic activity, such as warez
+2017-10-29 12:09:57	--	- trading, may result in being barred from access.
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-29 12:09:57	--	- support@oftc.net with details.
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	- Thanks and enjoy your stay,
+2017-10-29 12:09:57	--	-
+2017-10-29 12:09:57	--	-         The OFTC team
+2017-10-29 12:09:57	--	End of /MOTD command.
+2017-10-29 12:09:57	--	User mode [+i] by MDrights[SW
+2017-10-30 03:15:57	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 03:16:27	=!=	irc: TLS handshake failed
+2017-10-30 03:16:27	=!=	irc: error: 请求的会话已过期。
+2017-10-30 03:16:27	--	irc: reconnecting to server in 10 seconds
+2017-10-30 03:16:37	--	irc: reconnecting to server...
+2017-10-30 03:16:37	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 03:16:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 03:16:38	--	gnutls: receiving 2 certificates
+2017-10-30 03:16:38	--	 - certificate[1] info:
+2017-10-30 03:16:38	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-30 03:16:38	--	 - certificate[2] info:
+2017-10-30 03:16:38	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 03:16:38	--	gnutls: peer's certificate is trusted
+2017-10-30 03:16:38	--	irc: connected to irc.oftc.net/6697 (224.0.0.2)
+2017-10-30 03:16:38	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-30 03:16:38	--	helix.oftc.net: *** Checking Ident
+2017-10-30 03:16:38	--	helix.oftc.net: *** No Ident response
+2017-10-30 03:16:39	--	helix.oftc.net: *** Couldn't look up your hostname
+2017-10-30 03:16:39	--	helix.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 03:16:39	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 03:16:39	--	Your host is helix.oftc.net[130.239.18.116/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 03:16:39	--	This server was created Jun 24 2017 at 17:04:07
+2017-10-30 03:16:39	--	helix.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 03:16:39	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 03:16:39	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 03:16:39	--	4G4AADBXS :your unique ID
+2017-10-30 03:16:39	--	There are 31 users and 12087 invisible on 19 servers
+2017-10-30 03:16:39	--	16 :IRC Operators online
+2017-10-30 03:16:39	--	2561 :channels formed
+2017-10-30 03:16:39	--	I have 2034 clients and 1 servers
+2017-10-30 03:16:39	--	Current local users: 2034  Max: 3125
+2017-10-30 03:16:39	--	Current global users: 12118  Max: 12810
+2017-10-30 03:16:39	--	Highest connection count: 3126 (3125 clients) (142111 connections received)
+2017-10-30 03:16:39	--	- helix.oftc.net Message of the Day -
+2017-10-30 03:16:39	--	-   O
+2017-10-30 03:16:39	--	-    \   The Open and Free
+2017-10-30 03:16:39	--	-     O
+2017-10-30 03:16:39	--	-    /|  Technology Community
+2017-10-30 03:16:39	--	- O-O O
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- Welcome to OFTC's IRC network.
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- The Open and Free Technology Community was founded at the
+2017-10-30 03:16:39	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 03:16:39	--	- Source and Free Software communities; it is aimed at
+2017-10-30 03:16:39	--	- providing these communities with better communication,
+2017-10-30 03:16:39	--	- development, and support infrastructure. Our goal is to
+2017-10-30 03:16:39	--	- provide stable services to members of the community in any
+2017-10-30 03:16:39	--	- part of the world, while listening closely to their needs
+2017-10-30 03:16:39	--	- and desires.
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 03:16:39	--	- network intent on providing the open source and free
+2017-10-30 03:16:39	--	- software communities a means to cooperate and communicate.
+2017-10-30 03:16:39	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 03:16:39	--	- trading, may result in being barred from access.
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 03:16:39	--	- support@oftc.net with details.
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	- Thanks and enjoy your stay,
+2017-10-30 03:16:39	--	-
+2017-10-30 03:16:39	--	-         The OFTC team
+2017-10-30 03:16:39	--	End of /MOTD command.
+2017-10-30 03:16:39	--	User mode [+i] by MDrights[SW
+2017-10-30 04:41:21	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 04:41:23	=!=	irc: TLS handshake failed
+2017-10-30 04:41:23	=!=	irc: error: 在 push 函数中出错。
+2017-10-30 04:41:23	--	irc: reconnecting to server in 10 seconds
+2017-10-30 04:41:33	--	irc: reconnecting to server...
+2017-10-30 04:41:33	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 04:41:34	=!=	irc: TLS handshake failed
+2017-10-30 04:41:34	=!=	irc: error: 在 push 函数中出错。
+2017-10-30 04:41:34	--	irc: reconnecting to server in 20 seconds
+2017-10-30 04:41:58	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 04:42:52	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 04:42:52	--	gnutls: receiving 2 certificates
+2017-10-30 04:42:52	--	 - certificate[1] info:
+2017-10-30 04:42:52	--	   - subject `CN=liquid.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:57:53 UTC', expires `2018-01-24 17:57:53 UTC', SHA-1 fingerprint `56109edace352f1a48b3ac8b3eaf7980a5bc2848'
+2017-10-30 04:42:52	--	 - certificate[2] info:
+2017-10-30 04:42:52	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 04:42:52	--	gnutls: peer's certificate is trusted
+2017-10-30 04:42:52	--	irc: connected to irc.oftc.net/6697 (91.217.189.50)
+2017-10-30 04:42:52	--	liquid.oftc.net: *** Looking up your hostname...
+2017-10-30 04:42:52	--	liquid.oftc.net: *** Checking Ident
+2017-10-30 04:42:57	--	liquid.oftc.net: *** Couldn't look up your hostname
+2017-10-30 04:43:03	--	liquid.oftc.net: *** No Ident response
+2017-10-30 04:43:03	--	liquid.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 04:43:03	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 04:43:03	--	Your host is liquid.oftc.net[91.217.189.50/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 04:43:03	--	This server was created Jun 24 2017 at 17:06:36
+2017-10-30 04:43:03	--	liquid.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 04:43:03	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 04:43:03	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS ELIST=CMNTU SAFELIST AWAYLEN=160 KNOCK EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 04:43:03	--	7YZAAC9RN :your unique ID
+2017-10-30 04:43:03	--	There are 31 users and 12056 invisible on 19 servers
+2017-10-30 04:43:03	--	16 :IRC Operators online
+2017-10-30 04:43:03	--	2561 :channels formed
+2017-10-30 04:43:03	--	I have 1946 clients and 1 servers
+2017-10-30 04:43:03	--	Current local users: 1946  Max: 3240
+2017-10-30 04:43:03	--	Current global users: 12087  Max: 12810
+2017-10-30 04:43:03	--	Highest connection count: 3241 (3240 clients) (139298 connections received)
+2017-10-30 04:43:03	--	- liquid.oftc.net Message of the Day -
+2017-10-30 04:43:03	--	-   O
+2017-10-30 04:43:03	--	-    \   The Open and Free
+2017-10-30 04:43:03	--	-     O
+2017-10-30 04:43:03	--	-    /|  Technology Community
+2017-10-30 04:43:03	--	- O-O O
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- Welcome to OFTC's IRC network.
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- The Open and Free Technology Community was founded at the
+2017-10-30 04:43:03	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 04:43:03	--	- Source and Free Software communities; it is aimed at
+2017-10-30 04:43:03	--	- providing these communities with better communication,
+2017-10-30 04:43:03	--	- development, and support infrastructure. Our goal is to
+2017-10-30 04:43:03	--	- provide stable services to members of the community in any
+2017-10-30 04:43:03	--	- part of the world, while listening closely to their needs
+2017-10-30 04:43:03	--	- and desires.
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 04:43:03	--	- network intent on providing the open source and free
+2017-10-30 04:43:03	--	- software communities a means to cooperate and communicate.
+2017-10-30 04:43:03	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 04:43:03	--	- trading, may result in being barred from access.
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 04:43:03	--	- support@oftc.net with details.
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	- Thanks and enjoy your stay,
+2017-10-30 04:43:03	--	-
+2017-10-30 04:43:03	--	-         The OFTC team
+2017-10-30 04:43:03	--	End of /MOTD command.
+2017-10-30 04:43:03	--	User mode [+i] by MDrights[SW
+2017-10-30 04:43:07	--	[MDrights[SW] (~MDrights@223.74.152.19): MDrights
+2017-10-30 04:43:07	--	[MDrights[SW] #whonix #tor #debian-zh
+2017-10-30 04:43:07	--	[MDrights[SW] liquid.oftc.net (Stockholm, Sweden)
+2017-10-30 04:43:07	--	[MDrights[SW] actually using host 223.74.152.19
+2017-10-30 04:43:07	--	[MDrights[SW] is connected via SSL (secure link)
+2017-10-30 04:43:07	--	[MDrights[SW] idle: 00 hours 00 minutes 04 seconds, signon at: 一, 30 10月 2017 04:38:03
+2017-10-30 04:43:07	--	[MDrights[SW] End of /WHOIS list.
+2017-10-30 05:43:50	--	irc: connecting to server irc.oftc.net/6697 (SSL)...
+2017-10-30 05:43:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:43:51	--	gnutls: receiving 2 certificates
+2017-10-30 05:43:51	--	 - certificate[1] info:
+2017-10-30 05:43:51	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-30 05:43:51	--	 - certificate[2] info:
+2017-10-30 05:43:51	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:43:51	--	gnutls: peer's certificate is trusted
+2017-10-30 05:43:51	--	irc: connected to irc.oftc.net/6697 (224.0.0.2)
+2017-10-30 05:43:51	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-30 05:43:51	--	kinetic.oftc.net: *** Checking Ident
+2017-10-30 05:43:51	--	kinetic.oftc.net: *** No Ident response
+2017-10-30 05:43:51	--	kinetic.oftc.net: *** Couldn't look up your hostname
+2017-10-30 05:43:52	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 05:43:52	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 05:43:52	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 05:43:52	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-30 05:43:52	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 05:43:52	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 05:43:52	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 05:43:52	--	8VQAADC0W :your unique ID
+2017-10-30 05:43:52	--	There are 30 users and 12061 invisible on 19 servers
+2017-10-30 05:43:52	--	16 :IRC Operators online
+2017-10-30 05:43:52	--	2562 :channels formed
+2017-10-30 05:43:52	--	I have 2176 clients and 1 servers
+2017-10-30 05:43:52	--	Current local users: 2176  Max: 2583
+2017-10-30 05:43:52	--	Current global users: 12091  Max: 12810
+2017-10-30 05:43:52	--	Highest connection count: 2584 (2583 clients) (143519 connections received)
+2017-10-30 05:43:52	--	- kinetic.oftc.net Message of the Day -
+2017-10-30 05:43:52	--	-   O
+2017-10-30 05:43:52	--	-    \   The Open and Free
+2017-10-30 05:43:52	--	-     O
+2017-10-30 05:43:52	--	-    /|  Technology Community
+2017-10-30 05:43:52	--	- O-O O
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- Welcome to OFTC's IRC network.
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- The Open and Free Technology Community was founded at the
+2017-10-30 05:43:52	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 05:43:52	--	- Source and Free Software communities; it is aimed at
+2017-10-30 05:43:52	--	- providing these communities with better communication,
+2017-10-30 05:43:52	--	- development, and support infrastructure. Our goal is to
+2017-10-30 05:43:52	--	- provide stable services to members of the community in any
+2017-10-30 05:43:52	--	- part of the world, while listening closely to their needs
+2017-10-30 05:43:52	--	- and desires.
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 05:43:52	--	- network intent on providing the open source and free
+2017-10-30 05:43:52	--	- software communities a means to cooperate and communicate.
+2017-10-30 05:43:52	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 05:43:52	--	- trading, may result in being barred from access.
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 05:43:52	--	- support@oftc.net with details.
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	- Thanks and enjoy your stay,
+2017-10-30 05:43:52	--	-
+2017-10-30 05:43:52	--	-         The OFTC team
+2017-10-30 05:43:52	--	End of /MOTD command.
+2017-10-30 05:43:52	--	User mode [+i] by MDrights[SW
+2017-10-30 05:47:15	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:48:15	=!=	irc: timeout
+2017-10-30 05:48:15	--	irc: reconnecting to server in 10 seconds
+2017-10-30 05:48:25	--	irc: reconnecting to server...
+2017-10-30 05:48:25	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:49:25	=!=	irc: timeout
+2017-10-30 05:49:25	--	irc: reconnecting to server in 20 seconds
+2017-10-30 05:49:45	--	irc: reconnecting to server...
+2017-10-30 05:49:45	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:49:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:49:47	--	gnutls: receiving 2 certificates
+2017-10-30 05:49:47	--	 - certificate[1] info:
+2017-10-30 05:49:47	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 05:49:47	--	 - certificate[2] info:
+2017-10-30 05:49:47	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:49:47	--	gnutls: peer's certificate is trusted
+2017-10-30 05:49:48	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:49:48	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 05:49:48	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 05:49:48	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 05:49:48	--	coulomb.oftc.net: *** Couldn't look up your hostname
+2017-10-30 05:49:49	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-12 17:06:01)
+2017-10-30 05:49:49	=!=	Closing Link: 50.7.151.127 (Banned)
+2017-10-30 05:49:49	--	irc: disconnected from server
+2017-10-30 05:49:49	--	irc: reconnecting to server in 40 seconds
+2017-10-30 05:50:29	--	irc: reconnecting to server...
+2017-10-30 05:50:29	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:50:32	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:50:32	--	gnutls: receiving 2 certificates
+2017-10-30 05:50:32	--	 - certificate[1] info:
+2017-10-30 05:50:32	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 05:50:32	--	 - certificate[2] info:
+2017-10-30 05:50:32	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:50:32	--	gnutls: peer's certificate is trusted
+2017-10-30 05:50:33	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:50:33	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 05:50:33	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 05:50:33	--	coulomb.oftc.net: *** Couldn't look up your hostname
+2017-10-30 05:50:33	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 05:50:34	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-12 17:06:01)
+2017-10-30 05:50:34	=!=	Closing Link: 50.7.151.127 (Banned)
+2017-10-30 05:50:34	--	irc: disconnected from server
+2017-10-30 05:50:34	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-30 05:51:41	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:51:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:51:42	--	gnutls: receiving 2 certificates
+2017-10-30 05:51:42	--	 - certificate[1] info:
+2017-10-30 05:51:42	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-30 05:51:42	--	 - certificate[2] info:
+2017-10-30 05:51:42	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:51:42	--	gnutls: peer's certificate is trusted
+2017-10-30 05:51:43	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:51:43	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-30 05:51:43	--	helix.oftc.net: *** Checking Ident
+2017-10-30 05:51:43	--	helix.oftc.net: *** No Ident response
+2017-10-30 05:51:43	--	helix.oftc.net: *** Couldn't look up your hostname
+2017-10-30 05:51:44	--	helix.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-12 17:06:01)
+2017-10-30 05:51:44	=!=	Closing Link: 50.7.151.127 (Banned)
+2017-10-30 05:51:44	--	irc: disconnected from server
+2017-10-30 05:51:44	--	irc: reconnecting to server in 10 seconds
+2017-10-30 05:51:54	--	irc: reconnecting to server...
+2017-10-30 05:51:54	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:51:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:51:56	--	gnutls: receiving 2 certificates
+2017-10-30 05:51:56	--	 - certificate[1] info:
+2017-10-30 05:51:56	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-30 05:51:56	--	 - certificate[2] info:
+2017-10-30 05:51:56	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:51:56	--	gnutls: peer's certificate is trusted
+2017-10-30 05:51:57	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:51:57	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-30 05:51:57	--	helix.oftc.net: *** Checking Ident
+2017-10-30 05:51:57	--	helix.oftc.net: *** Couldn't look up your hostname
+2017-10-30 05:51:57	--	helix.oftc.net: *** No Ident response
+2017-10-30 05:51:57	--	helix.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-12 17:06:01)
+2017-10-30 05:51:57	=!=	Closing Link: 50.7.151.127 (Banned)
+2017-10-30 05:51:57	--	irc: disconnected from server
+2017-10-30 05:51:57	--	irc: reconnecting to server in 20 seconds
+2017-10-30 05:52:17	--	irc: reconnecting to server...
+2017-10-30 05:52:17	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:52:28	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:52:28	--	gnutls: receiving 2 certificates
+2017-10-30 05:52:28	--	 - certificate[1] info:
+2017-10-30 05:52:28	--	   - subject `CN=liquid.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:57:53 UTC', expires `2018-01-24 17:57:53 UTC', SHA-1 fingerprint `56109edace352f1a48b3ac8b3eaf7980a5bc2848'
+2017-10-30 05:52:28	--	 - certificate[2] info:
+2017-10-30 05:52:28	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:52:28	--	gnutls: peer's certificate is trusted
+2017-10-30 05:52:29	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:52:29	--	liquid.oftc.net: *** Looking up your hostname...
+2017-10-30 05:52:29	--	liquid.oftc.net: *** Checking Ident
+2017-10-30 05:52:29	--	liquid.oftc.net: *** No Ident response
+2017-10-30 05:52:30	--	liquid.oftc.net: *** Found your hostname
+2017-10-30 05:52:30	--	liquid.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 05:52:30	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 05:52:30	--	Your host is liquid.oftc.net[91.217.189.50/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 05:52:30	--	This server was created Jun 24 2017 at 17:06:36
+2017-10-30 05:52:30	--	liquid.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 05:52:30	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 05:52:30	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS ELIST=CMNTU SAFELIST AWAYLEN=160 KNOCK EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 05:52:30	--	7YZAAC9SS :your unique ID
+2017-10-30 05:52:30	--	There are 30 users and 12064 invisible on 19 servers
+2017-10-30 05:52:30	--	16 :IRC Operators online
+2017-10-30 05:52:30	--	2563 :channels formed
+2017-10-30 05:52:30	--	I have 1953 clients and 1 servers
+2017-10-30 05:52:30	--	Current local users: 1953  Max: 3240
+2017-10-30 05:52:30	--	Current global users: 12094  Max: 12810
+2017-10-30 05:52:30	--	Highest connection count: 3241 (3240 clients) (139339 connections received)
+2017-10-30 05:52:30	--	- liquid.oftc.net Message of the Day -
+2017-10-30 05:52:30	--	-   O
+2017-10-30 05:52:30	--	-    \   The Open and Free
+2017-10-30 05:52:30	--	-     O
+2017-10-30 05:52:30	--	-    /|  Technology Community
+2017-10-30 05:52:30	--	- O-O O
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- Welcome to OFTC's IRC network.
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- The Open and Free Technology Community was founded at the
+2017-10-30 05:52:30	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 05:52:30	--	- Source and Free Software communities; it is aimed at
+2017-10-30 05:52:30	--	- providing these communities with better communication,
+2017-10-30 05:52:30	--	- development, and support infrastructure. Our goal is to
+2017-10-30 05:52:30	--	- provide stable services to members of the community in any
+2017-10-30 05:52:30	--	- part of the world, while listening closely to their needs
+2017-10-30 05:52:30	--	- and desires.
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 05:52:30	--	- network intent on providing the open source and free
+2017-10-30 05:52:30	--	- software communities a means to cooperate and communicate.
+2017-10-30 05:52:30	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 05:52:30	--	- trading, may result in being barred from access.
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 05:52:30	--	- support@oftc.net with details.
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	- Thanks and enjoy your stay,
+2017-10-30 05:52:30	--	-
+2017-10-30 05:52:30	--	-         The OFTC team
+2017-10-30 05:52:30	--	End of /MOTD command.
+2017-10-30 05:52:30	--	User mode [+i] by MDrights[SW
+2017-10-30 05:52:31	--	liquid.oftc.net: Activating Cloak: 7YZAAC9SS.tor-irc.dnsbl.oftc.net
+2017-10-30 05:55:04		PONG: OFTC
+2017-10-30 05:59:17	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 05:59:18	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 05:59:18	--	gnutls: receiving 2 certificates
+2017-10-30 05:59:18	--	 - certificate[1] info:
+2017-10-30 05:59:18	--	   - subject `CN=liquid.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:57:53 UTC', expires `2018-01-24 17:57:53 UTC', SHA-1 fingerprint `56109edace352f1a48b3ac8b3eaf7980a5bc2848'
+2017-10-30 05:59:18	--	 - certificate[2] info:
+2017-10-30 05:59:18	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 05:59:18	--	gnutls: peer's certificate is trusted
+2017-10-30 05:59:19	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 05:59:19	--	liquid.oftc.net: *** Looking up your hostname...
+2017-10-30 05:59:19	--	liquid.oftc.net: *** Checking Ident
+2017-10-30 05:59:19	--	liquid.oftc.net: *** Found your hostname
+2017-10-30 05:59:19	--	liquid.oftc.net: *** No Ident response
+2017-10-30 05:59:20	--	liquid.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 05:59:20	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 05:59:20	--	Your host is liquid.oftc.net[91.217.189.50/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 05:59:20	--	This server was created Jun 24 2017 at 17:06:36
+2017-10-30 05:59:20	--	liquid.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 05:59:20	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 05:59:20	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS ELIST=CMNTU SAFELIST AWAYLEN=160 KNOCK EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 05:59:20	--	7YZAAC9S0 :your unique ID
+2017-10-30 05:59:20	--	There are 31 users and 12068 invisible on 19 servers
+2017-10-30 05:59:20	--	16 :IRC Operators online
+2017-10-30 05:59:20	--	2561 :channels formed
+2017-10-30 05:59:20	--	I have 1953 clients and 1 servers
+2017-10-30 05:59:20	--	Current local users: 1953  Max: 3240
+2017-10-30 05:59:20	--	Current global users: 12099  Max: 12810
+2017-10-30 05:59:20	--	Highest connection count: 3241 (3240 clients) (139347 connections received)
+2017-10-30 05:59:20	--	- liquid.oftc.net Message of the Day -
+2017-10-30 05:59:20	--	-   O
+2017-10-30 05:59:20	--	-    \   The Open and Free
+2017-10-30 05:59:20	--	-     O
+2017-10-30 05:59:20	--	-    /|  Technology Community
+2017-10-30 05:59:20	--	- O-O O
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- Welcome to OFTC's IRC network.
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- The Open and Free Technology Community was founded at the
+2017-10-30 05:59:20	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 05:59:20	--	- Source and Free Software communities; it is aimed at
+2017-10-30 05:59:20	--	- providing these communities with better communication,
+2017-10-30 05:59:20	--	- development, and support infrastructure. Our goal is to
+2017-10-30 05:59:20	--	- provide stable services to members of the community in any
+2017-10-30 05:59:20	--	- part of the world, while listening closely to their needs
+2017-10-30 05:59:20	--	- and desires.
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 05:59:20	--	- network intent on providing the open source and free
+2017-10-30 05:59:20	--	- software communities a means to cooperate and communicate.
+2017-10-30 05:59:20	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 05:59:20	--	- trading, may result in being barred from access.
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 05:59:20	--	- support@oftc.net with details.
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	- Thanks and enjoy your stay,
+2017-10-30 05:59:20	--	-
+2017-10-30 05:59:20	--	-         The OFTC team
+2017-10-30 05:59:20	--	End of /MOTD command.
+2017-10-30 05:59:20	--	User mode [+i] by MDrights[SW
+2017-10-30 05:59:21	--	liquid.oftc.net: Activating Cloak: 7YZAAC9S0.tor-irc.dnsbl.oftc.net
+2017-10-30 06:40:22	--	irc: lag is high, reconnecting to server OFTC
+2017-10-30 06:40:22	--	irc: disconnected from server
+2017-10-30 06:40:22	--	irc: reconnecting to server in 10 seconds
+2017-10-30 06:40:32	--	irc: reconnecting to server...
+2017-10-30 06:40:32	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 06:41:32	=!=	irc: timeout
+2017-10-30 06:41:32	--	irc: reconnecting to server in 20 seconds
+2017-10-30 06:41:52	--	irc: reconnecting to server...
+2017-10-30 06:41:52	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 06:42:52	=!=	irc: timeout
+2017-10-30 06:42:52	--	irc: reconnecting to server in 40 seconds
+2017-10-30 06:43:32	--	irc: reconnecting to server...
+2017-10-30 06:43:32	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 06:44:32	=!=	irc: timeout
+2017-10-30 06:44:32	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-30 06:45:52	--	irc: reconnecting to server...
+2017-10-30 06:45:52	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 06:46:19	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 06:46:19	--	gnutls: receiving 2 certificates
+2017-10-30 06:46:19	--	 - certificate[1] info:
+2017-10-30 06:46:19	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-30 06:46:19	--	 - certificate[2] info:
+2017-10-30 06:46:19	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 06:46:19	--	gnutls: peer's certificate is trusted
+2017-10-30 06:46:19	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 06:46:19	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-30 06:46:19	--	kinetic.oftc.net: *** Checking Ident
+2017-10-30 06:46:19	--	kinetic.oftc.net: *** Found your hostname
+2017-10-30 06:46:30	--	kinetic.oftc.net: *** No Ident response
+2017-10-30 06:46:30	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 06:46:30	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 06:46:30	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 06:46:30	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-30 06:46:30	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 06:46:30	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 06:46:30	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 06:46:30	--	8VQAADC2E :your unique ID
+2017-10-30 06:46:30	--	There are 31 users and 12106 invisible on 19 servers
+2017-10-30 06:46:30	--	16 :IRC Operators online
+2017-10-30 06:46:30	--	2563 :channels formed
+2017-10-30 06:46:30	--	I have 2193 clients and 1 servers
+2017-10-30 06:46:30	--	Current local users: 2193  Max: 2583
+2017-10-30 06:46:30	--	Current global users: 12137  Max: 12810
+2017-10-30 06:46:30	--	Highest connection count: 2584 (2583 clients) (143573 connections received)
+2017-10-30 06:46:30	--	- kinetic.oftc.net Message of the Day -
+2017-10-30 06:46:30	--	-   O
+2017-10-30 06:46:30	--	-    \   The Open and Free
+2017-10-30 06:46:30	--	-     O
+2017-10-30 06:46:30	--	-    /|  Technology Community
+2017-10-30 06:46:30	--	- O-O O
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- Welcome to OFTC's IRC network.
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- The Open and Free Technology Community was founded at the
+2017-10-30 06:46:30	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 06:46:30	--	- Source and Free Software communities; it is aimed at
+2017-10-30 06:46:30	--	- providing these communities with better communication,
+2017-10-30 06:46:30	--	- development, and support infrastructure. Our goal is to
+2017-10-30 06:46:30	--	- provide stable services to members of the community in any
+2017-10-30 06:46:30	--	- part of the world, while listening closely to their needs
+2017-10-30 06:46:30	--	- and desires.
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 06:46:30	--	- network intent on providing the open source and free
+2017-10-30 06:46:30	--	- software communities a means to cooperate and communicate.
+2017-10-30 06:46:30	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 06:46:30	--	- trading, may result in being barred from access.
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 06:46:30	--	- support@oftc.net with details.
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	- Thanks and enjoy your stay,
+2017-10-30 06:46:30	--	-
+2017-10-30 06:46:30	--	-         The OFTC team
+2017-10-30 06:46:30	--	End of /MOTD command.
+2017-10-30 06:46:30	--	User mode [+i] by MDrights[SW
+2017-10-30 06:46:31	--	kinetic.oftc.net: Activating Cloak: 8VQAADC2E.tor-irc.dnsbl.oftc.net
+2017-10-30 07:34:58	--	[MDrights[SW] (~MDrights@8VQAADC2E.tor-irc.dnsbl.oftc.net): MDrights
+2017-10-30 07:34:58	--	[MDrights[SW] #whonix #tor #debian-zh
+2017-10-30 07:34:58	--	[MDrights[SW] kinetic.oftc.net (London, United Kingdom)
+2017-10-30 07:34:58	--	[MDrights[SW] actually using host 46.165.230.5
+2017-10-30 07:34:58	--	[MDrights[SW] is connected via SSL (secure link)
+2017-10-30 07:34:58	--	[MDrights[SW] idle: 00 hours 48 minutes 27 seconds, signon at: 一, 30 10月 2017 06:41:30
+2017-10-30 07:34:58	--	[MDrights[SW] End of /WHOIS list.
+2017-10-30 11:50:08	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-30 11:50:08	--	irc: disconnecting from server...
+2017-10-30 11:50:08	--	irc: disconnected from server
+2017-10-30 11:50:08	--	irc: reconnecting to server in 10 seconds
+2017-10-30 11:50:18	--	irc: reconnecting to server...
+2017-10-30 11:50:18	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 11:50:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 11:50:22	--	gnutls: receiving 2 certificates
+2017-10-30 11:50:22	--	 - certificate[1] info:
+2017-10-30 11:50:22	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 11:50:22	--	 - certificate[2] info:
+2017-10-30 11:50:22	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 11:50:22	--	gnutls: peer's certificate is trusted
+2017-10-30 11:50:22	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 11:50:22	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 11:50:22	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 11:50:22	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 11:50:23	--	coulomb.oftc.net: *** Found your hostname
+2017-10-30 11:50:23	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-09-28 22:01:23)
+2017-10-30 11:50:23	=!=	Closing Link: 204.238.202.149.fr-sbg.flexcloud.seflow.it (Banned)
+2017-10-30 11:50:23	--	irc: disconnected from server
+2017-10-30 11:50:23	--	irc: reconnecting to server in 20 seconds
+2017-10-30 11:50:43	--	irc: reconnecting to server...
+2017-10-30 11:50:43	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 11:50:44	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 11:50:44	--	gnutls: receiving 2 certificates
+2017-10-30 11:50:44	--	 - certificate[1] info:
+2017-10-30 11:50:44	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 11:50:44	--	 - certificate[2] info:
+2017-10-30 11:50:44	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 11:50:44	--	gnutls: peer's certificate is trusted
+2017-10-30 11:50:44	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 11:50:44	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 11:50:44	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 11:50:44	--	coulomb.oftc.net: *** Found your hostname
+2017-10-30 11:50:44	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 11:50:45	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-09-28 22:01:23)
+2017-10-30 11:50:45	=!=	Closing Link: 204.238.202.149.fr-sbg.flexcloud.seflow.it (Banned)
+2017-10-30 11:50:45	--	irc: disconnected from server
+2017-10-30 11:50:45	--	irc: reconnecting to server in 40 seconds
+2017-10-30 11:51:25	--	irc: reconnecting to server...
+2017-10-30 11:51:25	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 11:51:26	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 11:51:26	--	gnutls: receiving 2 certificates
+2017-10-30 11:51:26	--	 - certificate[1] info:
+2017-10-30 11:51:26	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 11:51:26	--	 - certificate[2] info:
+2017-10-30 11:51:26	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 11:51:26	--	gnutls: peer's certificate is trusted
+2017-10-30 11:51:26	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 11:51:26	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 11:51:26	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 11:51:26	--	coulomb.oftc.net: *** Found your hostname
+2017-10-30 11:51:26	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 11:51:27	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-09-28 22:01:23)
+2017-10-30 11:51:27	=!=	Closing Link: 204.238.202.149.fr-sbg.flexcloud.seflow.it (Banned)
+2017-10-30 11:51:27	--	irc: disconnected from server
+2017-10-30 11:51:27	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-30 11:52:47	--	irc: reconnecting to server...
+2017-10-30 11:52:47	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 11:52:48	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 11:52:48	--	gnutls: receiving 2 certificates
+2017-10-30 11:52:48	--	 - certificate[1] info:
+2017-10-30 11:52:48	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 11:52:48	--	 - certificate[2] info:
+2017-10-30 11:52:48	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 11:52:48	--	gnutls: peer's certificate is trusted
+2017-10-30 11:52:49	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 11:52:49	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 11:52:49	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 11:52:49	--	coulomb.oftc.net: *** Found your hostname
+2017-10-30 11:52:49	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 11:52:49	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-09-28 22:01:23)
+2017-10-30 11:52:49	=!=	Closing Link: 204.238.202.149.fr-sbg.flexcloud.seflow.it (Banned)
+2017-10-30 11:52:49	--	irc: disconnected from server
+2017-10-30 11:52:49	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-30 11:55:29	--	irc: reconnecting to server...
+2017-10-30 11:55:29	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 11:55:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 11:55:30	--	gnutls: receiving 2 certificates
+2017-10-30 11:55:30	--	 - certificate[1] info:
+2017-10-30 11:55:30	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-10-30 11:55:30	--	 - certificate[2] info:
+2017-10-30 11:55:30	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 11:55:30	--	gnutls: peer's certificate is trusted
+2017-10-30 11:55:30	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 11:55:30	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-10-30 11:55:30	--	coulomb.oftc.net: *** Checking Ident
+2017-10-30 11:55:30	--	coulomb.oftc.net: *** Found your hostname
+2017-10-30 11:55:30	--	coulomb.oftc.net: *** No Ident response
+2017-10-30 11:55:31	--	coulomb.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-09-28 22:01:23)
+2017-10-30 11:55:31	=!=	Closing Link: 204.238.202.149.fr-sbg.flexcloud.seflow.it (Banned)
+2017-10-30 11:55:31	--	irc: disconnected from server
+2017-10-30 11:55:31	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-10-30 12:00:51	--	irc: reconnecting to server...
+2017-10-30 12:00:51	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 12:01:51	=!=	irc: timeout
+2017-10-30 12:01:51	--	irc: reconnecting to server in 10 minutes
+2017-10-30 12:11:51	--	irc: reconnecting to server...
+2017-10-30 12:11:51	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 12:11:52	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 12:11:52	--	gnutls: receiving 2 certificates
+2017-10-30 12:11:52	--	 - certificate[1] info:
+2017-10-30 12:11:52	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-30 12:11:52	--	 - certificate[2] info:
+2017-10-30 12:11:52	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 12:11:52	--	gnutls: peer's certificate is trusted
+2017-10-30 12:11:52	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 12:11:52	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-30 12:11:52	--	kinetic.oftc.net: *** Checking Ident
+2017-10-30 12:11:52	--	kinetic.oftc.net: *** No Ident response
+2017-10-30 12:12:20	--	kinetic.oftc.net: *** Couldn't look up your hostname
+2017-10-30 12:12:20	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 12:12:20	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 12:12:20	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 12:12:20	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-30 12:12:20	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 12:12:20	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 12:12:20	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 12:12:20	--	8VQAADDBN :your unique ID
+2017-10-30 12:12:20	--	There are 30 users and 12534 invisible on 19 servers
+2017-10-30 12:12:20	--	16 :IRC Operators online
+2017-10-30 12:12:20	--	1 :unknown connection(s)
+2017-10-30 12:12:20	--	2573 :channels formed
+2017-10-30 12:12:20	--	I have 2282 clients and 1 servers
+2017-10-30 12:12:20	--	Current local users: 2282  Max: 2583
+2017-10-30 12:12:20	--	Current global users: 12564  Max: 12810
+2017-10-30 12:12:20	--	Highest connection count: 2584 (2583 clients) (143906 connections received)
+2017-10-30 12:12:20	--	- kinetic.oftc.net Message of the Day -
+2017-10-30 12:12:20	--	-   O
+2017-10-30 12:12:20	--	-    \   The Open and Free
+2017-10-30 12:12:20	--	-     O
+2017-10-30 12:12:20	--	-    /|  Technology Community
+2017-10-30 12:12:20	--	- O-O O
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- Welcome to OFTC's IRC network.
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- The Open and Free Technology Community was founded at the
+2017-10-30 12:12:20	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 12:12:20	--	- Source and Free Software communities; it is aimed at
+2017-10-30 12:12:20	--	- providing these communities with better communication,
+2017-10-30 12:12:20	--	- development, and support infrastructure. Our goal is to
+2017-10-30 12:12:20	--	- provide stable services to members of the community in any
+2017-10-30 12:12:20	--	- part of the world, while listening closely to their needs
+2017-10-30 12:12:20	--	- and desires.
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 12:12:20	--	- network intent on providing the open source and free
+2017-10-30 12:12:20	--	- software communities a means to cooperate and communicate.
+2017-10-30 12:12:20	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 12:12:20	--	- trading, may result in being barred from access.
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 12:12:20	--	- support@oftc.net with details.
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	- Thanks and enjoy your stay,
+2017-10-30 12:12:20	--	-
+2017-10-30 12:12:20	--	-         The OFTC team
+2017-10-30 12:12:20	--	End of /MOTD command.
+2017-10-30 12:12:20	--	User mode [+i] by MDrights[SW
+2017-10-30 12:12:21	--	kinetic.oftc.net: Activating Cloak: 8VQAADDBN.tor-irc.dnsbl.oftc.net
+2017-10-30 13:52:19	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-30 13:52:19	--	irc: disconnecting from server...
+2017-10-30 13:52:19	--	irc: disconnected from server
+2017-10-30 13:52:19	--	irc: reconnecting to server in 10 seconds
+2017-10-30 13:52:29	--	irc: reconnecting to server...
+2017-10-30 13:52:29	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 13:52:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 13:52:42	--	gnutls: receiving 2 certificates
+2017-10-30 13:52:42	--	 - certificate[1] info:
+2017-10-30 13:52:42	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-30 13:52:42	--	 - certificate[2] info:
+2017-10-30 13:52:42	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 13:52:42	--	gnutls: peer's certificate is trusted
+2017-10-30 13:52:42	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 13:52:42	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-30 13:52:42	--	kinetic.oftc.net: *** Checking Ident
+2017-10-30 13:52:42	--	kinetic.oftc.net: *** Couldn't look up your hostname
+2017-10-30 13:52:52	--	kinetic.oftc.net: *** No Ident response
+2017-10-30 13:52:52	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 13:52:52	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 13:52:52	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 13:52:52	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-30 13:52:52	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 13:52:52	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 13:52:52	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 13:52:52	--	8VQAADDDW :your unique ID
+2017-10-30 13:52:52	--	There are 30 users and 12664 invisible on 19 servers
+2017-10-30 13:52:52	--	16 :IRC Operators online
+2017-10-30 13:52:52	--	2578 :channels formed
+2017-10-30 13:52:52	--	I have 2282 clients and 1 servers
+2017-10-30 13:52:52	--	Current local users: 2282  Max: 2583
+2017-10-30 13:52:52	--	Current global users: 12694  Max: 12810
+2017-10-30 13:52:52	--	Highest connection count: 2584 (2583 clients) (143987 connections received)
+2017-10-30 13:52:52	--	- kinetic.oftc.net Message of the Day -
+2017-10-30 13:52:52	--	-   O
+2017-10-30 13:52:52	--	-    \   The Open and Free
+2017-10-30 13:52:52	--	-     O
+2017-10-30 13:52:52	--	-    /|  Technology Community
+2017-10-30 13:52:52	--	- O-O O
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- Welcome to OFTC's IRC network.
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- The Open and Free Technology Community was founded at the
+2017-10-30 13:52:52	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 13:52:52	--	- Source and Free Software communities; it is aimed at
+2017-10-30 13:52:52	--	- providing these communities with better communication,
+2017-10-30 13:52:52	--	- development, and support infrastructure. Our goal is to
+2017-10-30 13:52:52	--	- provide stable services to members of the community in any
+2017-10-30 13:52:52	--	- part of the world, while listening closely to their needs
+2017-10-30 13:52:52	--	- and desires.
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 13:52:52	--	- network intent on providing the open source and free
+2017-10-30 13:52:52	--	- software communities a means to cooperate and communicate.
+2017-10-30 13:52:52	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 13:52:52	--	- trading, may result in being barred from access.
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 13:52:52	--	- support@oftc.net with details.
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	- Thanks and enjoy your stay,
+2017-10-30 13:52:52	--	-
+2017-10-30 13:52:52	--	-         The OFTC team
+2017-10-30 13:52:52	--	End of /MOTD command.
+2017-10-30 13:52:52	--	User mode [+i] by MDrights[SW
+2017-10-30 13:52:53	--	kinetic.oftc.net: Activating Cloak: 8VQAADDDW.tor-irc.dnsbl.oftc.net
+2017-10-30 13:58:05	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-30 13:58:05	--	irc: disconnecting from server...
+2017-10-30 13:58:05	--	irc: disconnected from server
+2017-10-30 13:58:05	--	irc: reconnecting to server in 10 seconds
+2017-10-30 13:58:15	--	irc: reconnecting to server...
+2017-10-30 13:58:15	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 13:58:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 13:58:17	--	gnutls: receiving 2 certificates
+2017-10-30 13:58:17	--	 - certificate[1] info:
+2017-10-30 13:58:17	--	   - subject `CN=graviton.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:04:22 UTC', expires `2018-01-24 18:04:22 UTC', SHA-1 fingerprint `2a99fd067fc61bab3bb8d32bbe8ebcc65c117d26'
+2017-10-30 13:58:17	--	 - certificate[2] info:
+2017-10-30 13:58:17	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 13:58:17	--	gnutls: peer's certificate is trusted
+2017-10-30 13:58:17	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 13:58:17	--	graviton.oftc.net: *** Looking up your hostname...
+2017-10-30 13:58:17	--	graviton.oftc.net: *** Checking Ident
+2017-10-30 13:58:18	--	graviton.oftc.net: *** Your forward and reverse DNS do not match, ignoring hostname.
+2017-10-30 13:58:18	--	graviton.oftc.net: *** No Ident response
+2017-10-30 13:58:18	--	graviton.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-23 02:43:59)
+2017-10-30 13:58:18	=!=	Closing Link: 104.223.123.98 (Banned)
+2017-10-30 13:58:18	--	irc: disconnected from server
+2017-10-30 13:58:18	--	irc: reconnecting to server in 20 seconds
+2017-10-30 13:58:38	--	irc: reconnecting to server...
+2017-10-30 13:58:38	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 13:58:41	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 13:58:41	--	gnutls: receiving 2 certificates
+2017-10-30 13:58:41	--	 - certificate[1] info:
+2017-10-30 13:58:41	--	   - subject `CN=graviton.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:04:22 UTC', expires `2018-01-24 18:04:22 UTC', SHA-1 fingerprint `2a99fd067fc61bab3bb8d32bbe8ebcc65c117d26'
+2017-10-30 13:58:41	--	 - certificate[2] info:
+2017-10-30 13:58:41	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 13:58:41	--	gnutls: peer's certificate is trusted
+2017-10-30 13:58:42	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 13:58:42	--	graviton.oftc.net: *** Looking up your hostname...
+2017-10-30 13:58:42	--	graviton.oftc.net: *** Checking Ident
+2017-10-30 13:58:42	--	graviton.oftc.net: *** Your forward and reverse DNS do not match, ignoring hostname.
+2017-10-30 13:58:42	--	graviton.oftc.net: *** No Ident response
+2017-10-30 13:58:42	--	graviton.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-23 02:43:59)
+2017-10-30 13:58:42	=!=	Closing Link: 104.223.123.98 (Banned)
+2017-10-30 13:58:42	--	irc: disconnected from server
+2017-10-30 13:58:42	--	irc: reconnecting to server in 40 seconds
+2017-10-30 13:59:22	--	irc: reconnecting to server...
+2017-10-30 13:59:22	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 13:59:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 13:59:23	--	gnutls: receiving 2 certificates
+2017-10-30 13:59:23	--	 - certificate[1] info:
+2017-10-30 13:59:23	--	   - subject `CN=graviton.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:04:22 UTC', expires `2018-01-24 18:04:22 UTC', SHA-1 fingerprint `2a99fd067fc61bab3bb8d32bbe8ebcc65c117d26'
+2017-10-30 13:59:23	--	 - certificate[2] info:
+2017-10-30 13:59:23	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 13:59:23	--	gnutls: peer's certificate is trusted
+2017-10-30 13:59:24	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 13:59:24	--	graviton.oftc.net: *** Looking up your hostname...
+2017-10-30 13:59:24	--	graviton.oftc.net: *** Checking Ident
+2017-10-30 13:59:24	--	graviton.oftc.net: *** Your forward and reverse DNS do not match, ignoring hostname.
+2017-10-30 13:59:24	--	graviton.oftc.net: *** No Ident response
+2017-10-30 13:59:25	--	graviton.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-23 02:43:59)
+2017-10-30 13:59:25	=!=	Closing Link: 104.223.123.98 (Banned)
+2017-10-30 13:59:25	--	irc: disconnected from server
+2017-10-30 13:59:25	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-30 14:00:45	--	irc: reconnecting to server...
+2017-10-30 14:00:45	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:00:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 14:00:47	--	gnutls: receiving 2 certificates
+2017-10-30 14:00:47	--	 - certificate[1] info:
+2017-10-30 14:00:47	--	   - subject `CN=graviton.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:04:22 UTC', expires `2018-01-24 18:04:22 UTC', SHA-1 fingerprint `2a99fd067fc61bab3bb8d32bbe8ebcc65c117d26'
+2017-10-30 14:00:47	--	 - certificate[2] info:
+2017-10-30 14:00:47	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 14:00:47	--	gnutls: peer's certificate is trusted
+2017-10-30 14:00:48	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 14:00:48	--	graviton.oftc.net: *** Looking up your hostname...
+2017-10-30 14:00:48	--	graviton.oftc.net: *** Checking Ident
+2017-10-30 14:00:48	--	graviton.oftc.net: *** Your forward and reverse DNS do not match, ignoring hostname.
+2017-10-30 14:00:48	--	graviton.oftc.net: *** No Ident response
+2017-10-30 14:00:48	--	graviton.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-23 02:43:59)
+2017-10-30 14:00:48	=!=	Closing Link: 104.223.123.98 (Banned)
+2017-10-30 14:00:48	--	irc: disconnected from server
+2017-10-30 14:00:48	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-30 14:03:28	--	irc: reconnecting to server...
+2017-10-30 14:03:28	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:03:29	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 14:03:29	--	gnutls: receiving 2 certificates
+2017-10-30 14:03:29	--	 - certificate[1] info:
+2017-10-30 14:03:29	--	   - subject `CN=charm.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:03:04 UTC', expires `2018-01-24 18:03:04 UTC', SHA-1 fingerprint `21cea6540b3fec8164d8eb6124be878c0dd17a51'
+2017-10-30 14:03:29	--	 - certificate[2] info:
+2017-10-30 14:03:29	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 14:03:29	--	gnutls: peer's certificate is trusted
+2017-10-30 14:03:29	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 14:03:29	--	charm.oftc.net: *** Looking up your hostname...
+2017-10-30 14:03:29	--	charm.oftc.net: *** Checking Ident
+2017-10-30 14:03:29	--	charm.oftc.net: *** Your forward and reverse DNS do not match, ignoring hostname.
+2017-10-30 14:03:30	--	charm.oftc.net: *** No Ident response
+2017-10-30 14:03:30	--	charm.oftc.net: *** Banned autokilled: Host violated network policy. - Contact support@oftc.net for help. (2017-10-23 02:43:59)
+2017-10-30 14:03:30	=!=	Closing Link: 104.223.123.98 (Banned)
+2017-10-30 14:03:30	--	irc: disconnected from server
+2017-10-30 14:03:30	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-10-30 14:08:50	--	irc: reconnecting to server...
+2017-10-30 14:08:50	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:09:50	=!=	irc: timeout
+2017-10-30 14:09:50	--	irc: reconnecting to server in 10 minutes
+2017-10-30 14:19:50	--	irc: reconnecting to server...
+2017-10-30 14:19:50	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:20:10	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-30 14:20:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 14:30:10	--	irc: reconnecting to server...
+2017-10-30 14:30:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:31:10	=!=	irc: timeout
+2017-10-30 14:31:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 14:41:10	--	irc: reconnecting to server...
+2017-10-30 14:41:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:42:10	=!=	irc: timeout
+2017-10-30 14:42:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 14:52:10	--	irc: reconnecting to server...
+2017-10-30 14:52:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 14:53:10	=!=	irc: timeout
+2017-10-30 14:53:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:03:10	--	irc: reconnecting to server...
+2017-10-30 15:03:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:04:10	=!=	irc: timeout
+2017-10-30 15:04:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:14:10	--	irc: reconnecting to server...
+2017-10-30 15:14:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:15:10	=!=	irc: timeout
+2017-10-30 15:15:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:25:10	--	irc: reconnecting to server...
+2017-10-30 15:25:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:26:10	=!=	irc: timeout
+2017-10-30 15:26:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:36:10	--	irc: reconnecting to server...
+2017-10-30 15:36:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:37:10	=!=	irc: timeout
+2017-10-30 15:37:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:47:10	--	irc: reconnecting to server...
+2017-10-30 15:47:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:48:10	=!=	irc: timeout
+2017-10-30 15:48:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 15:58:10	--	irc: reconnecting to server...
+2017-10-30 15:58:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 15:59:10	=!=	irc: timeout
+2017-10-30 15:59:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 16:09:10	--	irc: reconnecting to server...
+2017-10-30 16:09:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 16:10:10	=!=	irc: timeout
+2017-10-30 16:10:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 16:20:10	--	irc: reconnecting to server...
+2017-10-30 16:20:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 16:21:10	=!=	irc: timeout
+2017-10-30 16:21:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 16:31:10	--	irc: reconnecting to server...
+2017-10-30 16:31:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 16:32:10	=!=	irc: timeout
+2017-10-30 16:32:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 16:42:10	--	irc: reconnecting to server...
+2017-10-30 16:42:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 16:43:10	=!=	irc: timeout
+2017-10-30 16:43:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 16:53:10	--	irc: reconnecting to server...
+2017-10-30 16:53:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 16:54:10	=!=	irc: timeout
+2017-10-30 16:54:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 17:04:10	--	irc: reconnecting to server...
+2017-10-30 17:04:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 17:05:10	=!=	irc: timeout
+2017-10-30 17:05:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 17:15:10	--	irc: reconnecting to server...
+2017-10-30 17:15:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 17:16:10	=!=	irc: timeout
+2017-10-30 17:16:10	--	irc: reconnecting to server in 10 minutes
+2017-10-30 17:26:10	--	irc: reconnecting to server...
+2017-10-30 17:26:10	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 17:26:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 17:26:14	--	gnutls: receiving 2 certificates
+2017-10-30 17:26:14	--	 - certificate[1] info:
+2017-10-30 17:26:14	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-30 17:26:14	--	 - certificate[2] info:
+2017-10-30 17:26:14	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 17:26:14	--	gnutls: peer's certificate is trusted
+2017-10-30 17:26:16	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 17:26:16	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-30 17:26:16	--	helix.oftc.net: *** Checking Ident
+2017-10-30 17:26:16	--	helix.oftc.net: *** No Ident response
+2017-10-30 17:26:17	--	helix.oftc.net: *** Found your hostname
+2017-10-30 17:26:18	--	helix.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 17:26:18	--	Welcome to the OFTC Internet Relay Chat Network MDrights[SW
+2017-10-30 17:26:18	--	Your host is helix.oftc.net[130.239.18.116/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 17:26:18	--	This server was created Jun 24 2017 at 17:04:07
+2017-10-30 17:26:18	--	helix.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 17:26:18	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 17:26:18	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 17:26:18	--	4G4AADCR5 :your unique ID
+2017-10-30 17:26:18	--	There are 28 users and 12681 invisible on 19 servers
+2017-10-30 17:26:18	--	16 :IRC Operators online
+2017-10-30 17:26:18	--	2 :unknown connection(s)
+2017-10-30 17:26:18	--	2600 :channels formed
+2017-10-30 17:26:18	--	I have 2149 clients and 1 servers
+2017-10-30 17:26:18	--	Current local users: 2149  Max: 3125
+2017-10-30 17:26:18	--	Current global users: 12709  Max: 12810
+2017-10-30 17:26:18	--	Highest connection count: 3126 (3125 clients) (143204 connections received)
+2017-10-30 17:26:18	--	- helix.oftc.net Message of the Day -
+2017-10-30 17:26:18	--	-   O
+2017-10-30 17:26:18	--	-    \   The Open and Free
+2017-10-30 17:26:18	--	-     O
+2017-10-30 17:26:18	--	-    /|  Technology Community
+2017-10-30 17:26:18	--	- O-O O
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- Welcome to OFTC's IRC network.
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- The Open and Free Technology Community was founded at the
+2017-10-30 17:26:18	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 17:26:18	--	- Source and Free Software communities; it is aimed at
+2017-10-30 17:26:18	--	- providing these communities with better communication,
+2017-10-30 17:26:18	--	- development, and support infrastructure. Our goal is to
+2017-10-30 17:26:18	--	- provide stable services to members of the community in any
+2017-10-30 17:26:18	--	- part of the world, while listening closely to their needs
+2017-10-30 17:26:18	--	- and desires.
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 17:26:18	--	- network intent on providing the open source and free
+2017-10-30 17:26:18	--	- software communities a means to cooperate and communicate.
+2017-10-30 17:26:18	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 17:26:18	--	- trading, may result in being barred from access.
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 17:26:18	--	- support@oftc.net with details.
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	- Thanks and enjoy your stay,
+2017-10-30 17:26:18	--	-
+2017-10-30 17:26:18	--	-         The OFTC team
+2017-10-30 17:26:18	--	End of /MOTD command.
+2017-10-30 17:26:18	--	User mode [+i] by MDrights[SW
+2017-10-30 17:26:19	--	helix.oftc.net: Activating Cloak: 4G4AADCR5.tor-irc.dnsbl.oftc.net
+2017-10-30 20:43:41	--	irc: lag is high, reconnecting to server OFTC
+2017-10-30 20:43:41	--	irc: disconnected from server
+2017-10-30 20:43:41	--	irc: reconnecting to server in 10 seconds
+2017-10-30 20:43:51	--	irc: reconnecting to server...
+2017-10-30 20:43:51	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-30 20:44:29	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 20:44:29	--	gnutls: receiving 2 certificates
+2017-10-30 20:44:29	--	 - certificate[1] info:
+2017-10-30 20:44:29	--	   - subject `CN=reflection.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-10 07:44:33 UTC', expires `2018-01-08 07:44:33 UTC', SHA-1 fingerprint `88cfad70e9f3ac958c1cd662ca50f27f22805137'
+2017-10-30 20:44:29	--	 - certificate[2] info:
+2017-10-30 20:44:29	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-30 20:44:29	--	gnutls: peer's certificate is trusted
+2017-10-30 20:44:30	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-30 20:44:30	--	reflection.oftc.net: *** Looking up your hostname...
+2017-10-30 20:44:30	--	reflection.oftc.net: *** Checking Ident
+2017-10-30 20:44:30	--	reflection.oftc.net: *** No Ident response
+2017-10-30 20:44:30	--	reflection.oftc.net: *** Found your hostname
+2017-10-30 20:44:31	--	irc: nickname "MDrights[SW" is already in use, trying nickname "MDrights1"
+2017-10-30 20:44:31	--	reflection.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-30 20:44:31	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-10-30 20:44:31	--	Your host is reflection.oftc.net[64.86.243.183/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-30 20:44:31	--	This server was created Jun 24 2017 at 19:51:34
+2017-10-30 20:44:31	--	reflection.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-30 20:44:31	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-30 20:44:31	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-30 20:44:31	--	8L3AACH4S :your unique ID
+2017-10-30 20:44:31	--	There are 30 users and 12658 invisible on 19 servers
+2017-10-30 20:44:31	--	16 :IRC Operators online
+2017-10-30 20:44:31	--	1 :unknown connection(s)
+2017-10-30 20:44:31	--	2608 :channels formed
+2017-10-30 20:44:31	--	I have 1094 clients and 1 servers
+2017-10-30 20:44:31	--	Current local users: 1094  Max: 1442
+2017-10-30 20:44:31	--	Current global users: 12688  Max: 12810
+2017-10-30 20:44:31	--	Highest connection count: 1443 (1442 clients) (103483 connections received)
+2017-10-30 20:44:31	--	- reflection.oftc.net Message of the Day -
+2017-10-30 20:44:31	--	-   O
+2017-10-30 20:44:31	--	-    \   The Open and Free
+2017-10-30 20:44:31	--	-     O
+2017-10-30 20:44:31	--	-    /|  Technology Community
+2017-10-30 20:44:31	--	- O-O O
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- Welcome to OFTC's IRC network.
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- The Open and Free Technology Community was founded at the
+2017-10-30 20:44:31	--	- end of 2001 by a group of experienced members of the Open
+2017-10-30 20:44:31	--	- Source and Free Software communities; it is aimed at
+2017-10-30 20:44:31	--	- providing these communities with better communication,
+2017-10-30 20:44:31	--	- development, and support infrastructure. Our goal is to
+2017-10-30 20:44:31	--	- provide stable services to members of the community in any
+2017-10-30 20:44:31	--	- part of the world, while listening closely to their needs
+2017-10-30 20:44:31	--	- and desires.
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- We are not a general purpose chat platform, but a topical
+2017-10-30 20:44:31	--	- network intent on providing the open source and free
+2017-10-30 20:44:31	--	- software communities a means to cooperate and communicate.
+2017-10-30 20:44:31	--	- As such, illegal and off-topic activity, such as warez
+2017-10-30 20:44:31	--	- trading, may result in being barred from access.
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-30 20:44:31	--	- support@oftc.net with details.
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	- Thanks and enjoy your stay,
+2017-10-30 20:44:31	--	-
+2017-10-30 20:44:31	--	-         The OFTC team
+2017-10-30 20:44:31	--	End of /MOTD command.
+2017-10-30 20:44:31	--	User mode [+i] by MDrights1
+2017-10-30 20:44:32	--	reflection.oftc.net: Activating Cloak: 8L3AACH4S.tor-irc.dnsbl.oftc.net
+2017-10-31 03:08:05	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-31 03:08:05	--	irc: disconnecting from server...
+2017-10-31 03:08:05	--	irc: disconnected from server
+2017-10-31 03:08:05	--	irc: reconnecting to server in 10 seconds
+2017-10-31 03:08:15	--	irc: reconnecting to server...
+2017-10-31 03:08:15	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 03:08:19	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 03:08:19	--	gnutls: receiving 2 certificates
+2017-10-31 03:08:19	--	 - certificate[1] info:
+2017-10-31 03:08:19	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-31 03:08:19	--	 - certificate[2] info:
+2017-10-31 03:08:19	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-31 03:08:19	--	gnutls: peer's certificate is trusted
+2017-10-31 03:08:19	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-31 03:08:19	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-31 03:08:19	--	helix.oftc.net: *** Checking Ident
+2017-10-31 03:08:19	--	helix.oftc.net: *** Found your hostname
+2017-10-31 03:08:19	--	helix.oftc.net: *** No Ident response
+2017-10-31 03:08:20	--	helix.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-31 03:08:20	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-10-31 03:08:20	--	Your host is helix.oftc.net[130.239.18.116/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-31 03:08:20	--	This server was created Jun 24 2017 at 17:04:07
+2017-10-31 03:08:20	--	helix.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-31 03:08:20	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-31 03:08:20	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-31 03:08:20	--	4G4AADC80 :your unique ID
+2017-10-31 03:08:20	--	There are 28 users and 12277 invisible on 19 servers
+2017-10-31 03:08:20	--	16 :IRC Operators online
+2017-10-31 03:08:20	--	1 :unknown connection(s)
+2017-10-31 03:08:20	--	2592 :channels formed
+2017-10-31 03:08:20	--	I have 2056 clients and 1 servers
+2017-10-31 03:08:20	--	Current local users: 2056  Max: 3125
+2017-10-31 03:08:20	--	Current global users: 12305  Max: 12810
+2017-10-31 03:08:20	--	Highest connection count: 3126 (3125 clients) (143811 connections received)
+2017-10-31 03:08:20	--	- helix.oftc.net Message of the Day -
+2017-10-31 03:08:20	--	-   O
+2017-10-31 03:08:20	--	-    \   The Open and Free
+2017-10-31 03:08:20	--	-     O
+2017-10-31 03:08:20	--	-    /|  Technology Community
+2017-10-31 03:08:20	--	- O-O O
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- Welcome to OFTC's IRC network.
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- The Open and Free Technology Community was founded at the
+2017-10-31 03:08:20	--	- end of 2001 by a group of experienced members of the Open
+2017-10-31 03:08:20	--	- Source and Free Software communities; it is aimed at
+2017-10-31 03:08:20	--	- providing these communities with better communication,
+2017-10-31 03:08:20	--	- development, and support infrastructure. Our goal is to
+2017-10-31 03:08:20	--	- provide stable services to members of the community in any
+2017-10-31 03:08:20	--	- part of the world, while listening closely to their needs
+2017-10-31 03:08:20	--	- and desires.
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- We are not a general purpose chat platform, but a topical
+2017-10-31 03:08:20	--	- network intent on providing the open source and free
+2017-10-31 03:08:20	--	- software communities a means to cooperate and communicate.
+2017-10-31 03:08:20	--	- As such, illegal and off-topic activity, such as warez
+2017-10-31 03:08:20	--	- trading, may result in being barred from access.
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-31 03:08:20	--	- support@oftc.net with details.
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	- Thanks and enjoy your stay,
+2017-10-31 03:08:20	--	-
+2017-10-31 03:08:20	--	-         The OFTC team
+2017-10-31 03:08:20	--	End of /MOTD command.
+2017-10-31 03:08:20	--	User mode [+i] by MDrights1
+2017-10-31 03:08:21	--	helix.oftc.net: Activating Cloak: 4G4AADC80.tor-irc.dnsbl.oftc.net
+2017-10-31 06:32:06	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-31 06:32:06	--	irc: disconnecting from server...
+2017-10-31 06:32:06	--	irc: disconnected from server
+2017-10-31 06:32:06	--	irc: reconnecting to server in 10 seconds
+2017-10-31 06:32:16	--	irc: reconnecting to server...
+2017-10-31 06:32:16	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 06:32:19	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 06:32:19	--	gnutls: receiving 2 certificates
+2017-10-31 06:32:19	--	 - certificate[1] info:
+2017-10-31 06:32:19	--	   - subject `CN=kinetic.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:52:42 UTC', expires `2018-01-24 17:52:42 UTC', SHA-1 fingerprint `d7a48d04911a9d6b64aa2aab34855cfe89b10fef'
+2017-10-31 06:32:19	--	 - certificate[2] info:
+2017-10-31 06:32:19	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-31 06:32:19	--	gnutls: peer's certificate is trusted
+2017-10-31 06:32:20	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-31 06:32:20	--	kinetic.oftc.net: *** Looking up your hostname...
+2017-10-31 06:32:20	--	kinetic.oftc.net: *** Checking Ident
+2017-10-31 06:32:20	--	kinetic.oftc.net: *** Found your hostname
+2017-10-31 06:32:30	--	kinetic.oftc.net: *** No Ident response
+2017-10-31 06:32:30	--	kinetic.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-31 06:32:30	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-10-31 06:32:30	--	Your host is kinetic.oftc.net[109.169.7.194/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-31 06:32:30	--	This server was created Jun 26 2017 at 20:46:30
+2017-10-31 06:32:30	--	kinetic.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-31 06:32:30	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-31 06:32:30	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-31 06:32:30	--	8VQAADDVI :your unique ID
+2017-10-31 06:32:30	--	There are 27 users and 12253 invisible on 19 servers
+2017-10-31 06:32:30	--	16 :IRC Operators online
+2017-10-31 06:32:30	--	2587 :channels formed
+2017-10-31 06:32:30	--	I have 2206 clients and 1 servers
+2017-10-31 06:32:30	--	Current local users: 2206  Max: 2583
+2017-10-31 06:32:30	--	Current global users: 12280  Max: 12810
+2017-10-31 06:32:30	--	Highest connection count: 2584 (2583 clients) (144621 connections received)
+2017-10-31 06:32:30	--	- kinetic.oftc.net Message of the Day -
+2017-10-31 06:32:30	--	-   O
+2017-10-31 06:32:30	--	-    \   The Open and Free
+2017-10-31 06:32:30	--	-     O
+2017-10-31 06:32:30	--	-    /|  Technology Community
+2017-10-31 06:32:30	--	- O-O O
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- Welcome to OFTC's IRC network.
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- The Open and Free Technology Community was founded at the
+2017-10-31 06:32:30	--	- end of 2001 by a group of experienced members of the Open
+2017-10-31 06:32:30	--	- Source and Free Software communities; it is aimed at
+2017-10-31 06:32:30	--	- providing these communities with better communication,
+2017-10-31 06:32:30	--	- development, and support infrastructure. Our goal is to
+2017-10-31 06:32:30	--	- provide stable services to members of the community in any
+2017-10-31 06:32:30	--	- part of the world, while listening closely to their needs
+2017-10-31 06:32:30	--	- and desires.
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- We are not a general purpose chat platform, but a topical
+2017-10-31 06:32:30	--	- network intent on providing the open source and free
+2017-10-31 06:32:30	--	- software communities a means to cooperate and communicate.
+2017-10-31 06:32:30	--	- As such, illegal and off-topic activity, such as warez
+2017-10-31 06:32:30	--	- trading, may result in being barred from access.
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-31 06:32:30	--	- support@oftc.net with details.
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	- Thanks and enjoy your stay,
+2017-10-31 06:32:30	--	-
+2017-10-31 06:32:30	--	-         The OFTC team
+2017-10-31 06:32:30	--	End of /MOTD command.
+2017-10-31 06:32:30	--	User mode [+i] by MDrights1
+2017-10-31 06:32:31	--	kinetic.oftc.net: Activating Cloak: 8VQAADDVI.tor-irc.dnsbl.oftc.net
+2017-10-31 09:58:36	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-31 09:58:36	--	irc: disconnecting from server...
+2017-10-31 09:58:36	--	irc: disconnected from server
+2017-10-31 09:58:36	--	irc: reconnecting to server in 10 seconds
+2017-10-31 09:58:46	--	irc: reconnecting to server...
+2017-10-31 09:58:46	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 09:58:49	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 09:58:49	--	gnutls: receiving 2 certificates
+2017-10-31 09:58:49	--	 - certificate[1] info:
+2017-10-31 09:58:49	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-10-31 09:58:49	--	 - certificate[2] info:
+2017-10-31 09:58:49	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-31 09:58:49	--	gnutls: peer's certificate is trusted
+2017-10-31 09:58:49	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-31 09:58:49	--	helix.oftc.net: *** Looking up your hostname...
+2017-10-31 09:58:49	--	helix.oftc.net: *** Checking Ident
+2017-10-31 09:58:49	--	helix.oftc.net: *** No Ident response
+2017-10-31 09:58:50	--	helix.oftc.net: *** Found your hostname
+2017-10-31 09:58:50	--	helix.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-31 09:58:50	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-10-31 09:58:50	--	Your host is helix.oftc.net[130.239.18.116/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-31 09:58:50	--	This server was created Jun 24 2017 at 17:04:07
+2017-10-31 09:58:50	--	helix.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-31 09:58:50	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-31 09:58:50	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-10-31 09:58:50	--	4G4AADDKB :your unique ID
+2017-10-31 09:58:50	--	There are 34 users and 12514 invisible on 19 servers
+2017-10-31 09:58:50	--	16 :IRC Operators online
+2017-10-31 09:58:50	--	4 :unknown connection(s)
+2017-10-31 09:58:50	--	2588 :channels formed
+2017-10-31 09:58:50	--	I have 2146 clients and 1 servers
+2017-10-31 09:58:50	--	Current local users: 2146  Max: 3125
+2017-10-31 09:58:50	--	Current global users: 12548  Max: 12810
+2017-10-31 09:58:50	--	Highest connection count: 3126 (3125 clients) (144218 connections received)
+2017-10-31 09:58:50	--	- helix.oftc.net Message of the Day -
+2017-10-31 09:58:50	--	-   O
+2017-10-31 09:58:50	--	-    \   The Open and Free
+2017-10-31 09:58:50	--	-     O
+2017-10-31 09:58:50	--	-    /|  Technology Community
+2017-10-31 09:58:50	--	- O-O O
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- Welcome to OFTC's IRC network.
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- The Open and Free Technology Community was founded at the
+2017-10-31 09:58:50	--	- end of 2001 by a group of experienced members of the Open
+2017-10-31 09:58:50	--	- Source and Free Software communities; it is aimed at
+2017-10-31 09:58:50	--	- providing these communities with better communication,
+2017-10-31 09:58:50	--	- development, and support infrastructure. Our goal is to
+2017-10-31 09:58:50	--	- provide stable services to members of the community in any
+2017-10-31 09:58:50	--	- part of the world, while listening closely to their needs
+2017-10-31 09:58:50	--	- and desires.
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- We are not a general purpose chat platform, but a topical
+2017-10-31 09:58:50	--	- network intent on providing the open source and free
+2017-10-31 09:58:50	--	- software communities a means to cooperate and communicate.
+2017-10-31 09:58:50	--	- As such, illegal and off-topic activity, such as warez
+2017-10-31 09:58:50	--	- trading, may result in being barred from access.
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-31 09:58:50	--	- support@oftc.net with details.
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	- Thanks and enjoy your stay,
+2017-10-31 09:58:50	--	-
+2017-10-31 09:58:50	--	-         The OFTC team
+2017-10-31 09:58:50	--	End of /MOTD command.
+2017-10-31 09:58:50	--	User mode [+i] by MDrights1
+2017-10-31 09:58:51	--	helix.oftc.net: Activating Cloak: 4G4AADDKB.tor-irc.dnsbl.oftc.net
+2017-10-31 12:21:35	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-10-31 12:21:35	--	irc: disconnecting from server...
+2017-10-31 12:21:35	--	irc: disconnected from server
+2017-10-31 12:21:35	--	irc: reconnecting to server in 10 seconds
+2017-10-31 12:21:45	--	irc: reconnecting to server...
+2017-10-31 12:21:45	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:21:47	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 12:21:47	--	irc: reconnecting to server in 20 seconds
+2017-10-31 12:22:07	--	irc: reconnecting to server...
+2017-10-31 12:22:07	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:22:07	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 12:22:07	--	irc: reconnecting to server in 40 seconds
+2017-10-31 12:22:47	--	irc: reconnecting to server...
+2017-10-31 12:22:47	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:22:47	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 12:22:47	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-10-31 12:24:07	--	irc: reconnecting to server...
+2017-10-31 12:24:07	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:24:07	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 12:24:07	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-10-31 12:26:47	--	irc: reconnecting to server...
+2017-10-31 12:26:47	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:26:47	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 12:26:47	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-10-31 12:32:07	--	irc: reconnecting to server...
+2017-10-31 12:32:07	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:33:07	=!=	irc: timeout
+2017-10-31 12:33:07	--	irc: reconnecting to server in 10 minutes
+2017-10-31 12:43:07	--	irc: reconnecting to server...
+2017-10-31 12:43:07	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 12:44:07	=!=	irc: timeout
+2017-10-31 12:44:07	--	irc: reconnecting to server in 10 minutes
+2017-10-31 13:20:03	--	irc: reconnecting to server...
+2017-10-31 13:20:03	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 13:20:18	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-10-31 13:20:18	--	irc: reconnecting to server in 10 minutes
+2017-10-31 13:30:18	--	irc: reconnecting to server...
+2017-10-31 13:30:18	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 13:31:18	=!=	irc: timeout
+2017-10-31 13:31:18	--	irc: reconnecting to server in 10 minutes
+2017-10-31 13:41:18	--	irc: reconnecting to server...
+2017-10-31 13:41:18	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 13:42:18	=!=	irc: timeout
+2017-10-31 13:42:18	--	irc: reconnecting to server in 10 minutes
+2017-10-31 13:52:18	--	irc: reconnecting to server...
+2017-10-31 13:52:18	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 13:53:18	=!=	irc: timeout
+2017-10-31 13:53:18	--	irc: reconnecting to server in 10 minutes
+2017-10-31 14:03:18	--	irc: reconnecting to server...
+2017-10-31 14:03:18	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-10-31 14:04:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 14:04:02	--	gnutls: receiving 2 certificates
+2017-10-31 14:04:02	--	 - certificate[1] info:
+2017-10-31 14:04:02	--	   - subject `CN=graviton.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 18:04:22 UTC', expires `2018-01-24 18:04:22 UTC', SHA-1 fingerprint `2a99fd067fc61bab3bb8d32bbe8ebcc65c117d26'
+2017-10-31 14:04:02	--	 - certificate[2] info:
+2017-10-31 14:04:02	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-10-31 14:04:02	--	gnutls: peer's certificate is trusted
+2017-10-31 14:04:03	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-10-31 14:04:03	--	graviton.oftc.net: *** Looking up your hostname...
+2017-10-31 14:04:03	--	graviton.oftc.net: *** Checking Ident
+2017-10-31 14:04:03	--	graviton.oftc.net: *** Found your hostname
+2017-10-31 14:04:03	--	graviton.oftc.net: *** No Ident response
+2017-10-31 14:04:04	--	graviton.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-10-31 14:04:04	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-10-31 14:04:04	--	Your host is graviton.oftc.net[206.12.19.242/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-10-31 14:04:04	--	This server was created Jun 22 2017 at 20:30:53
+2017-10-31 14:04:04	--	graviton.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-10-31 14:04:04	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-10-31 14:04:04	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS KNOCK ELIST=CMNTU SAFELIST AWAYLEN=160 EXCEPTS=e INVEX=I :are supported by this server
+2017-10-31 14:04:04	--	7MPAACN7M :your unique ID
+2017-10-31 14:04:04	--	There are 32 users and 12761 invisible on 19 servers
+2017-10-31 14:04:04	--	17 :IRC Operators online
+2017-10-31 14:04:04	--	4 :unknown connection(s)
+2017-10-31 14:04:04	--	2605 :channels formed
+2017-10-31 14:04:04	--	I have 854 clients and 1 servers
+2017-10-31 14:04:04	--	Current local users: 854  Max: 1465
+2017-10-31 14:04:04	--	Current global users: 12793  Max: 12810
+2017-10-31 14:04:04	--	Highest connection count: 1466 (1465 clients) (111361 connections received)
+2017-10-31 14:04:04	--	- graviton.oftc.net Message of the Day -
+2017-10-31 14:04:04	--	-   O
+2017-10-31 14:04:04	--	-    \   The Open and Free
+2017-10-31 14:04:04	--	-     O
+2017-10-31 14:04:04	--	-    /|  Technology Community
+2017-10-31 14:04:04	--	- O-O O
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- Welcome to OFTC's IRC network.
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- The Open and Free Technology Community was founded at the
+2017-10-31 14:04:04	--	- end of 2001 by a group of experienced members of the Open
+2017-10-31 14:04:04	--	- Source and Free Software communities; it is aimed at
+2017-10-31 14:04:04	--	- providing these communities with better communication,
+2017-10-31 14:04:04	--	- development, and support infrastructure. Our goal is to
+2017-10-31 14:04:04	--	- provide stable services to members of the community in any
+2017-10-31 14:04:04	--	- part of the world, while listening closely to their needs
+2017-10-31 14:04:04	--	- and desires.
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- We are not a general purpose chat platform, but a topical
+2017-10-31 14:04:04	--	- network intent on providing the open source and free
+2017-10-31 14:04:04	--	- software communities a means to cooperate and communicate.
+2017-10-31 14:04:04	--	- As such, illegal and off-topic activity, such as warez
+2017-10-31 14:04:04	--	- trading, may result in being barred from access.
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- If you require assistance stop by in channel #oftc, or email
+2017-10-31 14:04:04	--	- support@oftc.net with details.
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	- Thanks and enjoy your stay,
+2017-10-31 14:04:04	--	-
+2017-10-31 14:04:04	--	-         The OFTC team
+2017-10-31 14:04:04	--	End of /MOTD command.
+2017-10-31 14:04:04	--	User mode [+i] by MDrights1
+2017-10-31 14:04:05	--	graviton.oftc.net: Activating Cloak: 7MPAACN7M.tor-irc.dnsbl.oftc.net
+2017-11-01 03:19:26	=!=	irc: reading data on socket: error -110 TLS 链接非正常地终止了。
+2017-11-01 03:19:26	--	irc: disconnecting from server...
+2017-11-01 03:19:26	--	irc: disconnected from server
+2017-11-01 03:19:26	--	irc: reconnecting to server in 10 seconds
+2017-11-01 03:19:36	--	irc: reconnecting to server...
+2017-11-01 03:19:36	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:19:39	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-11-01 03:19:39	--	irc: reconnecting to server in 20 seconds
+2017-11-01 03:19:59	--	irc: reconnecting to server...
+2017-11-01 03:19:59	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:19:59	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-11-01 03:19:59	--	irc: reconnecting to server in 40 seconds
+2017-11-01 03:20:39	--	irc: reconnecting to server...
+2017-11-01 03:20:39	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:20:39	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-11-01 03:20:39	--	irc: reconnecting to server in 1 minute, 20 seconds
+2017-11-01 03:21:59	--	irc: reconnecting to server...
+2017-11-01 03:21:59	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:21:59	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-11-01 03:21:59	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2017-11-01 03:24:39	--	irc: reconnecting to server...
+2017-11-01 03:24:39	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:24:39	=!=	irc: proxy fails to establish connection to server (check username/password if used and if server address/port is allowed by proxy)
+2017-11-01 03:24:39	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2017-11-01 03:29:59	--	irc: reconnecting to server...
+2017-11-01 03:29:59	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:30:59	=!=	irc: timeout
+2017-11-01 03:30:59	--	irc: reconnecting to server in 10 minutes
+2017-11-01 03:40:59	--	irc: reconnecting to server...
+2017-11-01 03:40:59	--	irc: connecting to server irc.oftc.net/6697 (SSL) via socks5 proxy 127.0.0.1/9050...
+2017-11-01 03:41:12	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-11-01 03:41:12	--	gnutls: receiving 2 certificates
+2017-11-01 03:41:12	--	 - certificate[1] info:
+2017-11-01 03:41:12	--	   - subject `CN=coulomb.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:56:35 UTC', expires `2018-01-24 17:56:35 UTC', SHA-1 fingerprint `9c297fb684bb8ae1d796a5bc5fd066936fe1833b'
+2017-11-01 03:41:12	--	 - certificate[2] info:
+2017-11-01 03:41:12	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-11-01 03:41:12	--	gnutls: peer's certificate is trusted
+2017-11-01 03:41:13	--	irc: connected to irc.oftc.net/6697 (127.0.0.1)
+2017-11-01 03:41:13	--	coulomb.oftc.net: *** Looking up your hostname...
+2017-11-01 03:41:13	--	coulomb.oftc.net: *** Checking Ident
+2017-11-01 03:41:14	--	coulomb.oftc.net: *** No Ident response
+2017-11-01 03:41:14	--	coulomb.oftc.net: *** Found your hostname
+2017-11-01 03:41:14	--	coulomb.oftc.net: *** Connected securely via TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384-256
+2017-11-01 03:41:14	--	Welcome to the OFTC Internet Relay Chat Network MDrights1
+2017-11-01 03:41:14	--	Your host is coulomb.oftc.net[109.74.200.93/6697], running version hybrid-7.2.2+oftc1.7.3
+2017-11-01 03:41:14	--	This server was created Jun 28 2017 at 11:02:35
+2017-11-01 03:41:14	--	coulomb.oftc.net hybrid-7.2.2+oftc1.7.3 CDGPRSabcdfgijklnorsuwxyz bciklmnopstvzeIMRS bkloveI
+2017-11-01 03:41:14	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=391 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=# :are supported by this server
+2017-11-01 03:41:14	--	CHANLIMIT=#:90 CHANNELLEN=50 CHANMODES=eIqb,k,l,cimnpstzMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2017-11-01 03:41:14	--	0BGAADDKS :your unique ID
+2017-11-01 03:41:14	--	There are 28 users and 12256 invisible on 19 servers
+2017-11-01 03:41:14	--	17 :IRC Operators online
+2017-11-01 03:41:14	--	2593 :channels formed
+2017-11-01 03:41:14	--	I have 2087 clients and 1 servers
+2017-11-01 03:41:14	--	Current local users: 2087  Max: 2418
+2017-11-01 03:41:14	--	Current global users: 12284  Max: 12844
+2017-11-01 03:41:14	--	Highest connection count: 2419 (2418 clients) (144235 connections received)
+2017-11-01 03:41:14	--	- coulomb.oftc.net Message of the Day -
+2017-11-01 03:41:14	--	-   O
+2017-11-01 03:41:14	--	-    \   The Open and Free
+2017-11-01 03:41:14	--	-     O
+2017-11-01 03:41:14	--	-    /|  Technology Community
+2017-11-01 03:41:14	--	- O-O O
+2017-11-01 03:41:14	--	-
+2017-11-01 03:41:14	--	- Welcome to OFTC's IRC network.
+2017-11-01 03:41:14	--	-
+2017-11-01 03:41:14	--	- The Open and Free Technology Community was founded at the
+2017-11-01 03:41:14	--	- end of 2001 by a group of experienced members of the Open
+2017-11-01 03:41:14	--	- Source and Free Software communities; it is aimed at
+2017-11-01 03:41:14	--	- providing these communities with better communication,
+2017-11-01 03:41:14	--	- development, and support infrastructure. Our goal is to
+2017-11-01 03:41:14	--	- provide stable services to members of the community in any
+2017-11-01 03:41:14	--	- part of the world, while listening closely to their needs
+2017-11-01 03:41:14	--	- and desires.
+2017-11-01 03:41:14	--	-
+2017-11-01 03:41:14	--	- We are not a general purpose chat platform, but a topical
+2017-11-01 03:41:14	--	- network intent on providing the open source and free
+2017-11-01 03:41:14	--	- software communities a means to cooperate and communicate.
+2017-11-01 03:41:15	--	- As such, illegal and off-topic activity, such as warez
+2017-11-01 03:41:15	--	- trading, may result in being barred from access.
+2017-11-01 03:41:15	--	-
+2017-11-01 03:41:15	--	- For more information on OFTC, please visit https://www.oftc.net/.
+2017-11-01 03:41:15	--	-
+2017-11-01 03:41:15	--	- If you require assistance stop by in channel #oftc, or email
+2017-11-01 03:41:15	--	- support@oftc.net with details.
+2017-11-01 03:41:15	--	-
+2017-11-01 03:41:15	--	- Thanks and enjoy your stay,
+2017-11-01 03:41:15	--	-
+2017-11-01 03:41:15	--	-         The OFTC team
+2017-11-01 03:41:15	--	End of /MOTD command.
+2017-11-01 03:41:15	--	User mode [+i] by MDrights1
+2017-11-01 03:41:15	--	coulomb.oftc.net: Activating Cloak: 0BGAADDKS.tor-irc.dnsbl.oftc.net

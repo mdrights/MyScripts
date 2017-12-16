@@ -1,0 +1,33 @@
+2017-11-29 02:17:42	--	irc: connecting to server irc.debian.org/6697 (SSL)...
+2017-11-29 02:17:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-11-29 02:17:54	--	gnutls: receiving 2 certificates
+2017-11-29 02:17:54	--	 - certificate[1] info:
+2017-11-29 02:17:54	--	   - subject `CN=coherence.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-10 07:47:15 UTC', expires `2018-01-08 07:47:15 UTC', SHA-1 fingerprint `637863a96372792b662fecafef78f009e6d7f2e6'
+2017-11-29 02:17:54	--	 - certificate[2] info:
+2017-11-29 02:17:54	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-11-29 02:17:54	=!=	gnutls: the hostname in the certificate does NOT match "irc.debian.org"
+2017-11-29 02:17:54	--	gnutls: peer's certificate is trusted
+2017-11-29 02:17:54	=!=	irc: TLS handshake failed
+2017-11-29 02:17:54	=!=	irc: error: 证书出错。
+2017-11-29 02:18:26	--	irc: connecting to server irc.debian.org/6697 (SSL) via socks5 proxy 127.0.0.1/1080...
+2017-11-29 02:18:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-11-29 02:18:27	--	gnutls: receiving 2 certificates
+2017-11-29 02:18:27	--	 - certificate[1] info:
+2017-11-29 02:18:27	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-11-29 02:18:27	--	 - certificate[2] info:
+2017-11-29 02:18:27	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-11-29 02:18:27	=!=	gnutls: the hostname in the certificate does NOT match "irc.debian.org"
+2017-11-29 02:18:27	--	gnutls: peer's certificate is trusted
+2017-11-29 02:18:27	=!=	irc: TLS handshake failed
+2017-11-29 02:18:27	=!=	irc: error: 证书出错。
+2017-11-29 02:22:50	--	irc: connecting to server irc.debian.org/6697 (SSL) via socks5 proxy 127.0.0.1/1080...
+2017-11-29 02:22:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-11-29 02:22:51	--	gnutls: receiving 2 certificates
+2017-11-29 02:22:51	--	 - certificate[1] info:
+2017-11-29 02:22:51	--	   - subject `CN=helix.oftc.net', issuer `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2017-10-26 17:55:18 UTC', expires `2018-01-24 17:55:18 UTC', SHA-1 fingerprint `3e3161543843c71315e684b5f3a1966dda1cbc51'
+2017-11-29 02:22:51	--	 - certificate[2] info:
+2017-11-29 02:22:51	--	   - subject `C=US,O=Let's Encrypt,CN=Let's Encrypt Authority X3', issuer `O=Digital Signature Trust Co.,CN=DST Root CA X3', RSA key 2048 bits, 使用 RSA-SHA256 签名， activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', SHA-1 fingerprint `e6a3b45b062d509b3382282d196efe97d5956ccb'
+2017-11-29 02:22:51	=!=	gnutls: the hostname in the certificate does NOT match "irc.debian.org"
+2017-11-29 02:22:51	--	gnutls: peer's certificate is trusted
+2017-11-29 02:22:51	=!=	irc: TLS handshake failed
+2017-11-29 02:22:51	=!=	irc: error: 证书出错。

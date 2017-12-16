@@ -1,0 +1,513 @@
+2017-11-01 04:22:06	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-01 04:22:06	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-01 04:22:06	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-01 04:22:06	--	Channel #parabola: 83 nicks (1 op, 0 voices, 82 normals)
+2017-11-01 04:22:06	--	URL for #parabola: https://parabola.nu
+2017-11-01 04:22:11	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-01 04:27:10	<--	harut (~Ely@c-24-9-95-245.hsd1.co.comcast.net) has quit (Quit: Peace)
+2017-11-01 04:33:01	pbot	Packages - Issue #1514 has been reported by bill-auger. ([ring-daemon] broken) https://labs.parabola.nu/issues/1514
+2017-11-01 04:33:28	bill-auger	ToffeeYogurtPots: confirmed ^
+2017-11-01 04:41:01	-->	mbuf (~Shakthi@106.51.17.203) has joined #parabola
+2017-11-01 04:45:02	-->	shackra (~shackra@186.176.49.165) has joined #parabola
+2017-11-01 05:05:35	-->	lxo (~aoliva@linux-libre.fsfla.org) has joined #parabola
+2017-11-01 05:36:58	-->	oaken-source (~oaken-sou@p3E9D35D5.dip0.t-ipconnect.de) has joined #parabola
+2017-11-01 05:42:18	<--	oaken-source (~oaken-sou@p3E9D35D5.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2017-11-01 05:43:40	-->	isacdaavid (~isaac@189.215.151.79.cable.dyn.cableonline.com.mx) has joined #parabola
+2017-11-01 06:19:52	<--	isacdaavid (~isaac@189.215.151.79.cable.dyn.cableonline.com.mx) has quit (Quit: Leaving.)
+2017-11-01 06:40:27	-->	oaken-source (~oaken-sou@141.89.226.146) has joined #parabola
+2017-11-01 06:46:39	<--	shackra (~shackra@186.176.49.165) has quit (Quit: WeeChat 1.9.1)
+2017-11-01 07:05:32	<--	mbuf (~Shakthi@106.51.17.203) has quit (Quit: Leaving)
+2017-11-01 07:45:01	-->	lkcl (~lkcl@61-231-188-227.dynamic-ip.hinet.net) has joined #parabola
+2017-11-01 08:19:34	-->	davidl (~usrname@fsf/member/usrname) has joined #parabola
+2017-11-01 08:24:36	<--	ovruni (~user@179.7.216.155) has quit (Remote host closed the connection)
+2017-11-01 08:35:35	<--	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has quit (Read error: No route to host)
+2017-11-01 08:58:05	-->	dimon_ (~dimon@89.203.220.98) has joined #parabola
+2017-11-01 08:59:38	-->	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has joined #parabola
+2017-11-01 09:04:12	<--	dimon_ (~dimon@89.203.220.98) has quit (Ping timeout: 264 seconds)
+2017-11-01 09:05:44	-->	yeehi (~n@unaffiliated/yeehi) has joined #parabola
+2017-11-01 15:11:46	--	irc: disconnected from server
+2017-11-01 15:12:04	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-01 15:12:04	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-01 15:12:04	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-01 15:12:04	--	Channel #parabola: 91 nicks (1 op, 0 voices, 90 normals)
+2017-11-01 15:12:04	--	URL for #parabola: https://parabola.nu
+2017-11-01 15:12:15	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-01 15:27:12	<--	davidl (~usrname@fsf/member/usrname) has quit (Ping timeout: 248 seconds)
+2017-11-01 15:32:23	-->	ovruni (~user@179.7.213.155) has joined #parabola
+2017-11-01 15:55:42	-->	oaken-source (~oaken-sou@141.89.226.146) has joined #parabola
+2017-11-01 16:02:35	<--	vita_cell (~vita@250.83-213-35.dynamic.clientes.euskaltel.es) has quit (Quit: Leaving)
+2017-11-01 16:06:53	<--	baptist (~baptsk@rev-140-208.legacytubes.illyse.net) has quit (Read error: Connection reset by peer)
+2017-11-02 01:16:29	--	irc: disconnected from server
+2017-11-02 01:16:47	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-02 01:16:47	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-02 01:16:47	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-02 01:16:47	--	Channel #parabola: 88 nicks (1 op, 0 voices, 87 normals)
+2017-11-02 01:16:47	--	URL for #parabola: https://parabola.nu
+2017-11-02 01:16:59	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-02 13:47:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-02 13:47:31	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-02 13:47:31	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-02 13:47:31	--	Channel #parabola: 88 nicks (1 op, 0 voices, 87 normals)
+2017-11-02 13:47:31	--	URL for #parabola: https://parabola.nu
+2017-11-02 13:47:35	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-02 13:52:32	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-02 13:55:05	pbot	Packages - Issue #1514 has been updated by bill-auger. ([ring-daemon] broken) https://labs.parabola.nu/issues/1514#change-8481
+2017-11-02 13:55:10	<--	kelsoo (~kelsoo@dragora/developer/kelsoo) has quit (Quit: WeeChat 1.5)
+2017-11-02 13:58:07	<--	libreuser (~alejandro@129.red-2-142-60.dynamicip.rima-tde.net) has quit (Quit: Konversation terminated!)
+2017-11-02 13:58:48	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-02 14:04:35	-->	ebrasca (~user@host-198.58.elzappero.net) has joined #parabola
+2017-11-02 14:08:10	-->	libreuser (~alejandro@129.red-2-142-60.dynamicip.rima-tde.net) has joined #parabola
+2017-11-02 14:12:41	<--	Basstard` (~sturgeon@c-5eeaaa63-74736162.cust.telenor.se) has quit (Ping timeout: 255 seconds)
+2017-11-02 14:35:38	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Read error: Connection reset by peer)
+2017-11-02 14:36:41	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-02 14:37:05	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-02 14:48:56	libreuser	i cannot remove 'pulseaudio' because it has a lot of dependencies: gnome-desktop, gdm .... i don't get it !?
+2017-11-02 14:49:59	libreuser	^sorry: dependencies <=> required for
+2017-11-02 14:50:06	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined #parabola
+2017-11-03 03:54:58	--	irc: disconnected from server
+2017-11-03 03:55:15	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-03 03:55:15	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-03 03:55:15	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-03 03:55:15	--	Channel #parabola: 85 nicks (1 op, 0 voices, 84 normals)
+2017-11-03 03:55:15	--	URL for #parabola: https://parabola.nu
+2017-11-03 03:55:25	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-03 03:55:56	bill-auger	fossology works quite well - you just give it a tarball or a URL to a git repo and it tells you the license of every file - and not because of any metedata but it actually reads every file
+2017-11-03 03:59:46	isacdaavid	it would be nice to have it
+2017-11-03 04:00:31	bill-auger	i have it installed on debian now
+2017-11-03 04:01:15	bill-auger	i tried a few months ago to make it build on parabola but i gave up after no on seemed interested
+2017-11-03 04:04:36	bill-auger	it's a web-server program so the upstream is only targeting LTS distros but most of the work is done here https://github.com/fossology/fossology/pull/864
+2017-11-03 04:04:38	pbot	Page title: `feat(install): add arch/parabola/manjaro install by bill-auger    Pull Request #864    fossology/fossology    GitHub'
+2017-11-03 04:07:21	bill-auger	isacdaavid: about #ring - the devs are only on IRC during daytime hours in canada
+2017-11-03 04:08:43	bill-auger	there is a mailing list and bug tracker though
+2017-11-03 04:09:13	isacdaavid	i will ask again tomorrow morning
+2017-11-03 04:09:20	bill-auger	but i think Amorkok was saying that the problem was not in ring but that the opendht library needs re-building
+2017-11-03 04:09:53	bill-auger	or whichever is older than 2 weeks
+2017-11-03 04:10:28	isacdaavid	i was trying to build using the latest ring anyway, our version is a bit old
+2017-11-03 04:10:40	bill-auger	i though opendht is the server though
+2017-11-03 04:10:49	bill-auger	ah yes that would make more sense
+2017-11-03 04:10:58	bill-auger	i dont think the clients need opendht
+2017-11-03 04:11:16	isacdaavid	opendht is a library used by the server afaict
+2017-11-03 04:11:42	isacdaavid	so at the very least i should be able to rebuild the same version against the newer opendht
+2017-11-03 04:15:31	bill-auger	but the version in debian is from august and that still runs so im not sure
+2017-11-03 04:21:41	isacdaavid	we got a new opendht on monday, it makes perfect sense
+2017-11-03 04:22:43	isacdaavid	it's also very nice and strange that arch packages it, even though they have no use for it in the official repos
+2017-11-03 04:26:15	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-11-03 04:26:15	--	irc: disconnected from server
+2017-11-03 04:26:32	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-03 04:26:33	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-03 04:26:33	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-03 04:26:33	--	Channel #parabola: 85 nicks (1 op, 0 voices, 84 normals)
+2017-11-03 04:26:33	--	URL for #parabola: https://parabola.nu
+2017-11-03 04:26:43	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-03 04:47:03	bill-auger	isacdaavid: i just read here there may be a new dependency to add https://aur.archlinux.org/packages/ring-daemon/
+2017-11-03 04:47:06	pbot	Page title: `AUR (en) - ring-daemon'
+2017-11-03 04:47:42	<--	shackra (~shackra@186.176.49.165) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 04:49:27	bill-auger	IIRC opendht includes a standalone program - that is the server that peers can run to become a distributed node
+2017-11-03 04:49:48	bill-auger	so that could be a valid reason for it to be packed with no dependents
+2017-11-03 04:49:55	-->	oaken-source (~oaken-sou@p3E9D32FC.dip0.t-ipconnect.de) has joined #parabola
+2017-11-03 04:50:32	isacdaavid	i see
+2017-11-03 05:11:31	<--	soloojos (~soloojos@gateway/tor-sasl/soloojos) has quit (Ping timeout: 248 seconds)
+2017-11-03 05:13:27	-->	soloojos (~soloojos@gateway/tor-sasl/soloojos) has joined #parabola
+2017-11-03 05:33:03	-->	mbuf (~Shakthi@106.51.227.97) has joined #parabola
+2017-11-03 11:23:31	--	irc: disconnected from server
+2017-11-03 11:23:51	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-03 11:23:51	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-03 11:23:51	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-03 11:23:51	--	Channel #parabola: 88 nicks (1 op, 0 voices, 87 normals)
+2017-11-03 11:23:51	--	URL for #parabola: https://parabola.nu
+2017-11-03 11:24:00	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-03 11:30:45	--	irc: disconnected from server
+2017-11-03 11:31:03	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-03 11:31:03	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-03 11:31:03	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-03 11:31:03	--	Channel #parabola: 89 nicks (1 op, 0 voices, 88 normals)
+2017-11-03 11:31:03	--	URL for #parabola: https://parabola.nu
+2017-11-03 11:31:12	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-03 11:40:11	<--	libreuser (~alejandro@129.red-2-142-60.dynamicip.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 11:40:39	-->	xihh (~joshpar@189.249.154.140) has joined #parabola
+2017-11-03 11:42:04	-->	yeehi (~n@unaffiliated/yeehi) has joined #parabola
+2017-11-03 11:45:06	bill-auger	how do you know it only affect a subset of users? are you certain that you are the not only user in that subset? what distinguishes those that are in the affected subset from those outside of it (other than "its broken")
+2017-11-03 11:45:22	bill-auger	the bug report does not mention anything like that
+2017-11-03 11:56:04	GuyNoIR	11
+2017-11-03 12:06:40	-->	wyre (wyre@gateway/shell/xshellz/x-diwtmhrfhvjqojcb) has joined #parabola
+2017-11-03 12:20:08	-->	MDrights1 (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-04 10:48:18	--	irc: disconnected from server
+2017-11-04 10:48:36	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-04 10:48:36	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-04 10:48:36	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-04 10:48:36	--	Channel #parabola: 85 nicks (1 op, 0 voices, 84 normals)
+2017-11-04 10:48:36	--	URL for #parabola: https://parabola.nu
+2017-11-04 10:48:46	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-04 10:54:47	-->	MDrights1 (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-04 10:59:56	<--	baptist (~baptsk@192.71.218.177) has quit (Ping timeout: 240 seconds)
+2017-11-04 11:00:56	-->	yeehi (~n@unaffiliated/yeehi) has joined #parabola
+2017-11-04 11:01:38	-->	baptist (~baptsk@192.71.218.177) has joined #parabola
+2017-11-05 02:46:32	--	irc: disconnected from server
+2017-11-05 02:46:50	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 02:46:50	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 02:46:50	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-05 02:46:50	--	Channel #parabola: 91 nicks (1 op, 0 voices, 90 normals)
+2017-11-05 02:46:50	--	URL for #parabola: https://parabola.nu
+2017-11-05 02:46:59	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-05 02:49:07	<--	pizzaiolo (~pizzaiolo@186.205.3.42) has quit (Remote host closed the connection)
+2017-11-05 03:16:15	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 258 seconds)
+2017-11-05 03:16:15	--	irc: disconnected from server
+2017-11-05 03:20:47	--	irc: disconnected from server
+2017-11-05 03:21:04	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 03:21:04	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 03:21:04	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:51
+2017-11-05 03:21:04	--	Channel #parabola: 90 nicks (1 op, 0 voices, 89 normals)
+2017-11-05 03:21:04	--	URL for #parabola: https://parabola.nu
+2017-11-05 03:21:14	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-05 03:26:22	<--	Megver83 (~Icedove@pc-50-12-100-190.cm.vtr.net) has quit (Quit: Too much hacking for today . . .)
+2017-11-05 03:26:22	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 260 seconds)
+2017-11-05 03:26:22	--	irc: disconnected from server
+2017-11-05 03:26:39	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 03:26:39	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 03:26:39	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:51
+2017-11-05 03:26:39	--	Channel #parabola: 89 nicks (1 op, 0 voices, 88 normals)
+2017-11-05 03:26:39	--	URL for #parabola: https://parabola.nu
+2017-11-05 03:26:49	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-05 03:27:08	-->	Megver83 (~Icedove@pc-50-12-100-190.cm.vtr.net) has joined #parabola
+2017-11-05 03:29:40	<--	Megver83 (~Icedove@pc-50-12-100-190.cm.vtr.net) has quit (Client Quit)
+2017-11-05 03:32:40	-->	shackra (~shackra@186.176.49.165) has joined #parabola
+2017-11-05 03:35:11	<--	arescorpio (~parabolap@186.61.143.177) has quit (Quit: Leaving.)
+2017-11-05 04:26:39	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Ping timeout: 248 seconds)
+2017-11-05 06:51:18	--	irc: disconnected from server
+2017-11-05 06:51:36	-->	MDrights1 (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 06:51:36	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 06:51:36	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-05 06:51:36	--	Channel #parabola: 88 nicks (1 op, 0 voices, 87 normals)
+2017-11-05 06:51:36	--	URL for #parabola: https://parabola.nu
+2017-11-05 06:51:46	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-05 06:54:40	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-11-05 07:45:51	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 07:45:51	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 07:45:51	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-05 07:45:51	--	Channel #parabola: 88 nicks (1 op, 0 voices, 87 normals)
+2017-11-05 07:45:51	--	URL for #parabola: https://parabola.nu
+2017-11-05 07:45:54	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-05 07:47:20	<--	isacdaavid (~isaac@189.215.151.79.cable.dyn.cableonline.com.mx) has quit (Quit: Leaving.)
+2017-11-05 07:58:43	-->	baptist (~baptsk@rev-140-208.legacytubes.illyse.net) has joined #parabola
+2017-11-05 08:33:50	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-05 08:37:10	<--	baptist (~baptsk@rev-140-208.legacytubes.illyse.net) has quit (Remote host closed the connection)
+2017-11-05 08:37:17	<--	anon9002 (~anon@128.12.254.132) has quit (Ping timeout: 240 seconds)
+2017-11-05 08:49:25	-->	anon9002 (~anon@DN200ol06.stanford.edu) has joined #parabola
+2017-11-05 08:54:09	<--	ovruni (~user@179.7.211.90) has quit (Read error: Connection reset by peer)
+2017-11-05 08:58:49	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 246 seconds)
+2017-11-05 09:02:22	<--	anon9002 (~anon@DN200ol06.stanford.edu) has quit (Ping timeout: 260 seconds)
+2017-11-05 09:03:41	-->	anon9002 (~anon@128.12.254.132) has joined #parabola
+2017-11-05 09:05:55	-->	malina (~malina@unaffiliated/malina) has joined #parabola
+2017-11-05 09:09:19	<--	anon9002 (~anon@128.12.254.132) has quit (Ping timeout: 248 seconds)
+2017-11-05 09:10:59	-->	anon9002 (~anon@128.12.254.132) has joined #parabola
+2017-11-05 09:22:47	<--	anon9002 (~anon@128.12.254.132) has quit (Ping timeout: 240 seconds)
+2017-11-05 10:33:36	--	irc: disconnected from server
+2017-11-05 10:35:03	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-05 10:35:03	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-05 10:35:03	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:51
+2017-11-05 10:35:03	--	Channel #parabola: 85 nicks (1 op, 0 voices, 84 normals)
+2017-11-05 10:35:03	--	URL for #parabola: https://parabola.nu
+2017-11-05 10:35:05	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-07 11:51:34	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-07 11:51:34	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-07 11:51:34	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-07 11:51:34	--	Channel #parabola: 87 nicks (1 op, 0 voices, 86 normals)
+2017-11-07 11:51:34	--	URL for #parabola: https://parabola.nu
+2017-11-07 11:51:36	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-07 11:52:13	<--	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has quit (Remote host closed the connection)
+2017-11-07 12:06:14	-->	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has joined #parabola
+2017-11-07 12:09:40	-->	malina (~malina@unaffiliated/malina) has joined #parabola
+2017-11-07 12:13:27	-->	yeehi (~n@unaffiliated/yeehi) has joined #parabola
+2017-11-07 12:21:41	-->	oaken-source (~oaken-sou@141.89.226.146) has joined #parabola
+2017-11-07 12:28:48	-->	tct_1 (~tct@78.159.148.102) has joined #parabola
+2017-11-07 12:31:52	<--	tct_1 (~tct@78.159.148.102) has quit (Client Quit)
+2017-11-07 12:34:54	<--	soloojos (~soloojos@gateway/tor-sasl/soloojos) has quit (Remote host closed the connection)
+2017-11-07 12:40:29	--	irc: disconnected from server
+2017-11-07 12:40:46	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-07 12:40:46	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-07 12:40:46	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-07 12:40:46	--	Channel #parabola: 90 nicks (1 op, 0 voices, 89 normals)
+2017-11-07 12:40:46	--	URL for #parabola: https://parabola.nu
+2017-11-07 12:40:54	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-07 12:43:04	<--	oaken-source (~oaken-sou@141.89.226.146) has quit (Ping timeout: 240 seconds)
+2017-11-07 12:45:39	<--	mbuf (~Shakthi@106.51.227.97) has quit (Quit: Leaving)
+2017-11-08 10:10:21	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-08 10:10:21	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-08 10:10:21	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-08 10:10:21	--	Channel #parabola: 68 nicks (1 op, 0 voices, 67 normals)
+2017-11-08 10:10:21	--	URL for #parabola: https://parabola.nu
+2017-11-08 10:10:23	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-08 10:12:56	-->	happy_gnu[m] (happygnuma@gateway/shell/matrix.org/x-bniokhdqtmklpskb) has joined #parabola
+2017-11-08 10:12:56	-->	psychi[m] (psychimatr@gateway/shell/matrix.org/x-mmhpexrvicsmhchb) has joined #parabola
+2017-11-08 10:12:56	-->	Nitrogue[m] (nitroguema@gateway/shell/matrix.org/x-vmzibrkxnhbxajch) has joined #parabola
+2017-11-08 10:12:56	-->	AugustoBorin[m] (augustobor@gateway/shell/matrix.org/x-gayhfrwgxdclaojk) has joined #parabola
+2017-11-08 10:12:56	-->	mew[m] (mewmatrixo@gateway/shell/matrix.org/x-aegtrftihxgnrcoy) has joined #parabola
+2017-11-08 10:12:56	-->	remi[m] (remiremire@gateway/shell/matrix.org/x-lchwyluzfbgyacjp) has joined #parabola
+2017-11-08 10:12:56	-->	ziox[m] (zioxmatrix@gateway/shell/matrix.org/x-bgyogerrdhdordtj) has joined #parabola
+2017-11-08 10:12:56	-->	dedekindbr[m] (dedekindbr@gateway/shell/matrix.org/x-zqscavvwwnidxkga) has joined #parabola
+2017-11-08 10:12:57	-->	txablau[m] (txablaumat@gateway/shell/matrix.org/x-mochxfnepmbomaph) has joined #parabola
+2017-11-08 10:12:57	-->	asm[m] (asmlibrema@gateway/shell/matrix.org/x-tssohatzbigvogcw) has joined #parabola
+2017-11-08 10:12:57	-->	CharlieBrown (calhermatr@gateway/shell/matrix.org/x-zmdowkxbeaoqlnfx) has joined #parabola
+2017-11-08 10:13:03	-->	M283750649[m] (btmsnmatri@gateway/shell/matrix.org/x-iimtzewnqulmaond) has joined #parabola
+2017-11-08 10:13:03	-->	sgal[m] (sgalmatrix@gateway/shell/matrix.org/x-dwglncbwkcaugssw) has joined #parabola
+2017-11-08 10:13:04	-->	Voitena[m] (voitenamat@gateway/shell/matrix.org/x-ikvhqrvhoivoyirk) has joined #parabola
+2017-11-08 10:13:04	-->	uadben[m] (uadbenmatr@gateway/shell/matrix.org/x-mtobypxktxezsyxa) has joined #parabola
+2017-11-08 10:13:56	-->	pizzaiolo (~pizzaiolo@2804:14d:5c8e:85f5::3) has joined #parabola
+2017-11-08 10:18:37	<--	oaken-source (~oaken-sou@141.89.226.146) has quit (Remote host closed the connection)
+2017-11-08 10:19:27	-->	oaken-source (~oaken-sou@141.89.226.146) has joined #parabola
+2017-11-08 10:29:30	-->	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has joined #parabola
+2017-11-08 11:33:04	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-08 11:34:10	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-08 12:07:00	-->	dimaursu16 (~dimon@78.159.148.102) has joined #parabola
+2017-11-08 12:07:00	<--	dimaursu16 (~dimon@78.159.148.102) has quit (Changing host)
+2017-11-08 12:07:00	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-08 12:08:15	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined #parabola
+2017-11-08 12:13:53	<--	lxo (~aoliva@linux-libre.fsfla.org) has quit (Quit: later)
+2017-11-08 12:26:09	-->	tct_1 (~tct@78.159.148.102) has joined #parabola
+2017-11-08 12:32:14	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 248 seconds)
+2017-11-08 12:32:39	-->	dimaursu16 (~dimon@78.159.148.102) has joined #parabola
+2017-11-08 12:32:39	<--	dimaursu16 (~dimon@78.159.148.102) has quit (Changing host)
+2017-11-08 12:32:39	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-08 12:34:08	<--	oaken-source (~oaken-sou@141.89.226.146) has quit (Ping timeout: 252 seconds)
+2017-11-08 12:44:49	-->	oaken-source (~oaken-sou@141.89.226.146) has joined #parabola
+2017-11-08 12:47:27	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Ping timeout: 258 seconds)
+2017-11-08 12:48:49	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined #parabola
+2017-11-08 13:09:08	-->	djboot (~Thunderbi@179.124.10.154) has joined #parabola
+2017-11-08 13:16:33	-->	malina (~malina@unaffiliated/malina) has joined #parabola
+2017-11-08 13:35:44	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 252 seconds)
+2017-11-08 13:35:45	--	irc: disconnected from server
+2017-11-08 13:36:11	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-08 13:36:11	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-08 13:36:11	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-08 13:36:11	--	Channel #parabola: 89 nicks (1 op, 0 voices, 88 normals)
+2017-11-08 13:36:12	--	URL for #parabola: https://parabola.nu
+2017-11-08 13:36:19	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-08 14:01:05	<--	vita_cell (~vita@250.83-213-35.dynamic.clientes.euskaltel.es) has quit (Read error: Connection reset by peer)
+2017-11-08 14:02:19	-->	vita_cell (~vita@250.83-213-35.dynamic.clientes.euskaltel.es) has joined #parabola
+2017-11-09 02:01:46	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-09 02:01:46	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-09 02:01:46	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-09 02:01:46	--	Channel #parabola: 87 nicks (1 op, 0 voices, 86 normals)
+2017-11-09 02:01:46	--	URL for #parabola: https://parabola.nu
+2017-11-09 02:01:48	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-09 02:10:56	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:10:56	--	irc: disconnected from server
+2017-11-09 02:11:14	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-09 02:11:14	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-09 02:11:14	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-09 02:11:14	--	Channel #parabola: 87 nicks (1 op, 0 voices, 86 normals)
+2017-11-09 02:11:14	--	URL for #parabola: https://parabola.nu
+2017-11-09 02:11:21	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-09 02:24:14	<--	pizzaiolo (~pizzaiolo@2804:14d:5c8e:85f5::3) has quit (Remote host closed the connection)
+2017-11-09 02:32:59	-->	dimaursu16 (~dimon@78.159.148.102) has joined #parabola
+2017-11-09 02:32:59	<--	dimaursu16 (~dimon@78.159.148.102) has quit (Changing host)
+2017-11-09 02:32:59	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-09 02:39:19	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-09 02:39:19	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-09 02:39:19	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:51
+2017-11-09 02:39:19	--	Channel #parabola: 87 nicks (1 op, 0 voices, 86 normals)
+2017-11-09 02:39:19	--	URL for #parabola: https://parabola.nu
+2017-11-09 02:39:21	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-09 02:53:04	<--	CBotulinum (~Unset@5.29.126.29) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:53:14	-->	CBotulinum (~Unset@5.29.126.29) has joined #parabola
+2017-11-09 02:55:19	-->	ebrasca` (~user@host-198.58.elzappero.net) has joined #parabola
+2017-11-09 02:55:43	-->	ATH-YF (52ed8095@gateway/web/cgi-irc/kiwiirc.com/ip.82.237.128.149) has joined #parabola
+2017-11-09 02:55:43	-->	edangor_ (~edangor@189.161.3.245) has joined #parabola
+2017-11-09 02:55:44	<--	fatalhalt (~fatalhalt@c-67-163-60-93.hsd1.il.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:56:51	<--	darvon (~darvon@107.191.100.185) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:57:20	<--	edangor (~edangor@189.161.3.245) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:57:21	<--	ebrasca (~user@host-198.58.elzappero.net) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:57:21	<--	jxself (~jxself@gnu/chief-webmaster/jxself) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:57:21	<--	waylon531 (~quassel@galvatron.firechicken.net) has quit (Ping timeout: 248 seconds)
+2017-11-09 02:57:22	--	edangor_ is now known as edangor
+2017-11-09 02:57:46	-->	waylon531 (~quassel@galvatron.firechicken.net) has joined #parabola
+2017-11-09 02:58:48	-->	jxself (~jxself@gnu/chief-webmaster/jxself) has joined #parabola
+2017-11-09 03:05:10	-->	darvon (~darvon@107.191.100.185) has joined #parabola
+2017-11-09 03:06:08	-->	fatalhalt (~fatalhalt@c-67-163-60-93.hsd1.il.comcast.net) has joined #parabola
+2017-11-09 03:07:34	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 240 seconds)
+2017-11-09 03:17:55	-->	Megver83 (~Megver83@pc-50-12-100-190.cm.vtr.net) has joined #parabola
+2017-11-09 03:20:07	<--	mew[m] (mewmatrixo@gateway/shell/matrix.org/x-aegtrftihxgnrcoy) has quit (Ping timeout: 250 seconds)
+2017-11-09 03:20:07	<--	albertsg[m] (albertsgma@gateway/shell/matrix.org/x-colnqyaedcawreli) has quit (Ping timeout: 250 seconds)
+2017-11-09 03:21:08	<--	Nitrogue[m] (nitroguema@gateway/shell/matrix.org/x-vmzibrkxnhbxajch) has quit (Ping timeout: 240 seconds)
+2017-11-09 03:21:28	<--	asm[m] (asmlibrema@gateway/shell/matrix.org/x-tssohatzbigvogcw) has quit (Ping timeout: 240 seconds)
+2017-11-09 03:21:48	<--	uadben[m] (uadbenmatr@gateway/shell/matrix.org/x-mtobypxktxezsyxa) has quit (Ping timeout: 240 seconds)
+2017-11-09 03:21:54	<--	Voitena[m] (voitenamat@gateway/shell/matrix.org/x-ikvhqrvhoivoyirk) has quit (Ping timeout: 252 seconds)
+2017-11-09 03:21:54	<--	txablau[m] (txablaumat@gateway/shell/matrix.org/x-mochxfnepmbomaph) has quit (Ping timeout: 252 seconds)
+2017-11-09 03:21:55	<--	dedekindbr[m] (dedekindbr@gateway/shell/matrix.org/x-zqscavvwwnidxkga) has quit (Ping timeout: 246 seconds)
+2017-11-09 03:21:58	<--	ziox[m] (zioxmatrix@gateway/shell/matrix.org/x-bgyogerrdhdordtj) has quit (Ping timeout: 255 seconds)
+2017-11-09 03:21:58	<--	happy_gnu[m] (happygnuma@gateway/shell/matrix.org/x-bniokhdqtmklpskb) has quit (Ping timeout: 255 seconds)
+2017-11-09 03:22:02	<--	sgal[m] (sgalmatrix@gateway/shell/matrix.org/x-dwglncbwkcaugssw) has quit (Ping timeout: 255 seconds)
+2017-11-09 03:22:11	<--	psychi[m] (psychimatr@gateway/shell/matrix.org/x-mmhpexrvicsmhchb) has quit (Ping timeout: 264 seconds)
+2017-11-09 03:22:15	<--	CharlieBrown (calhermatr@gateway/shell/matrix.org/x-zmdowkxbeaoqlnfx) has quit (Ping timeout: 276 seconds)
+2017-11-09 03:22:15	<--	Megver83 (~Megver83@pc-50-12-100-190.cm.vtr.net) has quit (Client Quit)
+2017-11-09 03:22:24	<--	AugustoBorin[m] (augustobor@gateway/shell/matrix.org/x-gayhfrwgxdclaojk) has quit (Ping timeout: 255 seconds)
+2017-11-09 03:22:26	<--	M283750649[m] (btmsnmatri@gateway/shell/matrix.org/x-iimtzewnqulmaond) has quit (Ping timeout: 252 seconds)
+2017-11-09 03:22:53	<--	remi[m] (remiremire@gateway/shell/matrix.org/x-lchwyluzfbgyacjp) has quit (Ping timeout: 276 seconds)
+2017-11-09 04:16:32	<--	edangor (~edangor@189.161.3.245) has quit (Quit: edangor)
+2017-11-09 04:21:18	<--	ATH-YF (52ed8095@gateway/web/cgi-irc/kiwiirc.com/ip.82.237.128.149) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-09 05:12:31	<--	ebrasca` (~user@host-198.58.elzappero.net) has quit (Remote host closed the connection)
+2017-11-09 05:15:33	lukeshu	man, I hate glibc's build system
+2017-11-09 05:15:33	lukeshu	no-op takes forever
+2017-11-09 05:16:18	 *	lukeshu is trying to track down an i686-specific regression from 2.25->2.26 
+2017-11-09 06:42:21	--	irc: disconnected from server
+2017-11-09 06:42:40	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-09 06:42:40	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-09 06:42:40	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-09 06:42:40	--	Channel #parabola: 85 nicks (1 op, 0 voices, 84 normals)
+2017-11-09 06:42:40	--	URL for #parabola: https://parabola.nu
+2017-11-09 06:42:50	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-09 06:47:50	-->	brendyn (~brendyn@203-173-31-134.dyn.iinet.net.au) has joined #parabola
+2017-11-09 06:58:16	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined #parabola
+2017-11-09 07:14:19	<--	m4sk1n_ (~m4sk1n@2001:41d0:2:2bc4::342) has quit (Ping timeout: 246 seconds)
+2017-11-09 07:35:30	-->	Out`Of`Control (~Viper@unaffiliated/outofcontrol/x-1373891) has joined #parabola
+2017-11-09 07:37:49	--	Out`Of`Control is now known as Viper
+2017-11-09 07:42:38	-->	Guest97561 (~Goddamn@61.168.113.55) has joined #parabola
+2017-11-09 07:49:16	<--	ovruni (~user@179.7.213.192) has quit (Remote host closed the connection)
+2017-11-09 07:56:29	<--	Guest97561 (~Goddamn@61.168.113.55) has quit (Remote host closed the connection)
+2017-11-09 08:12:04	<--	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has quit (Ping timeout: 240 seconds)
+2017-11-09 08:14:23	-->	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has joined #parabola
+2017-11-09 08:20:54	<--	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has quit (Read error: Connection reset by peer)
+2017-11-09 08:26:54	-->	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has joined #parabola
+2017-11-10 02:43:12	--	irc: disconnected from server
+2017-11-10 02:43:29	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-10 02:43:29	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-10 02:43:29	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-10 02:43:29	--	Channel #parabola: 86 nicks (1 op, 0 voices, 85 normals)
+2017-11-10 02:43:29	--	URL for #parabola: https://parabola.nu
+2017-11-10 02:43:39	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-10 03:04:41	<--	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2017-11-10 03:07:36	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-10 03:08:05	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-10 03:13:24	-->	Megver83 (~Megver83@pc-50-12-100-190.cm.vtr.net) has joined #parabola
+2017-11-10 03:13:47	-->	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has joined #parabola
+2017-11-10 03:58:51	<--	Megver83 (~Megver83@pc-50-12-100-190.cm.vtr.net) has quit
+2017-11-10 04:00:54	<--	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has quit (Quit: Leaving)
+2017-11-10 04:03:04	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-10 04:03:34	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-10 04:11:44	<--	xihh (~joshpar@177.234.2.122) has quit (Remote host closed the connection)
+2017-11-10 04:27:15	hyperreal	Hello. I would like to help out with Parabola. What does it take to become a Parabola developer? I've been pretty active on the wiki lately. I understand it takes time to build trust, but I'm just curious about what kind of skills are needed.
+2017-11-10 04:48:12	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-10 04:48:36	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-10 04:58:22	-->	oaken-source (~oaken-sou@p3E9D3526.dip0.t-ipconnect.de) has joined #parabola
+2017-11-10 04:59:42	ebrasca	hyperreal: https://wiki.parabola.nu/How_to_become_a_Parabola_hacker
+2017-11-10 05:00:17	hyperreal	ebrasca: awesome, thanks
+2017-11-10 05:15:08	<--	shackra (~shackra@186.176.49.165) has quit (Quit: WeeChat 1.9.1)
+2017-11-10 05:21:59	-->	harut (~Ely@2601:282:8202:3b2a:180c:1c4e:c4d8:3b50) has joined #parabola
+2017-11-10 05:26:45	<--	malina (~malina@unaffiliated/malina) has quit (Ping timeout: 248 seconds)
+2017-11-10 05:44:29	<--	ovruni (~user@179.7.216.64) has quit (Read error: Connection reset by peer)
+2017-11-10 06:40:46	-->	baptist (~baptsk@rev-140-208.legacytubes.illyse.net) has joined #parabola
+2017-11-10 07:11:57	-->	pbot (~rfc3092@winston.parabola.nu) has joined #parabola
+2017-11-10 07:15:35	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-10 07:22:34	<--	baptist (~baptsk@rev-140-208.legacytubes.illyse.net) has quit (Remote host closed the connection)
+2017-11-10 07:25:14	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 264 seconds)
+2017-11-10 07:33:00	oaken-source	we are now officially running into pagkage update issues on i686, since arch stopped updating dependencies 2 days ago,
+2017-11-10 07:33:09	oaken-source	it might be time to start thinking about a solution :)
+2017-11-10 07:34:45	isacdaavid	i have you covered
+2017-11-10 07:35:23	isacdaavid	the necessary changes to dbscripts are essentially ready
+2017-11-10 07:36:29	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-10 07:36:58	oaken-source	awesome :)
+2017-11-10 07:38:03	isacdaavid	i was waiting on archlinux32 to get to the latest versions of everything before deploying, so that we don't experience many notifications about packages being newer on the local system
+2017-11-10 07:38:32	isacdaavid	what issues have you noticed so far?
+2017-11-10 07:40:57	oaken-source	akonadi-contacts 17.08.3 requires kcontacts 17.08.3 to build
+2017-11-10 07:41:30	oaken-source	last version on i686 arch is 17.08.2
+2017-11-10 07:42:48	oaken-source	this might be interesting, just in case you haven't seen it yet: https://www.archlinux.org/news/the-end-of-i686-support/
+2017-11-10 07:42:49	pbot	Page title: `Arch Linux - News: The end of i686 support'
+2017-11-10 07:45:49	isacdaavid	i watched the very drafting proses on the public arch-devel mailing list ;)
+2017-11-10 07:46:19	oaken-source	oh, okay :D
+2017-11-10 07:46:37	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 258 seconds)
+2017-11-10 07:46:40	oaken-source	I had a look and it seems that archlinux32 doesn't have kcontacts 17.08.3 yet either
+2017-11-10 07:47:25	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-10 07:52:01	isacdaavid	on the other hand they now seem to be on par at least with where Arch left - i no longer get downgrades when using their mirror
+2017-11-10 07:53:50	oaken-source	that's a good thing
+2017-11-10 07:55:17	isacdaavid	i might prepare the new dbscripts release and make the switch tomorrow
+2017-11-10 07:57:34	isacdaavid	let's hope that Arch32 will follow Arch closely on updates, like the ARM guys have done so far
+2017-11-10 07:58:47	isacdaavid	it would still be a pain for us if we had to wait weeks between compiling our packages for 64 bits and then for 32
+2017-11-10 08:09:02	oaken-source	yeah :/
+2017-11-10 08:10:55	 *	isacdaavid is afk
+2017-11-10 08:34:49	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 240 seconds)
+2017-11-10 08:38:54	<--	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2017-11-10 08:48:43	-->	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has joined #parabola
+2017-11-10 08:49:29	<--	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2017-11-10 08:52:54	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-10 08:55:44	-->	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has joined #parabola
+2017-11-10 08:58:19	-->	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has joined #parabola
+2017-11-10 08:59:34	<--	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2017-11-10 09:08:51	-->	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has joined #parabola
+2017-11-10 09:09:37	<--	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2017-11-10 09:18:46	-->	GrimKriegor (~GrimKrieg@a79-168-187-213.cpe.netcabo.pt) has joined #parabola
+2017-11-10 09:23:43	<--	tarok (~tarok@mon75-4-82-224-194-165.fbx.proxad.net) has quit (Remote host closed the connection)
+2017-11-10 09:31:15	-->	tct_1 (~tct@86.120.249.79) has joined #parabola
+2017-11-10 10:56:02	--	irc: disconnected from server
+2017-11-10 10:56:20	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-10 10:56:20	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-10 10:56:20	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-10 10:56:20	--	Channel #parabola: 83 nicks (1 op, 0 voices, 82 normals)
+2017-11-10 10:56:20	--	URL for #parabola: https://parabola.nu
+2017-11-10 10:56:32	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-10 10:59:13	-->	fauno (~fauno@libre.fm/hacker/fauno) has joined #parabola
+2017-11-10 11:22:28	-->	benSahar (~Skwid@2a02:a03f:43ac:3700:f814:fb07:a8f8:8b24) has joined #parabola
+2017-11-10 11:22:55	<--	benSahar (~Skwid@2a02:a03f:43ac:3700:f814:fb07:a8f8:8b24) has quit (Client Quit)
+2017-11-10 11:23:05	-->	pizzaiolo (~pizzaiolo@2804:14d:5c8e:85f5::3) has joined #parabola
+2017-11-10 11:24:30	-->	Skwid (~Skwid@2a02:a03f:43ac:3700:f814:fb07:a8f8:8b24) has joined #parabola
+2017-11-10 11:27:18	<--	tct_1 (~tct@86.120.249.79) has quit (Quit: Leaving.)
+2017-11-10 11:57:09	pbot	Software ports - Issue #1518 has been updated by GNUtoo. ([pcr] recompile gnupg1 (libreadline.so.6: [...]: No such file or directory)) https://labs.parabola.nu/issues/1518#change-8531
+2017-11-10 12:10:19	<--	kete (~kete@unaffiliated/kete) has quit (Quit: Leaving.)
+2017-11-10 12:44:02	--	irc: disconnected from server
+2017-11-10 12:44:19	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-10 12:44:19	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-10 12:44:19	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-10 12:44:19	--	Channel #parabola: 84 nicks (1 op, 0 voices, 83 normals)
+2017-11-10 12:44:19	--	URL for #parabola: https://parabola.nu
+2017-11-10 12:44:31	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-10 12:55:14	--	irc: disconnected from server
+2017-11-10 12:55:32	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-10 12:55:32	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-10 12:55:32	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-10 12:55:32	--	Channel #parabola: 84 nicks (1 op, 0 voices, 83 normals)
+2017-11-10 12:55:32	--	URL for #parabola: https://parabola.nu
+2017-11-10 12:55:44	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-10 13:45:35	pbot	Software ports - Issue #1249 has been updated by GNUtoo. (Porting #1249: Add support for the beaglebone green) https://labs.parabola.nu/issues/1249#change-8532
+2017-11-10 13:48:29	-->	kelsoo (~kelsoo@dragora/developer/kelsoo) has joined #parabola
+2017-11-10 13:51:04	pbot	Software ports - Issue #1265 has been updated by GNUtoo. (Packaging request #1265: [ARM] [weboob] Add package to pcr repo) https://labs.parabola.nu/issues/1265#change-8533
+2017-11-10 13:51:34	-->	OccultusCaudex (~Skwid@2a02:a03f:43ac:3700:5d29:1f76:4dc9:b3f5) has joined #parabola
+2017-11-10 13:52:50	<--	Skwid (~Skwid@2a02:a03f:43ac:3700:f814:fb07:a8f8:8b24) has quit (Ping timeout: 264 seconds)
+2017-11-10 13:59:18	-->	malina (~malina@unaffiliated/malina) has joined #parabola
+2017-11-10 23:49:12	--	irc: disconnected from server
+2017-11-10 23:49:30	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #parabola
+2017-11-10 23:49:30	--	Topic for #parabola is "Welcome to Parabola - a free GNU/Linux distribution https://parabola.nu | Community : https://gnusocial.net/group/parabola | Wiki : https://wiki.parabola.nu/ | Bug Tracker : https://labs.parabola.nu/ | New beta ISOs : https://tinyurl.com/y7c4s2z8."
+2017-11-10 23:49:30	--	Topic set by Megver83 (~Icedove@dvc-204-167-156-186.movil.vtr.net) on 四, 19 10月 2017 20:10:50
+2017-11-10 23:49:30	--	Channel #parabola: 90 nicks (1 op, 0 voices, 89 normals)
+2017-11-10 23:49:30	--	URL for #parabola: https://parabola.nu
+2017-11-10 23:49:41	--	Channel created on 一, 26 10月 2009 23:41:30
+2017-11-11 00:04:54	-->	isacdaavid (~isaac@148.218.99.57) has joined #parabola
+2017-11-11 00:34:03	-->	heckyel (~heckyel@gateway/tor-sasl/heckyel) has joined #parabola
+2017-11-11 00:36:48	<--	xihh (~joshpar@177.234.2.122) has quit (Quit: Leaving.)
+2017-11-11 00:37:38	 *	heckyel is return to job
+2017-11-11 00:37:48	<--	heckyel (~heckyel@gateway/tor-sasl/heckyel) has quit (Client Quit)
+2017-11-11 01:25:42	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Ping timeout: 248 seconds)
+2017-11-11 01:26:13	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined #parabola
+2017-11-11 01:33:41	<--	mono (~nomo@cable201-232-157-92.epm.net.co) has quit (Ping timeout: 268 seconds)
+2017-11-11 01:35:36	<--	soloojos (~soloojos@gateway/tor-sasl/soloojos) has quit (Remote host closed the connection)
+2017-11-11 01:36:12	-->	soloojos (~soloojos@gateway/tor-sasl/soloojos) has joined #parabola
+2017-11-11 02:00:02	<--	isacdaavid (~isaac@148.218.99.57) has quit (Quit: Leaving.)
+2017-11-11 02:04:45	-->	heckyel (~heckyel@gateway/tor-sasl/heckyel) has joined #parabola
+2017-11-11 02:04:48	heckyel	|
+2017-11-11 02:05:23	<--	nullawk (~mo@50.38.43.254) has quit (Quit: Leaving.)
+2017-11-11 02:12:20	-->	mono (~nomo@cable201-233-95-98.epm.net.co) has joined #parabola
+2017-11-11 02:14:00	-->	nullawk (~mo@50.38.43.254) has joined #parabola
+2017-11-11 02:19:44	-->	lkcl (~lkcl@122.97.172.2) has joined #parabola
+2017-11-11 02:25:34	-->	edangor (~edangor@189.165.194.2) has joined #parabola
+2017-11-11 02:27:34	<--	mono (~nomo@cable201-233-95-98.epm.net.co) has quit (Ping timeout: 248 seconds)
+2017-11-11 02:36:26	<--	lkcl (~lkcl@122.97.172.2) has quit (Read error: Connection reset by peer)
+2017-11-11 02:40:54	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Ping timeout: 248 seconds)
+2017-11-11 03:01:12	-->	isacdaavid (~isaac@189.215.151.79.cable.dyn.cableonline.com.mx) has joined #parabola
+2017-11-11 03:07:57	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-11 03:08:22	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #parabola
+2017-11-11 03:09:37	<--	pizzaiolo (~pizzaiolo@2804:14d:5c8e:85f5:f2f3:4028:3a4b:57ee) has quit (Quit: pizzaiolo)
+2017-11-11 03:15:11	-->	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has joined #parabola
+2017-11-11 03:16:18	<--	botho (~botho@82.212.171.116) has quit (Ping timeout: 240 seconds)
+2017-11-11 03:33:42	<--	nullawk (~mo@50.38.43.254) has quit (Quit: Leaving.)
+2017-11-11 03:35:54	<--	dimaursu16 (~dimon@ceata/voluntar/dimaursu16) has quit (Ping timeout: 240 seconds)
+2017-11-11 03:36:31	-->	nullawk (~mo@50.38.43.254) has joined #parabola
+2017-11-11 03:40:33	-->	thefallenrat (~thefallen@unaffiliated/thefallenrat) has joined #parabola
+2017-11-11 03:41:40	<--	yeehi (~n@unaffiliated/yeehi) has quit (Ping timeout: 260 seconds)

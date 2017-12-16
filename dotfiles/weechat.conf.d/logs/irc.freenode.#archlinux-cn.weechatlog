@@ -1,0 +1,527 @@
+2017-11-01 04:22:06	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #archlinux-cn
+2017-11-01 04:22:06	--	Topic for #archlinux-cn is "Arch Linux 欢迎喵 *^-^* | 抛弃i686 | Perl 库路径变更 | 不是 Arch 请先声明 | Arch 无关问题请去别处 | https://wiki.archlinux.org | https://bbs.archlinuxcn.org | https://github.com/archlinuxcn | 长文 https://cfp.vim-cn.com | 贴图 https://img.vim-cn.com | 水群 #archlinux-cn-offtopic | 别对 teleboto xmppbot toxsync 这些说话，人类名字在它们后面"
+2017-11-01 04:22:06	--	Topic set by farseerfc (~farseerfc@archlinux/tu/farseerfc) on 一, 04 9月 2017 05:40:34
+2017-11-01 04:22:06	--	Channel #archlinux-cn: 157 nicks (1 op, 0 voices, 156 normals)
+2017-11-01 04:22:09	--	Channel created on 六, 19 12月 2009 14:15:09
+2017-11-01 04:22:15	quininer[m]	* 可能
+2017-11-01 04:23:24	tg2arch	[Leo Shen] Js: 我实在我也不是谦虚，我一个前端语言怎么到后端来了呢？
+2017-11-01 04:24:40	tg2arch	[.OboroHoro] 😂
+2017-11-01 04:25:18	-->	ale (~ale@119.131.104.242) has joined #archlinux-cn
+2017-11-01 04:25:39	<--	ale (~ale@119.131.104.242) has quit (Client Quit)
+2017-11-01 04:26:01	-->	ykelvis (~ykelvis@unaffiliated/ykelvis) has joined #archlinux-cn
+2017-11-01 04:28:17	-->	SJX (~SJX@112.80.102.64) has joined #archlinux-cn
+2017-11-01 04:29:15	tg2arch	[farseerfc] 抱歉刷大家屏了（我還在騎車😢
+2017-11-01 04:29:28	tg2arch	[宮水 三葉] farseerfc: 😘😘😘😘没事没事，可爱的fc老师
+2017-11-01 04:29:33	tg2arch	New user "Dragonly" joined Telegram group. Welcome!
+2017-11-01 04:29:59	quininer[m]	楊教授辛苦了
+2017-11-01 04:30:20	tg2arch	[.OboroHoro] farseerfc: 不要危险驾驶啊😂😘
+2017-11-01 04:30:21	quininer[m]	請勿在主群三播基基的氣氛
+2017-11-01 04:30:38	SilverRainZ	群我不三
+2017-11-01 04:32:10	tg2arch	[Leo Shen] https://persepolisdm.github.io/
+2017-11-01 04:32:11	xmppbot	[Lisa] Leo Shen: ⇪网页标题: Persepolis Download Manager
+2017-11-01 04:32:11	tg2arch	[Leo Shen] 支持Windows诶
+2017-11-01 04:32:17	-->	lacat2 (~yaaic@112.97.63.1) has joined #archlinux-cn
+2017-11-01 04:32:37	<--	lacat2 (~yaaic@112.97.63.1) has quit (Client Quit)
+2017-11-01 04:33:10	quininer[m]	https://github.com/DestructiveReasoning/monadic
+2017-11-01 04:33:10	xmppbot	[Lisa] quininer[m]: ⇪GitHub 项目描述：Implementation of higher kinded types and Haskell-like monad notation in Rust (Rust) ♡ 0 ⑂ 0，最后更新：2017-11-01T01:13:15Z。
+2017-11-01 04:33:44	-->	lacat2 (~yaaic@112.97.63.1) has joined #archlinux-cn
+2017-11-01 04:34:35	quininer[m]	http://www.solidot.org/story?sid=54330
+2017-11-01 04:34:35	xmppbot	[Lisa] quininer[m]: ⇪网页标题: Solidot | 中国停止公布出生率数据
+2017-11-01 04:35:39	<--	lacat2 (~yaaic@112.97.63.1) has quit (Client Quit)
+2017-11-01 04:36:09	tg2arch	[dfceaef | 想食酥撒撒] 奎尼奇异么
+2017-11-01 04:36:17	quininer[m]	https://signal.org/blog/standalone-signal-desktop/
+2017-11-01 04:36:18	xmppbot	[Lisa] quininer[m]: ⇪网页标题: Signal >> Blog >> Standalone Signal Desktop
+2017-11-01 04:36:22	quininer[m]	欸，發錯頻道
+2017-11-01 04:36:53	-->	lacat[c] (~yaaic@112.97.63.1) has joined #archlinux-cn
+2017-11-01 04:41:02	<--	lacat (778bc689@gateway/web/freenode/ip.119.139.198.137) has quit (Quit: Page closed)
+2017-11-01 04:42:55	<--	\s (~zzzzzzzz@unaffiliated/s/x-1589636) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-01 04:47:46	<--	\as (~stephen@unaffiliated/asenr) has quit (Ping timeout: 255 seconds)
+2017-11-01 04:47:47	<--	lacat[c] (~yaaic@112.97.63.1) has quit (Read error: Connection reset by peer)
+2017-11-01 04:49:48	-->	lacat[c] (~loovee@119.139.198.137) has joined #archlinux-cn
+2017-11-01 04:51:16	-->	SJX_ (~SJX@112.80.102.64) has joined #archlinux-cn
+2017-11-01 04:54:37	<--	SJX (~SJX@112.80.102.64) has quit (Ping timeout: 248 seconds)
+2017-11-01 04:57:11	tg2arch	[nickname] 💊
+2017-11-01 04:57:12	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:13	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:14	tg2arch	[nickname] 💊
+2017-11-01 04:57:15	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:16	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:17	tg2arch	[nickname] 💊
+2017-11-01 04:57:18	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:19	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:20	tg2arch	[nickname] 💊
+2017-11-01 04:57:21	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:22	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:23	tg2arch	[nickname] 💊
+2017-11-01 04:57:24	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:25	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:26	tg2arch	[nickname] 💊
+2017-11-01 04:57:27	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:28	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:29	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:30	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:30	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:30	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:31	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:31	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:32	tg2arch	[nickname] 💊
+2017-11-01 04:57:33	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:34	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:35	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:35	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:36	tg2arch	[nickname] 💊
+2017-11-01 04:57:37	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:38	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:39	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:39	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:40	tg2arch	[nickname] 💊
+2017-11-01 04:57:41	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:42	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:43	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:43	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:44	tg2arch	[nickname] 💊
+2017-11-01 04:57:45	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:46	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:47	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:47	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:48	tg2arch	[nickname] 💊
+2017-11-01 04:57:49	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:50	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:51	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:51	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:57:52	tg2arch	[nickname] 💊
+2017-11-01 04:57:53	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:57:54	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:57:55	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:57:55	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:07	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:07	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:08	tg2arch	[nickname] 💊
+2017-11-01 04:58:09	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:10	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:11	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:11	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:12	tg2arch	[nickname] 💊
+2017-11-01 04:58:13	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:14	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:15	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:15	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:16	tg2arch	[nickname] 💊
+2017-11-01 04:58:17	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:18	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:19	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:19	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:20	tg2arch	[nickname] 💊
+2017-11-01 04:58:21	lilydjwg	又来？
+2017-11-01 04:58:21	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:22	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:23	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:23	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:24	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:24	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:25	tg2arch	[nickname] 💊
+2017-11-01 04:58:26	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:27	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:28	tg2arch	[nickname] 💊
+2017-11-01 04:58:29	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:30	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:31	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:31	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:32	tg2arch	[nickname] 💊
+2017-11-01 04:58:33	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:34	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:35	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:35	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:36	tg2arch	[nickname] 💊
+2017-11-01 04:58:37	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:38	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:39	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:39	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:51	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:51	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:52	tg2arch	[nickname] 💊
+2017-11-01 04:58:53	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:54	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:55	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:55	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:58:56	tg2arch	[nickname] 💊
+2017-11-01 04:58:57	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:58:58	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:58:59	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:58:59	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:00	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:00	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:01	tg2arch	[nickname] 💊
+2017-11-01 04:59:02	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:03	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:04	tg2arch	[nickname] 💊
+2017-11-01 04:59:05	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:06	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:07	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:07	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:08	tg2arch	[nickname] 💊
+2017-11-01 04:59:09	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:10	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:11	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:11	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:12	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:12	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:13	tg2arch	[nickname] 💊
+2017-11-01 04:59:14	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:15	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:16	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:16	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:17	tg2arch	[nickname] 💊
+2017-11-01 04:59:18	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:19	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:20	tg2arch	[nickname] 💊
+2017-11-01 04:59:21	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:21	lilydjwg	现在是四条消息循环发了？
+2017-11-01 04:59:22	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:23	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:23	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:33	<--	SJX_ (~SJX@112.80.102.64) has quit (Quit: Leaving)
+2017-11-01 04:59:35	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:35	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:36	tg2arch	[nickname] 💊
+2017-11-01 04:59:37	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:38	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:39	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:39	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:40	tg2arch	[nickname] 💊
+2017-11-01 04:59:41	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:42	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:43	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:43	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:44	tg2arch	[nickname] 💊
+2017-11-01 04:59:45	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:46	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:47	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:47	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:48	tg2arch	[nickname] 💊
+2017-11-01 04:59:49	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:50	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:51	Xanadu_Zen[m]	这俩bot疯了吧😂
+2017-11-01 04:59:51	tg2arch	[nickname] 💊
+2017-11-01 04:59:52	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:53	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:54	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:54	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:55	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:55	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 04:59:56	tg2arch	[nickname] 💊
+2017-11-01 04:59:56	--	Mode #archlinux-cn [+o lilydjwg] by ChanServ
+2017-11-01 04:59:57	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 04:59:58	tg2arch	[farseerfc] nickname: sddm ？
+2017-11-01 04:59:59	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 04:59:59	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 05:00:00	tg2arch	[nickname] 💊
+2017-11-01 05:00:01	tg2arch	[nickname] 好像显卡驱动炸了
+2017-11-01 05:00:01	<--	lilydjwg has kicked tg2arch (tg2arch)
+2017-11-01 05:00:08	-->	glamas (~glamas@119.136.147.231) has joined #archlinux-cn
+2017-11-01 05:00:22	-->	tg2arch (~nodebot@107.191.52.152) has joined #archlinux-cn
+2017-11-01 05:00:22	tg2arch	[nickname] Img: https://fars.ee/74C0.jpg
+2017-11-01 05:00:22	xmppbot	[Lisa] nickname: ⇪文件类型: image/jpeg, 文件大小: 158.8KiB, 图像尺寸: 1280x720
+2017-11-01 05:00:24	tg2arch	[farseerfc] 怎麼又來……
+2017-11-01 05:00:27	@lilydjwg	Xanadu_Zen[m]: 疯掉的只有阿卡林一个
+2017-11-01 05:01:00	tg2arch	[shadow] 是不是因为没给bot福利的原因
+2017-11-01 05:01:31	Xanadu_Zen[m]	> Xanadu_Zen[m]: 疯掉的只有阿卡林一个
+2017-11-01 05:01:32	Xanadu_Zen[m]	loop
+2017-11-01 05:01:42	Xanadu_Zen[m]	> Xanadu_Zen[m]: 疯掉的只有阿卡林一个
+2017-11-01 05:01:43	Xanadu_Zen[m]	loop
+2017-11-01 05:04:49	<--	glamas (~glamas@119.136.147.231) has quit (Ping timeout: 260 seconds)
+2017-11-01 05:11:50	tg2arch	[nickname] Nvidia 和 gdm 都有更新
+2017-11-01 05:12:06	tg2arch	[nickname] 估计问题应该解决了吧
+2017-11-01 05:12:24	tg2arch	[ohmyarch] tuna镜像恢复没有？
+2017-11-01 05:12:34	tg2arch	[nickname] 多一个备用系统果然很有用
+2017-11-01 05:12:39	tg2arch	[nickname] ohmyarch: 正在用
+2017-11-01 05:12:44	tg2arch	[nickname] 应该恢复了
+2017-11-01 05:12:45	tg2arch	[.OboroHoro] 不指望了）
+2017-11-01 05:12:48	-->	\as (~stephen@unaffiliated/asenr) has joined #archlinux-cn
+2017-11-01 05:12:52	tg2arch	[仁翔 鄭] 剛剛telegram api出問題所以bot也炸了吧
+2017-11-01 05:12:59	tg2arch	[shadow] ohmyarch: 大哥天天问tuna
+2017-11-01 05:13:04	tg2arch	[shadow] Sticker: https://fars.ee/ZAib
+2017-11-01 05:16:13	tg2arch	[GreaterFire 大火酱] 我的包更新啦 https://aur.archlinux.org/packages/trojan/
+2017-11-01 05:16:15	xmppbot	[Lisa] GreaterFire 大火酱: ⇪网页标题: AUR (en) - trojan
+2017-11-01 05:16:49	tg2arch	[GreaterFire 大火酱] Change Log: https://github.com/GreaterFire/trojan/releases/tag/v0.3.0
+2017-11-01 05:19:08	tg2arch	[dfceaef | 想食酥撒撒] GreaterFire 大火酱: aur🌝
+2017-11-01 05:19:27	tg2arch	[ohmyarch] 要是能支持分流就厉害了 @GreatorFire
+2017-11-01 05:20:32	tg2arch	[GreaterFire 大火酱] ohmyarch: 写起来很麻烦喵
+2017-11-01 05:22:19	<--	se_ven___ (~quassel@119.139.136.168) has quit (Ping timeout: 260 seconds)
+2017-11-01 05:22:27	-->	se_ven__ (~quassel@119.139.136.12) has joined #archlinux-cn
+2017-11-01 05:27:07	<--	BenzeneArch (~benzene@159.226.171.21) has quit (Ping timeout: 240 seconds)
+2017-11-01 05:27:54	tg2arch	[farseerfc] GreaterFire 大火酱: 依賴 boost 的包怎麼會 arch=('any') 呢
+2017-11-01 05:32:02	tg2arch	[GreaterFire 大火酱] farseerfc: 哇 让我去改
+2017-11-01 05:32:25	tg2arch	[GreaterFire 大火酱] boost在arch下似乎只有i686和x64
+2017-11-01 05:32:34	tg2arch	[GreaterFire 大火酱] 但是ubuntu下是全架构的
+2017-11-01 05:33:27	tg2arch	[farseerfc] GreaterFire 大火酱: 11月1日啦，只有 x86_64 啦（撒花
+2017-11-01 05:33:40	tg2arch	[GreaterFire 大火酱] 诶啥意思
+2017-11-01 05:33:59	tg2arch	[farseerfc] 說正經的，AUR 上的考慮有 alarm 也在用你可以 arch 寫很多，但是不能寫 many
+2017-11-01 05:34:01	tg2arch	[宮水 三葉] GreaterFire 大火酱: 就是去掉i868
+2017-11-01 05:34:04	quininer[m]	arch 不支持 i686 了
+2017-11-01 05:34:14	tg2arch	[GreaterFire 大火酱] 吼haha少打几个字了
+2017-11-01 05:34:22	tg2arch	[宮水 三葉] 😂😂😂
+2017-11-01 05:35:01	tg2arch	[GreaterFire 大火酱] farseerfc: alarm是啥
+2017-11-01 05:35:03	tg2arch	[宮水 三葉] 这个性能如何
+2017-11-01 05:35:37	tg2arch	[GreaterFire 大火酱] 宮水 三葉: 测试下来跑到带宽90%以上喵
+2017-11-01 05:36:00	-->	d0048 (~Thunderbi@unaffiliated/d0048) has joined #archlinux-cn
+2017-11-01 05:36:31	tg2arch	[.OboroHoro] Sticker: https://fars.ee/WHZr
+2017-11-01 05:37:08	-->	xieyuheng (~Thunderbi@45.77.15.100) has joined #archlinux-cn
+2017-11-01 05:37:10	tg2arch	[GreaterFire 大火酱] C++写的东西嘛
+2017-11-01 05:37:24	tg2arch	[GreaterFire 大火酱] 不像某py的效率（无意黑
+2017-11-01 05:37:30	tg2arch	[farseerfc] https://www.archlinuxcn.org/i686-deprecation/ 不知道今天會不會再發新聞提醒下大家……
+2017-11-01 05:37:32	xmppbot	[Lisa] farseerfc: ⇪网页标题: 逐步抛弃 i686 « Arch Linux
+2017-11-01 05:39:40	tg2arch	[.OboroHoro] GreaterFire 大火酱: 😂
+2017-11-01 05:39:51	tg2arch	[shadow] GreaterFire 大火酱: cpp 666
+2017-11-01 05:39:56	tg2arch	[宮水 三葉] GreaterFire 大火酱: 大神啊
+2017-11-01 05:40:09	tg2arch	[宮水 三葉] 这么强
+2017-11-01 05:40:30	tg2arch	[宮水 三葉] 是不是在THU或者PKU
+2017-11-01 05:40:31	tg2arch	[GreaterFire 大火酱] 不是大神喵 是蒟蒻喵
+2017-11-01 05:40:39	tg2arch	[宮水 三葉] GreaterFire 大火酱: 而且还很可爱
+2017-11-01 05:40:42	tg2arch	[nickname] C++
+2017-11-01 05:40:47	tg2arch	[.OboroHoro] Sticker: https://fars.ee/WHZr
+2017-11-01 05:40:50	tg2arch	[GreaterFire 大火酱] 不能透露大火酱的身份喵
+2017-11-01 05:40:52	tg2arch	[nickname] Sticker: https://fars.ee/TYCK
+2017-11-01 05:41:26	tg2arch	[GreaterFire 大火酱] 大火酱是为了写这个东西专门建立的身份喵
+2017-11-01 05:41:38	tg2arch	[.OboroHoro] Sticker: https://fars.ee/qWR0
+2017-11-01 05:42:11	tg2arch	[.OboroHoro] 好吧😂
+2017-11-01 05:42:31	tg2arch	[nickname] 看历史消息 能不能找到是谁邀请你入群的
+2017-11-01 05:42:42	tg2arch	[nickname] 再找到真身
+2017-11-01 05:42:52	tg2arch	[宮水 三葉] 没，应该是邀请链接进来的
+2017-11-01 05:43:00	tg2arch	[GreaterFire 大火酱] 大火酱是在off topic群里找人拉进来的喵
+2017-11-01 05:43:05	tg2arch	[GreaterFire 大火酱] 和那个人没有任何关系喵
+2017-11-01 05:43:30	tg2arch	[nickname] 😕
+2017-11-01 05:43:40	tg2arch	[.OboroHoro] 😘 总之还是加油了（
+2017-11-01 05:50:01	<--	Flywater (~Flywater@117.158.96.213) has quit (Quit: Flywater)
+2017-11-01 05:50:16	-->	BenzeneArch (~benzene@2400:dd01:102d:1001:8c71:6ea2:9dcb:c1c2) has joined #archlinux-cn
+2017-11-01 05:52:40	--	MameYang is now known as YangMame
+2017-11-01 05:54:40	tg2arch	[GreaterFire 大火酱] farseerfc: patch好了喵
+2017-11-01 05:55:48	-->	glamas (~glamas@119.136.147.231) has joined #archlinux-cn
+2017-11-01 05:56:42	<--	\as (~stephen@unaffiliated/asenr) has quit (Ping timeout: 255 seconds)
+2017-11-01 05:58:41	tg2arch	[farseerfc] 其實可以寫一堆 i686 / armv7 啥的，如果有設備測的話（
+2017-11-01 06:00:29	tg2arch	[Caiye] 😂
+2017-11-01 06:03:36	tg2arch	[.OboroHoro] 😂
+2017-11-01 06:03:51	tg2arch	[GreaterFire 大火酱] armv7是真的没有boost喵
+2017-11-01 06:04:07	tg2arch	[GreaterFire 大火酱] 要手动编译喵
+2017-11-01 06:04:38	tg2arch	[宮水 三葉] GreaterFire 大火酱: 大火酱是不是可爱的女孩子
+2017-11-01 06:04:56	tg2arch	[GreaterFire 大火酱] 谁知道呢。。
+2017-11-01 06:04:58	tg2arch	[.OboroHoro] 🌚 nautilus 打不开了（
+2017-11-01 06:05:01	tg2arch	[.OboroHoro] 🍃
+2017-11-01 06:05:13	@lilydjwg	.OboroHoro: 换 thunar
+2017-11-01 06:05:19	tg2arch	[宮水 三葉] .OboroHoro: 好耶
+2017-11-01 06:05:41	tg2arch	[.OboroHoro] 🌚
+2017-11-01 06:06:03	tg2arch	[宮水 三葉] .OboroHoro: 粗来玩
+2017-11-01 06:06:17	tg2arch	[.OboroHoro] 所以呢（
+2017-11-01 06:07:02	tg2arch	[宮水 三葉] .OboroHoro: 所以可以prpr
+2017-11-01 06:07:09	tg2arch	[.OboroHoro] 😂
+2017-11-01 06:07:20	tg2arch	[宮水 三葉] .OboroHoro: 哼
+2017-11-01 06:08:03	tg2arch	[.OboroHoro] Sticker: https://fars.ee/7Uq8
+2017-11-01 06:12:07	-->	\s (~zzzzzzzz@222.128.2.100) has joined #archlinux-cn
+2017-11-01 06:12:07	<--	\s (~zzzzzzzz@222.128.2.100) has quit (Changing host)
+2017-11-01 06:12:07	-->	\s (~zzzzzzzz@unaffiliated/s/x-1589636) has joined #archlinux-cn
+2017-11-01 06:13:32	<--	\s (~zzzzzzzz@unaffiliated/s/x-1589636) has quit (Client Quit)
+2017-11-01 06:13:35	<--	glamas (~glamas@119.136.147.231) has quit (Remote host closed the connection)
+2017-11-01 06:17:53	jokester	trojan好像不错..
+2017-11-01 06:18:00	<--	BenzeneArch (~benzene@2400:dd01:102d:1001:8c71:6ea2:9dcb:c1c2) has quit (Ping timeout: 264 seconds)
+2017-11-01 06:18:14	jokester	可以放在nginx后用吗?
+2017-11-01 06:18:25	jokester	..感觉不能
+2017-11-01 06:20:14	jokester	我也喜欢newgame
+2017-11-01 06:26:11	quininer[m]	我鍾意 now loading
+2017-11-01 06:29:12	-->	\as (~stephen@unaffiliated/asenr) has joined #archlinux-cn
+2017-11-01 06:31:40	-->	BenzeneArch (~benzene@159.226.171.251) has joined #archlinux-cn
+2017-11-01 06:33:35	tg2arch	[GreaterFire 大火酱] jokester: 可以放在nginx前面用喵
+2017-11-01 06:33:47	<--	YangMame (~YangMame@unaffiliated/yangmame) has quit (Remote host closed the connection)
+2017-11-01 06:34:58	-->	MameYang (~YangMame@unaffiliated/yangmame) has joined #archlinux-cn
+2017-11-01 06:36:43	jokester	吼!
+2017-11-01 06:47:17	tg2arch	[ohmyarch] GreaterFire 大火酱: arch arm肯定有
+2017-11-01 06:47:46	tg2arch	[GreaterFire 大火酱] ohmyarch: 我在package搜索里只搜到i686和x86_64
+2017-11-01 06:47:59	tg2arch	[ohmyarch] arm是非官方的
+2017-11-01 06:48:31	tg2arch	[ohmyarch] 从arch官网当然搜不到
+2017-11-01 06:49:56	quininer[m]	照例詢問 alarm 進度 @肥貓
+2017-11-01 06:51:17	tg2arch	[farseerfc] 在這邊搜了啦
+2017-11-01 06:51:26	tg2arch	[farseerfc] Img: https://fars.ee/wfT_.jpg
+2017-11-01 06:51:27	xmppbot	[Lisa] farseerfc: ⇪文件类型: image/jpeg, 文件大小: 87.2KiB, 图像尺寸: 720x1280
+2017-11-01 06:51:38	tg2arch	[ohmyarch] 了啦
+2017-11-01 06:52:26	tg2arch	[GreaterFire 大火酱] 啊这样啊
+2017-11-01 06:53:19	tg2arch	[Sleeplessy] Sticker: https://fars.ee/Qikh
+2017-11-01 06:53:21	tg2arch	[ohmyarch] any指到是架构无关的 而不是全架构
+2017-11-01 06:53:31	tg2arch	[ohmyarch] 比如图片 文档什么的
+2017-11-01 06:54:21	tg2arch	[GreaterFire 大火酱] 嘛 刚才改成了arch=('x86_64')
+2017-11-01 06:54:37	<--	xieyuheng (~Thunderbi@45.77.15.100) has quit (Ping timeout: 248 seconds)
+2017-11-01 06:57:41	-->	lacat[c]1 (~loovee@119.139.196.150) has joined #archlinux-cn
+2017-11-01 06:59:25	\as	@felixonmars 肥猫肥猫，ghc-{un,}register.hook 里的 2>&1 >/dev/null 可不可以反一反？每次都要输出好大一堆 warning 好烦人耶……
+2017-11-01 06:59:57	<--	lacat[c] (~loovee@119.139.198.137) has quit (Ping timeout: 248 seconds)
+2017-11-01 07:00:08	<--	lacat[c]1 (~loovee@119.139.196.150) has quit (Read error: Connection reset by peer)
+2017-11-01 07:01:24	tg2arch	[GreaterFire 大火酱] 啊说道肥猫，我又想起了上community package的事情（
+2017-11-01 07:01:35	-->	\s (~zzzzzzzz@222.128.2.100) has joined #archlinux-cn
+2017-11-01 07:01:35	<--	\s (~zzzzzzzz@222.128.2.100) has quit (Changing host)
+2017-11-01 07:01:35	-->	\s (~zzzzzzzz@unaffiliated/s/x-1589636) has joined #archlinux-cn
+2017-11-01 07:04:27	quininer[m]	上次 community package 是什麼事
+2017-11-01 07:05:44	tg2arch	[GreaterFire 大火酱] 想让我的trojan上community package呀haha
+2017-11-01 07:05:49	tg2arch	[GreaterFire 大火酱] 虽然名字有点那个。。
+2017-11-01 07:05:49	<--	BenzeneArch (~benzene@159.226.171.251) has quit (Ping timeout: 248 seconds)
+2017-11-01 07:06:20	quininer[m]	哦哦… 看成 “上次”
+2017-11-01 07:06:28	tg2arch	[宮水 三葉] 有点容易被误解
+2017-11-01 07:06:31	tg2arch	[宮水 三葉] 大雾
+2017-11-01 07:06:34	quininer[m]	你可以找 farseerfc 啊
+2017-11-01 07:07:03	tg2arch	[宮水 三葉] quininer[m]: 加一
+2017-11-01 07:08:37	tg2arch	[GreaterFire 大火酱] 要审核什么的嘛 好恐怖喵
+2017-11-01 07:08:56	tg2arch	[宮水 三葉] GreaterFire 大火酱: 是的
+2017-11-01 07:09:55	-->	BenzeneArch (~benzene@159.226.171.251) has joined #archlinux-cn
+2017-11-01 07:09:59	quininer[m]	要的，請提供手持身份證無帽露臉裸照
+2017-11-01 07:10:19	HoroBot	雄性真是愚蠢的生物，一件女装就开始兴奋。
+2017-11-01 07:10:19	tg2arch	[GreaterFire 大火酱] 啊 不是女装照？
+2017-11-01 07:10:53	jokester	女装也可以
+2017-11-01 07:10:57	tg2arch	[宮水 三葉] GreaterFire 大火酱: 女装照也可以(
+2017-11-01 07:11:57	-->	glamas (~glamas@119.136.147.231) has joined #archlinux-cn
+2017-11-01 07:15:36	-->	glamas_ (~glamas@47.90.87.180) has joined #archlinux-cn
+2017-11-01 07:16:07	<--	glamas (~glamas@119.136.147.231) has quit (Ping timeout: 240 seconds)
+2017-11-01 07:22:06	-->	Pythonic_vi (~WangYves@39.155.209.212) has joined #archlinux-cn
+2017-11-01 07:26:34	<--	Pythonic_vi (~WangYves@39.155.209.212) has quit (Client Quit)
+2017-11-01 07:32:23	<--	condy (~condy@unaffiliated/condy) has quit (Ping timeout: 246 seconds)
+2017-11-01 07:33:38	-->	condy (~condy@unaffiliated/condy) has joined #archlinux-cn
+2017-11-01 07:34:22	<--	tong (~tong@111.198.57.237) has quit (Remote host closed the connection)
+2017-11-01 07:35:16	-->	tong (~tong@111.198.57.237) has joined #archlinux-cn
+2017-11-01 07:40:45	tg2arch	[Yakuky] Sticker: https://fars.ee/Jgvv
+2017-11-01 07:40:48	tg2arch	[Yakuky] 大佬求问 老黄的驱动好了吗
+2017-11-01 07:48:40	tg2arch	[Felix Yan] \as: 这个应该怎么改来着…
+2017-11-01 07:49:33	tg2arch	[Felix Yan] GreaterFire 大火酱: trojan…
+2017-11-01 07:49:51	tg2arch	[GreaterFire 大火酱] 不行的话就算了吧hh
+2017-11-01 07:52:08	<--	glamas_ (~glamas@47.90.87.180) has quit (Remote host closed the connection)
+2017-11-01 07:54:12	tg2arch	[dfceaef | 想食酥撒撒] Felix Yan: 肥猫肥猫肥
+2017-11-01 07:54:20	-->	glamas (~glamas@119.136.147.231) has joined #archlinux-cn
+2017-11-01 07:54:32	tg2arch	[Felix Yan] 喵？
+2017-11-01 07:54:50	tg2arch	[dfceaef | 想食酥撒撒] Felix Yan: 吔一下肥猫😋
+2017-11-01 07:55:20	tg2arch	[宮水 三葉] dfceaef | 想食酥撒撒: 风车风车风
+2017-11-01 07:55:37	@lilydjwg	三葉三葉三
+2017-11-01 07:56:47	-->	wxg (~wxg4irc@unaffiliated/wxg4irc) has joined #archlinux-cn
+2017-11-01 07:58:21	tg2arch	[宮水 三葉] lilydjwg: 百合百合百
+2017-11-01 07:58:38	<--	glamas (~glamas@119.136.147.231) has quit (Ping timeout: 246 seconds)
+2017-11-01 08:04:48	\as	@felixonmars, 换成 >/dev/null 2>&1 ？
+2017-11-01 08:06:11	\as	@felixonmars, 当然我不知道应不应该把那些 warning 都丢掉，万一 error 了呢 (
+2017-11-01 08:08:33	@lilydjwg	\as: 万一 error 了那就再找上门去
+2017-11-01 08:08:50	@lilydjwg	| grep -v 把警告干掉？
+2017-11-01 08:08:59	@lilydjwg	似乎也不太好
+2017-11-01 08:10:08	\as	没有想到完美的方法，只是觉得每次好大一堆输出好讨厌，即使真出了问题都被淹没了
+2017-11-01 08:10:10	tg2arch	[Felix Yan] 是有点蛋疼…
+2017-11-01 08:10:25	\as	233
+2017-11-01 08:12:06	-->	Pythonic_vi (~WangYves@39.155.209.209) has joined #archlinux-cn
+2017-11-01 08:13:29	<--	MoBot (~MoBot@115.28.150.204) has quit (Ping timeout: 240 seconds)
+2017-11-01 08:14:02	<--	wxg (~wxg4irc@unaffiliated/wxg4irc) has quit (Quit: wxg)
+2017-11-01 08:15:18	-->	MoBot (~MoBot@115.28.150.204) has joined #archlinux-cn
+2017-11-01 08:15:26	<--	BenzeneArch (~benzene@159.226.171.251) has quit (Ping timeout: 246 seconds)
+2017-11-01 08:22:37	<--	d0048 (~Thunderbi@unaffiliated/d0048) has quit (Ping timeout: 248 seconds)
+2017-11-01 08:33:35	-->	BenzeneArch (~benzene@159.226.171.21) has joined #archlinux-cn
+2017-11-01 08:38:00	tg2arch	[Exia Han] 我一个同学也是，上午还和我说千万别滚gdm，滚完后直接k panic。。
+2017-11-01 08:42:28	-->	xieyuheng (~Thunderbi@45.77.15.100) has joined #archlinux-cn
+2017-11-01 08:43:13	-->	Flywater (~Flywater@117.158.96.213) has joined #archlinux-cn
+2017-11-01 08:43:33	tg2arch	[farseerfc] quininer[m]: 找我不能測呀，要不奎寧來申 tu ？
+2017-11-01 08:44:26	quininer[m]	是哦，但是我不識打包
+2017-11-01 08:44:55	tg2arch	[仁翔 鄭] 還好我用sddm
+2017-11-01 08:44:57	tg2arch	[farseerfc] GreaterFire 大火酱: 不如先來 cn （
+2017-11-01 08:45:13	tg2arch	[.OboroHoro] Exia Han: 😂
+2017-11-01 08:48:14	tg2arch	[Exia Han] 🙈
+2017-11-01 08:49:14	<--	ryancosta (~ryancosta@unaffiliated/ryancosta) has quit (Remote host closed the connection)
+2017-11-01 08:49:32	-->	ryancosta (~ryancosta@183.21.105.21) has joined #archlinux-cn
+2017-11-01 08:56:56	tg2arch	[ZʜRɪᴄʜᴀʀᴅ] 奇怪……我的 manjaro 上没有C库的man手册……
+2017-11-01 08:57:16	@lilydjwg	ZʜRɪᴄʜᴀʀᴅ: 没装 man-pages 包？
+2017-11-01 08:58:07	tg2arch	[ZʜRɪᴄʜᴀʀᴅ] lilydjwg: 真的没装……谢谢！
+2017-11-01 08:59:48	<--	abc_ (~abc_@unaffiliated/abc-/x-4125962) has quit (Quit: reboot or OOMed)
+2017-11-01 09:05:15	@lilydjwg	https://www.fluentcpp.com/2017/10/23/results-expressive-cpp17-coding-challenge/
+2017-11-01 09:05:18	xmppbot	[Lisa] lilydjwg: ⇪网页标题: The Results of the Expressive C++17 Coding Challenge - Fluent C++
+2017-11-01 09:05:35	@lilydjwg	获奖者是一名特护医生……
+2017-11-01 09:07:47	-->	MoYahoo (~MoYahoo@104.238.150.41) has joined #archlinux-cn
+2017-11-01 09:08:47	<--	MoYahoo (~MoYahoo@104.238.150.41) has quit (Client Quit)
+2017-11-01 15:11:46	--	irc: disconnected from server
+2017-11-01 15:12:04	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #archlinux-cn
+2017-11-01 15:12:04	--	Topic for #archlinux-cn is "Arch Linux 欢迎喵 *^-^* | 抛弃i686 | Perl 库路径变更 | 不是 Arch 请先声明 | Arch 无关问题请去别处 | https://wiki.archlinux.org | https://bbs.archlinuxcn.org | https://github.com/archlinuxcn | 长文 https://cfp.vim-cn.com | 贴图 https://img.vim-cn.com | 水群 #archlinux-cn-offtopic | 别对 teleboto xmppbot toxsync 这些说话，人类名字在它们后面"
+2017-11-01 15:12:04	--	Topic set by farseerfc (~farseerfc@archlinux/tu/farseerfc) on 一, 04 9月 2017 05:40:34
+2017-11-01 15:12:04	--	Channel #archlinux-cn: 151 nicks (2 ops, 0 voices, 149 normals)
+2017-11-01 15:12:13	--	Channel created on 六, 19 12月 2009 14:15:09
+2017-11-01 15:12:21	-->	SilverRainZ (~Srain@114.252.48.66) has joined #archlinux-cn
+2017-11-01 15:13:36	--	gauge is now known as Orizon-offline
+2017-11-01 15:13:51	--	Orizon-offline is now known as gauge
+2017-11-01 15:14:24	<--	FreeBirdLjj (~freebirdl@116.235.215.81) has quit (Ping timeout: 248 seconds)
+2017-11-01 15:14:28	<--	jie (~jie@59.41.167.199) has quit (Client Quit)
+2017-11-01 15:14:46	-->	jie (~jie@59.41.167.199) has joined #archlinux-cn
+2017-11-01 15:20:19	tg2arch	New user "Edward-P" joined Telegram group. Welcome!
+2017-11-01 15:21:36	<--	whyme (~whyme@39.155.185.107) has quit (Ping timeout: 264 seconds)
+2017-11-01 15:23:40	-->	whyme (~whyme@1.180.206.9) has joined #archlinux-cn
+2017-11-01 15:30:10	tg2arch	User "Edward-P" changed nick to "Edward-P"
+2017-11-01 15:33:18	tg2arch	[hexchain] community-testing/nodejs  8.8.1-1      9.0.0-1
+2017-11-01 15:33:22	tg2arch	[hexchain] 都9了
+2017-11-01 15:33:35	tg2arch	[Edward-P] 申请 aur/gnome-terminal-transparency —> archlinuxcn/gnome-terminal-transparency
+2017-11-01 15:34:16	SilverRainZ	Edward-P: 到 https://github.com/archlinuxcn/repo 发 issue。
+2017-11-01 15:34:17	xmppbot	[Lisa] SilverRainZ: ⇪GitHub 项目描述：Arch Linux CN Repository (Shell) ♡ 323 ⑂ 64，最后更新：2017-11-01T08:30:06Z。
+2017-11-01 15:39:00	-->	xieyuheng (~Thunderbi@45.77.15.100) has joined #archlinux-cn
+2017-11-01 15:45:52	<--	SilverRainZ (~Srain@114.252.48.66) has quit (Read error: Connection reset by peer)
+2017-11-01 15:46:16	tg2arch	[GreaterFire 大火酱] farseerfc: 行呀
+2017-11-01 15:46:36	-->	SilverRainZ (~Srain@114.252.48.66) has joined #archlinux-cn
+2017-11-01 15:48:47	-->	GreyHound (~greyhound@14.155.114.173) has joined #archlinux-cn
+2017-11-01 15:49:18	<--	GreyHound (~greyhound@14.155.114.173) has quit (Read error: Connection reset by peer)
+2017-11-01 15:54:25	-->	xieyuheng1 (~Thunderbi@45.77.15.100) has joined #archlinux-cn
+2017-11-01 15:54:51	<--	jie (~jie@59.41.167.199) has quit (Quit: jie)
+2017-11-01 15:56:44	<--	xieyuheng (~Thunderbi@45.77.15.100) has quit (Ping timeout: 240 seconds)
+2017-11-01 15:56:44	--	xieyuheng1 is now known as xieyuheng
+2017-11-01 16:06:14	-->	FreeBirdLjj (~freebirdl@116.235.215.81) has joined #archlinux-cn
+2017-11-01 16:07:00	<--	KireinaHoro (~jsteward@unaffiliated/johnsonsteward) has quit (Ping timeout: 240 seconds)
+2017-11-02 01:16:29	--	irc: disconnected from server
+2017-11-02 01:16:47	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #archlinux-cn
+2017-11-02 01:16:47	--	Topic for #archlinux-cn is "Arch Linux 欢迎喵 *^-^* | 抛弃i686 | Perl 库路径变更 | 不是 Arch 请先声明 | Arch 无关问题请去别处 | https://wiki.archlinux.org | https://bbs.archlinuxcn.org | https://github.com/archlinuxcn | 长文 https://cfp.vim-cn.com | 贴图 https://img.vim-cn.com | 水群 #archlinux-cn-offtopic | 别对 teleboto xmppbot toxsync 这些说话，人类名字在它们后面"
+2017-11-02 01:16:47	--	Topic set by farseerfc (~farseerfc@archlinux/tu/farseerfc) on 一, 04 9月 2017 05:40:34
+2017-11-02 01:16:47	--	Channel #archlinux-cn: 147 nicks (2 ops, 0 voices, 145 normals)
+2017-11-02 01:16:57	--	Channel created on 六, 19 12月 2009 14:15:09
+2017-11-02 01:18:08	-->	SteamedFish (~SteamedFi@218.107.55.252) has joined #archlinux-cn
+2017-11-02 13:47:30	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #archlinux-cn
+2017-11-02 13:47:30	--	Topic for #archlinux-cn is "Arch Linux 欢迎喵 *^-^* | 抛弃i686 | Perl 库路径变更 | 不是 Arch 请先声明 | Arch 无关问题请去别处 | https://wiki.archlinux.org | https://bbs.archlinuxcn.org | https://github.com/archlinuxcn | 长文 https://cfp.vim-cn.com | 贴图 https://img.vim-cn.com | 水群 #archlinux-cn-offtopic | 别对 teleboto xmppbot toxsync 这些说话，人类名字在它们后面"
+2017-11-02 13:47:30	--	Topic set by farseerfc (~farseerfc@archlinux/tu/farseerfc) on 一, 04 9月 2017 05:40:34
+2017-11-02 13:47:31	--	Channel #archlinux-cn: 153 nicks (2 ops, 0 voices, 151 normals)
+2017-11-02 13:47:33	--	Channel created on 六, 19 12月 2009 14:15:09
+2017-11-02 13:48:15	-->	nooooone__ (~nooooone@115.231.76.72) has joined #archlinux-cn
+2017-11-02 13:51:09	-->	xieyuheng (~Thunderbi@45.77.15.100) has joined #archlinux-cn
+2017-11-02 13:52:17	<--	nooooone_ (~nooooone@115.231.76.72) has quit (Ping timeout: 264 seconds)
+2017-11-02 13:53:21	<--	tong_ (~tong@111.198.57.237) has quit (Quit: Konversation terminated!)
+2017-11-02 13:56:38	-->	kitech1 (~yatseni@unaffiliated/yatseni) has joined #archlinux-cn
+2017-11-02 14:00:39	<--	d0048 (~Thunderbi@unaffiliated/d0048) has quit (Ping timeout: 260 seconds)
+2017-11-02 14:03:00	xmppbot	[吾往矣+] iw 能连接不?
+2017-11-02 14:03:20	<--	MameYang (~YangMame@unaffiliated/yangmame) has quit (Quit: Konversation terminated!)
+2017-11-02 14:03:33	xmppbot	[吾往矣+] nmcli device
+2017-11-02 14:03:46	xmppbot	[吾往矣+] 看看是什么设备？
+2017-11-02 14:03:59	<--	ls7 (~ls7@119.139.136.12) has quit (Quit: Leaving)
+2017-11-02 14:04:35	<--	se_ven___ (~quassel@119.139.136.12) has quit (Ping timeout: 255 seconds)
+2017-11-02 14:05:03	-->	d0048 (~Thunderbi@unaffiliated/d0048) has joined #archlinux-cn
+2017-11-02 14:05:48	xmppbot	[吾往矣+] https://paste.yanbin.me/TnIn.sh
+2017-11-02 14:05:50	xmppbot	[Lisa] 吾往矣+: ⇪文件类型: application/x-sh, 文件大小: 161B
+2017-11-02 14:06:00	xmppbot	[吾往矣+] 试试能连接上不？
+2017-11-02 14:06:36	xmppbot	[吾往矣+] https://paste.yanbin.me/OV4z
+2017-11-02 14:06:38	xmppbot	[Lisa] 吾往矣+: ⇪文件类型: text/plain; charset=utf-8, 文件大小: 182B
+2017-11-02 14:07:09	xmppbot	[吾往矣+] 第二个链接是 /etc/wpa_supplicant/ttyS2903_5G.conf 的内容
+2017-11-02 14:07:12	-->	kiiiiii (~kiiiiii@183.215.79.234) has joined #archlinux-cn
+2017-11-02 14:11:00	xmppbot	[吾往矣+] https://paste.yanbin.me/s96z
+2017-11-02 14:11:02	xmppbot	[Lisa] 吾往矣+: ⇪文件类型: text/plain; charset=utf-8, 文件大小: 172B
+2017-11-02 14:11:26	xmppbot	[吾往矣+] 命令是这个。第一总是让下载
+2017-11-02 14:26:29	<--	yuyichao (~yuyichao@2601:184:407f:e32a::fcc9) has quit (Ping timeout: 264 seconds)
+2017-11-02 14:37:19	<--	kiiiiii (~kiiiiii@183.215.79.234) has quit (Quit: leaving)
+2017-11-02 14:37:23	-->	yuyichao (~yuyichao@128.103.90.33) has joined #archlinux-cn
+2017-11-02 14:37:32	<--	james_yw (~james@123.156.192.80) has quit (Quit: james_yw)
+2017-11-02 14:39:34	<--	d0048 (~Thunderbi@unaffiliated/d0048) has quit (Ping timeout: 240 seconds)
+2017-11-02 14:53:06	<--	\as (~stephen@unaffiliated/asenr) has quit (Ping timeout: 255 seconds)
+2017-11-03 03:54:58	--	irc: disconnected from server
+2017-11-03 03:55:15	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-03 04:26:15	--	irc: disconnected from server
+2017-11-03 04:26:32	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-03 11:23:31	--	irc: disconnected from server
+2017-11-03 11:23:51	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-03 11:30:45	--	irc: disconnected from server
+2017-11-03 11:31:03	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-04 10:48:18	--	irc: disconnected from server
+2017-11-04 10:48:36	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-05 02:46:32	--	irc: disconnected from server
+2017-11-05 02:46:50	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-05 03:16:15	--	irc: disconnected from server
+2017-11-05 03:20:47	--	irc: disconnected from server
+2017-11-05 03:21:04	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-05 03:26:22	--	irc: disconnected from server
+2017-11-05 03:26:39	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services
+2017-11-05 06:51:18	--	irc: disconnected from server
+2017-11-05 06:51:36	--	#archlinux-cn: Cannot join channel (+r) - you need to be identified with services

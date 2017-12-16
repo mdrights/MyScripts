@@ -1,0 +1,68 @@
+2017-11-10 03:09:01	-->	MDrights[SW (~MDrights@0BGAAAC0F.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 03:09:01	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 03:09:01	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 03:09:01	--	Channel #debian-mobile: 43 nicks (0 ops, 0 voices, 43 normals)
+2017-11-10 03:09:01	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 03:09:03	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-10 04:43:04	-->	isaagar (~debian@103.44.137.40) has joined #debian-mobile
+2017-11-10 04:57:31	pabs	"An update on the Android problem" https://lwn.net/SubscriberLink/738225/28d2098ce220b2ee/
+2017-11-10 05:00:59	Lightkey	I don't think it's going away anytime soon?
+2017-11-10 05:03:11	Lightkey	oh, not that problem, okay
+2017-11-10 05:15:29	pabs	which problem do you mean?
+2017-11-10 06:25:08	-->	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has joined #debian-mobile
+2017-11-10 07:42:29	<--	isaagar (~debian@103.44.137.40) has quit (Ping timeout: 480 seconds)
+2017-11-10 07:46:50	<--	Texou (~Texou@000178ec.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-10 08:34:12	<--	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has quit (Remote host closed the connection)
+2017-11-10 08:34:28	-->	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has joined #debian-mobile
+2017-11-10 08:54:57	-->	isaagar (~debian@111.93.193.54) has joined #debian-mobile
+2017-11-10 08:56:31	-->	Texou (~Texou@000178ec.user.oftc.net) has joined #debian-mobile
+2017-11-10 08:56:36	<--	pabs (~pabs@pabs.user.oftc.net) has quit (Remote host closed the connection)
+2017-11-10 08:57:12	-->	pabs (~pabs@pabs.user.oftc.net) has joined #debian-mobile
+2017-11-10 09:05:44	TeleBot	wanwei song was added by: wanwei song
+2017-11-10 09:54:11	<--	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has quit (Remote host closed the connection)
+2017-11-10 09:54:27	-->	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has joined #debian-mobile
+2017-11-10 10:14:13	<--	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has quit (Remote host closed the connection)
+2017-11-10 10:14:28	-->	TeleBot (~Gamerbude@x55b2c944.dyn.telefonica.de) has joined #debian-mobile
+2017-11-10 10:56:03	--	irc: disconnected from server
+2017-11-10 11:00:30	-->	MDrights[SW (~MDrights@5PUAAAF9G.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 11:00:30	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 11:00:30	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 11:00:30	--	Channel #debian-mobile: 44 nicks (0 ops, 0 voices, 44 normals)
+2017-11-10 11:00:30	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 11:00:44	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-10 11:09:27	-->	mretka (~mretka@2001:1284:f019:ba71:dcb:41b5:ac51:f244) has joined #debian-mobile
+2017-11-10 12:10:42	<--	isaagar (~debian@111.93.193.54) has quit (Ping timeout: 480 seconds)
+2017-11-10 12:14:18	--	irc: disconnected from server
+2017-11-10 12:15:10	-->	MDrights[SW (~MDrights@7YZAAAFYV.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 12:15:10	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 12:15:10	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 12:15:10	--	Channel #debian-mobile: 44 nicks (0 ops, 0 voices, 44 normals)
+2017-11-10 12:15:10	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 12:15:24	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-10 12:44:03	--	irc: disconnected from server
+2017-11-10 12:44:25	-->	MDrights[SW (~MDrights@0BGAAADK9.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 12:44:25	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 12:44:25	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 12:44:25	--	Channel #debian-mobile: 44 nicks (0 ops, 0 voices, 44 normals)
+2017-11-10 12:44:25	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 12:44:39	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-10 12:55:16	--	irc: disconnected from server
+2017-11-10 12:55:59	-->	MDrights[SW (~MDrights@0BGAAADLM.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 12:55:59	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 12:55:59	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 12:55:59	--	Channel #debian-mobile: 44 nicks (0 ops, 0 voices, 44 normals)
+2017-11-10 12:55:59	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 12:56:13	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-10 14:18:52	-->	isaagar (~debian@111.93.193.54) has joined #debian-mobile
+2017-11-10 23:49:13	--	irc: disconnected from server
+2017-11-10 23:49:50	-->	MDrights[SW (~MDrights@0BGAAADYN.tor-irc.dnsbl.oftc.net) has joined #debian-mobile
+2017-11-10 23:49:50	--	Topic for #debian-mobile is "no-one awake? stick around until someone answers | Debian mobile user interfaces (kernel/bootloader/middleware -> #debian-arm etc) | https://wiki.debian.org/Mobile | https://wiki.debian.org/ChrootOnAndroid | https://wiki.debian.org/AndroidTools | https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi | https://telegram.me/ircdebianmobile"
+2017-11-10 23:49:50	--	Topic set by pabs (~pabs@pabs.user.oftc.net) on 四, 21 9月 2017 10:56:53
+2017-11-10 23:49:50	--	Channel #debian-mobile: 42 nicks (0 ops, 0 voices, 42 normals)
+2017-11-10 23:49:50	--	PvNotice(ChanServ): FYI TeleBot is a bot that bridges to a Telegram room: https://telegram.me/ircdebianmobile
+2017-11-10 23:50:03	--	Channel created on 四, 29 9月 2011 03:23:49
+2017-11-11 00:01:53	<--	Lightkey (~jonas@p200300764C4A366722CF30FFFE083718.dip0.t-ipconnect.de) has quit (Ping timeout: 480 seconds)
+2017-11-11 00:11:05	-->	Lightkey (~jonas@p200300764C4A369022CF30FFFE083718.dip0.t-ipconnect.de) has joined #debian-mobile
+2017-11-11 00:38:18	pabs	Lightkey: hmm, that doesn't seem like a problem to me :)
+2017-11-11 02:16:41	-->	TeleBot (~Gamerbude@x55b2c770.dyn.telefonica.de) has joined #debian-mobile
+2017-11-11 03:38:55	<--	pabs (~pabs@pabs.user.oftc.net) has quit (Quit: Don't rest until all the world is paved in moss and greenery.)

@@ -1,0 +1,1258 @@
+2017-11-11 04:06:08	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-11 04:06:08	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-11 04:06:08	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-11 04:06:08	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-11 04:06:08	--	PvNotice(ChanServ): check the topic
+2017-11-11 04:06:08	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-11 04:06:22	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-11 04:33:01	-->	well_laid_lawn (~Jean-luc@220-244-75-154.tpgi.com.au) has joined #fluxbox
+2017-11-11 05:05:49	<--	well_laid_lawn (~Jean-luc@220-244-75-154.tpgi.com.au) has quit (Ping timeout: 268 seconds)
+2017-11-11 05:16:14	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-11-11 05:16:15	--	irc: disconnected from server
+2017-11-11 05:16:41	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-11 05:16:41	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-11 05:16:41	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-11 05:16:41	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-11 05:16:42	--	PvNotice(ChanServ): check the topic
+2017-11-11 05:16:42	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-11 05:16:57	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-11 06:58:32	-->	well_laid_lawn (~Jean-luc@220-244-75-154.tpgi.com.au) has joined #fluxbox
+2017-11-11 07:10:03	-->	foobar08151 (~nobody@x4e305104.dyn.telefonica.de) has joined #fluxbox
+2017-11-11 08:27:39	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-11 11:01:10	--	irc: disconnected from server
+2017-11-11 11:01:35	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-11 11:01:35	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-11 11:01:35	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-11 11:01:35	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-11-11 11:01:35	--	PvNotice(ChanServ): check the topic
+2017-11-11 11:01:35	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-11 11:01:51	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-11 11:23:41	--	irc: disconnected from server
+2017-11-11 11:24:06	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-11 11:24:06	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-11 11:24:06	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-11 11:24:06	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-11 11:24:06	--	PvNotice(ChanServ): check the topic
+2017-11-11 11:24:06	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-11 11:24:22	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-11 11:28:08	-->	foobar08151 (~nobody@x4e305104.dyn.telefonica.de) has joined #fluxbox
+2017-11-11 11:47:07	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-11 12:03:45	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Remote host closed the connection)
+2017-11-11 12:08:49	<--	Bry2k200 (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has quit (Remote host closed the connection)
+2017-11-11 12:12:27	-->	Bry2k200 (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has joined #fluxbox
+2017-11-11 12:47:25	-->	Bry-X (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has joined #fluxbox
+2017-11-11 12:48:14	<--	Bry2k200 (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has quit (Ping timeout: 250 seconds)
+2017-11-11 12:58:09	-->	liso (~liso@dynamic-194-228-32-13.ipv4.broadband.iol.cz) has joined #fluxbox
+2017-11-11 14:52:58	-->	sillyslux (~sillyslux@193.217.200.175) has joined #fluxbox
+2017-11-11 15:20:03	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-12 02:45:02	--	irc: disconnected from server
+2017-11-12 02:45:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-12 02:45:31	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-12 02:45:31	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-12 02:45:31	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-12 02:45:31	--	PvNotice(ChanServ): check the topic
+2017-11-12 02:45:31	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-12 02:45:45	dive	I normally use fbsetbg for images, and fbsetroot for colours.
+2017-11-12 02:45:47	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-12 02:46:07	dive	But lately I've been running xscreensevers with -root. That's nice.
+2017-11-12 02:46:18	dive	It needs xwinwrap to work though.
+2017-11-12 02:53:32	dive	I need to try out twm I think.
+2017-11-12 02:53:54	dive	And also set up fluxbox to use tabbing by default, if it's possible.]
+2017-11-12 02:54:33	dive	I've been using tabbing as default in i3, which annoys the hell out of the i3 tiling poeple.
+2017-11-12 03:58:17	blap	hmm
+2017-11-12 03:58:55	blap	dive: if you're still here - xscreensaver with root doesn't work for you without xwinwrap?
+2017-11-12 03:59:32	blap	i just run ./jigglypuff -root and it works (fluxbox)
+2017-11-12 04:03:25	dive	Nope.
+2017-11-12 04:03:40	dive	I'm in i3 at the moment.
+2017-11-12 04:03:49	dive	Let me check with flux. brb.
+2017-11-12 04:06:16	dive	Nope. I get nothing. I wonder if it's cause I auto set a background when I started fluxbox.
+2017-11-12 04:07:33	dive	I need to fix fluxbox.
+2017-11-12 04:08:08	dive	I used to set a dpi but now I use default dpi  and the menu text is stupidly big.
+2017-11-12 04:24:10	dive	blap, do you know a taskbar that can be hidden and popup with a keybind?
+2017-11-12 04:24:53	blap	i don't get that
+2017-11-12 04:25:04	blap	hm no i do not
+2017-11-12 04:25:52	dive	ok
+2017-11-12 04:35:29	dive	fluxbox-remote toggletoolbarvisible
+2017-11-12 04:35:32	dive	:)
+2017-11-12 04:40:56	dive	I've bound it to a key, but compton doesn't fade it for some reason.
+2017-11-12 05:07:51	<--	anunakki (~brockramz@unaffiliated/anunakki) has quit (Quit: leaving)
+2017-11-12 06:03:39	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-12 06:16:59	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Ping timeout: 258 seconds)
+2017-11-12 06:18:26	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-11-12 07:17:14	-->	foobar08151 (~nobody@x4db55a35.dyn.telefonica.de) has joined #fluxbox
+2017-11-12 07:49:49	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 268 seconds)
+2017-11-12 07:49:49	--	irc: disconnected from server
+2017-11-12 07:50:17	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-12 07:50:17	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-12 07:50:17	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-12 07:50:17	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-12 07:50:17	--	PvNotice(ChanServ): check the topic
+2017-11-12 07:50:17	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-12 07:50:31	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-12 08:16:08	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-12 08:28:50	-->	vwi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-12 08:59:43	-->	sillyslux (~sillyslux@m77-216-177-1.cust.tele2.hr) has joined #fluxbox
+2017-11-12 09:14:12	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-12 09:18:14	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Quit: DianNaoMao)
+2017-11-12 09:21:31	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-12 10:00:47	-->	well_laid_lawn (~Jean-luc@220-244-75-154.tpgi.com.au) has joined #fluxbox
+2017-11-12 10:17:12	<--	well_laid_lawn (~Jean-luc@220-244-75-154.tpgi.com.au) has quit (Ping timeout: 268 seconds)
+2017-11-12 11:01:34	<--	sillyslux (~sillyslux@m77-216-177-1.cust.tele2.hr) has quit (Quit: Leaving)
+2017-11-12 11:02:19	-->	sillyslux (~sillyslux@m77-216-177-1.cust.tele2.hr) has joined #fluxbox
+2017-11-12 11:06:13	<--	foobar08151 (~nobody@x4db55a35.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-12 11:18:20	<--	DyDyMan (dydyman@197.red-83-50-7.dynamicip.rima-tde.net) has quit (Quit: Leaving)
+2017-11-12 11:48:02	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-12 11:55:03	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Read error: Connection reset by peer)
+2017-11-12 12:05:38	-->	DyDyMan (dydyman@220.red-79-155-177.dynamicip.rima-tde.net) has joined #fluxbox
+2017-11-12 12:23:16	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-13 01:42:22	--	irc: disconnected from server
+2017-11-13 01:42:50	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-13 01:42:50	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-13 01:42:50	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-13 01:42:50	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-13 01:42:50	--	PvNotice(ChanServ): check the topic
+2017-11-13 01:42:50	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-13 01:43:06	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-13 02:04:15	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-13 02:09:57	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-13 02:17:33	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Quit: ZNC - http://znc.in)
+2017-11-13 02:19:19	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-11-13 09:00:06	--	irc: disconnected from server
+2017-11-13 09:00:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-13 09:00:31	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-13 09:00:31	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-13 09:00:31	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-11-13 09:00:31	--	PvNotice(ChanServ): check the topic
+2017-11-13 09:00:31	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-13 09:00:47	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-13 09:14:31	blap	sweet
+2017-11-13 09:14:41	blap	+1 internet² to Kobaz 
+2017-11-13 09:25:38	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-13 09:28:18	blap	blap's compton glsl keycolor-shader in 'action' https://abload.de/img/comptoncapw9uey.png 
+2017-11-13 09:42:27	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-13 09:54:19	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-13 10:03:02	-->	well_laid_lawnch (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-13 10:03:39	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Read error: Connection reset by peer)
+2017-11-13 10:07:54	<--	well_laid_lawnch (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-13 11:07:33	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Ping timeout: 252 seconds)
+2017-11-13 11:07:52	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-13 11:16:13	<--	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has quit (Ping timeout: 258 seconds)
+2017-11-13 11:21:28	-->	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has joined #fluxbox
+2017-11-13 11:31:10	<--	sillyslux (~sillyslux@m83-191-70-136.cust.tele2.hr) has quit (Ping timeout: 258 seconds)
+2017-11-14 02:52:30	--	irc: disconnected from server
+2017-11-14 02:52:55	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-14 02:52:55	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-14 02:52:55	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-14 02:52:55	--	Channel #fluxbox: 64 nicks (0 ops, 0 voices, 64 normals)
+2017-11-14 02:52:55	--	PvNotice(ChanServ): check the topic
+2017-11-14 02:52:55	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-14 02:53:11	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-14 02:58:09	<--	skybert (user@2a01:7e00::f03c:91ff:fedf:9eed) has quit (Remote host closed the connection)
+2017-11-14 03:04:53	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-11-14 03:04:53	--	irc: disconnected from server
+2017-11-14 03:05:19	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-14 03:05:19	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-14 03:05:19	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-14 03:05:19	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-14 03:05:20	--	PvNotice(ChanServ): check the topic
+2017-11-14 03:05:20	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-14 03:05:35	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-14 04:29:21	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Ping timeout: 248 seconds)
+2017-11-14 04:34:59	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-11-14 04:53:53	<--	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has quit (Ping timeout: 248 seconds)
+2017-11-14 04:54:42	-->	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has joined #fluxbox
+2017-11-14 05:21:46	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-14 06:27:03	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 258 seconds)
+2017-11-14 06:40:44	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-11-14 06:45:25	-->	blap (~blap@p54BEF03E.dip0.t-ipconnect.de) has joined #fluxbox
+2017-11-14 07:17:42	<--	pevik (~pvorel@85.119.94.113) has quit (Ping timeout: 268 seconds)
+2017-11-14 07:23:51	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-14 07:44:37	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-14 08:04:10	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-14 08:26:40	-->	sillyslux (~sillyslux@m213-101-175-151.cust.tele2.hr) has joined #fluxbox
+2017-11-14 08:47:03	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-14 09:45:02	--	irc: disconnected from server
+2017-11-14 09:45:28	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-14 09:45:28	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-14 09:45:28	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-14 09:45:28	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-14 09:45:28	--	PvNotice(ChanServ): check the topic
+2017-11-14 09:45:28	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-14 09:45:44	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-14 10:19:14	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-14 10:55:10	<--	fiet (~nobody@unaffiliated/fiet) has quit (Quit: WeeChat 1.6)
+2017-11-14 10:55:42	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-11-14 11:07:36	<--	fiet (~nobody@unaffiliated/fiet) has quit (Quit: WeeChat 1.6)
+2017-11-14 11:09:24	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-11-14 11:51:43	-->	skybert (user@2a01:7e00::f03c:91ff:fedf:9eed) has joined #fluxbox
+2017-11-14 12:05:32	--	irc: disconnected from server
+2017-11-14 12:05:57	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-14 12:05:57	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-14 12:05:57	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-14 12:05:57	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-11-14 12:05:57	--	PvNotice(ChanServ): check the topic
+2017-11-14 12:05:57	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-14 12:06:13	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 03:29:40	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 03:29:40	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 03:29:40	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on Sun, 08 Feb 2015 14:00:56
+2017-11-15 03:29:40	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-15 03:29:40	--	PvNotice(ChanServ): check the topic
+2017-11-15 03:29:40	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 03:29:53	--	Channel created on Sun, 26 Nov 2006 06:42:39
+2017-11-15 03:33:08	<--	ak|ra (~akira@pdpc/supporter/active/akira) has quit (Ping timeout: 252 seconds)
+2017-11-15 03:33:30	-->	ak|ra (~akira@2a01:238:4289:6f00:5aa3:60b4:162f:aa7e) has joined #fluxbox
+2017-11-15 04:24:04	<--	kaiser (uid203960@gateway/web/irccloud.com/x-vbwhzwksajglfevp) has quit (Disconnected by services)
+2017-11-15 05:35:09	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-15 05:57:33	<--	mutin-s (~s-mutin@85.234.114.134) has quit (Read error: Connection reset by peer)
+2017-11-15 05:57:57	-->	mutin-s (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-11-15 06:15:31	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-15 06:27:07	-->	vwi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-15 06:36:24	--	irc: disconnected from server
+2017-11-15 06:36:50	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 06:36:50	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 06:36:50	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on Sun, 08 Feb 2015 14:00:56
+2017-11-15 06:36:50	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-15 06:36:51	--	PvNotice(ChanServ): check the topic
+2017-11-15 06:36:51	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 06:37:06	--	Channel created on Sun, 26 Nov 2006 06:42:39
+2017-11-15 07:14:42	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 07:14:42	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 07:14:42	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 07:14:42	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-15 07:14:42	--	PvNotice(ChanServ): check the topic
+2017-11-15 07:14:42	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 07:14:56	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 07:38:14	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-15 07:44:44	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-15 07:46:49	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-15 08:07:36	<--	theborger (~wifflebat@unaffiliated/theborger) has quit (Ping timeout: 268 seconds)
+2017-11-15 08:13:45	-->	theborger (~wifflebat@unaffiliated/theborger) has joined #fluxbox
+2017-11-15 08:23:05	-->	Thuban (a220be1ebf@gateway/shell/jabberfr/x-pykaqapkpqkprxjc) has joined #fluxbox
+2017-11-15 08:24:02	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-15 08:28:44	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-15 08:28:49	<--	Thuban (a220be1ebf@gateway/shell/jabberfr/x-pykaqapkpqkprxjc) has left #fluxbox
+2017-11-15 09:06:43	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-15 09:18:28	-->	sillyslux (~sillyslux@m83-180-56-43.cust.tele2.hr) has joined #fluxbox
+2017-11-15 10:59:33	--	irc: disconnected from server
+2017-11-15 10:59:59	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 10:59:59	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 10:59:59	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 10:59:59	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-15 10:59:59	--	PvNotice(ChanServ): check the topic
+2017-11-15 10:59:59	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 11:00:15	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 11:10:46	--	irc: disconnected from server
+2017-11-15 11:11:12	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 11:11:12	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 11:11:12	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 11:11:12	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-15 11:11:12	--	PvNotice(ChanServ): check the topic
+2017-11-15 11:11:12	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 11:11:28	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 11:22:43	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-15 12:13:02	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 268 seconds)
+2017-11-15 12:13:03	--	irc: disconnected from server
+2017-11-15 12:13:29	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 12:13:29	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 12:13:29	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 12:13:29	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-11-15 12:13:29	--	PvNotice(ChanServ): check the topic
+2017-11-15 12:13:29	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 12:13:45	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 12:31:07	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-15 14:11:55	<--	`VL (~vl@178.23.225.78) has quit (Remote host closed the connection)
+2017-11-15 14:39:14	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 246 seconds)
+2017-11-15 14:57:55	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-15 15:22:23	<--	pevik (~pvorel@85.119.94.113) has quit (Ping timeout: 240 seconds)
+2017-11-15 15:24:45	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 250 seconds)
+2017-11-15 15:24:45	--	irc: disconnected from server
+2017-11-15 15:25:11	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 15:25:11	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 15:25:11	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 15:25:11	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-15 15:25:11	--	PvNotice(ChanServ): check the topic
+2017-11-15 15:25:11	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 15:25:27	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 15:32:30	--	irc: disconnected from server
+2017-11-15 15:32:55	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-15 15:32:55	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-15 15:32:55	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-15 15:32:55	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-15 15:32:55	--	PvNotice(ChanServ): check the topic
+2017-11-15 15:32:55	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-15 15:33:11	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-15 15:34:02	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-11-15 15:48:37	<--	rdz (~rdz@2001:620:120:1::12) has quit (Quit: Verlassend)
+2017-11-15 16:54:26	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-15 18:04:19	<--	`VL (~vl@178.23.225.78) has quit (Quit: Leaving)
+2017-11-15 18:21:36	<--	sillyslux (~sillyslux@m83-180-56-43.cust.tele2.hr) has quit (Remote host closed the connection)
+2017-11-15 18:21:59	-->	sillyslux (~sillyslux@m83-180-56-43.cust.tele2.hr) has joined #fluxbox
+2017-11-15 18:27:52	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-15 18:38:43	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-15 20:33:34	-->	foobar08151 (~nobody@x4e30a653.dyn.telefonica.de) has joined #fluxbox
+2017-11-15 20:38:34	-->	xyan (~xyan@i577B9F24.versanet.de) has joined #fluxbox
+2017-11-15 20:38:52	xyan	hey is someone using qemu in here?
+2017-11-15 20:40:28	xyan	i'm facing issues with 2.10, can't minimize the window when running with -vga qxl
+2017-11-15 20:40:36	xyan	display is lost the window is filled with garbage
+2017-11-15 20:41:01	well_laid_lawn	there is the qemu channel on oftc and an unofficial one here on freenode
+2017-11-15 20:41:33	xyan	yes as there are display issues i'd like to confirm if it's not fluxbox
+2017-11-15 20:43:31	xyan	be back in a sec, trying 1.3.7 …
+2017-11-15 20:43:34	<--	xyan (~xyan@i577B9F24.versanet.de) has quit (Quit: leaving)
+2017-11-15 20:45:14	-->	xyan (~xyan@i577B9F24.versanet.de) has joined #fluxbox
+2017-11-15 20:49:19	well_laid_lawn	fluxbox has nothing to do with what's drawn in the window just where the window is and its' size
+2017-11-15 20:49:37	xyan	like maxizing and minimizing it? huh
+2017-11-15 20:49:41	xyan	which does not work
+2017-11-15 20:53:02	xyan	so hammering on the minimize button like 10 times actually works but the window is restored instantlyy 
+2017-11-15 20:53:39	xyan	also seeing similar effects with ffplay [f]ullscreen key is working 1/10 times, other times the window size is being restored
+2017-11-15 20:57:00	well_laid_lawn	run  xev  in aterminal to check your keys
+2017-11-15 20:57:28	well_laid_lawn	you're the only one having this sort of issue so more than likely it is a local issue
+2017-11-15 20:58:28	xyan	xev shows on "f" key press not two which would explain anything
+2017-11-15 20:58:59	well_laid_lawn	k
+2017-11-15 20:59:23	well_laid_lawn	worth a check for clicking the minimise button too
+2017-11-15 21:00:14	well_laid_lawn	apart from that I have nothing else to suggest at the moment
+2017-11-15 21:02:20	<--	foobar08151 (~nobody@x4e30a653.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-15 21:02:54	-->	foobar08151 (~nobody@x4e30a653.dyn.telefonica.de) has joined #fluxbox
+2017-11-15 21:04:18	xyan	seeing colormapnotify events colormapuninstalled and colormapinstalled 
+2017-11-15 21:04:45	xyan	the same happens minimizing/maximizing a xterm window
+2017-11-15 21:07:39	<--	mutin-s (~s-mutin@85.234.114.134) has quit (Read error: Connection reset by peer)
+2017-11-15 21:08:03	-->	mutin-s (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-11-15 21:09:13	well_laid_lawn	again its' something local to you. What's your graphics card ?
+2017-11-15 21:10:27	xyan	yes seems like :) integrated skl igd
+2017-11-15 21:11:06	well_laid_lawn	I don't know what that means...
+2017-11-15 21:11:26	xyan	intel skylake integrated graphics device
+2017-11-15 21:11:33	xyan	i915 
+2017-11-15 21:12:23	well_laid_lawn	there are two options for the intel driver, sna and exa. have a look at   man intel
+2017-11-15 21:12:51	well_laid_lawn	using the other one compared to what you are using now might help
+2017-11-15 21:13:13	xyan	yes good idea, not using it atm but the generic modesetting driver
+2017-11-15 21:16:00	<--	xyan (~xyan@i577B9F24.versanet.de) has quit (Remote host closed the connection)
+2017-11-15 21:22:48	-->	xyan (~xyan@i577B9F24.versanet.de) has joined #fluxbox
+2017-11-15 21:23:00	xyan	so well tried other kernel and intel with sna and uxa, no change
+2017-11-15 21:23:09	xyan	guess it's qemu itself then
+2017-11-15 21:26:14	xyan	thank you very much for your input! downgrading qemu fixes the issues :)
+2017-11-15 21:27:33	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-15 21:31:34	<--	xyan (~xyan@i577B9F24.versanet.de) has quit (Quit: leaving)
+2017-11-15 22:49:35	<--	foobar08151 (~nobody@x4e30a653.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-15 22:56:37	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 248 seconds)
+2017-11-15 23:27:29	<--	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (Ping timeout: 250 seconds)
+2017-11-15 23:46:59	<--	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has quit (Quit: Leaving)
+2017-11-15 23:49:59	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-16 00:35:20	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 255 seconds)
+2017-11-16 00:37:30	-->	mutin-sa (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-11-16 00:41:11	<--	mutin-s (~s-mutin@85.234.114.134) has quit (Ping timeout: 255 seconds)
+2017-11-16 01:27:15	<--	mutin-sa (~s-mutin@85.234.114.134) has quit (Read error: Connection reset by peer)
+2017-11-16 01:28:05	-->	s-mutin (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-11-16 01:28:45	<--	takeshix (~takeshix@adversec.com) has quit (*.net *.split)
+2017-11-16 01:28:45	<--	fiet (~nobody@unaffiliated/fiet) has quit (*.net *.split)
+2017-11-16 01:28:45	<--	riot_dd (~riot_dd@port-92-200-44-233.dynamic.qsc.de) has quit (*.net *.split)
+2017-11-16 01:28:45	<--	tenner (~tenner@pdpc/supporter/active/tenner) has quit (*.net *.split)
+2017-11-16 01:28:45	<--	jns (~x@comlink.adminking.com) has quit (*.net *.split)
+2017-11-16 01:28:45	<--	kenmoore (~quassel@159.203.94.159) has quit (*.net *.split)
+2017-11-16 01:28:46	<--	spossiba (~spossiba@unaffiliated/stryx/x-3871776) has quit (*.net *.split)
+2017-11-16 01:28:46	<--	Celelibi (celelibi@par69-9-88-166-81-29.fbx.proxad.net) has quit (*.net *.split)
+2017-11-16 01:29:54	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Ping timeout: 240 seconds)
+2017-11-16 01:33:29	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-11-16 01:34:09	-->	takeshix (~takeshix@adversec.com) has joined #fluxbox
+2017-11-16 01:34:09	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-11-16 01:34:09	-->	riot_dd (~riot_dd@port-92-200-44-233.dynamic.qsc.de) has joined #fluxbox
+2017-11-16 01:34:09	-->	tenner (~tenner@pdpc/supporter/active/tenner) has joined #fluxbox
+2017-11-16 01:34:09	-->	jns (~x@comlink.adminking.com) has joined #fluxbox
+2017-11-16 01:34:09	-->	kenmoore (~quassel@159.203.94.159) has joined #fluxbox
+2017-11-16 01:34:09	-->	spossiba (~spossiba@unaffiliated/stryx/x-3871776) has joined #fluxbox
+2017-11-16 01:34:09	-->	Celelibi (celelibi@par69-9-88-166-81-29.fbx.proxad.net) has joined #fluxbox
+2017-11-16 01:52:12	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-16 02:06:29	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-16 02:46:14	-->	paultag (paultag@debian/developer/paultag) has joined #fluxbox
+2017-11-16 03:00:01	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-16 03:09:54	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Quit: Leaving)
+2017-11-16 03:46:12	<--	sillyslux (~sillyslux@m83-180-56-43.cust.tele2.hr) has quit (Ping timeout: 248 seconds)
+2017-11-16 05:35:06	--	irc: disconnected from server
+2017-11-16 05:35:32	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-16 05:35:33	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-16 05:35:33	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-16 05:35:33	--	Channel #fluxbox: 62 nicks (0 ops, 0 voices, 62 normals)
+2017-11-16 05:35:33	--	PvNotice(ChanServ): check the topic
+2017-11-16 05:35:33	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-16 05:35:48	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-16 07:14:07	--	irc: disconnected from server
+2017-11-16 07:14:34	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-16 07:14:34	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-16 07:14:34	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-16 07:14:34	--	Channel #fluxbox: 62 nicks (0 ops, 0 voices, 62 normals)
+2017-11-16 07:14:34	--	PvNotice(ChanServ): check the topic
+2017-11-16 07:14:34	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-16 07:14:50	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-16 07:14:52	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-16 07:56:17	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-16 07:57:28	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-16 08:28:31	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-16 08:28:32	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-16 08:31:51	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-16 08:38:03	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-16 08:42:43	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-16 08:47:24	<--	dandersson (~daniel@c83-248-165-205.bredband.comhem.se) has quit (Ping timeout: 258 seconds)
+2017-11-16 08:49:02	-->	dandersson (~daniel@c83-248-165-205.bredband.comhem.se) has joined #fluxbox
+2017-11-16 08:55:08	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 240 seconds)
+2017-11-16 08:55:14	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 260 seconds)
+2017-11-16 08:58:11	<--	Bry2k200 (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has quit (Remote host closed the connection)
+2017-11-16 08:58:31	-->	Bry2k200 (~bry2k200@slkrmb0113w-ad01-124-4.dynamic.bellmts.net) has joined #fluxbox
+2017-11-16 09:05:23	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-16 09:37:05	-->	sillyslux (~sillyslux@m83-180-44-167.cust.tele2.hr) has joined #fluxbox
+2017-11-16 09:43:42	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 250 seconds)
+2017-11-16 11:00:27	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-16 11:05:42	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-16 11:19:40	<--	lme (~harkpabst@46.251.251.54) has quit (Remote host closed the connection)
+2017-11-16 12:16:42	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-16 12:25:23	-->	lme (~harkpabst@webs.0x20.net) has joined #fluxbox
+2017-11-16 12:30:29	<--	fiet (~nobody@unaffiliated/fiet) has quit (Quit: WeeChat 1.6)
+2017-11-16 12:30:44	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-11-16 12:42:39	--	irc: disconnected from server
+2017-11-16 12:43:08	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-16 12:43:08	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-16 12:43:08	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-16 12:43:08	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-11-16 12:43:08	--	PvNotice(ChanServ): check the topic
+2017-11-16 12:43:08	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-16 12:43:22	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-17 01:12:57	--	irc: disconnected from server
+2017-11-17 01:13:38	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-17 01:13:38	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-17 01:13:38	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-17 01:13:38	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-17 01:13:38	--	PvNotice(ChanServ): check the topic
+2017-11-17 01:13:38	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-17 01:13:54	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-17 01:23:57	<--	izzle121 (~izzle121@208.103.79.216) has quit (Ping timeout: 240 seconds)
+2017-11-17 01:37:20	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-17 03:10:19	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-17 03:10:57	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-17 03:15:41	<--	anunnaki (~chris@unaffiliated/anunnaki) has quit (Ping timeout: 240 seconds)
+2017-11-18 01:37:07	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 01:37:07	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 01:37:07	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 01:37:07	--	Channel #fluxbox: 62 nicks (0 ops, 0 voices, 62 normals)
+2017-11-18 01:37:07	--	PvNotice(ChanServ): check the topic
+2017-11-18 01:37:07	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 01:37:21	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 01:47:18	--	anunnaki is now known as vertigo
+2017-11-18 02:39:02	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-18 02:40:57	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-18 03:46:32	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-18 05:13:24	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-18 05:16:42	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-18 07:29:45	--	irc: disconnected from server
+2017-11-18 07:30:14	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 07:30:14	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 07:30:14	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 07:30:14	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-18 07:30:14	--	PvNotice(ChanServ): check the topic
+2017-11-18 07:30:14	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 07:30:28	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 07:38:03	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-18 07:40:35	<--	foobar08151 (~nobody@x4db65456.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-18 07:43:55	-->	sillyslux (~sillyslux@m83-185-31-33.cust.tele2.hr) has joined #fluxbox
+2017-11-18 07:56:31	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-18 08:16:41	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 248 seconds)
+2017-11-18 08:27:12	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-18 08:33:58	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-18 08:35:33	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-18 08:43:55	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 248 seconds)
+2017-11-18 08:44:29	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-18 09:30:13	--	irc: disconnected from server
+2017-11-18 09:30:40	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 09:30:40	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 09:30:40	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 09:30:40	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-18 09:30:40	--	PvNotice(ChanServ): check the topic
+2017-11-18 09:30:40	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 09:30:56	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 10:03:24	--	irc: disconnected from server
+2017-11-18 10:03:51	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 10:03:51	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 10:03:51	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 10:03:51	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-18 10:03:51	--	PvNotice(ChanServ): check the topic
+2017-11-18 10:03:51	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 10:04:07	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 10:40:29	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-11-18 10:43:59	<--	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 240 seconds)
+2017-11-18 10:48:34	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-18 10:54:46	<--	spacepup (~spacepup@pool-71-163-32-238.washdc.fios.verizon.net) has quit (Quit: leaving)
+2017-11-18 11:01:28	-->	spacepup (~spacepup@pool-71-163-32-238.washdc.fios.verizon.net) has joined #fluxbox
+2017-11-18 11:19:49	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 255 seconds)
+2017-11-18 11:23:12	<--	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has quit (Ping timeout: 252 seconds)
+2017-11-18 11:23:50	-->	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has joined #fluxbox
+2017-11-18 11:30:10	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Ping timeout: 255 seconds)
+2017-11-18 12:35:21	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-18 12:38:06	-->	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-11-18 12:41:15	<--	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 248 seconds)
+2017-11-18 12:43:54	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 12:50:43	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Ping timeout: 255 seconds)
+2017-11-18 12:52:18	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 12:55:09	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Read error: Connection reset by peer)
+2017-11-18 13:04:50	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 13:06:45	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-11-18 13:10:34	<--	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 248 seconds)
+2017-11-18 13:11:43	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Ping timeout: 240 seconds)
+2017-11-18 13:14:00	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-18 13:16:43	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 13:46:58	--	irc: disconnected from server
+2017-11-18 13:47:27	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 13:47:27	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 13:47:27	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 13:47:27	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-18 13:47:27	--	PvNotice(ChanServ): check the topic
+2017-11-18 13:47:27	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 13:47:41	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 13:49:19	-->	ajnasz_ (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 13:51:01	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Ping timeout: 255 seconds)
+2017-11-18 13:51:04	<--	ajnasz_ (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Read error: Connection reset by peer)
+2017-11-18 13:58:35	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 13:59:34	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Read error: Connection reset by peer)
+2017-11-18 14:11:33	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-18 14:22:03	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 248 seconds)
+2017-11-18 14:22:03	--	irc: disconnected from server
+2017-11-18 14:22:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 14:22:31	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 14:22:31	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 14:22:32	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-18 14:22:32	--	PvNotice(ChanServ): check the topic
+2017-11-18 14:22:32	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 14:22:45	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 14:28:28	<--	pchrist (spirit@gentoo/developer/pchrist) has quit (Quit: leaving)
+2017-11-18 14:29:11	-->	pchrist (spirit@gentoo/developer/pchrist) has joined #fluxbox
+2017-11-18 14:37:48	-->	mutin-s (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-11-18 14:40:03	<--	spacepup (~spacepup@pool-71-163-32-238.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2017-11-18 14:41:13	<--	s-mutin (~s-mutin@85.234.114.134) has quit (Ping timeout: 248 seconds)
+2017-11-18 14:45:37	-->	foobar08151 (~nobody@x4db65456.dyn.telefonica.de) has joined #fluxbox
+2017-11-18 15:03:47	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-18 15:16:44	Kobaz	awwww, no one looked at this :(   https://sourceforge.net/p/fluxbox/patches/161/
+2017-11-18 15:16:58	Kobaz	i put that in i guess 7 years ago
+2017-11-18 15:17:37	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-11-18 15:17:37	--	irc: disconnected from server
+2017-11-18 15:18:03	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 15:18:03	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 15:18:04	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 15:18:04	--	Channel #fluxbox: 64 nicks (0 ops, 0 voices, 64 normals)
+2017-11-18 15:18:04	--	PvNotice(ChanServ): check the topic
+2017-11-18 15:18:04	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 15:18:19	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 15:22:50	Kobaz	i'm porting it now to master
+2017-11-18 15:27:50	--	irc: disconnected from server
+2017-11-18 15:28:17	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-18 15:28:17	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-18 15:28:17	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-18 15:28:17	--	Channel #fluxbox: 64 nicks (0 ops, 0 voices, 64 normals)
+2017-11-18 15:28:17	--	PvNotice(ChanServ): check the topic
+2017-11-18 15:28:17	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-18 15:28:33	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-18 15:34:03	Kobaz	fluxxin the box
+2017-11-25 06:29:54	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-25 06:29:54	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-25 06:29:54	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-25 06:29:54	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-25 06:29:54	--	PvNotice(ChanServ): check the topic
+2017-11-25 06:29:54	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-25 06:30:09	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-25 06:48:26	--	Niinanmustakyrpa is now known as Belgenboutjes
+2017-11-25 07:30:08	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-25 08:04:16	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-25 08:04:54	-->	foobar08151 (~nobody@x4e329ed0.dyn.telefonica.de) has joined #fluxbox
+2017-11-25 08:42:53	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-25 08:44:46	-->	vwi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-25 08:45:42	<--	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (Read error: Connection reset by peer)
+2017-11-25 08:45:44	-->	sillyslux (~sillyslux@m77-216-18-211.cust.tele2.hr) has joined #fluxbox
+2017-11-25 10:05:46	--	irc: disconnected from server
+2017-11-25 11:28:26	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-25 11:28:26	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-25 11:28:26	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-25 11:28:26	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-11-25 11:28:26	--	PvNotice(ChanServ): check the topic
+2017-11-25 11:28:26	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-25 11:28:42	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-25 11:35:45	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-25 11:37:52	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-25 11:40:19	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-25 11:41:44	<--	foobar08151 (~nobody@x4e329ed0.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-25 11:42:25	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-25 12:18:19	<--	sillyslux (~sillyslux@m77-216-18-211.cust.tele2.hr) has quit (Ping timeout: 250 seconds)
+2017-11-25 12:49:15	-->	sillyslux (~sillyslux@m77-216-18-211.cust.tele2.hr) has joined #fluxbox
+2017-11-25 12:51:59	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-25 13:22:00	-->	HeXiLeD (~grumpy@unaffiliated/hexiled) has joined #fluxbox
+2017-11-25 13:23:01	[vm]	only the way is to restore your prev conf file
+2017-11-25 13:23:09	HeXiLeD	so i am looking into starting mpv always in the same place on the screen, using cmd line. is there a way with mpv or should i look for this with flux ? mpv does have the geometry option but i also need this for other apps. Thought about if xorg coud do this but unsure.
+2017-11-25 13:25:56	sillyslux	HeXiLeD, have you tried the "remember" option from it's window menu?
+2017-11-25 13:26:03	[vm]	remember > save om close - then lose the window amd namually edit .fluxbox/apps file
+2017-11-25 13:26:17	sillyslux	it uses .fluxbox/apps file to save options, see man fluxbox-apps
+2017-11-25 13:27:47	HeXiLeD	well i know that option but what happens is that the person using the computer keeps dragging the apps out of the screen and that option will save them on their last position and since it gets off the screen, on next startup cmd, also starts off the screen. What i want is to force the apps always in specific position on every startup
+2017-11-25 13:28:02	[vm]	and manually set the option Save on close to NO
+2017-11-25 13:28:18	[vm]	after edition
+2017-11-25 13:29:08	[vm]	remember > position
+2017-11-25 13:29:24	[vm]	and then edit apps file
+2017-11-25 13:32:21	HeXiLeD	edit exactly for what ?
+2017-11-25 13:32:48	[vm]	mpv 
+2017-11-25 13:33:50	HeXiLeD	sure but i dont understand exactly what to edit there 
+2017-11-25 13:34:02	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-25 13:36:40	[vm]	http://fluxbox.org/help/man-fluxbox-apps.php
+2017-11-25 13:36:50	[vm]	[Position] (anchor) {X[%] Y[%]}
+2017-11-25 13:37:13	[vm]	[Workspace] {number}
+2017-11-25 13:37:45	HeXiLeD	i get all of that, but is this not the same as drag to where i want the window ?
+2017-11-25 13:38:36	[vm]	you mau drag and save but then manually set the option sane om close to NO
+2017-11-25 13:39:02	[vm]	you may drag and save but then manually set the option Save om close to NO
+2017-11-25 13:40:12	[vm]	i'm so drunk, sorry
+2017-11-25 13:41:34	HeXiLeD	that makes a lot of sense
+2017-11-25 13:42:23	[vm]	[app] (name=transmission-gtk)
+2017-11-25 13:42:23	[vm]	 [Position] 	(UPPERRIGHT) 	{0 90}
+2017-11-25 13:42:46	[vm]	[app] (name!=gimp)
+2017-11-25 13:42:47	[vm]	  [Position]	(WINCENTER)	{0 0}
+2017-11-25 13:42:47	[vm]	[end]
+2017-11-25 13:46:50	[vm]	  [Close]       {no}
+2017-11-25 13:54:21	-->	foobar08151 (~nobody@x4e329ed0.dyn.telefonica.de) has joined #fluxbox
+2017-11-26 02:17:16	--	irc: disconnected from server
+2017-11-26 02:22:44	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-26 02:22:44	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-26 02:22:44	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-26 02:22:44	--	Channel #fluxbox: 64 nicks (0 ops, 0 voices, 64 normals)
+2017-11-26 02:22:44	--	PvNotice(ChanServ): check the topic
+2017-11-26 02:22:44	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-26 02:23:00	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-26 03:24:31	--	irc: disconnected from server
+2017-11-26 04:25:17	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-26 04:25:17	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-26 04:25:17	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-26 04:25:17	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-26 04:25:17	--	PvNotice(ChanServ): check the topic
+2017-11-26 04:25:17	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-26 04:25:33	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-26 05:28:39	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-26 05:30:12	<--	[vm] (~user@46.166.205.243) has quit (Remote host closed the connection)
+2017-11-26 05:30:29	-->	xyzzy_ (~user@46.166.205.243) has joined #fluxbox
+2017-11-26 06:11:33	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Quit: Leaving)
+2017-11-26 06:54:40	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-26 07:46:29	<--	ribasushi (~riba@mujunyku.leporine.io) has quit (Ping timeout: 268 seconds)
+2017-11-26 07:52:07	-->	ribasushi (~riba@mujunyku.leporine.io) has joined #fluxbox
+2017-11-26 07:58:41	-->	vwi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-26 08:23:19	-->	foobar08151 (~nobody@x4db6fe20.dyn.telefonica.de) has joined #fluxbox
+2017-11-26 09:14:26	--	xyzzy_ is now known as [vm]
+2017-11-26 11:07:13	-->	sillyslux (~sillyslux@m83-176-118-133.cust.tele2.hr) has joined #fluxbox
+2017-11-26 11:18:56	<--	foobar08151 (~nobody@x4db6fe20.dyn.telefonica.de) has quit (Quit: Leaving.)
+2017-11-26 12:22:23	-->	Kruppt (~Kruppt@50.111.20.52) has joined #fluxbox
+2017-11-26 12:33:04	-->	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-11-26 12:36:01	<--	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 248 seconds)
+2017-11-26 12:44:17	<--	Kruppt (~Kruppt@50.111.20.52) has quit (Quit: Leaving)
+2017-11-26 12:52:50	-->	Kruppt (~Kruppt@50.111.20.52) has joined #fluxbox
+2017-11-26 13:19:15	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-11-26 13:20:57	-->	mohsen_ (~Mohsen@37.59.248.22) has joined #fluxbox
+2017-11-26 13:21:07	<--	mohsen_ (~Mohsen@37.59.248.22) has left #fluxbox ("WeeChat 1.9.1")
+2017-11-26 13:50:27	<--	fedy (~fedy@128.164.broadband5.iol.cz) has quit (Remote host closed the connection)
+2017-11-27 08:04:10	--	irc: disconnected from server
+2017-11-27 08:05:36	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-27 08:05:36	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-27 08:05:36	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-27 08:05:36	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-11-27 08:05:36	--	PvNotice(ChanServ): check the topic
+2017-11-27 08:05:36	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-27 08:05:52	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-27 08:06:50	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-27 09:09:43	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-27 09:14:40	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-11-27 09:52:20	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-28 02:28:58	--	irc: disconnected from server
+2017-11-28 02:39:43	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-28 02:39:43	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-28 02:39:43	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-28 02:39:43	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-11-28 02:39:43	--	PvNotice(ChanServ): check the topic
+2017-11-28 02:39:43	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-28 02:39:59	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-28 03:08:18	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-28 03:56:41	-->	tangent (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-11-28 04:00:13	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 240 seconds)
+2017-11-28 05:02:51	<--	DyDyMan (dydyman@220.red-79-155-177.dynamicip.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2017-11-28 05:06:29	-->	DyDyMan (dydyman@11.red-88-25-204.staticip.rima-tde.net) has joined #fluxbox
+2017-11-28 05:21:27	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-28 05:32:18	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Ping timeout: 240 seconds)
+2017-11-28 05:34:34	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-11-28 06:56:57	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-28 07:04:51	<--	dandersson (~daniel@c213-89-45-248.bredband.comhem.se) has quit (Ping timeout: 276 seconds)
+2017-11-28 07:06:02	-->	dandersson (~daniel@c213-89-45-248.bredband.comhem.se) has joined #fluxbox
+2017-11-28 07:06:16	zlg	HeXiLeD: I believe Fluxbox can be configured to disable resize handles; you'll just need to set the bottom handles to 0 width or something and disable it in the keys file iirc
+2017-11-28 07:06:30	zlg	As for drag-n-drop, that's a completely different beast.
+2017-11-28 08:36:00	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-11-28 08:58:15	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-28 09:37:36	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 276 seconds)
+2017-11-28 10:25:25	<--	vwi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (Remote host closed the connection)
+2017-11-28 10:26:23	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-11-28 12:52:51	--	irc: disconnected from server
+2017-11-28 12:54:17	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-28 12:54:17	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-28 12:54:17	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-28 12:54:17	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-11-28 12:54:17	--	PvNotice(ChanServ): check the topic
+2017-11-28 12:54:17	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-28 12:54:33	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-28 13:31:37	<--	pevik (~pvorel@85.119.94.113) has quit (Ping timeout: 276 seconds)
+2017-11-29 02:04:55	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-29 02:04:55	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-29 02:04:55	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-29 02:04:55	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-11-29 02:04:55	--	PvNotice(ChanServ): check the topic
+2017-11-29 02:04:55	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-29 02:05:09	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-29 02:30:00	dive	Is there way of binding something else other than mouse to change settings in fluxbox config menu? Like Alpha for example?
+2017-11-29 03:00:07	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-29 03:01:33	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-29 03:06:06	<--	tangent (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 276 seconds)
+2017-11-29 03:15:37	-->	tangent (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-11-29 03:21:00	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Quit: DianNaoMao)
+2017-11-29 06:31:12	--	irc: disconnected from server
+2017-11-29 07:07:40	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-29 07:07:40	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-29 07:07:40	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-29 07:07:40	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-11-29 07:07:40	--	PvNotice(ChanServ): check the topic
+2017-11-29 07:07:40	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-29 07:07:54	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-29 07:23:00	<--	Bry-X (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has quit (Remote host closed the connection)
+2017-11-29 07:23:22	-->	Bry-X (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has joined #fluxbox
+2017-11-29 07:24:51	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-29 07:33:33	<--	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-29 08:05:22	<--	kaiser (uid203960@gateway/web/irccloud.com/x-svafpqxwukxywzll) has quit (Quit: Connection closed for inactivity)
+2017-11-29 08:15:24	<--	riot_dd (~riot_dd@port-92-200-87-52.dynamic.qsc.de) has quit (Ping timeout: 248 seconds)
+2017-11-29 08:16:40	-->	riot_dd (~riot_dd@port-92-200-237-73.dynamic.qsc.de) has joined #fluxbox
+2017-11-29 08:37:48	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-11-29 08:58:37	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-29 09:41:40	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-29 09:52:18	sillyslux	dive, you want to open the window menu without using the mouse? i do that with alt+space
+2017-11-29 10:18:58	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Quit: ZNC 1.6.5+deb1 - http://znc.in)
+2017-11-29 11:04:28	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-11-29 12:14:21	-->	Kruppt (~Kruppt@50.111.20.52) has joined #fluxbox
+2017-11-29 13:03:46	dive	sillyslux, no not that. You know the configure submenu. There are some settings in there that have numbers and you roll the mouse wheel over them to change settings.
+2017-11-29 13:04:20	dive	I want to know if I can bind say shift~up/down but I don't know the names of those.
+2017-11-29 13:04:37	dive	I don't like using mouse at all if I can help it.
+2017-11-29 13:05:21	dive	I have all the menus bound to keys.
+2017-11-29 13:08:01	sillyslux	oh i see, +/- would be nice there but seems you can only do that with the mouse
+2017-11-29 13:15:15	dive	Maybe if we could find the name of the setting it could be done.
+2017-11-29 13:15:33	dive	It seems strange if it hardcoded to mouse wheel.
+2017-11-29 13:15:53	dive	I'll look in the source.
+2017-11-29 13:18:05	sillyslux	not only wheel, left/right click works as well
+2017-11-29 13:18:47	dive	Ah I didn't notice that.
+2017-11-29 13:19:41	sillyslux	yea... i never tried the whell
+2017-11-29 13:48:51	dive	Found it: enter goes doen, shit + enter goes up.
+2017-11-29 13:49:22	dive	er sift + enter
+2017-11-29 13:49:26	dive	shift*
+2017-11-29 13:49:29	dive	god sake.
+2017-11-29 13:51:31	sillyslux	oh god...
+2017-11-29 14:17:52	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-11-29 14:23:44	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Quit: DianNaoMao)
+2017-11-29 14:47:49	<--	sillyslux (~sillyslux@m77-216-150-219.cust.tele2.hr) has quit (Ping timeout: 268 seconds)
+2017-11-29 14:52:28	-->	sillyslux (~sillyslux@m77-219-41-71.cust.tele2.hr) has joined #fluxbox
+2017-11-30 02:45:22	--	irc: disconnected from server
+2017-11-30 02:48:07	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-30 02:48:07	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-30 02:48:07	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-30 02:48:07	--	Channel #fluxbox: 62 nicks (0 ops, 0 voices, 62 normals)
+2017-11-30 02:48:07	--	PvNotice(ChanServ): check the topic
+2017-11-30 02:48:07	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-30 02:48:23	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-30 03:25:45	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-11-30 03:25:53	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-11-30 04:33:35	<--	sillyslux (~sillyslux@m77-219-63-158.cust.tele2.hr) has quit (Ping timeout: 248 seconds)
+2017-11-30 05:01:26	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-11-30 05:51:04	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-11-30 07:22:46	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-11-30 07:24:59	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-30 07:42:16	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Quit: ZNC 1.6.5+deb1 - http://znc.in)
+2017-11-30 07:43:35	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-11-30 08:17:57	-->	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-11-30 08:21:46	<--	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 260 seconds)
+2017-11-30 14:21:56	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-11-30 14:21:56	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-11-30 14:21:56	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-11-30 14:21:56	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-11-30 14:21:57	--	PvNotice(ChanServ): check the topic
+2017-11-30 14:21:57	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-11-30 14:22:10	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-11-30 14:27:37	<--	pevik (~pvorel@85.119.94.113) has quit (Ping timeout: 260 seconds)
+2017-11-30 14:29:44	-->	fb0t (~fb0t@h2117431.stratoserver.net) has joined #fluxbox
+2017-12-01 08:38:37	--	irc: disconnected from server
+2017-12-02 05:47:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-02 05:47:31	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-02 05:47:31	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-02 05:47:31	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-12-02 05:47:31	--	PvNotice(ChanServ): check the topic
+2017-12-02 05:47:31	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-02 05:47:45	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-02 06:04:15	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-12-02 06:17:35	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 248 seconds)
+2017-12-02 06:17:35	--	irc: disconnected from server
+2017-12-02 06:18:02	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-02 06:18:02	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-02 06:18:02	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-02 06:18:02	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-02 06:18:02	--	PvNotice(ChanServ): check the topic
+2017-12-02 06:18:02	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-02 06:18:18	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-02 06:28:38	<--	kaiser (uid203960@gateway/web/irccloud.com/x-auodjasvigyxgrkd) has quit (Quit: Connection closed for inactivity)
+2017-12-02 06:33:07	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-02 06:49:44	-->	foobar08151 (~nobody@x4db55e44.dyn.telefonica.de) has joined #fluxbox
+2017-12-02 07:08:28	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-12-02 07:15:04	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-02 07:18:11	<--	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 240 seconds)
+2017-12-03 07:07:31	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-03 07:07:31	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-03 07:07:31	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-03 07:07:31	--	Channel #fluxbox: 63 nicks (0 ops, 0 voices, 63 normals)
+2017-12-03 07:07:31	--	PvNotice(ChanServ): check the topic
+2017-12-03 07:07:31	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-03 07:07:44	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-03 07:34:04	<--	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has quit (Ping timeout: 240 seconds)
+2017-12-03 07:38:59	-->	ajnasz (~ajnasz@563BE989.catv.pool.telekom.hu) has joined #fluxbox
+2017-12-03 07:45:46	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-03 08:19:51	-->	foobar08151 (~nobody@x55b64525.dyn.telefonica.de) has joined #fluxbox
+2017-12-03 08:24:11	-->	alexY (5d4cd5bc@gateway/web/freenode/ip.93.76.213.188) has joined #fluxbox
+2017-12-03 13:15:35	--	irc: disconnected from server
+2017-12-03 13:18:21	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-03 13:18:21	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-03 13:18:21	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-03 13:18:21	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-03 13:18:21	--	PvNotice(ChanServ): check the topic
+2017-12-03 13:18:21	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-03 13:18:37	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-03 13:30:58	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-12-03 13:56:43	<--	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has quit (Read error: Connection reset by peer)
+2017-12-03 13:57:03	-->	liso (~liso@2a00:1028:83ce:1d6e:22e6:967:815d:d788) has joined #fluxbox
+2017-12-04 03:13:17	--	irc: disconnected from server
+2017-12-04 03:34:03	-->	MDrights1 (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-04 03:34:03	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-04 03:34:03	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-04 03:34:03	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-04 03:34:03	--	PvNotice(ChanServ): check the topic
+2017-12-04 03:34:03	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-04 03:34:19	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-04 03:49:38	-->	DianNaoMao (~Thunderbi@115.231.10.28) has joined #fluxbox
+2017-12-04 03:56:51	<--	DianNaoMao (~Thunderbi@115.231.10.28) has quit (Quit: DianNaoMao)
+2017-12-04 04:50:59	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-12-04 04:54:00	<--	alexsson_ (~alexsson@90-231-52-104-no217.tbcn.telia.com) has quit (Remote host closed the connection)
+2017-12-04 05:07:16	-->	alexsson (~alexsson@90-231-52-104-no217.tbcn.telia.com) has joined #fluxbox
+2017-12-04 05:15:31	-->	DianNaoMao (~Thunderbi@115.231.10.28) has joined #fluxbox
+2017-12-04 05:16:44	<--	DianNaoMao (~Thunderbi@115.231.10.28) has quit (Client Quit)
+2017-12-04 05:17:04	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-04 05:22:58	<--	alexsson (~alexsson@90-231-52-104-no217.tbcn.telia.com) has quit (Ping timeout: 240 seconds)
+2017-12-04 05:34:51	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Quit: ZNC - http://znc.in)
+2017-12-04 05:36:36	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-12-04 05:36:53	-->	DianNaoMao (~Thunderbi@115.231.10.28) has joined #fluxbox
+2017-12-04 05:51:34	<--	DianNaoMao (~Thunderbi@115.231.10.28) has quit (Ping timeout: 248 seconds)
+2017-12-04 05:59:53	-->	DianNaoMao (~Thunderbi@115.231.10.28) has joined #fluxbox
+2017-12-04 06:06:31	<--	DianNaoMao (~Thunderbi@115.231.10.28) has quit (Ping timeout: 248 seconds)
+2017-12-04 06:18:17	-->	pevik (pvorel@nat/suse/x-kxqkfecdqpdnlxdf) has joined #fluxbox
+2017-12-04 06:22:02	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 255 seconds)
+2017-12-04 06:22:56	ak|ra	sillyslux: looks not bad so far
+2017-12-04 06:23:04	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-12-04 07:15:13	sillyslux	ak|ra, yes, issue/comment/whatever author can only be set to the importer-username, so in any case, something big is lost
+2017-12-04 07:16:00	sillyslux	i wouldn't care for the "assigned to" fields, but if you are, that's something that can be kept
+2017-12-04 07:17:01	-->	DianNaoMao (~Thunderbi@111.197.242.160) has joined #fluxbox
+2017-12-04 07:17:28	sillyslux	looks like i'll write my own import tool, that will be faster, close closed issues, add files and put "original author:" in line 1 of issues and comments
+2017-12-04 07:21:55	-->	DianNaoMao1 (~Thunderbi@111.197.242.160) has joined #fluxbox
+2017-12-04 07:23:48	<--	DianNaoMao (~Thunderbi@111.197.242.160) has quit (Ping timeout: 260 seconds)
+2017-12-04 07:23:49	--	DianNaoMao1 is now known as DianNaoMao
+2017-12-04 07:36:51	sillyslux	"discussion" is the one full of spam, is it only there?
+2017-12-04 07:38:32	ak|ra	discussion spam: sf.net lacked/lacks usefull ways of removing / handling spam. it just added to the export to see what comes along
+2017-12-04 07:42:29	sillyslux	help and open discussion together have about 2k entries, i could clean it up manually before importing
+2017-12-04 07:43:26	<--	DianNaoMao (~Thunderbi@111.197.242.160) has quit (Quit: DianNaoMao)
+2017-12-04 07:43:36	sillyslux	but first you have to decide if you want the gh issues tracker to be used for this kind of general help
+2017-12-04 07:44:53	sillyslux	also, the migration tool i've found, adds "auto-migration" and "sourceforge" as labels to the existing
+2017-12-04 07:45:01	sillyslux	"fbsetbg, random, wallpaper, translation, Interface Improvements (example), fluxbox, wm, resize, search, toolbar, CSD, GTK+3.10, Dock, Interface (example), Move window ghost trail, ardour, big window, border, resize, chromium, rss, dialog, crash, transient, critical, groups, tabs, focus, keyboard input, maximize, maximizevertical, root window, style, toolbar, toolbar startup, translation, v1.3.7, window.label.focus.textcolor, 
+2017-12-04 07:45:01	sillyslux	workspaces, windows, xft, zaphod
+2017-12-04 07:45:11	sillyslux	we could shrink this down too
+2017-12-04 08:38:51	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-04 09:06:02	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-04 10:04:25	--	irc: disconnected from server
+2017-12-04 10:08:28	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-04 10:08:28	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-04 10:08:28	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-04 10:08:28	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-04 10:08:28	--	PvNotice(ChanServ): check the topic
+2017-12-04 10:08:28	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-04 10:08:42	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-04 11:38:26	--	irc: disconnected from server
+2017-12-04 11:39:51	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-04 11:39:51	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-04 11:39:51	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-04 11:39:51	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-04 11:39:51	--	PvNotice(ChanServ): check the topic
+2017-12-04 11:39:51	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-04 11:40:07	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-04 11:50:21	<--	paultag (paultag@debian/developer/paultag) has quit (Quit: o/)
+2017-12-04 11:51:47	--	irc: disconnected from server
+2017-12-05 02:17:15	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-05 02:17:15	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-05 02:17:15	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-05 02:17:15	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-12-05 02:17:15	--	PvNotice(ChanServ): check the topic
+2017-12-05 02:17:15	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-05 02:17:29	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-05 02:20:04	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (Quit: ZNC - http://znc.in)
+2017-12-05 02:23:04	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-12-05 02:51:35	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-05 03:14:09	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-12-05 03:33:48	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-12-05 04:35:33	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 258 seconds)
+2017-12-05 04:35:33	--	irc: disconnected from server
+2017-12-05 04:36:01	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-05 04:36:01	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-05 04:36:01	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-05 04:36:02	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-12-05 04:36:02	--	PvNotice(ChanServ): check the topic
+2017-12-05 04:36:02	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-05 04:36:15	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-05 05:43:01	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-05 05:46:28	<--	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 260 seconds)
+2017-12-05 05:57:47	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-12-05 06:26:08	-->	DianNaoMao (~Thunderbi@36.102.208.122) has joined #fluxbox
+2017-12-05 06:29:41	<--	DianNaoMao (~Thunderbi@36.102.208.122) has quit (Client Quit)
+2017-12-05 06:30:18	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-12-05 06:31:33	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Client Quit)
+2017-12-05 06:32:59	-->	DianNaoMao (~Thunderbi@36.102.208.122) has joined #fluxbox
+2017-12-05 06:33:58	<--	DianNaoMao (~Thunderbi@36.102.208.122) has quit (Client Quit)
+2017-12-05 07:27:52	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-12-05 07:34:06	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 255 seconds)
+2017-12-05 07:52:48	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-12-05 07:55:41	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-05 08:31:31	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-05 09:12:57	-->	DianNaoMao (~Thunderbi@36.102.208.122) has joined #fluxbox
+2017-12-05 09:38:31	-->	well_laid_lawn (~Jean-luc@203-219-149-6.tpgi.com.au) has joined #fluxbox
+2017-12-05 09:49:46	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-05 09:55:27	<--	DianNaoMao (~Thunderbi@36.102.208.122) has quit (Ping timeout: 260 seconds)
+2017-12-05 10:22:24	--	irc: disconnected from server
+2017-12-06 02:39:06	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-06 02:39:06	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-06 02:39:06	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-06 02:39:06	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-12-06 02:39:06	--	PvNotice(ChanServ): check the topic
+2017-12-06 02:39:06	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-06 02:39:23	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-06 03:25:18	<--	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (Ping timeout: 255 seconds)
+2017-12-06 04:37:11	<--	MDrights[SW (~MDrightsS@31.220.42.234) has quit (Ping timeout: 240 seconds)
+2017-12-06 04:37:11	--	irc: disconnected from server
+2017-12-06 04:37:38	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-06 04:37:38	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-06 04:37:38	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-06 04:37:38	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-06 04:37:38	--	PvNotice(ChanServ): check the topic
+2017-12-06 04:37:38	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-06 04:37:54	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-06 05:14:02	<--	s-mutin (~s-mutin@2a0a:6f40:1:6001::2) has quit (Read error: Connection reset by peer)
+2017-12-06 05:15:33	-->	s-mutin (~s-mutin@85.234.114.134) has joined #fluxbox
+2017-12-06 05:45:24	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-12-06 05:45:58	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-12-06 06:25:43	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-12-06 06:30:32	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-12-06 07:07:20	-->	Guest2059 (~leon@host92-184-dynamic.247-95-r.retail.telecomitalia.it) has joined #fluxbox
+2017-12-06 07:07:35	Guest2059	Hi folks..
+2017-12-06 07:07:44	--	Guest2059 is now known as Leon01
+2017-12-06 08:10:41	<--	obiwlan (~obiwlan@p578c0240.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2017-12-06 08:11:03	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 255 seconds)
+2017-12-06 08:14:40	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-06 08:22:27	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-12-06 08:23:36	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-12-06 08:27:18	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Client Quit)
+2017-12-06 08:49:32	ajnasz	Hi Guest2059 
+2017-12-06 09:25:03	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-06 09:39:23	-->	sillyslux (~sillyslux@m83-177-4-125.cust.tele2.hr) has joined #fluxbox
+2017-12-06 10:39:44	Leon01	hi folks..
+2017-12-06 10:39:51	Leon01	someone here??
+2017-12-06 11:01:41	dive	Yes. Just about.
+2017-12-06 11:01:55	dive	IRC is all about hanging around :)
+2017-12-07 02:11:33	--	irc: disconnected from server
+2017-12-07 02:12:48	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-07 02:12:48	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-07 02:12:48	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-07 02:12:48	--	Channel #fluxbox: 66 nicks (0 ops, 0 voices, 66 normals)
+2017-12-07 02:12:48	--	PvNotice(ChanServ): check the topic
+2017-12-07 02:12:48	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-07 02:13:04	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-07 02:41:20	<--	dive (~dive@studioware/developer/dive) has quit (Ping timeout: 250 seconds)
+2017-12-07 02:58:27	-->	dive (~dive@studioware/developer/dive) has joined #fluxbox
+2017-12-07 03:03:14	<--	dive (~dive@studioware/developer/dive) has quit (Ping timeout: 248 seconds)
+2017-12-07 03:09:51	-->	dive (~dive@studioware/developer/dive) has joined #fluxbox
+2017-12-07 03:20:52	<--	dive (~dive@studioware/developer/dive) has quit (Ping timeout: 240 seconds)
+2017-12-07 03:25:27	-->	dive (~dive@studioware/developer/dive) has joined #fluxbox
+2017-12-07 03:38:47	<--	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Changing host)
+2017-12-07 03:38:47	-->	Niinanmu- (~hdhdjjhdh@unaffiliated/nevzets) has joined #fluxbox
+2017-12-07 04:00:49	<--	dive (~dive@studioware/developer/dive) has quit (Ping timeout: 248 seconds)
+2017-12-07 04:05:23	-->	dive (~dive@cpc104542-craw8-2-0-cust1.16-3.cable.virginm.net) has joined #fluxbox
+2017-12-07 04:05:30	--	dive is now known as Guest93320
+2017-12-07 04:14:43	-->	Bry-X (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has joined #fluxbox
+2017-12-07 04:14:45	<--	bry2k200__ (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has quit (Remote host closed the connection)
+2017-12-07 04:29:28	--	Guest93320 is now known as dive
+2017-12-07 04:29:58	--	dive is now known as Guest7935
+2017-12-07 04:31:20	--	Guest7935 is now known as dive
+2017-12-07 04:31:27	<--	dive (~dive@cpc104542-craw8-2-0-cust1.16-3.cable.virginm.net) has quit (Changing host)
+2017-12-07 04:31:27	-->	dive (~dive@studioware/developer/dive) has joined #fluxbox
+2017-12-07 04:43:36	--	dive is now known as bedlam
+2017-12-07 04:44:40	<--	sillyslux (~sillyslux@m77-216-238-97.cust.tele2.hr) has quit (Ping timeout: 268 seconds)
+2017-12-07 05:23:42	<--	Bry-X (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has quit (Read error: Connection reset by peer)
+2017-12-07 05:23:43	-->	bry2k200__ (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has joined #fluxbox
+2017-12-07 05:54:07	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-12-07 05:56:29	-->	well_laid_lawn (~Jean-luc@203.221.247.56) has joined #fluxbox
+2017-12-07 06:26:43	<--	well_laid_lawn (~Jean-luc@203.221.247.56) has quit (Ping timeout: 255 seconds)
+2017-12-07 06:56:36	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-12-07 07:03:36	<--	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has quit (Remote host closed the connection)
+2017-12-07 07:52:37	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-12-07 08:06:25	-->	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-07 08:09:19	<--	Niinanmu- (~hdhdjjhdh@unaffiliated/nevzets) has quit (Ping timeout: 255 seconds)
+2017-12-07 08:09:28	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-07 08:24:42	-->	well_laid_lawn (~Jean-luc@203.221.247.56) has joined #fluxbox
+2017-12-07 08:56:45	<--	well_laid_lawn (~Jean-luc@203.221.247.56) has quit (Ping timeout: 240 seconds)
+2017-12-07 08:57:40	-->	sillyslux (~sillyslux@m83-177-3-130.cust.tele2.hr) has joined #fluxbox
+2017-12-07 13:18:20	--	irc: disconnected from server
+2017-12-07 13:19:01	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-07 13:19:01	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-07 13:19:01	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-07 13:19:01	--	Channel #fluxbox: 68 nicks (0 ops, 0 voices, 68 normals)
+2017-12-07 13:19:01	--	PvNotice(ChanServ): check the topic
+2017-12-07 13:19:01	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-07 13:19:06	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-07 13:27:56	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Quit: DianNaoMao)
+2017-12-07 13:28:16	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-12-07 13:28:34	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Client Quit)
+2017-12-07 13:36:10	-->	Kruppt (~Kruppt@50.111.47.198) has joined #fluxbox
+2017-12-07 13:45:43	<--	marschw (0ccdaf02@gateway/web/freenode/ip.12.205.175.2) has quit (Ping timeout: 260 seconds)
+2017-12-07 14:48:45	<--	pevik (~pvorel@85.119.94.113) has quit (*.net *.split)
+2017-12-07 14:48:46	<--	dandersson (~daniel@c213-89-45-248.bredband.comhem.se) has quit (*.net *.split)
+2017-12-07 14:48:46	<--	eichiro (~eichiro@107.191.100.185) has quit (*.net *.split)
+2017-12-07 14:48:46	<--	nauski (nauski@nauski.fi) has quit (*.net *.split)
+2017-12-07 14:48:47	<--	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (*.net *.split)
+2017-12-07 14:48:47	<--	mingdao (~mingdao@unaffiliated/mingdao) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	ak|ra (~akira@pdpc/supporter/active/akira) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	paultag (paultag@debian/developer/paultag) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	jns (~x@comlink.adminking.com) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	`VL (~vl@178.23.225.78) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	azhag3 (azhag@dug.net.pl) has quit (*.net *.split)
+2017-12-07 14:48:48	<--	nutron|w (~nutron@64.114.250.232) has quit (*.net *.split)
+2017-12-07 14:48:49	<--	kenmoore (~quassel@159.203.94.159) has quit (*.net *.split)
+2017-12-07 14:48:49	<--	lme (~harkpabst@webs.0x20.net) has quit (*.net *.split)
+2017-12-07 14:48:49	<--	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has quit (*.net *.split)
+2017-12-07 14:48:50	<--	liso (~liso@217.170.105.38) has quit (*.net *.split)
+2017-12-07 14:48:50	<--	sillyslux (~sillyslux@m83-177-3-130.cust.tele2.hr) has quit (*.net *.split)
+2017-12-07 14:48:50	<--	skybert (user@2a01:7e00::f03c:91ff:fedf:9eed) has quit (*.net *.split)
+2017-12-07 14:48:50	<--	szagul (~quassel@keller-server.de) has quit (*.net *.split)
+2017-12-07 14:48:50	<--	adamm (~adamm@debian/developer/adamm) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	poige (uid250374@gateway/web/irccloud.com/x-ezpctelzjgrhfgxq) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	Me-Ted (~throwrug@unaffiliated/mrubert) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	kwmiebach (sid16855@gateway/web/irccloud.com/x-xymavddnuiykmzsj) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	riot_dd (~riot_dd@port-92-200-237-73.dynamic.qsc.de) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	bry2k200__ (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has quit (*.net *.split)
+2017-12-07 14:48:51	<--	bedlam (~dive@studioware/developer/dive) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	fedy (~fedy@128.164.broadband5.iol.cz) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	theborger (~wifflebat@unaffiliated/theborger) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	Kobaz (~kobaz@its.kobaz.net) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	blind (~blind@unaffiliated/blind) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	joeytwiddle (~joeytwidd@162.243.115.31) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	mojo_x (Elite20469@gateway/shell/elitebnc/x-tiftvketpkfqnaaf) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	confluency (~quassel@2a01:4f8:c17:3ca::2) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	austriancoder (sid152545@rockbox/developer/austriancoder) has quit (*.net *.split)
+2017-12-07 14:48:52	<--	Stealth (stealth@sourcemage/archon/stealth) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	cb (~cb@alpha.kneipix.de) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	fiet (~nobody@unaffiliated/fiet) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	fb0t (~fb0t@h2117431.stratoserver.net) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	Hyperion3010 (~hyperion2@cpe-66-75-252-98.san.res.rr.com) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	zlg (~zlg@gentoo/developer/zlg) has quit (*.net *.split)
+2017-12-07 14:48:53	<--	cargill (~ondra@cpc77203-warw17-2-0-cust67.3-2.cable.virginm.net) has quit (*.net *.split)
+2017-12-07 14:48:54	<--	takeshix (~takeshix@adversec.com) has quit (*.net *.split)
+2017-12-07 14:48:54	<--	errr (~errr@fedora/errr) has quit (*.net *.split)
+2017-12-07 14:48:54	<--	mutin-s (~s-mutin@85.234.114.134) has quit (Max SendQ exceeded)
+2017-12-07 14:52:35	-->	pevik (~pvorel@85.119.94.113) has joined #fluxbox
+2017-12-07 14:52:35	-->	dandersson (~daniel@c213-89-45-248.bredband.comhem.se) has joined #fluxbox
+2017-12-07 14:52:35	-->	nauski (nauski@nauski.fi) has joined #fluxbox
+2017-12-07 14:52:48	<--	ribasushi (~riba@mujunyku.leporine.io) has quit (Ping timeout: 255 seconds)
+2017-12-07 14:54:35	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Remote host closed the connection)
+2017-12-07 14:55:10	-->	errr (~errr@fedora/errr) has joined #fluxbox
+2017-12-07 14:55:10	-->	takeshix (~takeshix@adversec.com) has joined #fluxbox
+2017-12-07 14:55:10	-->	Stealth (stealth@sourcemage/archon/stealth) has joined #fluxbox
+2017-12-07 14:55:10	-->	austriancoder (sid152545@rockbox/developer/austriancoder) has joined #fluxbox
+2017-12-07 14:55:10	-->	confluency (~quassel@2a01:4f8:c17:3ca::2) has joined #fluxbox
+2017-12-07 14:55:10	-->	mojo_x (Elite20469@gateway/shell/elitebnc/x-tiftvketpkfqnaaf) has joined #fluxbox
+2017-12-07 14:55:10	-->	eichiro (~eichiro@107.191.100.185) has joined #fluxbox
+2017-12-07 14:55:10	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-07 14:55:10	-->	riot_dd (~riot_dd@port-92-200-237-73.dynamic.qsc.de) has joined #fluxbox
+2017-12-07 14:55:10	-->	sillyslux (~sillyslux@m83-177-3-130.cust.tele2.hr) has joined #fluxbox
+2017-12-07 14:55:10	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-07 14:55:10	-->	bry2k200__ (~bry2k200@slkrmb0114w-ad02-247-113.dynamic.bellmts.net) has joined #fluxbox
+2017-12-07 14:55:10	-->	bedlam (~dive@studioware/developer/dive) has joined #fluxbox
+2017-12-07 14:55:10	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-12-07 14:55:10	-->	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has joined #fluxbox
+2017-12-07 14:55:10	-->	ak|ra (~akira@pdpc/supporter/active/akira) has joined #fluxbox
+2017-12-07 14:55:10	-->	mingdao (~mingdao@unaffiliated/mingdao) has joined #fluxbox
+2017-12-07 14:55:10	-->	lme (~harkpabst@webs.0x20.net) has joined #fluxbox
+2017-12-07 14:55:10	-->	NightMonkey (~NightMonk@pdpc/supporter/professional/nightmonkey) has joined #fluxbox
+2017-12-07 14:55:10	-->	gigetoo (~gigetoo@c83-250-32-22.bredband.comhem.se) has joined #fluxbox
+2017-12-07 14:55:10	-->	paultag (paultag@debian/developer/paultag) has joined #fluxbox
+2017-12-07 14:55:10	-->	jns (~x@comlink.adminking.com) has joined #fluxbox
+2017-12-07 14:55:10	-->	azhag3 (azhag@dug.net.pl) has joined #fluxbox
+2017-12-07 14:55:10	-->	fb0t (~fb0t@h2117431.stratoserver.net) has joined #fluxbox
+2017-12-07 14:55:10	-->	fedy (~fedy@128.164.broadband5.iol.cz) has joined #fluxbox
+2017-12-07 14:55:10	-->	nutron|w (~nutron@64.114.250.232) has joined #fluxbox
+2017-12-07 14:55:10	-->	kenmoore (~quassel@159.203.94.159) has joined #fluxbox
+2017-12-07 14:55:10	-->	theborger (~wifflebat@unaffiliated/theborger) has joined #fluxbox
+2017-12-07 14:55:10	-->	Hyperion3010 (~hyperion2@cpe-66-75-252-98.san.res.rr.com) has joined #fluxbox
+2017-12-07 14:55:10	-->	skybert (user@2a01:7e00::f03c:91ff:fedf:9eed) has joined #fluxbox
+2017-12-07 14:55:10	-->	Kobaz (~kobaz@its.kobaz.net) has joined #fluxbox
+2017-12-07 14:55:10	-->	zlg (~zlg@gentoo/developer/zlg) has joined #fluxbox
+2017-12-07 14:55:11	-->	cargill (~ondra@cpc77203-warw17-2-0-cust67.3-2.cable.virginm.net) has joined #fluxbox
+2017-12-07 14:55:11	-->	poige (uid250374@gateway/web/irccloud.com/x-ezpctelzjgrhfgxq) has joined #fluxbox
+2017-12-07 14:55:11	-->	adamm (~adamm@debian/developer/adamm) has joined #fluxbox
+2017-12-07 14:55:11	-->	szagul (~quassel@keller-server.de) has joined #fluxbox
+2017-12-07 14:55:11	-->	blind (~blind@unaffiliated/blind) has joined #fluxbox
+2017-12-07 14:55:11	-->	Me-Ted (~throwrug@unaffiliated/mrubert) has joined #fluxbox
+2017-12-07 14:55:11	-->	joeytwiddle (~joeytwidd@162.243.115.31) has joined #fluxbox
+2017-12-07 14:55:11	-->	kwmiebach (sid16855@gateway/web/irccloud.com/x-xymavddnuiykmzsj) has joined #fluxbox
+2017-12-07 14:55:11	-->	cb (~cb@alpha.kneipix.de) has joined #fluxbox
+2017-12-08 08:23:12	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-08 08:23:12	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-08 08:23:12	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-08 08:23:12	--	Channel #fluxbox: 64 nicks (0 ops, 0 voices, 64 normals)
+2017-12-08 08:23:12	--	PvNotice(ChanServ): check the topic
+2017-12-08 08:23:12	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-08 08:23:26	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-08 08:28:17	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-08 08:32:00	-->	kCx (~kCx@181.231.168.181) has joined #fluxbox
+2017-12-08 08:42:19	<--	liso (~liso@217.170.105.38) has quit (Remote host closed the connection)
+2017-12-08 08:42:43	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-08 08:59:16	-->	sillyslux (~sillyslux@m83-181-49-236.cust.tele2.hr) has joined #fluxbox
+2017-12-08 10:20:57	-->	lythandrel (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-12-09 01:32:43	--	irc: disconnected from server
+2017-12-09 01:33:08	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-09 01:33:08	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-09 01:33:08	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-09 01:33:08	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-12-09 01:33:08	--	PvNotice(ChanServ): check the topic
+2017-12-09 01:33:08	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-09 01:33:11	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-10 14:29:24	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-10 14:29:24	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-10 14:29:24	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-10 14:29:24	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-12-10 14:29:24	--	PvNotice(ChanServ): check the topic
+2017-12-10 14:29:24	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-10 14:29:38	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-10 14:51:13	-->	Kruppt (~Kruppt@50.111.18.198) has joined #fluxbox
+2017-12-10 15:09:41	<--	Segaja (~Segaja@s1.segaja.de) has quit
+2017-12-10 15:10:55	-->	rdz (~rdz@2001:620:120:1::12) has joined #fluxbox
+2017-12-10 15:14:40	rdz	hey all. whatever font i specify for fbrun, i get: "Failed to load font: xxxx"
+2017-12-10 15:14:58	rdz	how can i know what font specs work?
+2017-12-10 15:33:31	<--	_moep_ (~bla@gateway.moep.name) has left #fluxbox
+2017-12-10 15:39:53	-->	izzle121 (~izzle121@208.103.79.216) has joined #fluxbox
+2017-12-11 13:04:59	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-11 13:04:59	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-11 13:04:59	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-11 13:04:59	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-12-11 13:04:59	--	PvNotice(ChanServ): check the topic
+2017-12-11 13:04:59	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-11 13:05:14	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-11 13:09:09	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-11 13:20:54	<--	sillyslux (~sillyslux@m77-217-216-231.cust.tele2.hr) has quit (Read error: Connection reset by peer)
+2017-12-11 13:22:11	-->	sillyslux (~sillyslux@m37-0-150-92.cust.tele2.hr) has joined #fluxbox
+2017-12-11 13:40:18	-->	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-12-11 13:46:37	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 255 seconds)
+2017-12-11 13:58:20	--	You are now known as slackocn
+2017-12-11 14:09:27	<--	sillyslux (~sillyslux@m37-0-150-92.cust.tele2.hr) has quit (Remote host closed the connection)
+2017-12-11 14:10:06	-->	sillyslux (~sillyslux@m37-0-150-92.cust.tele2.hr) has joined #fluxbox
+2017-12-11 14:57:49	<--	`VL (~vl@178.23.225.78) has quit (Quit: Leaving)
+2017-12-12 02:50:09	--	irc: disconnected from server
+2017-12-12 02:50:34	-->	slackocn (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-12 02:50:34	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-12 02:50:34	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-12 02:50:34	--	Channel #fluxbox: 65 nicks (0 ops, 0 voices, 65 normals)
+2017-12-12 02:50:52	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-12 02:52:02	--	PvNotice(ChanServ): check the topic
+2017-12-12 02:52:02	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-12 02:57:36	-->	DianNaoMao1 (~Thunderbi@36.102.208.123) has joined #fluxbox
+2017-12-12 02:57:53	<--	izzle121 (~izzle121@208.103.79.216) has quit (Remote host closed the connection)
+2017-12-12 02:59:10	<--	DianNaoMao (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has quit (Ping timeout: 248 seconds)
+2017-12-12 03:01:25	-->	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has joined #fluxbox
+2017-12-12 03:01:30	<--	DianNaoMao1 (~Thunderbi@36.102.208.123) has quit (Ping timeout: 248 seconds)
+2017-12-12 03:11:03	-->	DianNaoMao (~Thunderbi@36.102.208.123) has joined #fluxbox
+2017-12-12 03:58:22	-->	NolanSyKinsley (~NolanSyKi@2606:6000:5112:df00:230:67ff:fe2b:9066) has joined #fluxbox
+2017-12-12 04:04:32	<--	DianNaoMao (~Thunderbi@36.102.208.123) has quit (Ping timeout: 240 seconds)
+2017-12-12 04:35:02	<--	liso (~liso@217.170.105.38) has quit (Ping timeout: 260 seconds)
+2017-12-12 04:35:27	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-12 07:50:13	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-12 07:50:13	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-12 07:50:13	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-12 07:50:13	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-12-12 07:50:13	--	PvNotice(ChanServ): check the topic
+2017-12-12 07:50:13	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-12 07:50:30	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-12 07:52:47	<--	lythandrel (~tangent@unaffiliated/lythandrel) has quit (Quit: Leaving)
+2017-12-12 07:53:38	-->	lythandrel (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has joined #fluxbox
+2017-12-12 07:54:02	--	lythandrel is now known as Guest88454
+2017-12-12 07:54:22	<--	Guest88454 (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has quit (Client Quit)
+2017-12-12 07:54:38	-->	Guest88454 (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has joined #fluxbox
+2017-12-12 07:55:49	<--	Guest88454 (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has quit (Client Quit)
+2017-12-12 07:56:18	-->	tangent_ (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has joined #fluxbox
+2017-12-12 07:57:06	<--	tangent_ (~tangent@2601:58b:c580:9c9d:a9d6:e46e:6b00:7294) has quit (Client Quit)
+2017-12-12 07:57:50	-->	tangent (~tangent@unaffiliated/lythandrel) has joined #fluxbox
+2017-12-12 08:18:49	-->	`VL (~vl@178.23.225.78) has joined #fluxbox
+2017-12-12 08:24:23	<--	fiet (~nobody@unaffiliated/fiet) has quit (Quit: WeeChat 2.0)
+2017-12-12 08:24:54	-->	fiet (~nobody@unaffiliated/fiet) has joined #fluxbox
+2017-12-12 08:29:32	-->	well_laid_lawn (~Jean-luc@203.221.247.56) has joined #fluxbox
+2017-12-12 09:03:35	<--	wvi (~wvi@ip-78-45-199-33.net.upcbroadband.cz) has quit (Ping timeout: 240 seconds)
+2017-12-12 09:11:35	<--	well_laid_lawn (~Jean-luc@203.221.247.56) has quit (Ping timeout: 240 seconds)
+2017-12-12 09:12:02	<--	pevik (~pevik@85.119.94.113) has quit (Ping timeout: 255 seconds)
+2017-12-12 09:54:17	--	irc: disconnected from server
+2017-12-12 09:54:49	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-12 09:54:49	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-12 09:54:49	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-12 09:54:49	--	Channel #fluxbox: 67 nicks (0 ops, 0 voices, 67 normals)
+2017-12-12 09:54:50	--	PvNotice(ChanServ): check the topic
+2017-12-12 09:54:50	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-12 09:55:09	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-12 10:20:04	<--	pevik (~pevik@85.119.94.113) has quit (Ping timeout: 240 seconds)
+2017-12-12 10:29:34	<--	izhirahi1er (~iz@ether.divisionbyzero.net) has quit (Ping timeout: 240 seconds)
+2017-12-12 10:52:24	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:03:50	<--	pevik (~pevik@85.119.94.113) has quit (Quit: Leaving.)
+2017-12-12 11:04:09	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:05:01	<--	pevik (~pevik@85.119.94.113) has quit (Client Quit)
+2017-12-12 11:05:17	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:07:49	<--	pevik (~pevik@85.119.94.113) has quit (Client Quit)
+2017-12-12 11:08:04	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:10:11	<--	pevik (~pevik@85.119.94.113) has quit (Client Quit)
+2017-12-12 11:25:41	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:38:20	-->	sillyslux (~sillyslux@m83-178-106-70.cust.tele2.hr) has joined #fluxbox
+2017-12-12 11:41:03	<--	pevik (~pevik@85.119.94.113) has quit (Quit: Leaving.)
+2017-12-12 11:41:19	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:42:27	<--	pevik (~pevik@85.119.94.113) has quit (Client Quit)
+2017-12-12 11:42:45	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:48:57	<--	pevik (~pevik@85.119.94.113) has quit (Ping timeout: 240 seconds)
+2017-12-12 11:51:45	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 11:56:03	<--	liso (~liso@217.170.105.38) has quit (Remote host closed the connection)
+2017-12-12 11:56:21	-->	liso (~liso@217.170.105.38) has joined #fluxbox
+2017-12-12 12:08:06	-->	dgm78 (~david@181.222.132.224) has joined #fluxbox
+2017-12-12 12:08:33	<--	pevik (~pevik@85.119.94.113) has quit (Ping timeout: 248 seconds)
+2017-12-12 12:09:38	dgm78	Hi! My Chrome leave html/js menu when left click running browser over fluxbox... why? how to fix?
+2017-12-12 12:12:45	-->	pevik (~pevik@85.119.94.113) has joined #fluxbox
+2017-12-12 12:28:31	<--	pevik (~pevik@85.119.94.113) has quit (Ping timeout: 240 seconds)
+2017-12-14 13:03:17	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-14 13:03:17	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-14 13:03:17	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-14 13:03:17	--	Channel #fluxbox: 70 nicks (0 ops, 0 voices, 70 normals)
+2017-12-14 13:03:18	--	PvNotice(ChanServ): check the topic
+2017-12-14 13:03:18	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-14 13:03:32	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-16 06:01:01	-->	MDrights[SW (~MDrightsS@31.220.42.234) has joined #fluxbox
+2017-12-16 06:01:01	--	Topic for #fluxbox is "current release: fluxbox-1.3.7 http://fluxbox.org/download/ | documentation: http://fluxbox.org/help/ http://fluxbox-wiki.org/ | the wiki was recently converted to a github-page, see https://github.com/fluxbox-wiki for the repo and http://old.fluxbox-wiki.org for the old version. help with the transformation is welcome."
+2017-12-16 06:01:01	--	Topic set by ak|ra (~akira@pdpc/supporter/active/akira) on 日, 08 2月 2015 14:00:56
+2017-12-16 06:01:01	--	Channel #fluxbox: 70 nicks (0 ops, 0 voices, 70 normals)
+2017-12-16 06:01:01	--	PvNotice(ChanServ): check the topic
+2017-12-16 06:01:01	--	URL for #fluxbox: http://fluxbox.sourceforge.net
+2017-12-16 06:01:15	--	Channel created on 日, 26 11月 2006 06:42:39
+2017-12-16 06:23:10	-->	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-16 06:26:59	<--	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 264 seconds)
+2017-12-16 06:27:16	-->	Niinanmu- (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has joined #fluxbox
+2017-12-16 06:31:11	<--	Niinanmustakyrpa (~hdhdjjhdh@ip51cc146b.speed.planet.nl) has quit (Ping timeout: 264 seconds)
+2017-12-16 06:47:28	-->	DianNaoMao1 (~Thunderbi@ip1f119036.dynamic.kabel-deutschland.de) has joined #fluxbox
+2017-12-16 06:49:14	<--	DianNaoMao (~Thunderbi@36.102.208.68) has quit (Ping timeout: 265 seconds)
+2017-12-16 06:49:15	--	DianNaoMao1 is now known as DianNaoMao

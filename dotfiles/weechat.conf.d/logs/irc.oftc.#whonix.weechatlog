@@ -1,0 +1,801 @@
+2017-11-01 05:16:18	-->	MDrights[SW (~MDrights@marylou.nos-oignons.net) has joined #whonix
+2017-11-01 05:16:18	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-01 05:16:18	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-01 05:16:18	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-01 05:16:18	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-01 05:16:24	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-01 06:13:49	<--	xSmurf (~MrSmurf@0001cad2.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-01 06:28:23	<--	spacefan (~spacefan@ip68-13-242-205.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-01 06:35:16	-->	user (~user@4JHAAB2C7.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-01 06:35:48	--	user is now known as Guest7986
+2017-11-01 06:36:45	<--	Guest7986 (~user@4JHAAB2C7.tor-irc.dnsbl.oftc.net) has quit
+2017-11-01 07:34:27	--	irc: disconnected from server
+2017-11-01 07:35:12	-->	MDrights[SW (~MDrights@4G4AADEO2.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-01 07:35:12	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-01 07:35:12	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-01 07:35:12	--	Channel #whonix: 27 nicks (0 ops, 0 voices, 27 normals)
+2017-11-01 07:35:12	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-01 07:35:22	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-01 08:39:53	<--	badon (~badon@199.195.192.3) has quit (Ping timeout: 480 seconds)
+2017-11-01 08:40:28	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-01 15:11:47	--	irc: disconnected from server
+2017-11-01 15:12:16	-->	MDrights[SW (~MDrights@8VQAADE3H.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-01 15:12:16	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-01 15:12:16	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-01 15:12:16	--	Channel #whonix: 27 nicks (0 ops, 0 voices, 27 normals)
+2017-11-01 15:12:16	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-01 15:12:26	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-01 15:16:06	-->	xSmurf (~MrSmurf@0001cad2.user.oftc.net) has joined #whonix
+2017-11-01 15:48:10	<--	xSmurf (~MrSmurf@0001cad2.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-01 16:02:11	-->	xSmurf (~MrSmurf@0001cad2.user.oftc.net) has joined #whonix
+2017-11-02 01:16:30	--	irc: disconnected from server
+2017-11-02 13:47:30	-->	MDrights[SW (~MDrights@torsrv0.snydernet.net) has joined #whonix
+2017-11-02 13:47:30	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-02 13:47:30	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-02 13:47:30	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-02 13:47:30	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-02 13:47:36	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-02 14:09:23	--	irc: disconnected from server
+2017-11-02 14:10:01	-->	MDrights[SW (~MDrights@7YZAADC5J.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-02 14:10:01	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-02 14:10:01	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-02 14:10:01	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-02 14:10:01	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-02 14:10:11	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-02 14:11:23	<--	Cerebral (~Cerebral_@7YZAADC39.tor-irc.dnsbl.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-02 14:21:38	-->	user (~user@8VQAADFX4.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-02 14:22:12	--	user is now known as Guest8103
+2017-11-02 14:23:48	Guest8103	hey there, maybe not directly related to whonix but does anyone know how or which server provides free and log-less conference/group chat jabber setup? does calyx have one? because i only seem to be able to make 1 on 1 chats
+2017-11-02 14:25:33	<--	Guest8103 (~user@8VQAADFX4.tor-irc.dnsbl.oftc.net) has quit
+2017-11-02 14:26:12	-->	user_ (~user@95.141.35.15) has joined #whonix
+2017-11-02 14:26:41	-->	Cerebral (~Cerebral_@43.ip-144-217-164.net) has joined #whonix
+2017-11-02 14:26:51	user_	anyone there?
+2017-11-02 14:27:23	<--	user_ (~user@8VQAADFX9.tor-irc.dnsbl.oftc.net) has quit
+2017-11-02 14:41:28	-->	user_ (~user@176.67.168.210) has joined #whonix
+2017-11-02 14:42:07	<--	user_ (~user@7YZAADC6N.tor-irc.dnsbl.oftc.net) has quit
+2017-11-02 14:46:19	-->	user_ (~user@95.141.35.15) has joined #whonix
+2017-11-02 14:47:07	user_	test
+2017-11-03 03:54:59	--	irc: disconnected from server
+2017-11-03 03:55:20	-->	MDrights[SW (~MDrights@7YZAADDQ0.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 03:55:20	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 03:55:20	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 03:55:20	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-03 03:55:20	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 03:55:29	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 04:28:18	--	irc: disconnected from server
+2017-11-03 04:30:32	-->	MDrights[SW (~MDrights@7YZAADDRR.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 04:30:32	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 04:30:32	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 04:30:32	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-03 04:30:32	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 04:30:42	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 11:23:32	--	irc: disconnected from server
+2017-11-03 11:23:52	-->	MDrights[SW (~MDrights@8L3AACJ5L.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 11:23:52	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 11:23:52	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 11:23:52	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-03 11:23:52	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 11:24:02	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 11:26:32	-->	Cerebral (~Cerebral_@exit02.brasshorncomms.uk) has joined #whonix
+2017-11-03 11:30:49	--	irc: disconnected from server
+2017-11-03 11:34:15	-->	MDrights[SW (~MDrights@8VQAADGIS.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 11:34:15	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 11:34:15	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 11:34:15	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-03 11:34:15	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 11:34:25	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 11:43:12	--	irc: disconnected from server
+2017-11-03 11:44:02	-->	MDrights[SW (~MDrights@7MPAACQGS.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 11:44:02	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 11:44:02	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 11:44:02	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-03 11:44:02	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 11:44:12	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 11:49:59	--	irc: disconnected from server
+2017-11-03 11:59:16	-->	MDrights[SW (~MDrights@8VQAADGJC.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-03 11:59:16	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-03 11:59:16	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-03 11:59:16	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-03 11:59:16	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-03 11:59:26	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-03 12:07:51	<--	Cerebral (~Cerebral_@8L3AACJ5O.tor-irc.dnsbl.oftc.net) has quit (Quit: Perhaps all levels of reality are valid.)
+2017-11-04 10:48:19	--	irc: disconnected from server
+2017-11-07 11:51:37	-->	MDrights[SW (~MDrights@216.218.222.14) has joined #whonix
+2017-11-07 11:51:37	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-07 11:51:37	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-07 11:51:37	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-07 11:51:38	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-07 11:51:44	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-07 12:40:39	--	irc: disconnected from server
+2017-11-07 12:55:47	-->	MDrights[SW (~MDrights@4G4AAAA12.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-07 12:55:47	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-07 12:55:47	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-07 12:55:47	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-07 12:55:47	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-07 12:55:57	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-08 10:10:27	-->	MDrights[SW (~MDrights@tor.t-3.net) has joined #whonix
+2017-11-08 10:10:27	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-08 10:10:27	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-08 10:10:27	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-08 10:10:27	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-08 10:10:33	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-08 10:39:30	<--	fftor (3ed22552@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-08 10:39:55	-->	fftor (ab19c14e@107.161.19.53) has joined #whonix
+2017-11-08 11:47:32	-->	user (~user@tor3e1.digitale-gesellschaft.ch) has joined #whonix
+2017-11-08 11:47:53	<--	user (~user@7YZAAAESB.tor-irc.dnsbl.oftc.net) has quit
+2017-11-08 12:22:20	-->	torisahoneypot (~tphiai@8L3AAABZS.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-08 12:37:14	-->	linurandy (~rolando@60.168.155.31) has joined #whonix
+2017-11-08 12:37:35	linurandy	i need anyone could help me?
+2017-11-08 12:51:05	linurandy	anyone?
+2017-11-08 12:56:46	linurandy	Is this an empty channel?
+2017-11-08 13:03:25	MDrights[SW	nope
+2017-11-08 13:03:36	MDrights[SW	just ask your question
+2017-11-08 13:30:27	linurandy	well i've configure the torcc, ran the whomixsetup and then i ran arm i went to the second view and nothing appear, what i have to do?
+2017-11-08 13:30:50	linurandy	could i make traceroute from whonix without or
+2017-11-08 13:31:03	linurandy	could i make traceroute from whonix without tor
+2017-11-08 13:40:23	linurandy	MDrights[SW: are you there?
+2017-11-08 14:09:05	MDrights[SW	linurandy: ah...I have no idea :)
+2017-11-08 14:09:17	MDrights[SW	I didn't use Whonix for a while (
+2017-11-08 14:09:19	MDrights[SW	sorry
+2017-11-08 14:09:35	 *	MDrights[SW see you
+2017-11-09 02:39:25	-->	MDrights[SW (~MDrights@93.115.95.204) has joined #whonix
+2017-11-09 02:39:25	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-09 02:39:25	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-09 02:39:25	--	Channel #whonix: 33 nicks (0 ops, 0 voices, 33 normals)
+2017-11-09 02:39:25	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-09 02:39:30	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-09 04:34:01	<--	chloroform (~chlorofor@7YZAAAE6M.tor-irc.dnsbl.oftc.net) has left #whonix
+2017-11-09 04:45:37	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Read error: Connection reset by peer)
+2017-11-09 04:46:50	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-09 06:42:22	--	irc: disconnected from server
+2017-11-09 06:48:00	-->	MDrights[SW (~MDrights@0BGAAAA8T.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-09 06:48:00	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-09 06:48:00	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-09 06:48:00	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-09 06:48:00	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-09 06:48:10	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-09 07:09:50	--	irc: disconnected from server
+2017-11-09 07:13:20	-->	MDrights[SW (~MDrights@0BGAAABAS.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-09 07:13:20	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-09 07:13:20	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-09 07:13:20	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-09 07:13:20	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-09 07:13:27	-->	user (~user@torsrv1.snydernet.net) has joined #whonix
+2017-11-09 07:13:30	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-09 07:13:58	user	d
+2017-11-09 07:13:58	--	user is now known as Guest194
+2017-11-09 07:14:13	<--	Guest194 (~user@0BGAAABAT.tor-irc.dnsbl.oftc.net) has quit
+2017-11-09 07:15:17	<--	linurandy (~rolando@60.168.155.31) has quit (Ping timeout: 480 seconds)
+2017-11-09 07:16:06	<--	bpsecret (~bpsecret@000219a4.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-09 08:12:52	<--	torisahoneypot (~tphiai@8L3AAABZS.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-09 08:15:09	-->	fftor (d9b64eb1@107.161.19.53) has joined #whonix
+2017-11-09 08:19:25	-->	linurandy (~rolando@60.168.155.31) has joined #whonix
+2017-11-09 08:21:14	<--	linurandy (~rolando@60.168.155.31) has quit
+2017-11-09 08:22:03	-->	linurandy (~rolando@60.168.155.31) has joined #whonix
+2017-11-09 08:27:18	-->	rolando (~rolando@60.168.155.31) has joined #whonix
+2017-11-09 08:27:42	<--	linurandy (~rolando@60.168.155.31) has quit (Read error: Connection reset by peer)
+2017-11-09 08:39:44	<--	ap4lmtree (~ap4lmtree@000251a3.user.oftc.net) has quit (Read error: Connection reset by peer)
+2017-11-09 08:40:00	-->	ap4lmtree (~ap4lmtree@000251a3.user.oftc.net) has joined #whonix
+2017-11-10 02:43:13	--	irc: disconnected from server
+2017-11-10 02:43:31	-->	MDrights[SW (~MDrights@0BGAAAC0F.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 02:43:31	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 02:43:31	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 02:43:31	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-10 02:43:31	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 02:43:41	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-10 07:22:50	-->	Baku (~oftc-webi@194.135.153.52) has joined #whonix
+2017-11-10 07:23:46	<--	Baku (~oftc-webi@194.135.153.52) has quit
+2017-11-10 08:01:25	-->	fftor (330f460d@b.clients.kiwiirc.com) has joined #whonix
+2017-11-10 10:56:03	--	irc: disconnected from server
+2017-11-10 11:00:24	-->	MDrights[SW (~MDrights@5PUAAAF9G.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 11:00:24	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 11:00:24	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 11:00:24	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-10 11:00:24	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 11:00:38	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-10 11:27:19	<--	spacefan (~spacefan@ip68-13-242-205.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-10 11:45:05	-->	user (~user@tor1.modio.se) has joined #whonix
+2017-11-10 11:45:17	<--	user (~user@5PUAAAGAQ.tor-irc.dnsbl.oftc.net) has quit
+2017-11-10 12:14:18	--	irc: disconnected from server
+2017-11-10 12:15:04	-->	MDrights[SW (~MDrights@7YZAAAFYV.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 12:15:04	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 12:15:04	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 12:15:04	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-10 12:15:04	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 12:15:18	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-10 12:44:03	--	irc: disconnected from server
+2017-11-10 12:44:19	-->	MDrights[SW (~MDrights@0BGAAADK9.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 12:44:19	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 12:44:19	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 12:44:19	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-10 12:44:19	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 12:44:33	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-10 12:55:16	--	irc: disconnected from server
+2017-11-10 12:55:53	-->	MDrights[SW (~MDrights@0BGAAADLM.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 12:55:53	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 12:55:53	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 12:55:53	--	Channel #whonix: 28 nicks (0 ops, 0 voices, 28 normals)
+2017-11-10 12:55:53	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 12:56:07	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-10 23:49:13	--	irc: disconnected from server
+2017-11-10 23:49:44	-->	MDrights[SW (~MDrights@0BGAAADYN.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-10 23:49:44	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-10 23:49:44	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-10 23:49:44	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-10 23:49:44	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-10 23:49:57	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-11 00:27:13	-->	fftor (330f22d6@107.161.19.53) has joined #whonix
+2017-11-11 00:30:59	-->	linux1 (~oftc-webi@tor-exit1-readme.dfri.se) has joined #whonix
+2017-11-11 00:32:07	linux1	hello. i try to install whonix but receive "incorrect signature" error. i downloaded with wget and curl via clearnet, torify wget via onion website and tor browser, but signature is still incorrect
+2017-11-11 00:32:38	linux1	i tried whonix libvirt.xz and ova
+2017-11-11 00:33:25	linux1	whonix 13
+2017-11-11 00:34:03	linux1	host is ubuntu 16.04
+2017-11-11 00:37:50	linux1	?
+2017-11-11 00:50:30	linux1	?
+2017-11-11 01:28:12	MDrights[SW	You have used correct PGP key of the developers?
+2017-11-11 01:31:10	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Read error: Connection reset by peer)
+2017-11-11 01:32:10	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-11 01:41:29	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-11 01:56:57	-->	user (~user@163.172.137.253) has joined #whonix
+2017-11-11 01:57:33	--	user is now known as Guest317
+2017-11-11 01:57:46	Guest317	Hi
+2017-11-11 01:57:53	Guest317	How can i connect to a server
+2017-11-11 01:57:55	Guest317	on irc
+2017-11-11 01:59:19	<--	Guest317 (~user@4G4AAAHNM.tor-irc.dnsbl.oftc.net) has quit
+2017-11-11 02:01:30	-->	user__ (~user@4G4AAAHNQ.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-11 02:01:55	user__	How can i connect to a server
+2017-11-11 02:08:46	<--	user__ (~user@4G4AAAHNQ.tor-irc.dnsbl.oftc.net) has quit (Quit: user__)
+2017-11-11 02:09:20	-->	Idkwhoiamyet (~theybecam@35.ip-51-254-98.eu) has joined #whonix
+2017-11-11 02:16:33	<--	Idkwhoiamyet (~theybecam@4G4AAAHN2.tor-irc.dnsbl.oftc.net) has quit (Quit: Idkwhoiamyet)
+2017-11-11 02:31:29	-->	user__ (~user@4G4AAAHOM.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-11 02:31:51	<--	user__ (~user@4G4AAAHOM.tor-irc.dnsbl.oftc.net) has quit
+2017-11-11 03:02:28	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-11 03:11:33	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-11 04:05:49	-->	MDrights[SW (~MDrights@195.22.126.177) has joined #whonix
+2017-11-11 04:05:49	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-11 04:05:49	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-11 04:05:49	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-11 04:05:49	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-11 04:05:50	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-11 04:16:07	-->	tori[m] (~torimatri@2001:470:1af1:101::f95) has joined #whonix
+2017-11-11 04:16:41	tori[m]	recommendations for an RSS reader to use in whonix?
+2017-11-11 05:32:29	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-11 05:59:51	MDrights[SW	seems nothing special...
+2017-11-11 06:00:33	MDrights[SW	since Whonix route all traffic of all apps through Tor. There's no worries(
+2017-11-11 06:55:21	-->	user (~user@5.79.86.15) has joined #whonix
+2017-11-11 06:55:53	--	user is now known as Guest332
+2017-11-11 06:56:20	Guest332	how install kodi on whonix
+2017-11-11 07:19:02	Guest332	enybady question for mi do chuja
+2017-11-11 07:20:54	<--	Guest332 (~user@0BGAAAD7C.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-11 08:03:40	-->	saki (~Thunderbi@68.68.32.84) has joined #whonix
+2017-11-11 08:07:29	-->	yellowparrot (~yellowpar@00026c84.user.oftc.net) has joined #whonix
+2017-11-11 08:13:45	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-11 08:24:00	<--	saki (~Thunderbi@68.68.32.84) has quit (Ping timeout: 480 seconds)
+2017-11-11 08:38:12	yellowparrot	being a tor newbie, the whonix website times out every fifth time or so i try to access a page, is this normal, or misconfiguration on my part?
+2017-11-11 11:01:11	--	irc: disconnected from server
+2017-11-11 11:01:28	-->	MDrights[SW (~MDrights@tor-relay-4.danwin1210.me) has joined #whonix
+2017-11-11 11:01:28	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-11 11:01:28	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-11 11:01:28	--	Channel #whonix: 34 nicks (0 ops, 0 voices, 34 normals)
+2017-11-11 11:01:28	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-11 11:01:36	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-11 11:23:42	--	irc: disconnected from server
+2017-11-11 11:23:56	-->	MDrights[SW (~MDrights@ns529549.ip-198-245-60.net) has joined #whonix
+2017-11-11 11:23:56	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-11 11:23:56	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-11 11:23:56	--	Channel #whonix: 33 nicks (0 ops, 0 voices, 33 normals)
+2017-11-11 11:23:56	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-11 11:24:03	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-11 11:25:47	<--	spacefan2 (~spacefan@ip68-13-249-94.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-11 11:46:49	-->	Idkwhoiamyet (~theybecam@tor-relay-8.danwin1210.me) has joined #whonix
+2017-11-11 11:56:13	<--	Idkwhoiamyet (~theybecam@4G4AAAH6N.tor-irc.dnsbl.oftc.net) has quit (Quit: Idkwhoiamyet)
+2017-11-11 12:23:32	linux1	hello
+2017-11-11 12:23:37	linux1	[00:26] <linux1> hello. i try to install whonix but receive "incorrect signature" error. i downloaded with wget and curl via clearnet, torify wget via onion website and tor browser, but signature is still incorrect [00:26] <linux1> i tried whonix libvirt.xz and ova [00:27] <linux1> whonix 13 [00:28] <linux1> host is ubuntu 16.04
+2017-11-11 13:23:31	linux1	gpg --verify-options show-notations --verify Whonix-Gateway-*.libvirt.xz.asc Whonix-Gateway-*.libvirt.xz gpg: Signature made mer 21 Dec 2016 05:04:30 +0100 CET using RSA key ID 77BB3C48 gpg: BAD signature from "Patrick Schleizer <adrelanos@riseup.net>
+2017-11-11 13:51:05	<--	linux1 (~oftc-webi@tor-exit1-readme.dfri.se) has quit (Remote host closed the connection)
+2017-11-11 14:07:16	<--	torisahoneypot (~wuXBqzFWz@4G4AAAG5N.tor-irc.dnsbl.oftc.net) has quit (Quit: torisahoneypot)
+2017-11-11 15:06:06	-->	linux1 (~oftc-webi@2604:9a00:2010:a08d:10::23) has joined #whonix
+2017-11-11 15:06:15	linux1	[00:26] <linux1> hello. i try to install whonix but receive "incorrect signature" error. i downloaded with wget and curl via clearnet, torify wget via onion website and tor browser, but signature is still incorrect [00:26] <linux1> i tried whonix libvirt.xz and ova [00:27] <linux1> whonix 13 [00:28] <linux1> host is ubuntu 16.04
+2017-11-11 15:08:18	-->	Guest345 (~user@4G4AAAICM.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-11 15:08:27	linux1	hello
+2017-11-11 15:08:39	linux1	can you help with whonix verify problem?
+2017-11-11 15:09:22	Guest345	what's the problem?
+2017-11-11 15:10:47	linux1	[00:26] <linux1> hello. i try to install whonix but receive "incorrect signature" error. i downloaded with wget and curl via clearnet, torify wget via onion website and tor browser, but signature is still incorrect [00:26] <linux1> i tried whonix libvirt.xz and ova [00:27] <linux1> whonix 13 [00:28] <linux1> host is ubuntu 16.04
+2017-11-11 15:11:09	linux1	gpg --verify-options show-notations --verify Whonix-Gateway-*.libvirt.xz.asc Whonix-Gateway-*.libvirt.xz gpg: Signature made 21 Dec 2016 05:04:30 +0100 CET using RSA key ID 77BB3C48 gpg: BAD signature from "Patrick Schleizer <adrelanos@riseup.net>
+2017-11-11 15:14:06	Guest345	I don't think you or me can solve this. Which download URL did you use?
+2017-11-11 15:24:31	<--	Guest345 (~user@4G4AAAICM.tor-irc.dnsbl.oftc.net) has quit (Quit: Guest345)
+2017-11-12 02:45:03	--	irc: disconnected from server
+2017-11-12 02:45:44	-->	MDrights[SW (~MDrights@109.201.133.100) has joined #whonix
+2017-11-12 02:45:44	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-12 02:45:44	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-12 02:45:44	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-12 02:45:44	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-12 02:45:52	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-12 03:18:05	<--	ap4lmtree (~ap4lmtree@000251a3.user.oftc.net) has quit
+2017-11-12 03:21:58	-->	ap4lmtree (ap4lmtree@000251a3.user.oftc.net) has joined #whonix
+2017-11-12 03:49:55	-->	ap4lmtree- (ap4lmtree@cpe-172-91-1-173.socal.res.rr.com) has joined #whonix
+2017-11-12 03:52:10	<--	ap4lmtree (ap4lmtree@000251a3.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-12 04:11:24	-->	MDrights1 (~MDrights@tor.pandora.1337.cf) has joined #whonix
+2017-11-12 04:56:05	<--	MDrights1 (~MDrights@5PUAAAG86.tor-irc.dnsbl.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-12 05:45:08	--	ap4lmtree- is now known as ap4lmtree
+2017-11-12 09:05:00	-->	user (~user@109.236.90.209) has joined #whonix
+2017-11-12 09:05:37	--	user is now known as Guest382
+2017-11-12 09:06:20	<--	Guest382 (~user@4G4AAAIW3.tor-irc.dnsbl.oftc.net) has quit
+2017-11-12 10:24:18	-->	user (~user@tor-exit-node.7by7.de) has joined #whonix
+2017-11-12 10:24:57	--	user is now known as Guest386
+2017-11-12 10:25:25	<--	Guest386 (~user@tor-exit-node.7by7.de) has quit
+2017-11-12 11:53:55	-->	user (~user@31.131.4.167) has joined #whonix
+2017-11-12 11:54:28	--	user is now known as Guest390
+2017-11-12 12:15:38	<--	Guest390 (~user@4G4AAAI4B.tor-irc.dnsbl.oftc.net) has quit (Quit: Guest390)
+2017-11-12 12:29:22	<--	spacefan (~spacefan@ip68-13-249-94.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-13 01:42:23	--	irc: disconnected from server
+2017-11-13 01:42:40	-->	MDrights[SW (~MDrights@207.244.70.35) has joined #whonix
+2017-11-13 01:42:40	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-13 01:42:40	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-13 01:42:40	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-13 01:42:40	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-13 01:42:48	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-13 02:25:06	-->	ap4lmtree- (ap4lmtree@cpe-172-91-21-109.socal.res.rr.com) has joined #whonix
+2017-11-13 02:26:34	<--	ap4lmtree (ap4lmtree@cpe-172-91-1-173.socal.res.rr.com) has quit (Ping timeout: 480 seconds)
+2017-11-13 02:50:18	<--	xx31i73xx (~user@0BGAAAFGA.tor-irc.dnsbl.oftc.net) has quit (Quit: xx31i73xx)
+2017-11-13 09:00:07	--	irc: disconnected from server
+2017-11-13 09:32:26	-->	MDrights[SW (~MDrights@146.0.43.126) has joined #whonix
+2017-11-13 09:32:26	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-13 09:32:26	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-13 09:32:26	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-13 09:32:26	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-13 09:32:34	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-13 11:09:57	<--	spacefan (~spacefan@ip68-13-249-94.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-14 02:52:31	--	irc: disconnected from server
+2017-11-14 02:52:47	-->	MDrights[SW (~MDrights@relay1.tor.openinternet.io) has joined #whonix
+2017-11-14 02:52:47	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-14 02:52:47	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-14 02:52:47	--	Channel #whonix: 33 nicks (0 ops, 0 voices, 33 normals)
+2017-11-14 02:52:47	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-14 02:52:55	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-14 03:01:39	<--	tactleneck (~gvhoecke@54.82-241-81.adsl-dyn.isp.belgacom.be) has quit (Ping timeout: 480 seconds)
+2017-11-14 03:05:11	-->	tactleneck (~gvhoecke@91.182.19.149) has joined #whonix
+2017-11-14 03:19:42	-->	user (~user@tor2e1.digitale-gesellschaft.ch) has joined #whonix
+2017-11-14 03:19:58	<--	user (~user@0BGAAAGQZ.tor-irc.dnsbl.oftc.net) has quit
+2017-11-14 04:20:46	-->	Idkwhoiamyet (~theybecam@64.137.230.14) has joined #whonix
+2017-11-14 04:20:56	Idkwhoiamyet	hi
+2017-11-14 04:21:56	Idkwhoiamyet	if i use anonwhoinx how can i use gpg
+2017-11-14 04:22:05	Idkwhoiamyet	unrelated to dom0
+2017-11-14 04:25:35	-->	whoishe (~theybecam@8L3AAAHOV.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 04:26:16	<--	whoishe (~theybecam@8L3AAAHOV.tor-irc.dnsbl.oftc.net) has quit
+2017-11-14 04:54:26	dnull	Idkwhoiamyet: https://www.qubes-os.org/doc/split-gpg/
+2017-11-14 05:25:33	Idkwhoiamyet	I did
+2017-11-14 05:25:33	Idkwhoiamyet	that
+2017-11-14 05:25:43	Idkwhoiamyet	but what about for anon whoinx
+2017-11-14 05:25:56	Idkwhoiamyet	is it a different key
+2017-11-14 05:28:14	Idkwhoiamyet	Thank you Dnull
+2017-11-14 05:28:21	Idkwhoiamyet	I appreciate that
+2017-11-14 05:28:36	Idkwhoiamyet	but will I have to do this in this new template =? its not working
+2017-11-14 05:32:02	dnull	There's a backend qube (usually vault), and the client can be any other Qube
+2017-11-14 05:32:08	dnull	Including anon-whonix
+2017-11-14 05:33:25	Idkwhoiamyet	I see......
+2017-11-14 05:33:28	Idkwhoiamyet	hmm
+2017-11-14 05:34:05	dnull	Or you can just run it straight in anon-whonix
+2017-11-14 05:34:19	dnull	But split-gpg is more secure, that's why it's suggested
+2017-11-14 05:34:35	Idkwhoiamyet	but thats connected to dom0
+2017-11-14 05:34:40	Idkwhoiamyet	?
+2017-11-14 05:35:04	dnull	No
+2017-11-14 05:35:20	dnull	That's why a Qube like vault is used for the backend
+2017-11-14 05:36:51	Idkwhoiamyet	i SEE. Thank you. 
+2017-11-14 05:37:07	-->	fftor (a3ac6589@107.161.19.53) has joined #whonix
+2017-11-14 05:37:39	Idkwhoiamyet	So oncee i have someones public key how can i reach them safely? 
+2017-11-14 05:37:45	Idkwhoiamyet	withouth mim attacks
+2017-11-14 05:38:50	dnull	"Use qubes-gpg-import-key in the client AppVM to import the key into the GPG backend VM."
+2017-11-14 05:38:56	dnull	It's on that page
+2017-11-14 05:39:36	Idkwhoiamyet	Gotcha,....Thank you so much
+2017-11-14 05:39:58	Idkwhoiamyet	are any of you on torbox chat
+2017-11-14 06:14:02	<--	Guest492 (~user@7MPAAAH9J.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-14 06:34:04	<--	fftor (a3ac6589@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-14 06:43:32	-->	user (~user@this-is-a-tor-exit-node---keywebtor2.artikel5ev.de) has joined #whonix
+2017-11-14 06:43:53	<--	user (~user@5PUAAAIOI.tor-irc.dnsbl.oftc.net) has quit
+2017-11-14 06:49:10	-->	fftor (b9260eab@107.161.19.53) has joined #whonix
+2017-11-14 07:09:26	<--	Idkwhoiamyet (~theybecam@8L3AAAHOR.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-14 07:29:36	-->	user__ (~user@0BGAAAGVI.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 07:29:54	<--	user__ (~user@0BGAAAGVI.tor-irc.dnsbl.oftc.net) has quit
+2017-11-14 08:39:36	<--	fftor (b9260eab@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-14 08:41:06	-->	fftor (add4e98b@107.161.19.53) has joined #whonix
+2017-11-14 08:43:35	<--	fftor (add4e98b@107.161.19.53) has quit
+2017-11-14 08:46:26	-->	fftor (add4e98b@107.161.19.53) has joined #whonix
+2017-11-14 08:48:23	<--	fftor (add4e98b@107.161.19.53) has quit
+2017-11-14 09:45:03	--	irc: disconnected from server
+2017-11-14 09:51:34	--	irc: disconnected from server
+2017-11-14 09:52:07	-->	MDrights1 (~MDrights@104.223.123.98) has joined #whonix
+2017-11-14 09:52:07	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-14 09:52:07	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-14 09:52:07	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-14 09:52:07	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-14 09:52:15	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-14 09:54:24	-->	yuppi (330f8678@107.161.19.53) has joined #whonix
+2017-11-14 10:03:23	-->	user (~user@5PUAAAIUG.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 10:03:53	--	user is now known as Guest510
+2017-11-14 10:06:59	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-14 10:07:45	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-14 10:23:07	-->	yolanna^ (~yolanna^@7MPAAAILC.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 10:44:18	<--	yolanna^ (~yolanna^@7MPAAAILC.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-14 11:21:46	-->	yhwh (~yhwh@7YZAAAIMS.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 11:22:09	-->	Cerebral (~Cerebral_@207.244.70.35) has joined #whonix
+2017-11-14 12:05:33	--	irc: disconnected from server
+2017-11-14 12:06:08	-->	MDrights1 (~MDrights@8L3AAAHYP.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-14 12:06:08	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-14 12:06:08	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-14 12:06:08	--	Channel #whonix: 36 nicks (0 ops, 0 voices, 36 normals)
+2017-11-14 12:06:08	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-14 12:06:16	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-14 12:37:34	<--	ap4lmtree- (ap4lmtree@cpe-172-91-21-109.socal.res.rr.com) has quit (Ping timeout: 480 seconds)
+2017-11-14 12:38:30	-->	ap4lmtree (ap4lmtree@000251a3.user.oftc.net) has joined #whonix
+2017-11-15 03:29:39	-->	MDrights[SW (~MDrights@93.115.95.204) has joined #whonix
+2017-11-15 03:29:39	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 03:29:39	--	Topic set by ChanServ (services@services.oftc.net) on Sat, 12 Aug 2017 06:04:30
+2017-11-15 03:29:39	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-15 03:29:40	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 03:29:43	--	Channel created on Mon, 09 Dec 2013 14:43:48
+2017-11-15 03:44:37	-->	absol (~abs0lTDE@0BGAAAHR4.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 03:44:41	absol	hi
+2017-11-15 03:44:55	absol	so according to my konsole everything is up to date
+2017-11-15 03:45:06	absol	as far as my sudo apt-get update and upgrade
+2017-11-15 03:45:17	absol	but whonix check is giving me this error
+2017-11-15 03:45:30	absol	ERROR: Check Timezone Result: 
+2017-11-15 03:45:30	absol	timezone_file_expected_content: Etc/UTC 
+2017-11-15 03:45:30	absol	timezone_file_actual_content: 
+2017-11-15 03:45:30	absol	ERROR: Check Timezone Result: 
+2017-11-15 03:45:31	absol	Settings different from Whonix defaults. (See above!) 
+2017-11-15 03:45:32	absol	You could try to fix this. 
+2017-11-15 03:45:34	absol	Start Menu -> Applications -> System -> Konsole
+2017-11-15 03:45:37	absol	sudo su 
+2017-11-15 03:45:38	absol	echo "Etc/UTC" > /etc/timezone 
+2017-11-15 03:45:41	absol	cp "/usr/share/zoneinfo/Etc/UTC" "/etc/localtime"
+2017-11-15 03:45:43	absol	It is generally recommended to keep the default as per Whonix Design. [1] If you did not change timezone related settings, please report this Whonix bug. 
+2017-11-15 03:45:46	absol	If you know what you are doing, feel free to disable this check. Create a file /etc/whonix.d/50_whonixcheck_user.conf and add: 
+2017-11-15 03:45:49	absol	whonixcheck_skip_functions+=" check_timezone "
+2017-11-15 03:46:03	absol	the problem is, i don't understand the command they are trying to tell me to enter the konsole
+2017-11-15 03:46:15	absol	so i changed the timezone in the settings and still get this problem
+2017-11-15 03:46:29	absol	and i believe this problem is keeping from the tor browser installing properly
+2017-11-15 04:20:21	absol	is there a command line listing somewhere for whonix?
+2017-11-15 04:24:18	-->	user__ (~user@h-4-230-97.A328.priv.bahnhof.se) has joined #whonix
+2017-11-15 04:27:34	<--	user__ (~user@0BGAAAHTV.tor-irc.dnsbl.oftc.net) has quit
+2017-11-15 04:29:21	-->	user (~user@h-4-230-97.A328.priv.bahnhof.se) has joined #whonix
+2017-11-15 04:29:57	--	user is now known as Guest557
+2017-11-15 04:32:52	<--	absol (~abs0lTDE@0BGAAAHR4.tor-irc.dnsbl.oftc.net) has quit (Quit: absol)
+2017-11-15 04:43:50	<--	Guest557 (~user@0BGAAAHT1.tor-irc.dnsbl.oftc.net) has quit (Quit: Guest557)
+2017-11-15 05:00:23	-->	lowEndTheroy_ (~lowEndThe@192.42.116.16) has joined #whonix
+2017-11-15 05:16:12	<--	lowEndTheroy_ (~lowEndThe@0BGAAAHUZ.tor-irc.dnsbl.oftc.net) has quit (Quit: lowEndTheroy_)
+2017-11-15 06:36:25	--	irc: disconnected from server
+2017-11-15 06:38:04	-->	MDrights[SW (~MDrights@4G4AAAMSP.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 06:38:04	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 06:38:04	--	Topic set by ChanServ (services@services.oftc.net) on Sat, 12 Aug 2017 06:04:30
+2017-11-15 06:38:04	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-15 06:38:04	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 06:38:19	--	Channel created on Mon, 09 Dec 2013 14:43:48
+2017-11-15 06:49:29	<--	cerberii (cerberii@00020dce.user.oftc.net) has quit (synthon.oftc.net charm.oftc.net)
+2017-11-15 06:49:29	<--	synnick (sid116089@id-116089.hathersage.irccloud.com) has quit (synthon.oftc.net charm.oftc.net)
+2017-11-15 06:51:16	-->	synnick (sid116089@id-116089.hathersage.irccloud.com) has joined #whonix
+2017-11-15 06:51:16	-->	cerberii (cerberii@00020dce.user.oftc.net) has joined #whonix
+2017-11-15 07:24:09	-->	MDrights[SW (~MDrights@exit03.brasshorncomms.uk) has joined #whonix
+2017-11-15 07:24:09	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 07:24:09	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-15 07:24:09	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-15 07:24:09	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 07:24:12	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-15 07:30:50	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-15 07:30:59	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-15 07:33:41	--	irc: disconnected from server
+2017-11-15 07:34:06	-->	MDrights[SW (~MDrights@0BGAAAH4T.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 07:34:06	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 07:34:06	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-15 07:34:06	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-15 07:34:06	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 07:34:16	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-15 10:59:34	--	irc: disconnected from server
+2017-11-15 11:00:11	-->	MDrights[SW (~MDrights@5PUAAAJL6.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 11:00:11	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 11:00:11	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-15 11:00:11	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-15 11:00:11	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 11:00:21	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-15 11:10:09	--	irc: disconnected from server
+2017-11-15 11:21:55	-->	MDrights[SW (~MDrights@7MPAAAJST.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 11:21:55	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 11:21:55	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-15 11:21:55	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-15 11:21:55	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 11:22:05	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-15 11:23:46	-->	user (~user@tor-exit-node.7by7.de) has joined #whonix
+2017-11-15 11:24:16	--	user is now known as Guest575
+2017-11-15 11:29:39	-->	user__ (~user@4G4AAAM34.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 11:30:02	<--	user__ (~user@4G4AAAM34.tor-irc.dnsbl.oftc.net) has quit
+2017-11-15 11:45:46	<--	Guest575 (~user@tor-exit-node.7by7.de) has quit (Quit: Guest575)
+2017-11-15 12:14:07	--	irc: disconnected from server
+2017-11-15 15:08:30	-->	MDrights[SW (~MDrights@5PUAAAJST.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 15:08:30	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-15 15:08:30	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-15 15:08:30	--	Channel #whonix: 32 nicks (0 ops, 0 voices, 32 normals)
+2017-11-15 15:08:30	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-15 15:08:38	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-15 15:19:42	<--	Cerebral (~Cerebral_@8L3AAAI69.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-15 15:19:57	-->	Cerebral (~Cerebral_@chomsky.torservers.net) has joined #whonix
+2017-11-15 16:23:32	-->	user (~user@tor2e1.digitale-gesellschaft.ch) has joined #whonix
+2017-11-15 16:24:09	--	user is now known as Guest586
+2017-11-15 16:24:14	<--	Guest586 (~user@0BGAAAIJQ.tor-irc.dnsbl.oftc.net) has quit
+2017-11-15 17:12:52	-->	user__ (~user@tor.emeraldonion.org) has joined #whonix
+2017-11-15 17:13:11	user__	hi
+2017-11-15 17:14:21	user__	hi people
+2017-11-15 17:14:39	user__	I have a problem with whonix workstation
+2017-11-15 17:14:45	user__	someone can help me?
+2017-11-15 17:16:55	user__	??
+2017-11-15 17:20:41	<--	user__ (~user@7MPAAAJ51.tor-irc.dnsbl.oftc.net) has quit (Quit: user__)
+2017-11-15 17:59:04	-->	nakie (~nakie@7MPAAAJ7G.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 18:03:24	<--	nakie (~nakie@7MPAAAJ7G.tor-irc.dnsbl.oftc.net) has left #whonix
+2017-11-15 19:16:29	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Read error: Connection reset by peer)
+2017-11-15 19:27:05	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-15 19:34:34	-->	MeowZeDong (~MeowZeDon@000220c6.user.oftc.net) has joined #whonix
+2017-11-15 19:34:38	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Read error: Connection reset by peer)
+2017-11-15 20:16:46	<--	MeowZeDong (~MeowZeDon@000220c6.user.oftc.net) has quit (Remote host closed the connection)
+2017-11-15 20:34:14	<--	Cerebral (~Cerebral_@7YZAAAJJW.tor-irc.dnsbl.oftc.net) has quit (Quit: Perhaps all levels of reality are valid.)
+2017-11-15 20:51:32	<--	yuppi (add4e98b@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-15 21:00:04	-->	user (~user@0BGAAAIQN.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-15 21:00:31	user	hi
+2017-11-15 21:00:38	--	user is now known as Guest595
+2017-11-15 21:01:08	Guest595	I have a problem with whonix workstation, someone can help me?
+2017-11-15 21:02:45	Guest595	is this a support chat?
+2017-11-15 21:03:25	dnull	You have yet to ask a question
+2017-11-15 21:03:25	-->	spacefan (~spacefan@ip68-13-249-94.ok.ok.cox.net) has joined #whonix
+2017-11-15 21:03:45	Guest595	sorry
+2017-11-15 21:03:52	Guest595	:)
+2017-11-15 21:04:07	Guest595	Tor browser won't start
+2017-11-15 21:04:19	Guest595	when i launch tath
+2017-11-15 21:04:24	Guest595	*that
+2017-11-15 21:04:39	dnull	Did you try starting it from a terminal to see any errors?
+2017-11-15 21:04:55	Guest595	no
+2017-11-15 21:05:11	Guest595	How I can do this?
+2017-11-15 21:05:27	dnull	Open a terminal
+2017-11-15 21:05:51	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-15 21:05:51	Guest595	ok
+2017-11-15 21:06:21	dnull	Type torbrowser and hit enter
+2017-11-15 21:07:13	Guest595	say Tor browser is currently not installed
+2017-11-15 21:07:32	dnull	torbrowser
+2017-11-15 21:07:33	Guest595	folder /home/user/.tb/tor-browser does not exist
+2017-11-15 21:07:34	dnull	one word
+2017-11-15 21:08:42	Guest595	terminal ask me what version I want to install
+2017-11-15 21:09:14	dnull	So pick one
+2017-11-15 21:09:25	Guest595	Yes I do that
+2017-11-15 21:09:32	Guest595	and now say
+2017-11-15 21:09:34	Guest595	Failed to download: https://dist.torproject.org/torbrowser/7.0.6/sha256sums.txt.asc
+2017-11-15 21:09:34	Guest595	Possible reasons:
+2017-11-15 21:09:34	Guest595	- The download server is down.
+2017-11-15 21:09:34	Guest595	- File size exceeded (endless data attack triggered).
+2017-11-15 21:09:34	Guest595	- Tor Browser Downloader (by Whonix developers) has been broken due to upstream changes.
+2017-11-15 21:09:34	Guest595	Recommendations:
+2017-11-15 21:09:36	Guest595	- Try again later. If the error persists it probably won't solve itself before the next update.
+2017-11-15 21:09:38	Guest595	- Check News: https://www.whonix.org/wiki/Stay_Tuned
+2017-11-15 21:09:40	Guest595	- Manually update: https://www.whonix.org/wiki/Manually_Updating_Tor_Browser
+2017-11-15 21:09:42	Guest595	(Debugging information: curl_status_message: [22] - [HTTP page not retrieved. The requested url was not found or returned another error with the HTTP error code being 400 or above. This return code only appears if -f, --fail is used.])
+2017-11-15 21:09:49	Guest595	why?
+2017-11-15 21:09:51	dnull	Don't paste to the channel
+2017-11-15 21:09:54	dnull	Use a pastebin
+2017-11-15 21:10:02	Guest595	sorry
+2017-11-15 21:10:20	Guest595	it's a risk for me=
+2017-11-15 21:10:21	Guest595	?
+2017-11-15 21:10:25	dnull	Is the gateway connected?
+2017-11-15 21:10:30	Guest595	yes
+2017-11-15 21:10:34	dnull	Is what a risk?
+2017-11-15 21:10:55	Guest595	I have installed whonix gateway + workstation today
+2017-11-15 21:11:09	Guest595	I have typed in terminal
+2017-11-15 21:11:20	Guest595	apt-get update && apt-get dist-upgrade
+2017-11-15 21:11:33	Guest595	in gateway and in workstation
+2017-11-15 21:12:10	dnull	https://www.whonix.org/wiki/Starting_Whonix#Starting_Whonix
+2017-11-15 21:12:14	dnull	Start there
+2017-11-15 21:12:26	Guest595	it's a risk for me past to the channel the error of tor?
+2017-11-15 21:12:42	dnull	No, it just floods the channel and annoys people
+2017-11-15 21:12:47	dnull	That's why you use a pastebin
+2017-11-15 21:12:49	Guest595	ok sorry
+2017-11-15 21:14:13	Guest595	the folder "tor-browser" does not exist in /home/user/.tb
+2017-11-15 21:14:16	Guest595	why?
+2017-11-15 21:15:40	Guest595	it's normal?
+2017-11-15 21:16:57	Guest595	are you here?
+2017-11-15 21:17:10	dnull	https://www.whonix.org/wiki/Starting_Whonix#Starting_Whonix
+2017-11-15 21:17:13	dnull	Start there
+2017-11-15 21:20:54	Guest595	how I can open this link if the tor browser won't start?
+2017-11-15 21:21:43	dnull	Doesn't have to be read over tor
+2017-11-15 21:24:37	Guest595	ok but this link teach me how I can install whonix in vm
+2017-11-15 21:25:41	Guest595	I have installed whonix today
+2017-11-15 21:25:56	Guest595	now I have a problem with tor browser
+2017-11-15 21:26:22	Guest595	in whonix workstation
+2017-11-15 21:26:36	Guest595	how I can fix that?
+2017-11-15 21:27:42	Guest595	why there isn't the folder "tor-browser" in /home/user/.tb?
+2017-11-15 21:29:54	Guest595	32 people and nobody know why?
+2017-11-15 21:31:09	Guest595	?
+2017-11-15 21:32:02	Guest595	in your whonix workstation
+2017-11-15 21:32:14	Guest595	there is a folder named "tor-browser"
+2017-11-15 21:32:22	Guest595	in /home/user/.tb?
+2017-11-15 21:33:09	Guest595	.tb is an hidden folder
+2017-11-15 21:33:22	Guest595	type show hidden file in dolphin
+2017-11-15 21:34:18	Guest595	someone can help me please?
+2017-11-15 21:35:55	Guest595	ehy
+2017-11-15 21:36:30	Guest595	I must download tor manually?
+2017-11-15 21:37:00	Guest595	and extract the folder in /home/user/.bt?
+2017-11-15 21:37:07	Guest595	*.tb
+2017-11-15 21:37:59	Guest595	oooooooooooooooooooo
+2017-11-15 21:38:04	Guest595	this support is a shit
+2017-11-15 21:38:06	Guest595	bye
+2017-11-15 21:38:16	<--	Guest595 (~user@0BGAAAIQN.tor-irc.dnsbl.oftc.net) has quit (Quit: Guest595)
+2017-11-15 23:02:31	-->	user (~user@this-is-a-tor-exit-node---keywebtor1.artikel5ev.de) has joined #whonix
+2017-11-15 23:02:58	user	hi
+2017-11-15 23:03:10	--	user is now known as Guest603
+2017-11-15 23:03:22	Guest603	I have a problem with tor browser in whonix workstation
+2017-11-15 23:04:11	Guest603	Today I have installed whonix gateway + whonix workstation in vm
+2017-11-15 23:04:35	Guest603	I have do the updates
+2017-11-15 23:04:45	Guest603	but tor browser won't update
+2017-11-15 23:05:40	Guest603	how to do?
+2017-11-15 23:06:46	Guest603	why tor browser say error
+2017-11-15 23:06:54	Guest603	when i try to update them
+2017-11-15 23:07:06	Guest603	?
+2017-11-15 23:07:20	Guest603	ehi
+2017-11-15 23:07:24	Guest603	helloooooo
+2017-11-15 23:08:01	Guest603	ooooooooooooo
+2017-11-15 23:08:33	Guest603	when I see some videos on youtube
+2017-11-15 23:08:45	Guest603	people start tor easy
+2017-11-15 23:08:58	Guest603	in whonix workstation
+2017-11-15 23:09:04	Guest603	why me not?
+2017-11-15 23:09:14	Guest603	why I have this problem?
+2017-11-15 23:10:05	Guest603	hey
+2017-11-15 23:10:21	Guest603	32 people are spleeping now?
+2017-11-15 23:10:28	Guest603	hmm?
+2017-11-15 23:10:58	Guest603	someone help me please
+2017-11-15 23:13:28	Guest603	please
+2017-11-15 23:13:43	Guest603	I need help
+2017-11-15 23:14:09	<--	Guest603 (~user@4G4AAANPE.tor-irc.dnsbl.oftc.net) has quit (Quit: Guest603)
+2017-11-15 23:52:12	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Read error: Connection reset by peer)
+2017-11-16 00:03:45	<--	lowEndTheroy (~lowEndThe@exit0.liskov.tor-relays.net) has quit (Ping timeout: 480 seconds)
+2017-11-16 01:04:48	<--	nover (~nover@00025a4c.user.oftc.net) has quit (Quit: nover)
+2017-11-16 01:21:04	-->	nover (~nover@00025a4c.user.oftc.net) has joined #whonix
+2017-11-16 01:24:52	<--	meskio (~quassel@ip154.ip-94-23-74.eu) has quit (Quit: No Ping reply in 180 seconds.)
+2017-11-16 01:26:54	<--	nover (~nover@00025a4c.user.oftc.net) has quit (Quit: nover)
+2017-11-16 01:26:54	-->	meskio (~quassel@ip154.ip-94-23-74.eu) has joined #whonix
+2017-11-16 01:30:40	-->	nover (~nover@00025a4c.user.oftc.net) has joined #whonix
+2017-11-16 03:27:56	-->	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has joined #whonix
+2017-11-16 03:50:24	<--	tori[m] (~torimatri@2001:470:1af1:101::f95) has left #whonix (User left)
+2017-11-16 05:35:06	--	irc: disconnected from server
+2017-11-16 05:57:28	-->	MDrights[SW (~MDrights@4G4AAAOB9.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 05:57:28	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-16 05:57:28	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-16 05:57:28	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-16 05:57:28	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-16 05:57:36	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-16 05:59:46	-->	user (~user@191.96.249.110) has joined #whonix
+2017-11-16 06:00:18	--	user is now known as Guest621
+2017-11-16 06:35:48	<--	Guest621 (~user@0BGAAAI6E.tor-irc.dnsbl.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-16 07:14:08	--	irc: disconnected from server
+2017-11-16 07:14:27	-->	MDrights[SW (~MDrights@0BGAAAI99.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 07:14:27	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-16 07:14:27	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-16 07:14:27	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-16 07:14:27	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-16 07:14:37	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-16 07:16:58	-->	yuppi (9b04fa55@107.161.19.53) has joined #whonix
+2017-11-16 07:17:49	<--	yuppi (9b04fa55@107.161.19.53) has quit
+2017-11-16 07:17:58	-->	yuppi (9b04fa55@107.161.19.53) has joined #whonix
+2017-11-16 07:55:20	-->	user (~user@tor1e1.digitale-gesellschaft.ch) has joined #whonix
+2017-11-16 07:55:49	<--	user (~user@0BGAAAJB5.tor-irc.dnsbl.oftc.net) has quit
+2017-11-16 08:30:16	-->	user (~user@5PUAAAJ6U.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 08:30:48	--	user is now known as Guest625
+2017-11-16 08:31:24	<--	Guest625 (~user@5PUAAAJ6U.tor-irc.dnsbl.oftc.net) has quit
+2017-11-16 09:12:05	-->	user__ (~user@4G4AAAOL5.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 09:12:24	user__	noname
+2017-11-16 09:50:02	<--	user__ (~user@4G4AAAOL5.tor-irc.dnsbl.oftc.net) has quit (Remote host closed the connection)
+2017-11-16 10:24:44	-->	user (~user@8L3AAAJ40.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 10:24:56	user	hi
+2017-11-16 10:25:18	--	user is now known as Guest630
+2017-11-16 10:25:59	--	Guest630 is now known as LN
+2017-11-16 10:26:19	LN	hello 
+2017-11-16 10:40:31	<--	LN (~user@8L3AAAJ40.tor-irc.dnsbl.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-16 10:44:40	<--	yuppi (9b04fa55@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-16 10:45:02	-->	yuppi (b96b51e9@107.161.19.53) has joined #whonix
+2017-11-16 11:10:02	<--	nover (~nover@00025a4c.user.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-16 11:43:16	-->	user__ (~user@0BGAAAJJI.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 11:57:33	<--	user__ (~user@0BGAAAJJI.tor-irc.dnsbl.oftc.net) has quit (Ping timeout: 480 seconds)
+2017-11-16 12:00:28	-->	PQ_ (~user@104.223.123.98) has joined #whonix
+2017-11-16 12:03:16	<--	PQ_ (~user@8L3AAAJ6S.tor-irc.dnsbl.oftc.net) has quit
+2017-11-16 12:13:28	-->	Cerebral (~Cerebral_@0BGAAAJJ7.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-16 12:41:43	--	irc: disconnected from server
+2017-11-17 01:34:37	-->	MDrights[SW (~MDrights@8L3AAAK75.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-17 01:34:37	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-17 01:34:37	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-17 01:34:37	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-17 01:34:37	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-17 01:34:47	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-17 01:54:43	<--	qg_ (~qg_@c-73-237-34-85.hsd1.ga.comcast.net) has quit (Quit: Leaving...)
+2017-11-17 02:55:58	-->	qg_ (~qg_@c-73-237-34-85.hsd1.ga.comcast.net) has joined #whonix
+2017-11-18 01:58:42	-->	MDrights[SW (~MDrights@104.223.123.98) has joined #whonix
+2017-11-18 01:58:42	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 01:58:42	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 01:58:42	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-18 01:58:43	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 01:58:46	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 02:50:36	-->	slimerzz (~rgxcn@2001:41d0:d:1594::3cf7:689c) has joined #whonix
+2017-11-18 02:51:01	<--	slimerzz (~rgxcn@2001:41d0:d:1594::3cf7:689c) has quit (Excess Flood)
+2017-11-18 02:51:33	-->	user (~user@185.165.169.23) has joined #whonix
+2017-11-18 02:52:11	--	user is now known as Guest792
+2017-11-18 02:55:58	<--	Guest792 (~user@0BGAAAK9J.tor-irc.dnsbl.oftc.net) has quit
+2017-11-18 02:58:11	-->	user__ (~user@185.165.169.23) has joined #whonix
+2017-11-18 03:00:41	<--	user__ (~user@0BGAAAK9Q.tor-irc.dnsbl.oftc.net) has quit
+2017-11-18 03:55:59	--	irc: disconnected from server
+2017-11-18 04:17:43	-->	MDrights[SW (~MDrights@0BGAAALBI.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 04:17:43	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 04:17:43	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 04:17:43	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-18 04:17:43	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 04:17:53	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 04:35:25	<--	yuppi (9e45d707@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-18 04:35:57	-->	yuppi (a3acd473@107.161.19.53) has joined #whonix
+2017-11-18 04:38:52	<--	yuppi (a3acd473@107.161.19.53) has quit
+2017-11-18 04:39:22	-->	yuppi (a3acd473@107.161.19.53) has joined #whonix
+2017-11-18 05:06:11	<--	yuppi (a3acd473@107.161.19.53) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-11-18 05:12:32	-->	yuppi (c5e7ddd3@107.161.19.53) has joined #whonix
+2017-11-18 05:14:32	<--	yuppi (c5e7ddd3@107.161.19.53) has quit
+2017-11-18 05:23:54	-->	yuppi (577673b0@107.161.19.53) has joined #whonix
+2017-11-18 05:25:25	--	irc: disconnected from server
+2017-11-18 05:26:11	-->	MDrights[SW (~MDrights@0BGAAALC0.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 05:26:11	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 05:26:11	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 05:26:11	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-18 05:26:11	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 05:26:21	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 07:29:46	--	irc: disconnected from server
+2017-11-18 08:02:12	-->	MDrights[SW (~MDrights@0BGAAALHH.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 08:02:12	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 08:02:12	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 08:02:12	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-18 08:02:12	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 08:02:22	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 09:30:14	--	irc: disconnected from server
+2017-11-18 09:30:42	-->	MDrights[SW (~MDrights@4G4AAARAJ.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 09:30:42	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 09:30:42	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 09:30:42	--	Channel #whonix: 31 nicks (0 ops, 0 voices, 31 normals)
+2017-11-18 09:30:42	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 09:30:52	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 11:06:52	-->	user (~user@89.45.226.28) has joined #whonix
+2017-11-18 11:07:30	--	user is now known as Guest803
+2017-11-18 11:08:51	<--	Guest803 (~user@4G4AAARD1.tor-irc.dnsbl.oftc.net) has quit
+2017-11-18 11:20:30	-->	user__ (~user@tor.emeraldonion.org) has joined #whonix
+2017-11-18 11:21:06	<--	user__ (~user@8L3AAAMIF.tor-irc.dnsbl.oftc.net) has quit
+2017-11-18 12:06:35	<--	nover (~nover@00025a4c.user.oftc.net) has quit (Remote host closed the connection)
+2017-11-18 12:19:40	<--	spacefan (~spacefan@ip68-13-249-94.ok.ok.cox.net) has quit (Ping timeout: 480 seconds)
+2017-11-18 12:25:34	--	irc: disconnected from server
+2017-11-18 12:26:04	-->	MDrights[SW (~MDrights@0BGAAALOV.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 12:26:04	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 12:26:04	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 12:26:04	--	Channel #whonix: 29 nicks (0 ops, 0 voices, 29 normals)
+2017-11-18 12:26:04	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 12:26:16	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 12:30:44	-->	nover (~nover@00025a4c.user.oftc.net) has joined #whonix
+2017-11-18 12:46:49	-->	user (~user@170.250.140.52) has joined #whonix
+2017-11-18 12:47:19	<--	user (~user@7MPAAAM58.tor-irc.dnsbl.oftc.net) has quit
+2017-11-18 13:46:59	--	irc: disconnected from server
+2017-11-18 13:47:28	-->	MDrights[SW (~MDrights@5PUAAALM6.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 13:47:28	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 13:47:28	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 13:47:28	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-18 13:47:28	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 13:47:38	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 14:17:29	<--	nover (~nover@00025a4c.user.oftc.net) has quit (Quit: nover)
+2017-11-18 14:20:57	<--	badon (~badon@ip-91-48-244-173.california.us.northamericancoax.com) has quit (Ping timeout: 480 seconds)
+2017-11-18 14:20:57	-->	nover (~nover@00025a4c.user.oftc.net) has joined #whonix
+2017-11-18 14:23:56	--	irc: disconnected from server
+2017-11-18 14:25:02	-->	MDrights[SW (~MDrights@0BGAAALQV.tor-irc.dnsbl.oftc.net) has joined #whonix
+2017-11-18 14:25:02	--	Topic for #whonix is "Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org/wiki/Documentation to review the documentation and the community board."
+2017-11-18 14:25:02	--	Topic set by ChanServ (services@services.oftc.net) on 六, 12 8月 2017 06:04:30
+2017-11-18 14:25:02	--	Channel #whonix: 30 nicks (0 ops, 0 voices, 30 normals)
+2017-11-18 14:25:02	--	PvNotice(ChanServ): Welcome to #Whonix. Ask your question with as much informations as possible then wait for a reply. We also invite you to https://www.whonix.org to review the documentation and the community board.
+2017-11-18 14:25:12	--	Channel created on 一, 09 12月 2013 14:43:48
+2017-11-18 14:26:05	<--	nover (~nover@00025a4c.user.oftc.net) has quit
+2017-11-18 14:42:11	-->	tactleneck1 (~gvhoecke@91.177.52.50) has joined #whonix
+2017-11-18 14:45:17	<--	tactleneck (~gvhoecke@91.182.19.149) has quit (Ping timeout: 480 seconds)
+2017-11-18 14:45:17	--	tactleneck1 is now known as tactleneck
+2017-11-18 14:47:00	-->	nover (~nover@00025a4c.user.oftc.net) has joined #whonix
+2017-11-18 15:27:52	--	irc: disconnected from server

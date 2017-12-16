@@ -1,0 +1,621 @@
+2017-11-01 03:42:35		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-11-01 03:42:35		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-11-01 03:42:35		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-11-01 03:42:35		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-11-01 03:42:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-01 04:21:57		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-01 04:23:19		List of proxies:
+2017-11-01 04:23:19		  ssr: socks5, 127.0.0.1/1080 (IPv4), username: (none), password: (none)
+2017-11-01 04:23:19		  tor: socks5, 127.0.0.1/9050 (IPv4), username: (none), password: (none)
+2017-11-02 13:47:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-05 07:45:42		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-05 10:34:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-05 10:41:26	=!=	irc: command "whois" must be executed on connected irc server
+2017-11-07 11:51:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-08 10:10:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-09 02:01:38		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-09 02:39:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-09 02:41:19		[server] (irc.conf)
+2017-11-09 02:41:19		  irc.server.freenode.autojoin = "#gentoowithoutjuju,#archlinux-cn,#parabola,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn"  (default if null: "")
+2017-11-09 02:41:19		1 option (matching with "irc.server.freenode.autojoin*")
+2017-11-09 02:43:18		Option changed: irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox"  (default if null: "")
+2017-11-11 03:42:28		[server] (irc.conf)
+2017-11-11 03:42:28		  irc.server.OFTC.autojoin = "#debian-zh,#tor,#whonix,#tor-project,#tor-offtopic"  (default if null: "")
+2017-11-11 03:42:28		1 option (matching with "irc.server.OFTC.autojoin")
+2017-11-11 03:43:35		Option changed: irc.server.OFTC.autojoin = "#tor,#whonix,#tor-project,#tor-offtopic,#freedombox"  (default if null: "")
+2017-11-11 03:43:45		[server] (irc.conf)
+2017-11-11 03:43:45		  irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox"  (default if null: "")
+2017-11-11 03:43:45		1 option (matching with "irc.server.freenode.autojoin")
+2017-11-11 04:05:42		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-11 08:00:55	=!=	Error: unknown command "/tmp" (type /help for help)
+2017-11-12 05:20:35	=!=	Too few arguments for command "/PING" (help on command: /help PING)
+2017-11-15 03:29:31		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-15 07:13:54		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-18 01:36:59		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-18 07:31:03		[irc]  /server  list|listfull [<server>]
+2017-11-18 07:31:03		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-18 07:31:03		                copy|rename <server> <new_name>
+2017-11-18 07:31:03		                reorder <server> [<server>...]
+2017-11-18 07:31:03		                open <server>|-all [<server>...]
+2017-11-18 07:31:03		                del|keep <server>
+2017-11-18 07:31:03		                deloutq|jump|raw
+2017-11-18 07:31:03		list, add or remove IRC servers
+2017-11-18 07:31:03		    list: list servers (without argument, this list is displayed)
+2017-11-18 07:31:03		listfull: list servers with detailed info for each server
+2017-11-18 07:31:03		     add: add a new server
+2017-11-18 07:31:03		  server: server name, for internal and display use
+2017-11-18 07:31:03		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-18 07:31:03		   -temp: add a temporary server (not saved)
+2017-11-18 07:31:03		  option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:31:03		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:31:03		    copy: duplicate a server
+2017-11-18 07:31:03		  rename: rename a server
+2017-11-18 07:31:03		 reorder: reorder list of servers
+2017-11-18 07:31:03		    open: open the server buffer without connecting
+2017-11-18 07:31:03		    keep: keep server in config file (for temporary servers only)
+2017-11-18 07:31:03		     del: delete a server
+2017-11-18 07:31:03		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-18 07:31:03		    jump: jump to server buffer
+2017-11-18 07:31:03		     raw: open buffer with raw IRC data
+2017-11-18 07:31:03		Examples:
+2017-11-18 07:31:03		  /server listfull
+2017-11-18 07:31:03		  /server add freenode chat.freenode.net
+2017-11-18 07:31:03		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-18 07:31:03		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-18 07:31:03		  /server copy freenode freenode-test
+2017-11-18 07:31:03		  /server rename freenode-test freenode2
+2017-11-18 07:31:03		  /server reorder freenode2 freenode
+2017-11-18 07:31:03		  /server del freenode
+2017-11-18 07:31:03		  /server deloutq
+2017-11-18 07:31:11		[irc]  /server  list|listfull [<server>]
+2017-11-18 07:31:11		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-18 07:31:11		                copy|rename <server> <new_name>
+2017-11-18 07:31:11		                reorder <server> [<server>...]
+2017-11-18 07:31:11		                open <server>|-all [<server>...]
+2017-11-18 07:31:11		                del|keep <server>
+2017-11-18 07:31:11		                deloutq|jump|raw
+2017-11-18 07:31:11		list, add or remove IRC servers
+2017-11-18 07:31:11		    list: list servers (without argument, this list is displayed)
+2017-11-18 07:31:11		listfull: list servers with detailed info for each server
+2017-11-18 07:31:11		     add: add a new server
+2017-11-18 07:31:11		  server: server name, for internal and display use
+2017-11-18 07:31:11		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-18 07:31:11		   -temp: add a temporary server (not saved)
+2017-11-18 07:31:11		  option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:31:11		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:31:11		    copy: duplicate a server
+2017-11-18 07:31:11		  rename: rename a server
+2017-11-18 07:31:11		 reorder: reorder list of servers
+2017-11-18 07:31:11		    open: open the server buffer without connecting
+2017-11-18 07:31:11		    keep: keep server in config file (for temporary servers only)
+2017-11-18 07:31:11		     del: delete a server
+2017-11-18 07:31:11		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-18 07:31:11		    jump: jump to server buffer
+2017-11-18 07:31:11		     raw: open buffer with raw IRC data
+2017-11-18 07:31:11		Examples:
+2017-11-18 07:31:11		  /server listfull
+2017-11-18 07:31:11		  /server add freenode chat.freenode.net
+2017-11-18 07:31:11		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-18 07:31:11		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-18 07:31:11		  /server copy freenode freenode-test
+2017-11-18 07:31:11		  /server rename freenode-test freenode2
+2017-11-18 07:31:11		  /server reorder freenode2 freenode
+2017-11-18 07:31:11		  /server del freenode
+2017-11-18 07:31:11		  /server deloutq
+2017-11-18 07:32:43		[irc]  /server  list|listfull [<server>]
+2017-11-18 07:32:43		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-18 07:32:43		                copy|rename <server> <new_name>
+2017-11-18 07:32:43		                reorder <server> [<server>...]
+2017-11-18 07:32:43		                open <server>|-all [<server>...]
+2017-11-18 07:32:43		                del|keep <server>
+2017-11-18 07:32:43		                deloutq|jump|raw
+2017-11-18 07:32:43		list, add or remove IRC servers
+2017-11-18 07:32:43		    list: list servers (without argument, this list is displayed)
+2017-11-18 07:32:43		listfull: list servers with detailed info for each server
+2017-11-18 07:32:43		     add: add a new server
+2017-11-18 07:32:43		  server: server name, for internal and display use
+2017-11-18 07:32:43		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-18 07:32:43		   -temp: add a temporary server (not saved)
+2017-11-18 07:32:43		  option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:32:43		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:32:43		    copy: duplicate a server
+2017-11-18 07:32:43		  rename: rename a server
+2017-11-18 07:32:43		 reorder: reorder list of servers
+2017-11-18 07:32:43		    open: open the server buffer without connecting
+2017-11-18 07:32:43		    keep: keep server in config file (for temporary servers only)
+2017-11-18 07:32:43		     del: delete a server
+2017-11-18 07:32:43		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-18 07:32:43		    jump: jump to server buffer
+2017-11-18 07:32:43		     raw: open buffer with raw IRC data
+2017-11-18 07:32:43		Examples:
+2017-11-18 07:32:43		  /server listfull
+2017-11-18 07:32:43		  /server add freenode chat.freenode.net
+2017-11-18 07:32:43		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-18 07:32:43		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-18 07:32:43		  /server copy freenode freenode-test
+2017-11-18 07:32:43		  /server rename freenode-test freenode2
+2017-11-18 07:32:43		  /server reorder freenode2 freenode
+2017-11-18 07:32:43		  /server del freenode
+2017-11-18 07:32:43		  /server deloutq
+2017-11-18 07:32:49		All servers:
+2017-11-18 07:32:49		Server: freenode [connected]
+2017-11-18 07:32:49		  addresses. . . . . . : 'chat.freenode.net/6697'
+2017-11-18 07:32:49		  proxy. . . . . . . . : 'ssr'
+2017-11-18 07:32:49		  ipv6 . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl. . . . . . . . . : on
+2017-11-18 07:32:49		  ssl_cert . . . . . . :   ('')
+2017-11-18 07:32:49		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2017-11-18 07:32:49		  ssl_dhkey_size . . . :   (2048)
+2017-11-18 07:32:49		  ssl_fingerprint. . . :   ('')
+2017-11-18 07:32:49		  ssl_verify . . . . . :   (on)
+2017-11-18 07:32:49		  password . . . . . . :   (hidden)
+2017-11-18 07:32:49		  capabilities . . . . :   ('')
+2017-11-18 07:32:49		  sasl_mechanism . . . :   ('plain')
+2017-11-18 07:32:49		  sasl_username. . . . :   ('')
+2017-11-18 07:32:49		  sasl_password. . . . :   (hidden)
+2017-11-18 07:32:49		  sasl_key. .  . . . . :   ('')
+2017-11-18 07:32:49		  sasl_timeout . . . . :   (15 seconds)
+2017-11-18 07:32:49		  sasl_fail. . . . . . :   ('continue')
+2017-11-18 07:32:49		  autoconnect. . . . . : on
+2017-11-18 07:32:49		  autoreconnect. . . . :   (on)
+2017-11-18 07:32:49		  autoreconnect_delay. :   (10 seconds)
+2017-11-18 07:32:49		  nicks. . . . . . . . : 'MDrights[SW'
+2017-11-18 07:32:49		  nicks_alternate. . . :   (on)
+2017-11-18 07:32:49		  username . . . . . . : 'MDrights[SW'
+2017-11-18 07:32:49		  realname . . . . . . : 'MDrights'
+2017-11-18 07:32:49		  local_hostname . . . :   ('')
+2017-11-18 07:32:49		  usermode . . . . . . :   ('')
+2017-11-18 07:32:49		  command. . . . . . . :   ('')
+2017-11-18 07:32:49		  command_delay. . . . :   (0 seconds)
+2017-11-18 07:32:49		  autojoin . . . . . . : '#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox'
+2017-11-18 07:32:49		  autorejoin . . . . . :   (off)
+2017-11-18 07:32:49		  autorejoin_delay . . :   (30 seconds)
+2017-11-18 07:32:49		  connection_timeout . :   (60 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_high :   (2 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_low. :   (2 seconds)
+2017-11-18 07:32:49		  away_check . . . . . :   (0 minutes)
+2017-11-18 07:32:49		  away_check_max_nicks :   (25)
+2017-11-18 07:32:49		  msg_kick . . . . . . :   ('')
+2017-11-18 07:32:49		  msg_part . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  msg_quit . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  notify . . . . . . . :   ('')
+2017-11-18 07:32:49		Server: debian [not connected]
+2017-11-18 07:32:49		  addresses. . . . . . : 'irc.debian.org'
+2017-11-18 07:32:49		  proxy. . . . . . . . :   ('')
+2017-11-18 07:32:49		  ipv6 . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl. . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl_cert . . . . . . :   ('')
+2017-11-18 07:32:49		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2017-11-18 07:32:49		  ssl_dhkey_size . . . :   (2048)
+2017-11-18 07:32:49		  ssl_fingerprint. . . :   ('')
+2017-11-18 07:32:49		  ssl_verify . . . . . :   (on)
+2017-11-18 07:32:49		  password . . . . . . :   (hidden)
+2017-11-18 07:32:49		  capabilities . . . . :   ('')
+2017-11-18 07:32:49		  sasl_mechanism . . . :   ('plain')
+2017-11-18 07:32:49		  sasl_username. . . . :   ('')
+2017-11-18 07:32:49		  sasl_password. . . . :   (hidden)
+2017-11-18 07:32:49		  sasl_key. .  . . . . :   ('')
+2017-11-18 07:32:49		  sasl_timeout . . . . :   (15 seconds)
+2017-11-18 07:32:49		  sasl_fail. . . . . . :   ('continue')
+2017-11-18 07:32:49		  autoconnect. . . . . : off
+2017-11-18 07:32:49		  autoreconnect. . . . : off
+2017-11-18 07:32:49		  autoreconnect_delay. :   (10 seconds)
+2017-11-18 07:32:49		  nicks. . . . . . . . :   ('psychi[Arch')
+2017-11-18 07:32:49		  nicks_alternate. . . :   (on)
+2017-11-18 07:32:49		  username . . . . . . : 'Mdrights'
+2017-11-18 07:32:49		  realname . . . . . . : 'Mdrights'
+2017-11-18 07:32:49		  local_hostname . . . :   ('')
+2017-11-18 07:32:49		  usermode . . . . . . :   ('')
+2017-11-18 07:32:49		  command. . . . . . . :   ('')
+2017-11-18 07:32:49		  command_delay. . . . :   (0 seconds)
+2017-11-18 07:32:49		  autojoin . . . . . . : 'freedombox'
+2017-11-18 07:32:49		  autorejoin . . . . . :   (off)
+2017-11-18 07:32:49		  autorejoin_delay . . :   (30 seconds)
+2017-11-18 07:32:49		  connection_timeout . :   (60 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_high :   (2 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_low. :   (2 seconds)
+2017-11-18 07:32:49		  away_check . . . . . :   (0 minutes)
+2017-11-18 07:32:49		  away_check_max_nicks :   (25)
+2017-11-18 07:32:49		  msg_kick . . . . . . :   ('')
+2017-11-18 07:32:49		  msg_part . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  msg_quit . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  notify . . . . . . . :   ('')
+2017-11-18 07:32:49		Server: OFTC [not connected]
+2017-11-18 07:32:49		  addresses. . . . . . : 'irc.oftc.net/6697'
+2017-11-18 07:32:49		  proxy. . . . . . . . : 'tor'
+2017-11-18 07:32:49		  ipv6 . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl. . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl_cert . . . . . . :   ('')
+2017-11-18 07:32:49		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2017-11-18 07:32:49		  ssl_dhkey_size . . . :   (2048)
+2017-11-18 07:32:49		  ssl_fingerprint. . . :   ('')
+2017-11-18 07:32:49		  ssl_verify . . . . . :   (on)
+2017-11-18 07:32:49		  password . . . . . . :   (hidden)
+2017-11-18 07:32:49		  capabilities . . . . :   ('')
+2017-11-18 07:32:49		  sasl_mechanism . . . :   ('plain')
+2017-11-18 07:32:49		  sasl_username. . . . :   ('')
+2017-11-18 07:32:49		  sasl_password. . . . :   (hidden)
+2017-11-18 07:32:49		  sasl_key. .  . . . . :   ('')
+2017-11-18 07:32:49		  sasl_timeout . . . . :   (15 seconds)
+2017-11-18 07:32:49		  sasl_fail. . . . . . :   ('continue')
+2017-11-18 07:32:49		  autoconnect. . . . . : on
+2017-11-18 07:32:49		  autoreconnect. . . . :   (on)
+2017-11-18 07:32:49		  autoreconnect_delay. :   (10 seconds)
+2017-11-18 07:32:49		  nicks. . . . . . . . : 'MDrights[SW'
+2017-11-18 07:32:49		  nicks_alternate. . . :   (on)
+2017-11-18 07:32:49		  username . . . . . . : 'MDrights'
+2017-11-18 07:32:49		  realname . . . . . . :   ('')
+2017-11-18 07:32:49		  local_hostname . . . :   ('')
+2017-11-18 07:32:49		  usermode . . . . . . :   ('')
+2017-11-18 07:32:49		  command. . . . . . . :   ('')
+2017-11-18 07:32:49		  command_delay. . . . :   (0 seconds)
+2017-11-18 07:32:49		  autojoin . . . . . . : '#tor,#whonix,#tor-project,#tor-offtopic,#freedombox'
+2017-11-18 07:32:49		  autorejoin . . . . . :   (off)
+2017-11-18 07:32:49		  autorejoin_delay . . :   (30 seconds)
+2017-11-18 07:32:49		  connection_timeout . :   (60 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_high :   (2 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_low. :   (2 seconds)
+2017-11-18 07:32:49		  away_check . . . . . :   (0 minutes)
+2017-11-18 07:32:49		  away_check_max_nicks :   (25)
+2017-11-18 07:32:49		  msg_kick . . . . . . :   ('')
+2017-11-18 07:32:49		  msg_part . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  msg_quit . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  notify . . . . . . . :   ('')
+2017-11-18 07:32:49		Server: freenode-tor [not connected]
+2017-11-18 07:32:49		  addresses. . . . . . : 'freenodeok2gncmy.onion'
+2017-11-18 07:32:49		  proxy. . . . . . . . : 'tor'
+2017-11-18 07:32:49		  ipv6 . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl. . . . . . . . . :   (on)
+2017-11-18 07:32:49		  ssl_cert . . . . . . :   ('')
+2017-11-18 07:32:49		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2017-11-18 07:32:49		  ssl_dhkey_size . . . :   (2048)
+2017-11-18 07:32:49		  ssl_fingerprint. . . :   ('')
+2017-11-18 07:32:49		  ssl_verify . . . . . :   (on)
+2017-11-18 07:32:49		  password . . . . . . :   (hidden)
+2017-11-18 07:32:49		  capabilities . . . . :   ('')
+2017-11-18 07:32:49		  sasl_mechanism . . . :   ('plain')
+2017-11-18 07:32:49		  sasl_username. . . . :   ('')
+2017-11-18 07:32:49		  sasl_password. . . . :   (hidden)
+2017-11-18 07:32:49		  sasl_key. .  . . . . :   ('')
+2017-11-18 07:32:49		  sasl_timeout . . . . :   (15 seconds)
+2017-11-18 07:32:49		  sasl_fail. . . . . . :   ('continue')
+2017-11-18 07:32:49		  autoconnect. . . . . :   (off)
+2017-11-18 07:32:49		  autoreconnect. . . . :   (on)
+2017-11-18 07:32:49		  autoreconnect_delay. :   (10 seconds)
+2017-11-18 07:32:49		  nicks. . . . . . . . : 'f-torture'
+2017-11-18 07:32:49		  nicks_alternate. . . :   (on)
+2017-11-18 07:32:49		  username . . . . . . : 'f-torture'
+2017-11-18 07:32:49		  realname . . . . . . :   ('')
+2017-11-18 07:32:49		  local_hostname . . . :   ('')
+2017-11-18 07:32:49		  usermode . . . . . . :   ('')
+2017-11-18 07:32:49		  command. . . . . . . :   ('')
+2017-11-18 07:32:49		  command_delay. . . . :   (0 seconds)
+2017-11-18 07:32:49		  autojoin . . . . . . :   ('')
+2017-11-18 07:32:49		  autorejoin . . . . . :   (off)
+2017-11-18 07:32:49		  autorejoin_delay . . :   (30 seconds)
+2017-11-18 07:32:49		  connection_timeout . :   (60 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_high :   (2 seconds)
+2017-11-18 07:32:49		  anti_flood_prio_low. :   (2 seconds)
+2017-11-18 07:32:49		  away_check . . . . . :   (0 minutes)
+2017-11-18 07:32:49		  away_check_max_nicks :   (25)
+2017-11-18 07:32:49		  msg_kick . . . . . . :   ('')
+2017-11-18 07:32:49		  msg_part . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  msg_quit . . . . . . :   ('WeeChat ${info:version}')
+2017-11-18 07:32:49		  notify . . . . . . . :   ('')
+2017-11-18 07:34:53		[irc]  /server  list|listfull [<server>]
+2017-11-18 07:34:53		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-18 07:34:53		                copy|rename <server> <new_name>
+2017-11-18 07:34:53		                reorder <server> [<server>...]
+2017-11-18 07:34:53		                open <server>|-all [<server>...]
+2017-11-18 07:34:53		                del|keep <server>
+2017-11-18 07:34:53		                deloutq|jump|raw
+2017-11-18 07:34:53		list, add or remove IRC servers
+2017-11-18 07:34:53		    list: list servers (without argument, this list is displayed)
+2017-11-18 07:34:53		listfull: list servers with detailed info for each server
+2017-11-18 07:34:53		     add: add a new server
+2017-11-18 07:34:53		  server: server name, for internal and display use
+2017-11-18 07:34:53		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-18 07:34:53		   -temp: add a temporary server (not saved)
+2017-11-18 07:34:53		  option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:34:53		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:34:53		    copy: duplicate a server
+2017-11-18 07:34:53		  rename: rename a server
+2017-11-18 07:34:53		 reorder: reorder list of servers
+2017-11-18 07:34:53		    open: open the server buffer without connecting
+2017-11-18 07:34:53		    keep: keep server in config file (for temporary servers only)
+2017-11-18 07:34:53		     del: delete a server
+2017-11-18 07:34:53		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-18 07:34:53		    jump: jump to server buffer
+2017-11-18 07:34:53		     raw: open buffer with raw IRC data
+2017-11-18 07:34:53		Examples:
+2017-11-18 07:34:53		  /server listfull
+2017-11-18 07:34:53		  /server add freenode chat.freenode.net
+2017-11-18 07:34:53		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-18 07:34:53		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-18 07:34:53		  /server copy freenode freenode-test
+2017-11-18 07:34:53		  /server rename freenode-test freenode2
+2017-11-18 07:34:53		  /server reorder freenode2 freenode
+2017-11-18 07:34:53		  /server del freenode
+2017-11-18 07:34:53		  /server deloutq
+2017-11-18 07:35:19		irc: server dyne added
+2017-11-18 07:35:46	=!=	Option "irc.server.autoconnect*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2017-11-18 07:35:56		[server] (irc.conf)
+2017-11-18 07:35:56		  irc.server.dyne.autoconnect = null -> off
+2017-11-18 07:35:56		1 option (matching with "irc.server.dyne.autoconnect*")
+2017-11-18 07:36:18		[irc]  /server  list|listfull [<server>]
+2017-11-18 07:36:18		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-18 07:36:18		                copy|rename <server> <new_name>
+2017-11-18 07:36:18		                reorder <server> [<server>...]
+2017-11-18 07:36:18		                open <server>|-all [<server>...]
+2017-11-18 07:36:18		                del|keep <server>
+2017-11-18 07:36:18		                deloutq|jump|raw
+2017-11-18 07:36:18		list, add or remove IRC servers
+2017-11-18 07:36:18		    list: list servers (without argument, this list is displayed)
+2017-11-18 07:36:18		listfull: list servers with detailed info for each server
+2017-11-18 07:36:18		     add: add a new server
+2017-11-18 07:36:18		  server: server name, for internal and display use
+2017-11-18 07:36:18		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-18 07:36:18		   -temp: add a temporary server (not saved)
+2017-11-18 07:36:18		  option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:36:18		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:36:18		    copy: duplicate a server
+2017-11-18 07:36:18		  rename: rename a server
+2017-11-18 07:36:18		 reorder: reorder list of servers
+2017-11-18 07:36:18		    open: open the server buffer without connecting
+2017-11-18 07:36:18		    keep: keep server in config file (for temporary servers only)
+2017-11-18 07:36:18		     del: delete a server
+2017-11-18 07:36:18		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-18 07:36:18		    jump: jump to server buffer
+2017-11-18 07:36:18		     raw: open buffer with raw IRC data
+2017-11-18 07:36:18		Examples:
+2017-11-18 07:36:18		  /server listfull
+2017-11-18 07:36:18		  /server add freenode chat.freenode.net
+2017-11-18 07:36:18		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-18 07:36:18		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-18 07:36:18		  /server copy freenode freenode-test
+2017-11-18 07:36:18		  /server rename freenode-test freenode2
+2017-11-18 07:36:18		  /server reorder freenode2 freenode
+2017-11-18 07:36:18		  /server del freenode
+2017-11-18 07:36:18		  /server deloutq
+2017-11-18 07:37:04		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2017-11-18 07:37:04		                 -all|-auto|-open [-nojoin] [-switch]
+2017-11-18 07:37:04		connect to IRC server(s)
+2017-11-18 07:37:04		    server: server name, which can be:
+2017-11-18 07:37:04		            - internal server name (added by /server add, recommended usage)
+2017-11-18 07:37:04		            - hostname/port or IP/port, port is 6667 by default
+2017-11-18 07:37:04		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2017-11-18 07:37:04		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2017-11-18 07:37:04		    option: set option for server (for boolean option, value can be omitted)
+2017-11-18 07:37:04		  nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-18 07:37:04		      -all: connect to all servers defined in configuration
+2017-11-18 07:37:04		     -auto: connect to servers with autoconnect enabled
+2017-11-18 07:37:04		     -open: connect to all opened servers that are not currently connected
+2017-11-18 07:37:04		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2017-11-18 07:37:04		   -switch: switch to next server address
+2017-11-18 07:37:04		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2017-11-18 07:37:04		Examples:
+2017-11-18 07:37:04		  /connect freenode
+2017-11-18 07:37:04		  /connect irc.oftc.net/6667
+2017-11-18 07:37:04		  /connect irc6.oftc.net/6667 -ipv6
+2017-11-18 07:37:04		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2017-11-18 07:37:04		  /connect my.server.org/6697 -ssl -password=test
+2017-11-18 07:37:04		  /connect irc://nick@irc.oftc.net/#channel
+2017-11-18 07:37:04		  /connect -switch
+2017-11-18 07:37:51	=!=	irc: unable to add temporary server "irc://irc.dyne.org/#heads" because the addition of temporary servers with command /connect is currently disabled
+2017-11-18 07:37:51	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2017-11-18 07:52:13		[server] (irc.conf)
+2017-11-18 07:52:13		  irc.server.dyne.addresses = "irc.dyne.org/6697"  (default if null: "")
+2017-11-18 07:52:13		  irc.server.dyne.anti_flood_prio_high = null -> 2
+2017-11-18 07:52:13		  irc.server.dyne.anti_flood_prio_low = null -> 2
+2017-11-18 07:52:13		  irc.server.dyne.autoconnect = null -> off
+2017-11-18 07:52:13		  irc.server.dyne.autojoin = null -> ""
+2017-11-18 07:52:13		  irc.server.dyne.autoreconnect = null -> on
+2017-11-18 07:52:13		  irc.server.dyne.autoreconnect_delay = null -> 10
+2017-11-18 07:52:14		  irc.server.dyne.autorejoin = null -> off
+2017-11-18 07:52:14		  irc.server.dyne.autorejoin_delay = null -> 30
+2017-11-18 07:52:14		  irc.server.dyne.away_check = null -> 0
+2017-11-18 07:52:14		  irc.server.dyne.away_check_max_nicks = null -> 25
+2017-11-18 07:52:14		  irc.server.dyne.capabilities = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.command = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.command_delay = null -> 0
+2017-11-18 07:52:14		  irc.server.dyne.connection_timeout = null -> 60
+2017-11-18 07:52:14		  irc.server.dyne.ipv6 = null -> on
+2017-11-18 07:52:14		  irc.server.dyne.local_hostname = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.msg_kick = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.msg_part = null -> "WeeChat ${info:version}"
+2017-11-18 07:52:14		  irc.server.dyne.msg_quit = null -> "WeeChat ${info:version}"
+2017-11-18 07:52:14		  irc.server.dyne.nicks = null -> "psychi[Arch"
+2017-11-18 07:52:14		  irc.server.dyne.nicks_alternate = null -> on
+2017-11-18 07:52:14		  irc.server.dyne.notify = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.password = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.proxy = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.realname = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.sasl_fail = null -> continue
+2017-11-18 07:52:14		  irc.server.dyne.sasl_key = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.sasl_mechanism = null -> plain
+2017-11-18 07:52:14		  irc.server.dyne.sasl_password = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.sasl_timeout = null -> 15
+2017-11-18 07:52:14		  irc.server.dyne.sasl_username = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.ssl = on  (default if null: on)
+2017-11-18 07:52:14		  irc.server.dyne.ssl_cert = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.ssl_dhkey_size = null -> 2048
+2017-11-18 07:52:14		  irc.server.dyne.ssl_fingerprint = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-11-18 07:52:14		  irc.server.dyne.ssl_verify = null -> on
+2017-11-18 07:52:14		  irc.server.dyne.usermode = null -> ""
+2017-11-18 07:52:14		  irc.server.dyne.username = null -> "linus"
+2017-11-18 07:52:14		40 options (matching with "irc.server.dyne.*")
+2017-11-18 07:52:39		Option changed: irc.server.dyne.username = "mdrights"  (default if null: "linus")
+2017-11-18 07:53:29		Option changed: irc.server.dyne.nicks = "mdrights[SW"  (default if null: "psychi[Arch")
+2017-11-18 07:53:59		Option changed: irc.server.dyne.autoreconnect = on  (default if null: on)
+2017-11-18 07:54:10		Option changed: irc.server.dyne.autoconnect = on  (default if null: off)
+2017-11-18 07:54:24		Option changed: irc.server.dyne.autojoin = "#heads"  (default if null: "")
+2017-11-18 08:02:52		[server] (irc.conf)
+2017-11-18 08:02:52		  irc.server.dyne.addresses = "irc.dyne.org/6697"  (default if null: "")
+2017-11-18 08:02:52		  irc.server.dyne.anti_flood_prio_high = null -> 2
+2017-11-18 08:02:52		  irc.server.dyne.anti_flood_prio_low = null -> 2
+2017-11-18 08:02:52		  irc.server.dyne.autoconnect = on  (default if null: off)
+2017-11-18 08:02:52		  irc.server.dyne.autojoin = "#heads"  (default if null: "")
+2017-11-18 08:02:52		  irc.server.dyne.autoreconnect = on  (default if null: on)
+2017-11-18 08:02:52		  irc.server.dyne.autoreconnect_delay = null -> 10
+2017-11-18 08:02:52		  irc.server.dyne.autorejoin = null -> off
+2017-11-18 08:02:52		  irc.server.dyne.autorejoin_delay = null -> 30
+2017-11-18 08:02:52		  irc.server.dyne.away_check = null -> 0
+2017-11-18 08:02:52		  irc.server.dyne.away_check_max_nicks = null -> 25
+2017-11-18 08:02:52		  irc.server.dyne.capabilities = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.command = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.command_delay = null -> 0
+2017-11-18 08:02:52		  irc.server.dyne.connection_timeout = null -> 60
+2017-11-18 08:02:52		  irc.server.dyne.ipv6 = null -> on
+2017-11-18 08:02:52		  irc.server.dyne.local_hostname = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.msg_kick = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.msg_part = null -> "WeeChat ${info:version}"
+2017-11-18 08:02:52		  irc.server.dyne.msg_quit = null -> "WeeChat ${info:version}"
+2017-11-18 08:02:52		  irc.server.dyne.nicks = "mdrights[SW"  (default if null: "psychi[Arch")
+2017-11-18 08:02:52		  irc.server.dyne.nicks_alternate = null -> on
+2017-11-18 08:02:52		  irc.server.dyne.notify = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.password = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.proxy = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.realname = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.sasl_fail = null -> continue
+2017-11-18 08:02:52		  irc.server.dyne.sasl_key = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.sasl_mechanism = null -> plain
+2017-11-18 08:02:52		  irc.server.dyne.sasl_password = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.sasl_timeout = null -> 15
+2017-11-18 08:02:52		  irc.server.dyne.sasl_username = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.ssl = on  (default if null: on)
+2017-11-18 08:02:52		  irc.server.dyne.ssl_cert = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.ssl_dhkey_size = null -> 2048
+2017-11-18 08:02:52		  irc.server.dyne.ssl_fingerprint = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-11-18 08:02:52		  irc.server.dyne.ssl_verify = null -> on
+2017-11-18 08:02:52		  irc.server.dyne.usermode = null -> ""
+2017-11-18 08:02:52		  irc.server.dyne.username = "mdrights"  (default if null: "linus")
+2017-11-18 08:02:52		40 options (matching with "irc.server.dyne.*")
+2017-11-18 08:03:04		List of proxies:
+2017-11-18 08:03:04		  ssr: socks5, 127.0.0.1/1080 (IPv4), username: (none), password: (none)
+2017-11-18 08:03:04		  tor: socks5, 127.0.0.1/9050 (IPv4), username: (none), password: (none)
+2017-11-18 08:03:23		Option changed: irc.server.dyne.proxy = "ssr"  (default if null: "")
+2017-11-25 06:29:46		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-28 10:29:18	=!=	Error: unknown command "/me：Network" (type /help for help)
+2017-11-29 02:04:47		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-29 02:15:38		All servers:
+2017-11-29 02:15:38		 * freenode [connected], 8 channels, 0 pv
+2017-11-29 02:15:38		   debian
+2017-11-29 02:15:38		   OFTC
+2017-11-29 02:15:38		   freenode-tor
+2017-11-29 02:15:38		 * dyne [connected], 1 channel, 0 pv
+2017-11-29 02:15:56		[server] (irc.conf)
+2017-11-29 02:15:56		  irc.server.debian.addresses = "irc.debian.org"  (default if null: "")
+2017-11-29 02:15:56		  irc.server.debian.anti_flood_prio_high = null -> 2
+2017-11-29 02:15:56		  irc.server.debian.anti_flood_prio_low = null -> 2
+2017-11-29 02:15:56		  irc.server.debian.autoconnect = off  (default if null: off)
+2017-11-29 02:15:56		  irc.server.debian.autojoin = "freedombox"  (default if null: "")
+2017-11-29 02:15:56		  irc.server.debian.autoreconnect = off  (default if null: on)
+2017-11-29 02:15:56		  irc.server.debian.autoreconnect_delay = null -> 10
+2017-11-29 02:15:56		  irc.server.debian.autorejoin = null -> off
+2017-11-29 02:15:56		  irc.server.debian.autorejoin_delay = null -> 30
+2017-11-29 02:15:56		  irc.server.debian.away_check = null -> 0
+2017-11-29 02:15:56		  irc.server.debian.away_check_max_nicks = null -> 25
+2017-11-29 02:15:56		  irc.server.debian.capabilities = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.command = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.command_delay = null -> 0
+2017-11-29 02:15:56		  irc.server.debian.connection_timeout = null -> 60
+2017-11-29 02:15:56		  irc.server.debian.ipv6 = null -> on
+2017-11-29 02:15:56		  irc.server.debian.local_hostname = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.msg_kick = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.msg_part = null -> "WeeChat ${info:version}"
+2017-11-29 02:15:56		  irc.server.debian.msg_quit = null -> "WeeChat ${info:version}"
+2017-11-29 02:15:56		  irc.server.debian.nicks = null -> "psychi[Arch"
+2017-11-29 02:15:56		  irc.server.debian.nicks_alternate = null -> on
+2017-11-29 02:15:56		  irc.server.debian.notify = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.password = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.proxy = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.realname = "Mdrights"  (default if null: "")
+2017-11-29 02:15:56		  irc.server.debian.sasl_fail = null -> continue
+2017-11-29 02:15:56		  irc.server.debian.sasl_key = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.sasl_mechanism = null -> plain
+2017-11-29 02:15:56		  irc.server.debian.sasl_password = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.sasl_timeout = null -> 15
+2017-11-29 02:15:56		  irc.server.debian.sasl_username = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.ssl = null -> on
+2017-11-29 02:15:56		  irc.server.debian.ssl_cert = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.ssl_dhkey_size = null -> 2048
+2017-11-29 02:15:56		  irc.server.debian.ssl_fingerprint = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-11-29 02:15:56		  irc.server.debian.ssl_verify = null -> on
+2017-11-29 02:15:56		  irc.server.debian.usermode = null -> ""
+2017-11-29 02:15:56		  irc.server.debian.username = "Mdrights"  (default if null: "linus")
+2017-11-29 02:15:56		40 options (matching with "irc.server.debian.*")
+2017-11-29 02:17:11		Option changed: irc.server.debian.nicks = "Mdrights"  (default if null: "psychi[Arch")
+2017-11-29 02:17:24		Option changed: irc.server.debian.addresses = "irc.debian.org/6697"  (default if null: "")
+2017-11-29 02:18:11		Option changed: irc.server.debian.proxy = "ssr"  (default if null: "")
+2017-11-29 02:21:07		Option changed: irc.server.debian.autojoin = "#freedombox"  (default if null: "")
+2017-11-29 02:21:20		[server] (irc.conf)
+2017-11-29 02:21:20		  irc.server.debian.addresses = "irc.debian.org/6697"  (default if null: "")
+2017-11-29 02:21:20		  irc.server.debian.anti_flood_prio_high = null -> 2
+2017-11-29 02:21:20		  irc.server.debian.anti_flood_prio_low = null -> 2
+2017-11-29 02:21:20		  irc.server.debian.autoconnect = off  (default if null: off)
+2017-11-29 02:21:20		  irc.server.debian.autojoin = "#freedombox"  (default if null: "")
+2017-11-29 02:21:20		  irc.server.debian.autoreconnect = off  (default if null: on)
+2017-11-29 02:21:20		  irc.server.debian.autoreconnect_delay = null -> 10
+2017-11-29 02:21:20		  irc.server.debian.autorejoin = null -> off
+2017-11-29 02:21:20		  irc.server.debian.autorejoin_delay = null -> 30
+2017-11-29 02:21:20		  irc.server.debian.away_check = null -> 0
+2017-11-29 02:21:20		  irc.server.debian.away_check_max_nicks = null -> 25
+2017-11-29 02:21:20		  irc.server.debian.capabilities = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.command = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.command_delay = null -> 0
+2017-11-29 02:21:20		  irc.server.debian.connection_timeout = null -> 60
+2017-11-29 02:21:20		  irc.server.debian.ipv6 = null -> on
+2017-11-29 02:21:20		  irc.server.debian.local_hostname = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.msg_kick = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.msg_part = null -> "WeeChat ${info:version}"
+2017-11-29 02:21:20		  irc.server.debian.msg_quit = null -> "WeeChat ${info:version}"
+2017-11-29 02:21:20		  irc.server.debian.nicks = "Mdrights"  (default if null: "psychi[Arch")
+2017-11-29 02:21:20		  irc.server.debian.nicks_alternate = null -> on
+2017-11-29 02:21:20		  irc.server.debian.notify = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.password = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.proxy = "ssr"  (default if null: "")
+2017-11-29 02:21:20		  irc.server.debian.realname = "Mdrights"  (default if null: "")
+2017-11-29 02:21:20		  irc.server.debian.sasl_fail = null -> continue
+2017-11-29 02:21:20		  irc.server.debian.sasl_key = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.sasl_mechanism = null -> plain
+2017-11-29 02:21:20		  irc.server.debian.sasl_password = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.sasl_timeout = null -> 15
+2017-11-29 02:21:20		  irc.server.debian.sasl_username = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.ssl = null -> on
+2017-11-29 02:21:20		  irc.server.debian.ssl_cert = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.ssl_dhkey_size = null -> 2048
+2017-11-29 02:21:20		  irc.server.debian.ssl_fingerprint = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-11-29 02:21:20		  irc.server.debian.ssl_verify = null -> on
+2017-11-29 02:21:20		  irc.server.debian.usermode = null -> ""
+2017-11-29 02:21:20		  irc.server.debian.username = "Mdrights"  (default if null: "linus")
+2017-11-29 02:21:20		40 options (matching with "irc.server.debian.*")
+2017-11-29 06:52:24		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-29 07:07:32		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-11-30 14:21:48		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-02 05:47:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-03 07:07:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-04 10:08:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-05 02:17:07		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-06 02:38:57		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-08 08:23:02		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-10 14:29:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-11 13:04:51		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-12 07:50:04		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-12 07:50:51		[server] (irc.conf)
+2017-12-12 07:50:51		  irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox"  (default if null: "")
+2017-12-12 07:50:51		1 option (matching with "irc.server.freenode.autojoin")
+2017-12-12 07:51:38		Option changed: irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox,#puppylinux"  (default if null: "")
+2017-12-12 07:53:05		Option changed: irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox,#puppylinux,#blackarch"  (default if null: "")
+2017-12-14 13:02:42		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-14 13:06:16		[server] (irc.conf)
+2017-12-14 13:06:16		  irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox,#puppylinux,#blackarch"  (default if null: "")
+2017-12-14 13:06:16		1 option (matching with "irc.server.freenode.autojoin")
+2017-12-16 06:00:53		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2017-12-16 06:52:20		[server] (irc.conf)
+2017-12-16 06:52:20		  irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox,#puppylinux,#blackarch"  (default if null: "")
+2017-12-16 06:52:20		1 option (matching with "irc.server.freenode.autojoin")
+2017-12-16 06:53:50		Option changed: irc.server.freenode.autojoin = "#gentoowithoutjuju,#debian-cn,#slackbuilds,#digitalrightscn,#publicpolicy-cn,#gentoostillcompiling,#chinalug,#fluxbox,#puppylinux,#blackarch,#devuan,#devuan-arm,#debianfork"  (default if null: "")
