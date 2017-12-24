@@ -1,1 +1,3 @@
 apt install git nginx weechat mutt lynx w3m hostapd isc-dhcp-server dnsmasq puppet
+
+nohup apt update && apt -y upgrade && apt install git nginx weechat mutt lynx w3m hostapd isc-dhcp-server dnsmasq puppet ansible mariadb python python3
