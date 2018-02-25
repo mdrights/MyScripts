@@ -1,6 +1,12 @@
-*foreground: rgb:ff/ef/d5
-*background: #000000
-*faceSize: 14
+*font: 9x15,hanzigb16fs
+! *font: hanzigb16fs
 
-*font: xft:LiberationMono-Regular:size=11
-*vt100*geometry: 70*90
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+
+*resize-font.smaller: C-Down
+*resize-font.bigger: C-Up
+
+*iso14755: false
+*iso14755_52: false
+

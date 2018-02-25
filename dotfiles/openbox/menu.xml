@@ -43,10 +43,20 @@
             </item>
         </menu>
         <separator/>
-        <menu id="root-menu-45858" label="Utilites">
+        <menu id="root-menu-45858" label="Social">
             <item label="Telegram">
                 <action name="Execute">
                     <execute>Telegram</execute>
+                </action>
+            </item>
+            <item label="Weechat">
+                <action name="Execute">
+                    <execute>urxvt -e weechat</execute>
+                </action>
+            </item>
+            <item label="Riot.im">
+                <action name="Execute">
+	            <execute>/opt/Riot/riot-web</execute>
                 </action>
             </item>
         </menu>
