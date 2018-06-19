@@ -21,6 +21,7 @@ compinit
 # Added by user here.
 REPORTTIME=10
 alias ls="ls $LS_OPTIONS"
+alias gits='git status'
 #export TERM=screen
 source /usr/share/git-core/contrib/completion/git-prompt.sh
 #setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
