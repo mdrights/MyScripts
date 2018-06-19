@@ -30,3 +30,9 @@ setopt PROMPT_SUBST ; PS1='[%m %c$(__git_ps1 " (%s)")]\$ '
 
 # Powerline
 #. /usr/local/repo/powerline/powerline/bindings/zsh/powerline.zsh
+#
+
+# Tmux
+# If not running interactively, do not do anything
+[[ $- != *i* ]] && return
+[[ -z "$TMUX" ]] && exec tmux
