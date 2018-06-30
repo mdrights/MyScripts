@@ -2,8 +2,8 @@
 "set nu
 set go=
 colorscheme desert
-" set guifont=Courier_New:h12:cANSI
-set guifont=Go\ Mono\ for\ Powerline
+" set guifont=Courier_New
+set guifont=Go\ Mono\ for\ Powerline\ 11
 syntax on
 set nocompatible
 set encoding=utf-8
