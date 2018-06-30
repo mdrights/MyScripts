@@ -1,8 +1,9 @@
 " My customizations
 "set nu
 set go=
-"colorscheme desert
-"set guifont=Courier_New:h12:cANSI
+colorscheme desert
+" set guifont=Courier_New:h12:cANSI
+set guifont=Go\ Mono\ for\ Powerline
 syntax on
 set nocompatible
 set encoding=utf-8
@@ -24,15 +25,20 @@ autocmd InsertEnter * se nocul
 
 
 " Punc auto-complete
-"":inoremap ( ()<ESC>i
-"":inoremap ) <c-r>=ClosePair(')')<CR>
-"":inoremap { {}<ESC>i
-"":inoremap } <c-r>=ClosePair('}')<CR>
-"":inoremap [ []<ESC>i
-"":inoremap ] <c-r>=ClosePair(']')<CR>
-"":inoremap " ""<ESC>i
-"":inoremap ' ''<ESC>i
+:inoremap ( ()<ESC>i
+:inoremap ) <c-r>=ClosePair(')')<CR>
+:inoremap { {}<ESC>i
+:inoremap } <c-r>=ClosePair('}')<CR>
+:inoremap [ []<ESC>i
+:inoremap ] <c-r>=ClosePair(']')<CR>
+:inoremap " ""<ESC>i
+:inoremap ' ''<ESC>i
 
+" Statusline if no Powerline
+" set statusline=%f\ -\ FileType:\ %y
+" set statusline=%l    " Current line
+" set statusline+=/    " Separator
+" set statusline+=%L   " Total lines
 
 " PLUGINS
 " Powerline
@@ -40,14 +46,14 @@ set laststatus=2
 "set rtp+=/usr/local/repo/powerline/powerline/bindings/vim
 
 " Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+""set statusline+=%#warningmsg#
+""set statusline+=%{SyntasticStatuslineFlag()}
+""set statusline+=%*
+""
+""let g:syntastic_always_populate_loc_list = 1
+""let g:syntastic_auto_loc_list = 1
+""let g:syntastic_check_on_open = 0
+""let g:syntastic_check_on_wq = 0
 
 
 " Vundle
@@ -72,8 +78,8 @@ call vundle#begin()
 	"Plugin 'git://git.wincent.com/command-t.git'
 	" git repos on your local machine (i.e. when working on your own plugin)
 	"Plugin 'file:///home/gmarik/path/to/plugin'
-	Plugin 'file:///home/vagrant/.vim/bundle/syntastic'
-	Plugin 'file:///home/vagrant/.vim/bundle/YouCompleteMe'
+""	Plugin 'file:///home/vagrant/.vim/bundle/syntastic'
+""	Plugin 'file:///home/vagrant/.vim/bundle/YouCompleteMe'
 	" The sparkup vim script is in a subdirectory of this repo called vim.
 	" Pass the path to set the runtimepath properly.
 	"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
