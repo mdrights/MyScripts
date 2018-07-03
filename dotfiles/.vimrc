@@ -35,8 +35,9 @@ autocmd InsertEnter * se nocul
 :inoremap ' ''<ESC>i
 
 " Statusline if no Powerline
-" set statusline=%f\ -\ FileType:\ %y
-" set statusline=%l    " Current line
+" set statusline=%f\ -\ %y
+" set statusline+=\ -\ 
+" set statusline+=%l    " Current line
 " set statusline+=/    " Separator
 " set statusline+=%L   " Total lines
 
