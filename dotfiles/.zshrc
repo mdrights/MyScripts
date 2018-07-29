@@ -22,8 +22,8 @@ compinit
 REPORTTIME=10
 alias ls="ls $LS_OPTIONS"
 alias gits='git status'
-#export TERM=screen
-source /usr/share/git-core/contrib/completion/git-prompt.sh
+source /usr/doc/git-2.18.0/contrib/completion/git-prompt.sh   #on Slackware
+# source /usr/share/git-core/contrib/completion/git-prompt.sh
 #setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
 setopt PROMPT_SUBST ; PS1='[%m %c$(__git_ps1 " (%s)")]\$ '
 
