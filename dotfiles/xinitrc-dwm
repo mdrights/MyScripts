@@ -32,13 +32,13 @@ do
        IP=$(/sbin/ip a |grep 'inet ' |grep -v 127 |awk '{print $2}')
        TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))C"
 
-       if cat /proc/acpi/battery/BAT1/state 1&> /dev/null 2&>1
-       then
+#       if cat /proc/acpi/battery/BAT1/state 1&> /dev/null 2&>1
+#       then
 	       BAT="$(cat /proc/acpi/battery/BAT1/state |awk '$1~/remaining/ { print $3 }') mAh"
-           xsetroot -name "$IP $BAT $TEMP $LOCALTIME"
-       else
-           xsetroot -name "$IP $TEMP $LOCALTIME"
-       fi
+           xsetroot -name "$IP | $BAT | $TEMP | $LOCALTIME"
+#       else
+#           xsetroot -name "$IP $TEMP $LOCALTIME"
+#       fi
        sleep 20s
 done &
 
