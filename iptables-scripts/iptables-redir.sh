@@ -7,7 +7,7 @@ iptables -t mangle -N SHADOWSOCKS
 
 # Ignore your shadowsocks server's addresses
 # It's very IMPORTANT, just be careful.
-iptables -t nat -A SHADOWSOCKS -d 209.250.232.119 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d 209.XXX.xxx.xxx -j RETURN
 
 # Ignore LANs and any other addresses you'd like to bypass the proxy
 # See Wikipedia and RFC5735 for full list of reserved networks.

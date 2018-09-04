@@ -1,10 +1,16 @@
 #!/bin/bash
-#
+# iptables-stop.sh
 
-iptables -P INPUT ACCEPT
-iptables -P FORWARD ACCEPT
-iptables -P OUTPUT ACCEPT
-iptables -t nat -F
-iptables -t mangle -F
-iptables -F
-iptables -X
+echo "Stopping firewall and allowing everyone..."
+ipt="/sbin/iptables"
+$ipt -P INPUT ACCEPT
+$ipt -P FORWARD ACCEPT
+$ipt -P OUTPUT ACCEPT
+$ipt -F
+$ipt -X
+$ipt -t nat -F
+$ipt -t nat -X
+$ipt -t mangle -F
+$ipt -t mangle -X
+$ipt -t raw -F
+$ipt -t raw -X
