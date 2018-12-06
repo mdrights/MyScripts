@@ -1,4 +1,4 @@
-apt install git nginx weechat mutt lynx w3m hostapd isc-dhcp-server dnsmasq puppet
+apt install git nginx weechat mutt lynx w3m hostapd isc-dhcp-server dnsmasq shadowsocks shadowsocks-libev privoxy proxychains tor torsocks tsocks networkmanager rxvt-unicode
 
 apt update && apt -y upgrade && \
  apt -y install git nginx weechat mutt lynx w3m hostapd isc-dhcp-server dnsmasq puppet ansible python3 zabbix-frontend-php zabbix-server-mysql mariadb-server mariadb-client apache2
