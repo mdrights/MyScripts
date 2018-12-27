@@ -1,7 +1,7 @@
 " My customizations
 "set nu
 set go=
-colorscheme desert
+colorscheme delek
 " set guifont=Courier_New
 set guifont=Go\ Mono\ for\ Powerline\ 11
 syntax on
@@ -44,7 +44,7 @@ autocmd InsertEnter * se nocul
 " PLUGINS
 " Powerline
 set laststatus=2
-"set rtp+=/usr/local/repo/powerline/powerline/bindings/vim
+set rtp+=/usr/local/repo/powerline/powerline/bindings/vim
 
 " Syntastic
 ""set statusline+=%#warningmsg#
