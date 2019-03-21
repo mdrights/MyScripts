@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>What is IPFS? &ndash; IPFS Documentation</title>
+    
+    
+    <meta property="og:url" content="https://docs.ipfs.io/introduction/overview/">
+    <meta property="og:title" content="IPFS Documentation">
+    
+    <meta name="apple-mobile-web-app-title" content="IPFS Documentation">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="canonical" href="https://docs.ipfs.io/introduction/overview/">
+    <link rel="shortcut icon" type="image/x-icon" href="https://docs.ipfs.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://docs.ipfs.io/images/favicon.ico">
+    <link rel="stylesheet" href="../../assets/main.css">
+  </head>
+  <body data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <div class="wrapper">
+      <header class="page-header">
+  <a href="../../" title="IPFS Documentation" class="page-logo">
+    <img src="../../assets/logo.svg">
+  </a>
+  <div class="page-title">
+    
+      <span class="page-title__site">
+        IPFS Documentation
+      </span>
+      <span class="page-title__topic">
+        - What is IPFS?
+      </span>
+    
+  </div>
+
+  <button class="menu-button">
+    <span class="sr-only">Menu</span>
+    <i class="fas fa-bars"></i>
+  </button>
+</header>
+
+      
+<nav class="sidebar-nav primary" data-md-level="0" aria-labelledby="sidebar-nav-title">
+  <h1 id="sidebar-nav-title" class="sr-only">Menu</h1>
+  <button class="close-button">
+    <span class="sr-only">Close Menu (<kbd>esc</kbd>)</span>
+    <i class="fas fa-times"></i>
+  </button>
+
+  <ol class="sidebar-nav--list" data-md-scrollfix>
+    
+      <li class="sidebar-nav--item sidebar-nav--main-item">
+        
+        <span class="sidebar-nav--title">Introduction</span>
+  
+  
+    
+    <ol class="sub-menu sidebar-nav--list" data-md-scrollfix>
+      <li class="sidebar-nav--item active">
+  
+  
+  <a
+    href="../../introduction/overview/"
+    title="What is IPFS?"
+    
+    class="sidebar-nav--link active"
+  >
+    
+    <span>What is IPFS?</span>
+    
+    
+  </a>
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+    <div class="table-of-contents" data-md-level="2">
+      <ul class="sidebar-nav--list">
+
+        
+          
+          
+          
+            
+          
+          <li class="sidebar-nav--item">
+            <a class="sidebar-nav--link" href="#ipfs-is-a-distributed-system-for-storing-and-accessing-files-websites-applications-and-data">
+              IPFS is a distributed system for storing and accessing files, websites, applications, and data.
+            </a>
+
+            
+            
+
+            
+          </li>
+            
+        
+          
+          
+          
+            
+          
+          <li class="sidebar-nav--item">
+            <a class="sidebar-nav--link" href="#so-why-does-that-matter">
+              So why does that matter?
+            </a>
+
+            
+            
+
+            
+          </li>
+            
+        
+          
+          
+          
+            
+          
+          <li class="sidebar-nav--item">
+            <a class="sidebar-nav--link" href="#links-don-t-change-on-ipfs">
+              Links don’t change on IPFS.
+            </a>
+
+            
+            
+
+            
+          </li>
+            
+        
+          
+          
+          
+            
+          
+          <li class="sidebar-nav--item">
+            <a class="sidebar-nav--link" href="#it-s-all-about-possession-and-participation">
+              It’s all about possession and participation.
+            </a>
+
+            
+            
+
+            
+          </li>
+            
+        
+          
+          
+          
+            
+          
+          <li class="sidebar-nav--item">
+            <a class="sidebar-nav--link" href="#next-steps">
+              Next Steps
+            </a>
+
+            
+            
+
+            
+          </li>
+            
+        
+
+        
+      </ul>
+    </div>
+  
+      </li>
+      <li class="sidebar-nav--item">
+  
+  
+  <a
+    href="../../introduction/install/"
+    title="Install IPFS"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Install IPFS</span>
+    
+    
+  </a>
+
+        
+      </li>
+      <li class="sidebar-nav--item">
+  
+  
+  <a
+    href="../../introduction/usage/"
+    title="Basic Usage"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Basic Usage</span>
+    
+    
+  </a>
+
+        
+      </li>
+      <li class="sidebar-nav--item">
+  
+  
+  <a
+    href="https://discuss.ipfs.io/c/help/Old-FAQ"
+    title="FAQ"
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>FAQ</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+        
+      </li>
+    </ol>
+  
+        
+      </li>
+    
+      <li class="sidebar-nav--item sidebar-nav--main-item">
+        
+        <span class="sidebar-nav--title">Guides</span>
+  
+  
+  
+
+  <ol class="section-menu sub-menu sidebar-nav--list">
+    
+      <li class="sidebar-nav--section ">
+        
+  
+  <a
+    href="../../guides/concepts/"
+    title="Concepts"
+    
+    class="sidebar-nav--link  sidebar-nav--title"
+  >
+    
+    <span>Concepts</span>
+    
+    
+  </a>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/cid/"
+    title="Content Identifiers (CIDs)"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Content Identifiers (CIDs)</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/dnslink/"
+    title="DNSLink"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>DNSLink</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/hashes/"
+    title="Hashes"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Hashes</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/ipns/"
+    title="IPNS"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>IPNS</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/mfs/"
+    title="Mutable File System (MFS)"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Mutable File System (MFS)</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/pinning/"
+    title="Pinning"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Pinning</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/concepts/unixfs/"
+    title="UnixFS"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>UnixFS</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Guides
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/in-web-browsers/blob/master/ADDRESSING.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Addressing in Browsers</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/archives/tree/master/tutorials/replicating-large-datasets"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Replicating Large Datasets</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/go-ipfs/blob/master/docs/file-transfer.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Transferring a File</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Examples
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../guides/examples/"
+    title="Basic Examples"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Basic Examples</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/js-ipfs/tree/master/examples"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>js-ipfs Examples</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ol>
+  
+        
+      </li>
+    
+      <li class="sidebar-nav--item sidebar-nav--main-item">
+        
+        <span class="sidebar-nav--title">Reference</span>
+  
+  
+  
+
+  <ol class="section-menu sub-menu sidebar-nav--list">
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Commands &amp; API
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../reference/api/cli/"
+    title="CLI Commands"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>CLI Commands</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../reference/api/http/"
+    title="HTTP API"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>HTTP API</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/interface-ipfs-core/tree/master/SPEC"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>JS &amp; Go Libraries</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Go Implementation
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../reference/go/overview/"
+    title="Working with Go IPFS"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Working with Go IPFS</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../go/pkg/go-ipfs/core/coreapi"
+    title=""
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>go-ipfs Core API</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../go/pkg/go-ipfs/core/coreapi/interface"
+    title=""
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>go-ipfs Coreiface API</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../go/pkg/go-ipfs/core/coreapi/interface/options"
+    title=""
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>go-ipfs Core options API</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../go/pkg/go-ipfs-api"
+    title=""
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>go-ipfs-api Reference</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            JS Implementation
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../reference/js/overview/"
+    title="Working with IPFS in JS"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>Working with IPFS in JS</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/js-ipfs"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>js-ipfs</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/js-ipfs-api"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>js-ipfs-api</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Specifications &amp; Planning
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Whitepaper</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/specs"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Specifications</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/ipfs/blob/master/REQUIREMENTS.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Roadmap to 1.0.0</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/ipfs/blob/master/IMPLEMENTATION_STATUS.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Implementation Status</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/rfcs"
+    title="“Requests for Changes” (RFC) are proposals for major modifications to protocols, library interfaces, and community processes."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>RFC List</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ol>
+  
+        
+      </li>
+    
+      <li class="sidebar-nav--item sidebar-nav--main-item">
+        
+        <span class="sidebar-nav--title">Community</span>
+  
+  
+  
+
+  <ol class="section-menu sub-menu sidebar-nav--list">
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Applications
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="http://cluster.ipfs.io"
+    title="Manage a cluster of IPFS nodes across several machines to pool storage resources."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Cluster</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs-shipyard/ipfs-desktop"
+    title="A cross-platform GUI application for running an IPFS node."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Desktop</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs-shipyard/ipfs-companion"
+    title="A browser extension that makes IPFS resources securly available to web pages."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Companion</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/ipfs-pack"
+    title="Package large data collections into a standard format that works well on IPFS."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPFS Pack</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Community
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://discuss.ipfs.io/"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Discussion/Support Forum</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../community/irc/"
+    title=""
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>IRC</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/notes"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Research Discussion</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Events Calendar</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/community/"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Community Tools</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/pm/"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Project Management</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://ipfs.io/blog/"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Blog</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Youtube</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://twitter.com/IPFSbot"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Twitter (@IPFSbot)</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://awesome.ipfs.io/"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Awesome IPFS</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://discuss.ipfs.io/c/help/Old-FAQ"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>FAQ</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://archives.ipfs.io"
+    title="A community project to host archives of valuable public data."
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Public Archives on IPFS</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Get Involved
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="../../community/contribute/how_to_help/"
+    title="How to Help"
+    
+    class="sidebar-nav--link "
+  >
+    
+    <span>How to Help</span>
+    
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/ipfs"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>GitHub (IPFS)</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/docs"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>GitHub (docs)</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/community/blob/master/CONTRIBUTING.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Contribution Guidelines</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/community/blob/master/code-of-conduct.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Code of Conduct</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/community/blob/master/CONTRIBUTING_GO.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Go Style Guide</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://github.com/ipfs/community/blob/master/CONTRIBUTING_JS.md"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>JS Style Guide</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="sidebar-nav--section ">
+        
+          <span class="sidebar-nav--title">
+            
+            Related Projects
+            
+          </span>
+        
+
+        
+          <ul class="sub-menu sidebar-nav--list">
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="http://libp2p.io"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Libp2p</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://multiformats.io"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>Multiformats</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+              <li class="sidebar-nav--item">
+  
+  <a
+    href="https://ipld.io"
+    title=""
+    target="_blank"
+    class="sidebar-nav--link  external-link"
+  >
+    
+    <span>IPLD</span>
+    <i class="fas fa-external-link-square-alt fa-sm"></i>
+    
+  </a>
+
+                
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ol>
+  
+        
+      </li>
+    
+  </ol>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <main class="article">
+        
+<h1>What is IPFS? </h1>
+
+
+<p>Welcome! If you’re new to IPFS, you’ve come to the right place. This guide is intended to give you a thorough but quick overview of what IPFS is, how it works, and how to use it.</p>
+
+<h2 id="ipfs-is-a-distributed-system-for-storing-and-accessing-files-websites-applications-and-data">IPFS is a distributed system for storing and accessing files, websites, applications, and data.</h2>
+
+<p>What does that mean, exactly? Let’s say you’re doing some research on Aardvarks. (Just roll with it; Aardvarks are cool! Did you know they can tunnel 3 feet in only 5 minutes?) You might start by visiting the wikipedia page on Aardvarks at:</p>
+
+<pre><code>https://en.wikipedia.org/wiki/Aardvark
+</code></pre>
+
+<p>When you put that URL in your browser’s address bar, your computer asks one of Wikipedia’s computers, which might be somewhere on the other side of the country — or even the planet — for the Aardvark page. However, if you use IPFS to get that page from:</p>
+
+<pre><code>/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Aardvark.html
+</code></pre>
+
+<p>Your computer might have gotten it from someone else’s computer across town, or maybe even your neighbor’s computer across the street. When you use IPFS, you don’t only download a file from someone else, but your computer can help distribute it, too — when your friend a few blocks away needs the same Wikipedia page, they might be as likely to get it from you as your neighbor.</p>
+
+<p>IPFS makes this possible for web pages, but also for any kind of file a computer might store, whether it’s an MS Word document, an e-mail, an MP3 file, or even a database record.</p>
+
+<h2 id="so-why-does-that-matter">So why does that matter?</h2>
+
+<p>Making it possible to download a file from many locations that aren’t managed by one organization…</p>
+
+<ul>
+<li><p><strong>Makes it hard for a website to go offline.</strong> If someone attacks Wikipedia’s web servers or an engineer at Wikipedia makes a big mistake that causes their servers to catch fire, you can still get the same page from somewhere else.</p></li>
+
+<li><p><strong>Makes it harder for authorities to censor content.</strong> Because files on IPFS can come from many places and because some of those places might be nearby, it’s very hard for authorities (whether they’re states, corporations, or someone else) to block things. In 2017, Turkey blocked Wikipedia and Spain blocked access to Catalonian independence sites. We hope IPFS can prevent actions like those.</p></li>
+
+<li><p><strong>Can speed up the web when you’re far away or disconnected.</strong> If you can retrieve a file from someone nearby instead of hundreds or thousands of miles away, you can get it faster. (Organizations with enough money and expertise can do this with CDNs or multiple data centers, but IPFS aims to make this possible for everyone.) That’s especially valuable if your community is networked, but doesn’t have a good connection to the wider internet.</p></li>
+</ul>
+
+<p>That last point is actually where IPFS gets it’s name: <strong>Inter-Planetary File System</strong>! We’re striving to build a system that works across places as disconnected or far apart as other planets. That’s a pretty idealistic goal, but it keeps us working and thinking hard, and most everything we create in pursuit of that goal is also useful closer to home.</p>
+
+<h2 id="links-don-t-change-on-ipfs">Links don’t change on IPFS.</h2>
+
+<p>What about that link to the Aardvark page above? It looked a little unusual:</p>
+
+<pre><code>/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Aardvark.html
+</code></pre>
+
+<p>That jumble of letters after <code>/ipfs/</code> is called a <a href="../../guides/concepts/cid/" target="_blank"><em>content identifier</em></a> and it’s how IPFS can get content from multiple places.</p>
+
+<p>Traditional URLs and file paths like…</p>
+
+<ul>
+<li><code>https://en.wikipedia.org/wiki/Aardvark</code></li>
+<li><code>/Users/Alice/Documents/term_paper.doc</code></li>
+<li><code>C:\Users\Joe\My Documents\project_sprint_presentation.ppt</code></li>
+</ul>
+
+<p>…identify a file by <em>where it’s located</em> — what computer it’s on and where on that computer’s hard drive it is. That doesn’t work if the file is in many places, though, like your neighbor’s computer and your friend’s across town.</p>
+
+<p>Instead of being location-based, IPFS addresses a file by <em>what’s in it</em>, or by it’s <em>content</em>. The content identifier above is a <em>hash</em> of the content at that address, which means it’s also unique to that content, even though it’s [relatively] short. It also allows you to verify you got what you asked for — bad actors can’t just hand you content that doesn’t match. (If hashes are new to you, check out <a href="../../guides/concepts/hashes/" target="_blank">the concept guide on hashes</a> for a good introduction.)</p>
+
+<aside class="alert alert-info">
+  Why do we say “content” instead of “files” or “web pages” here? Because a content identifier can point to many different types of data. In order to make the storage & transmission of data more efficient, IPFS can break files up in to many smaller pieces — which then means the system needs some metadata to tie them back together. An IPFS address can refer to the metadata of just a single piece of a file, a whole file, a directory, a whole website, or even other kinds of data.
+</aside>
+
+<p>Because the address of a file in IPFS is tied to the content itself, links in IPFS can’t be changed. For example…</p>
+
+<ul>
+<li><p>If the text on a web page is changed, the new version gets a new, different link. If your favorite cooking site changes how they layout recipes your IPFS links will still point to the old version.</p></li>
+
+<li><p>Content can’t be moved to a different address. If a company reorganizes their web site today, they could move a page from <code>http://mycompany.com/what_we_do</code> to <code>http://mycompany.com/services</code>. In IPFS, the old link you have would still point to the same content.</p></li>
+
+<li><p>If someone removes a page entirely, you can still get it at the same address.</p></li>
+</ul>
+
+<p>It’s important to remember in all of these situations that it’s the address or link that doesn’t change. The IPFS network is a participatory and collaborative one — if nobody has the content identified by a given address, it won’t be available. On the other hand, content can’t be removed from IPFS so long as <em>someone</em> is interested enough to make it available, whether or not that person is the original author.</p>
+
+<h2 id="it-s-all-about-possession-and-participation">It’s all about possession and participation.</h2>
+
+<p>While there is lots of complex technology in IPFS, the fundamental ideas are about changing how networks of people and computers communicate: while today’s world-wide-web is structured on <em>ownership</em> and <em>access</em>, where you get files from whoever owns them and they choose to grant you access, IPFS is based on the ideas of <em>possession</em> and <em>participation</em>, where many people have each others’ files and <em>participate</em> in making them available.</p>
+
+<p>That means IPFS only works well when people are actively participating. If you share a file on your computer, but then turn your computer off, other people won’t be able to access it from you. But if you or others make sure a copy of that file is stored on another computer running IPFS, it will be available more often. By default, your computer participates in sharing a file with others for a limited time after you’ve downloaded it with IPFS. You can <em>pin</em> a file to save and permanently share it.</p>
+
+<p>If you want to make sure one of your own files is permanently shared on the internet today, you might use a for-pay file-sharing service like Dropbox. Some people have begun offering similar services based on IPFS called <em>pinning services</em>. But since IPFS makes this kind of sharing a built-in feature, you can also collaborate with friends or partner with institutions (for example, museums and libraries might work together) to share each others’ files. We hope IPFS can be the low-level tool that allows a rich fabric of communities, business, and cooperative organizations to all form a distributed web that is much more reliable, robust, and equitable than the one we have today.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Sounds interesting? We’ll cover <a href="../../introduction/usage/" target="_blank">how to use it</a> next.</p>
+
+
+        <footer class="page-footer">
+  <div class="page-footer--copyright">
+    <p class="md-footer-copyright__highlight">
+      © <a href="//protocol.ai">Protocol Labs</a> | Except as noted, content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0
+    </p>
+    <p>
+      Powered by
+      <a href="//ipfs.io">IPFS</a>,
+      <a href="https://gohugo.io">Hugo</a>,
+      <a href="https://github.com/davecheney/godoc2md">godoc2md</a>,
+      and <a href="https://documentation.js.org">documentation.js</a>.
+      
+    </p>
+  </div>
+
+  <div class="page-footer--social">
+    <a href="https://github.com/ipfs/ipfs" title="GitHub" class="social-link"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/ipfsbot" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+    <a href="https://youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew" title="YouTube" class="social-link"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+
+      </main>
+    </div>
+    <script src="../../assets/main.js"></script>
+    <script src="../../fontawesome/fontawesome.min.js"></script>
+    <script src="../../fontawesome/fontawesome-all.min.js"></script>
+  </body>
+</html>
