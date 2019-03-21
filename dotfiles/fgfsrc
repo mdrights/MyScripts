@@ -1,8 +1,12 @@
 #--airport=ZGSZ
-#--airport=VHHH 
---airport=PHNL
+--airport=VHHH 
+#--airport=PHMK
+#--airport=PHNL
+#--airport=PHKO
 #--airport=CYVR
 #--airport=EDDF
+#--airport=RPLL
+#--airport=VTBS
 
 --fg-scenery=/home/user/.fgfs/fgdata:/home/user/FG/Scenery:/home/user/.fgfs/TerraSync
 --timeofday=noon 
