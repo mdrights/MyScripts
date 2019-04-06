@@ -20,3 +20,4 @@
 --enable-random-buildings
 --fog-nicest
 --fov=90 
+--httpd=8080
