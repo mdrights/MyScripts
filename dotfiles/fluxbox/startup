@@ -14,6 +14,7 @@ xmodmap "/home/user/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
+tint2 &
 
 # Start DBUS session bus:
 if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
