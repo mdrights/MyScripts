@@ -1,0 +1,33 @@
+set imap_user = '@gmail.com'
+set imap_pass = ''
+
+set folder = imaps://imap.gmail.com/
+set spoolfile = +INBOX
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+
+set smtp_url = 'smtps://@smtp.gmail.com'
+set smtp_pass = ''
+set record=""
+set editor = "vim"
+set charset = "utf-8"
+set ssl_force_tls = yes
+
+# G to get mail
+bind index G imap-fetch-mail
+
+set sort=threads
+
+set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
+
+#set trash="imaps://imap.gmail.com/[Gmail]/Trash"
+
+source ~/.gpg.rc
+
+set pgp_default_key
+set pgp_use_gpg_agent
+set crypt_autosign
+set crypt_opportunistic_encrypt
+set crypt_replysign
+set crypt_replysignencrypted
+set postpone_encrypt
