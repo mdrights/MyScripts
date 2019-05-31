@@ -5,29 +5,24 @@ set folder = imaps://imap.gmail.com/
 set spoolfile = +INBOX
 set record = "+[Gmail]/Sent Mail"
 set postponed = "+[Gmail]/Drafts"
+set mbox="+[Gmail]/All Mail"
+set trash="+[Gmail]/Trash"
 
 set smtp_url = 'smtps://@smtp.gmail.com'
 set smtp_pass = ''
 set record=""
 set editor = "vim"
 set charset = "utf-8"
+set ssl_starttls = yes
 set ssl_force_tls = yes
 
-# G to get mail
-bind index G imap-fetch-mail
+set sort = threads
+auto_view text/html
+set message_cachedir=~/.mutt/cache
+set header_cache=~/.mutt/cache
 
-set sort=threads
 
-set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
-
-#set trash="imaps://imap.gmail.com/[Gmail]/Trash"
-
-source ~/.gpg.rc
-
-set pgp_default_key
-set pgp_use_gpg_agent
-set crypt_autosign
-set crypt_opportunistic_encrypt
-set crypt_replysign
-set crypt_replysignencrypted
-set postpone_encrypt
+macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
+#macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
