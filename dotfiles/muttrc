@@ -26,3 +26,14 @@ macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
 #macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
 macro index gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
 macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+
+# source ~/.gpg.rc
+# 
+# set pgp_default_key
+# set pgp_use_gpg_agent
+# set crypt_autosign
+# set crypt_opportunistic_encrypt
+# set crypt_replysign
+# set crypt_replysignencrypted
+# set postpone_encrypt
+
