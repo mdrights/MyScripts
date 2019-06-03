@@ -1,3 +1,7 @@
+set realname=""
+set from="@gmail.com"
+set use_from=yes
+
 set imap_user = '@gmail.com'
 set imap_pass = ''
 
