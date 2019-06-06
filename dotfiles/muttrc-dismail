@@ -1,0 +1,25 @@
+set realname=""
+set from="@dismail.de"
+set use_from=yes
+
+set folder 		= imaps://imap.dismail.de:993	# Choose either POP or IMAP.
+set imap_user 		= @dismail.de
+set imap_pass 		= ''
+set spoolfile 		= +INBOX
+set postponed		= +Drafts
+set record		= +Sent
+set trash		= +Trash
+mailboxes		= +INBOX
+
+set smtp_url		= smtps://@dismail.de@smtp.dismail.de:465
+set smtp_pass		= ''
+
+set editor = "vim"
+set charset = "utf-8"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+set sort = threads
+auto_view text/html
+set message_cachedir=~/.mutt/cache
+set header_cache=~/.mutt/cache
