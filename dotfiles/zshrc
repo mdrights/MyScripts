@@ -2,11 +2,13 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+setopt autocd hist_ignore_all_dups
 setopt appendhistory share_history autocd extendedglob nomatch notify
 unsetopt beep
+unsetopt CASE_GLOB
 
-#bindkey -e
-bindkey -v
+bindkey -e
+#bindkey -v
 bindkey '^R' history-incremental-search-backward
 bindkey '^i' expand-or-complete-prefix
 #bindkey  "\e[2~" quoted-insert
@@ -20,16 +22,23 @@ compinit
 
 # Added by user here.
 REPORTTIME=10
+
 alias ls="ls $LS_OPTIONS"
 alias gits='git status'
 
-source /usr/doc/git-2.18.0/contrib/completion/git-prompt.sh   #on Slackware
+lsp ()
+{
+	ls -1 "/var/log/packages/$@"* |xargs -i basename {}
+}
+
+#%{\e[0;31m%}%m%{\e[0m%}
+#source /usr/doc/git-2.20.1/contrib/completion/git-prompt.sh   #on Slackware
 # source /usr/share/git-core/contrib/completion/git-prompt.sh
 #setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
-setopt PROMPT_SUBST ; PS1='[%m %c$(__git_ps1 " (%s)")]\$ '
-export PS1="$? [%~]
- %% "
+export PS1="%? [%~]
+ %# "
 
+export PATH=$HOME/bin:$PATH:/sbin:/usr/sbin
 
 # Powerline
 #. /usr/local/repo/powerline/powerline/bindings/zsh/powerline.zsh
@@ -37,5 +46,7 @@ export PS1="$? [%~]
 
 # Tmux
 # If not running interactively, do not do anything
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+#[[ $- != *i* ]] && return
+#[[ -z "$TMUX" ]] && exec tmux
+#
+## export https_proxy=http://localhost:8118
