@@ -8,7 +8,10 @@
 HISTSIZE=1000
 HISTFILESIZE=2000
 
-# alias ls='ls --color=auto'
+# Use git prompt
+#source /usr/doc/git-2.22.0/contrib/completion/git-prompt.sh
+#PS1='[\u@\h \W$(__git_ps1 " (%s)")]\n\$ '
+
 #PS1='[\u@\h \W]\$ '
 PS1='$? [\w]
 \$ '
@@ -20,6 +23,7 @@ shopt -s autocd
 shopt -s nocaseglob
 shopt -s nocasematch
 
+# alias ls='ls --color=auto'
 alias ls="ls $LS_OPTIONS"
 alias grep="grep --colour=auto"
 alias fgrep='fgrep --color=auto'
