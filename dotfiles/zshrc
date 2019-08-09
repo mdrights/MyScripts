@@ -34,13 +34,15 @@ lsp ()
 }
 
 #%{\e[0;31m%}%m%{\e[0m%}
-#source /usr/doc/git-2.20.1/contrib/completion/git-prompt.sh   #on Slackware
-# source /usr/share/git-core/contrib/completion/git-prompt.sh
-#setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
+# source /usr/share/git-core/contrib/completion/git-prompt.sh		#on Debian
+# source /usr/doc/git-2.20.1/contrib/completion/git-prompt.sh		#on Slackware
+source $HOME/.git-prompt.sh	
+setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
 export PS1="%? [%~]
  %# "
 
 export PATH=$HOME/bin:$PATH:/sbin:/usr/sbin
+## export https_proxy=http://localhost:8118
 
 # Powerline
 #. /usr/local/repo/powerline/powerline/bindings/zsh/powerline.zsh
@@ -50,5 +52,6 @@ export PATH=$HOME/bin:$PATH:/sbin:/usr/sbin
 # If not running interactively, do not do anything
 #[[ $- != *i* ]] && return
 #[[ -z "$TMUX" ]] && exec tmux
-#
-## export https_proxy=http://localhost:8118
+
+# Syntax Highlighting 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
