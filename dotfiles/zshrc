@@ -2,10 +2,6 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt autocd hist_ignore_all_dups
-setopt appendhistory share_history autocd extendedglob nomatch notify
-unsetopt beep
-unsetopt CASE_GLOB
 
 bindkey -e
 #bindkey -v
@@ -22,6 +18,12 @@ compinit
 
 # Added by user here.
 REPORTTIME=10
+setopt hist_ignore_all_dups appendhistory share_history
+setopt auto_cd extended_glob ksh_glob nomatch notify
+unsetopt beep
+unsetopt CASE_GLOB
+
+autoload zmv
 
 alias ls="ls $LS_OPTIONS"
 alias gits='git status'

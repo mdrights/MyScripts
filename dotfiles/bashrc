@@ -21,6 +21,7 @@ shopt -s checkwinsize
 shopt -s histappend
 shopt -s autocd
 shopt -s nocaseglob
+shopt -s extglob
 shopt -s nocasematch
 
 # alias ls='ls --color=auto'
