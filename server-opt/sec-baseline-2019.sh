@@ -63,7 +63,7 @@ git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/
 /home/$USER/repo/Myscripts/iptables-scripts/iptables.vps.sh start
 
 # Install GitLab runner:
-./script.deb.sh
+/home/$USER/repo/Myscripts/server-opt/gitlab-runner-download.deb.sh
 
 cat <<EOF | sudo tee /etc/apt/preferences.d/pin-gitlab-runner.pref
 Explanation: Prefer GitLab provided packages over the Debian native ones
@@ -74,3 +74,25 @@ EOF
 
 apt update
 apt install -y gitlab-runner
+
+# Install OSSEC:
+# wget -q -O - https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt |apt-key add -
+# echo "deb https://updates.atomicorp.com/channels/atomic/debian buster main" >>  /etc/apt/sources.list.d/atomic.list
+# apt update && apt install -y ossec-hids-server
+
+# Harden the kernel.
+echo "        #### Set by root at $(date) ####
+net.ipv4.conf.default.rp_filter=1
+net.ipv4.conf.all.rp_filter=1
+net.ipv4.tcp_syncookies=1
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0
+net.ipv4.conf.all.log_martians = 1
+" > /etc/sysctl.d/90-hardening.conf
+
+/sbin/sysctl --system
+
+
