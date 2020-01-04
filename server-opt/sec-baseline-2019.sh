@@ -30,7 +30,7 @@ echo "deb http://deb.debian.org/debian buster-backports main" >> /etc/apt/source
 apt update && apt upgrade -y
 
 # Use Fail2Ban and other tools.
-apt-get install -y fail2ban nginx git wget w3m atop htop tmux gpg software-properties-common
+apt-get install -y fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
 
 # Add third-party repo: Tor.
 echo "
