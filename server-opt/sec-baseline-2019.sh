@@ -8,8 +8,7 @@
 # Add a Limited User Account
 
 USER='linus'
-adduser $USER
-adduser $USER sudo
+useradd -G sudo,users -s /bin/bash $USER
 
 chmod 700 /home/$USER/
 mkdir -p -m 0700 /home/$USER/.ssh
