@@ -10,16 +10,16 @@
 USER='linus'
 useradd -G sudo,users -s /bin/bash $USER
 
-chmod 700 /home/$USER/
+chmod -R 700 /home/$USER/
 mkdir -p -m 0700 /home/$USER/.ssh
 cp ~/.ssh/authorized_keys /home/$USER/.ssh/authorized_keys
-chown ${USER}. /home/$USER/.ssh/authorized_keys
+chown -R ${USER}. /home/$USER/
 
 # Harden SSH Access
 ## SSH Daemon Options
 
 SSHD_CFG="/etc/ssh/sshd_config"
-echo -e "\n ## My settings ## \nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding yes" >> $SSHD_CFG
+echo "\n ## My settings ## \nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding yes" >> $SSHD_CFG
 
 # Restart it when you import your SSH key:
 # systemctl restart sshd
@@ -29,7 +29,7 @@ echo "deb http://deb.debian.org/debian buster-backports main" >> /etc/apt/source
 apt update && apt upgrade -y
 
 # Use Fail2Ban and other tools.
-apt-get install -y fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
+apt-get install -y tmux vim curl fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
 
 # Add third-party repo: Tor.
 echo "
@@ -51,18 +51,14 @@ apt update
 apt install -y docker-ce docker-ce-cli containerd.io
 usermod -aG docker $USER
 
-# Remove Unused Network-Facing Services
-stemctl stop exim4
-systemctl disable exim4
-
 # Pull my dotfiles
 git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/
 
 # Configure a Firewall
-/home/$USER/repo/Myscripts/iptables-scripts/iptables.vps.sh start
+$HOME/Myscripts/iptables-scripts/iptables.vps.sh start
 
 # Install GitLab runner:
-/home/$USER/repo/Myscripts/server-opt/gitlab-runner-download.deb.sh
+/$HOME/Myscripts/server-opt/gitlab-runner-download.deb.sh
 
 cat <<EOF | sudo tee /etc/apt/preferences.d/pin-gitlab-runner.pref
 Explanation: Prefer GitLab provided packages over the Debian native ones
@@ -79,6 +75,10 @@ apt install -y gitlab-runner
 # echo "deb https://updates.atomicorp.com/channels/atomic/debian buster main" >>  /etc/apt/sources.list.d/atomic.list
 # apt update && apt install -y ossec-hids-server
 
+# Install the monitoring stuff:
+apt -t buster-backports install monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
+
+
 # Harden the kernel.
 echo "        #### Set by root at $(date) ####
 net.ipv4.conf.default.rp_filter=1
@@ -94,4 +94,23 @@ net.ipv4.conf.all.log_martians = 1
 
 /sbin/sysctl --system
 
+# Adjust sudo.
 
+# Remove Unused Network-Facing Services
+systemctl stop exim4
+systemctl disable exim4
+
+systemctl stop docker
+systemctl disable docker
+
+systemctl stop gitlab-runner.service
+systemctl disable gitlab-runner.service
+
+systemctl stop nginx
+systemctl disable nginx
+
+systemctl stop tor
+systemctl disable tor
+
+systemctl stop containerd
+systemctl disable containerd
