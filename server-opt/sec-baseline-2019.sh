@@ -8,7 +8,7 @@
 # Add a Limited User Account
 
 USER='linus'
-useradd -G sudo,users -s /bin/bash $USER
+useradd -m -G sudo,users -s /bin/bash $USER
 
 chmod -R 700 /home/$USER/
 mkdir -p -m 0700 /home/$USER/.ssh
@@ -19,17 +19,26 @@ chown -R ${USER}. /home/$USER/
 ## SSH Daemon Options
 
 SSHD_CFG="/etc/ssh/sshd_config"
-echo "\n ## My settings ## \nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding yes" >> $SSHD_CFG
+echo "\n ## My settings ## \nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding no \nAllowAgentForwarding no" >> $SSHD_CFG
 
 # Restart it when you import your SSH key:
 # systemctl restart sshd
 
 # Add backports and Update packages
-echo "deb http://deb.debian.org/debian buster-backports main" >> /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian buster-backports main \ndeb http://security.debian.org/debian-security buster/updates main \n
+deb-src http://security.debian.org/debian-security buster/updates main" >> /etc/apt/sources.list
 apt update && apt upgrade -y
 
-# Use Fail2Ban and other tools.
-apt-get install -y tmux vim curl fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
+# Remove compilers.
+apt remove -y gcc locales-all linux-compiler-gcc-8-x86 g++ g++-8 libstdc++-8-dev linux-headers-4.19.0-6-common linux-kbuild-4.19
+
+# Use some basic tools.
+apt-get install -y locales tmux vim curl fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
+
+# Set locale
+echo "LANG=en_US.UTF-8
+export LANG
+" > /etc/profile.d/lang.sh
 
 # Add third-party repo: Tor.
 echo "
@@ -52,7 +61,7 @@ apt install -y docker-ce docker-ce-cli containerd.io
 usermod -aG docker $USER
 
 # Pull my dotfiles
-git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/
+git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/Myscripts/
 
 # Configure a Firewall
 $HOME/Myscripts/iptables-scripts/iptables.vps.sh start
@@ -90,6 +99,14 @@ net.ipv4.conf.all.send_redirects = 0
 net.ipv4.conf.all.accept_source_route = 0
 net.ipv6.conf.all.accept_source_route = 0
 net.ipv4.conf.all.log_martians = 1
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 2
+kernel.sysrq = 0
+net.ipv4.conf.all.forwarding = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.default.log_martians = 1
+net.ipv6.conf.default.accept_redirects = 0
 " > /etc/sysctl.d/90-hardening.conf
 
 /sbin/sysctl --system
