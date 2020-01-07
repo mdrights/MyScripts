@@ -32,6 +32,9 @@ apt update && apt upgrade -y
 # Remove compilers.
 apt remove -y gcc locales-all linux-compiler-gcc-8-x86 g++ g++-8 libstdc++-8-dev linux-headers-4.19.0-6-common linux-kbuild-4.19
 
+# De-execute gcc-8 for others:
+chmod 750 /usr/bin/x86_64-linux-gnu-gcc-*
+
 # Use some basic tools.
 apt-get install -y locales tmux vim curl fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
 
