@@ -110,6 +110,7 @@ net.ipv4.conf.default.accept_redirects = 0
 net.ipv4.conf.default.accept_source_route = 0
 net.ipv4.conf.default.log_martians = 1
 net.ipv6.conf.default.accept_redirects = 0
+kernel.yama.ptrace_scope = 3
 " > /etc/sysctl.d/90-hardening.conf
 
 /sbin/sysctl --system
