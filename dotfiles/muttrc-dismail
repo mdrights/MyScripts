@@ -14,6 +14,7 @@ mailboxes		= +INBOX
 set smtp_url		= smtps://@dismail.de@smtp.dismail.de:465
 set smtp_pass		= ''
 
+set allow_ansi = yes
 set editor = "vim"
 set charset = "utf-8"
 set ssl_starttls = yes
@@ -24,3 +25,9 @@ auto_view text/html
 set mailcap_path 	= ~/.mutt/mailcap
 set message_cachedir = ~/.mutt/cache
 set header_cache	 = ~/.mutt/cache
+
+source /home/live/.mutt/gpg.rc
+set pgp_default_key = 
+unset pgp_use_gpg_agent
+set crypt_autosign = yes
+set crypt_opportunistic_encrypt = yes
