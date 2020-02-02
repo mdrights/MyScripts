@@ -1,7 +1,10 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
+HISTSIZE=2000
 SAVEHIST=1000
+setopt autocd
+setopt appendhistory share_history autocd extendedglob nomatch notify
+unsetopt beep
 
 bindkey -e
 #bindkey -v
@@ -26,6 +29,7 @@ unsetopt CASE_GLOB
 autoload zmv
 
 alias ls="ls $LS_OPTIONS"
+alias ll="ls -al $LS_OPTIONS"
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -33,6 +37,7 @@ alias grep="grep --colour=auto"
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias gits='git status'
+alias gpg='gpg2'
 
 lsp ()
 {
@@ -49,6 +54,8 @@ export PS1="%? [%~]
 
 export PATH=$HOME/bin:$PATH:/sbin:/usr/sbin
 ## export https_proxy=http://localhost:8118
+export EDITOR=vim
+export PROXYCHAINS_CONF_FILE=~/.proxychains.conf
 
 # Powerline
 #. /usr/local/repo/powerline/powerline/bindings/zsh/powerline.zsh
