@@ -2,11 +2,10 @@
 # BRIEF: This script is used to make a NEW instance set up to work.
 # AUTHOR: root
 
-# Automatic Security Updates
-## Done.
+
+mkdir -p ~/bin ~/tmp
 
 # Add a Limited User Account
-
 USER='linus'
 useradd -m -G sudo,users -s /bin/bash $USER
 
@@ -29,8 +28,14 @@ LogLevel VERBOSE
 # Restart it when you import your SSH key:
 # systemctl restart sshd
 
+# Set sudoer
+echo "$USER   ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
+
+# Add hostname:
+echo "127.0.0.1       XXX" > /etc/hosts
+
 # Add backports and Update packages
-echo "deb http://deb.debian.org/debian buster-backports main \ndeb http://security.debian.org/debian-security buster/updates main \n
+echo -e "deb http://deb.debian.org/debian buster-backports main \ndeb http://security.debian.org/debian-security buster/updates main \n
 deb-src http://security.debian.org/debian-security buster/updates main" >> /etc/apt/sources.list
 apt update && apt upgrade -y
 
@@ -91,7 +96,19 @@ EOF
 apt update
 apt install -y gitlab-runner
 
-# Install OSSEC:
+# gitlab-runner startup script:
+echo '#!/bin/sh
+
+/usr/lib/gitlab-runner/gitlab-runner "run" "--working-directory" "/home/gitlab-runner" "--config" "/etc/gitlab-runner/config.toml" "--service" "gitlab-runner" "--syslog" "--user" "gitlab-runner" &                     
+' > /root/bin/start-gitlab-runner.sh
+
+usermod -aG users gitlab-runner
+usermod -aG users www-data
+chown -R gitlab-runner:users /srv/
+chmod -R 775 /srv/
+
+
+## Install OSSEC:
 # wget -q -O - https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt |apt-key add -
 # echo "deb https://updates.atomicorp.com/channels/atomic/debian buster main" >>  /etc/apt/sources.list.d/atomic.list
 # apt update && apt install -y ossec-hids-server
@@ -100,7 +117,7 @@ apt install -y gitlab-runner
 apt -t buster-backports install -y monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
 
 
-# Harden the kernel.
+## Harden the kernel.
 echo "        #### Set by root at $(date) ####
 net.ipv4.conf.default.rp_filter=1
 net.ipv4.conf.all.rp_filter=1

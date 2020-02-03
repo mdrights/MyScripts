@@ -60,9 +60,8 @@ case "$1" in
         #      Set rates with burst for new conns, then log/drop the excess
         #$IPT -A inbound -p tcp --syn -m limit --limit 4/s --limit-burst 10 -j ACCEPT
         $IPT -A inbound -p tcp --dport 22 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
-        $IPT -A inbound -p tcp --dport 2222 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
-	$IPT -A inbound -p tcp -m tcp --dport 80 -j LOG --log-prefix "[WEB-in] "
-	$IPT -A inbound -p tcp -m tcp --dport 443 -j LOG --log-prefix "[WEB-in] "
+		$IPT -A inbound -p tcp -m tcp --dport 80 -j LOG --log-prefix "[WEB-in] "
+		$IPT -A inbound -p tcp -m tcp --dport 443 -j LOG --log-prefix "[WEB-in] "
         $IPT -A inbound -p tcp --dport 80 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
         $IPT -A inbound -p tcp --dport 443 -m limit --limit 4/s --limit-burst 10      -j ACCEPT
         $IPT -A inbound -p tcp --syn -j LOG
