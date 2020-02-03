@@ -19,7 +19,12 @@ chown -R ${USER}. /home/$USER/
 ## SSH Daemon Options
 
 SSHD_CFG="/etc/ssh/sshd_config"
-echo "\n ## My settings ## \nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding no \nAllowAgentForwarding no" >> $SSHD_CFG
+echo -e "\n ## My settings ## 
+\nPermitRootLogin no-password \nPasswordAuthentication no \nX11Forwarding no \nAllowAgentForwarding no
+AllowTcpForwarding no
+MaxAuthTries 2
+LogLevel VERBOSE
+" >> $SSHD_CFG
 
 # Restart it when you import your SSH key:
 # systemctl restart sshd
@@ -36,7 +41,9 @@ apt remove -y gcc locales-all linux-compiler-gcc-8-x86 g++ g++-8 libstdc++-8-dev
 chmod 750 /usr/bin/x86_64-linux-gnu-gcc-*
 
 # Use some basic tools.
-apt-get install -y locales tmux vim curl fail2ban nodejs nginx git wget w3m atop htop tmux gpg software-properties-common
+apt-get install -y locales tmux vim curl fail2ban nodejs npm nginx git wget w3m atop htop tmux gpg software-properties-common
+
+npm install npm -g
 
 # Set locale
 echo "LANG=en_US.UTF-8
@@ -66,6 +73,8 @@ usermod -aG docker $USER
 # Pull my dotfiles
 git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/Myscripts/
 
+chown -R ${USER}.  /home/$USER/repo
+
 # Configure a Firewall
 $HOME/Myscripts/iptables-scripts/iptables.vps.sh start
 
@@ -88,7 +97,7 @@ apt install -y gitlab-runner
 # apt update && apt install -y ossec-hids-server
 
 # Install the monitoring stuff:
-apt -t buster-backports install monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
+apt -t buster-backports install -y monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
 
 
 # Harden the kernel.
