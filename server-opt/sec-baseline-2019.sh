@@ -26,14 +26,9 @@ MaxAuthTries 2
 LogLevel VERBOSE
 " >> $SSHD_CFG
 
-# Restart it when you import your SSH key:
-# systemctl restart sshd
-
 # Set sudoer
+# Adjust sudo.
 echo "$USER   ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
-
-# Add hostname:
-echo "127.0.0.1       XXX" > /etc/hosts
 
 # Add backports and Update packages
 echo -e "deb http://deb.debian.org/debian buster-backports main \ndeb http://security.debian.org/debian-security buster/updates main \n
@@ -85,7 +80,7 @@ chown -R ${USER}.  /home/$USER/repo
 $HOME/Myscripts/iptables-scripts/iptables.vps.sh start
 
 # Install GitLab runner:
-/$HOME/Myscripts/server-opt/gitlab-runner-download.deb.sh
+$HOME/Myscripts/server-opt/gitlab-runner-download.deb.sh
 
 cat <<EOF | sudo tee /etc/apt/preferences.d/pin-gitlab-runner.pref
 Explanation: Prefer GitLab provided packages over the Debian native ones
@@ -114,9 +109,17 @@ chmod -R 775 /srv/
 # echo "deb https://updates.atomicorp.com/channels/atomic/debian buster main" >>  /etc/apt/sources.list.d/atomic.list
 # apt update && apt install -y ossec-hids-server
 
-# Install the monitoring stuff:
+# Install the monitoring and security stuff:
 apt -t buster-backports install -y monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
 
+cd /usr/share/doc/auditd/examples/rules/
+cp 10-base-config.rules 30-stig.rules.gz 31-privileged.rules  99-finalize.rules /etc/audit/rules.d/
+cd -
+# TODO
+
+cp /usr/share/apparmor/extra-profiles/* /etc/apparmor.d/
+cp $HOME/Myscripts/apparmor-conf/* /etc/apparmor.d/
+# TODO
 
 ## Harden the kernel.
 echo "        #### Set by root at $(date) ####
@@ -142,7 +145,6 @@ kernel.yama.ptrace_scope = 3
 
 /sbin/sysctl --system
 
-# Adjust sudo.
 
 # Remove Unused Network-Facing Services
 systemctl stop exim4
@@ -162,3 +164,10 @@ systemctl disable tor
 
 systemctl stop containerd
 systemctl disable containerd
+
+# Restart it when you import your SSH key:
+# systemctl restart sshd
+
+# Add hostname #TODO:
+echo "127.0.0.1       XXX" > /etc/hosts
+
