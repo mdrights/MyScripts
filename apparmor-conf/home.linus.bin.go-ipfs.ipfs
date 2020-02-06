@@ -1,0 +1,16 @@
+# Last Modified: Mon Jan 13 13:17:37 2020
+#include <tunables/global>
+
+/home/linus/bin/go-ipfs/ipfs {
+  #include <abstractions/base>
+  #include <abstractions/consoles>
+  #include <abstractions/nameservice>
+
+  /bin/ip mrix,
+  /home/linus/bin/go-ipfs/ipfs mr,
+  /proc/filesystems r,
+  /proc/sys/net/core/somaxconn r,
+  owner /home/*/.ipfs/ r,
+  owner /home/*/.ipfs/** rwk,
+
+}
