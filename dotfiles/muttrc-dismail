@@ -1,18 +1,18 @@
-set realname=""
-set from="@dismail.de"
+set realname="wahaha"
+set from="wahaha@dismail.de"
 set use_from=yes
 
 set folder 		= imaps://imap.dismail.de:993	# Choose either POP or IMAP.
-set imap_user 		= @dismail.de
-set imap_pass 		= ''
+set imap_user 		= wahaha@dismail.de
+set imap_pass 		= 'G_qZzg1xIRYpNJ'
 set spoolfile 		= +INBOX
 set postponed		= +Drafts
 set record		= +Sent
 set trash		= +Trash
 mailboxes		= +INBOX
 
-set smtp_url		= smtps://@dismail.de@smtp.dismail.de:465
-set smtp_pass		= ''
+set smtp_url		= smtps://wahaha@dismail.de@smtp.dismail.de:465
+set smtp_pass		= 'G_qZzg1xIRYpNJ'
 
 set allow_ansi = yes
 set editor = "vim"
@@ -24,9 +24,9 @@ set sort = threads
 auto_view text/html
 set mailcap_path 	= ~/.mutt/mailcap
 set message_cachedir = ~/.mutt/cache
-set header_cache	 = ~/.mutt/cache
+set header_cache = ~/.mutt/cache
 
-source /home/live/.mutt/gpg.rc
+source /home/live/.mutt/gpg.rc 		# Note to use gpg2.
 set pgp_default_key = 
 unset pgp_use_gpg_agent
 set crypt_autosign = yes
