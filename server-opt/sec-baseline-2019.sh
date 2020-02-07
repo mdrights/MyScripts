@@ -4,6 +4,7 @@
 
 set -eu
 
+CWD=$(pwd)
 mkdir -p ~/bin ~/tmp
 
 # Add a Limited User Account
@@ -50,6 +51,9 @@ npm install npm -g
 echo "LANG=en_US.UTF-8
 export LANG
 " > /etc/profile.d/lang.sh
+
+# Set umask
+echo "umask 027" >> $HOME/.profile
 
 # Add third-party repo: Tor.
 echo "
@@ -112,14 +116,22 @@ chmod -R 775 /srv/
 # Install the monitoring and security stuff:
 apt -t buster-backports install -y monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
 
+# Copy autid config.
 cd /usr/share/doc/auditd/examples/rules/
-cp 10-base-config.rules 30-stig.rules.gz 31-privileged.rules  99-finalize.rules /etc/audit/rules.d/
-cd -
-# TODO
+cp 10-base-config.rules 30-stig.rules.gz 99-finalize.rules /etc/audit/rules.d/
+cd  /etc/audit/rules.d/
+gzip -d 30-stig.rules.gz
+sh $HOME/Myscripts/auditd-conf/31-privileges.sh 
+augenrules --load
+cd $CWD
 
+# TODO - needs human intervention to verify that all configs fit to the env.
 cp /usr/share/apparmor/extra-profiles/* /etc/apparmor.d/
 cp $HOME/Myscripts/apparmor-conf/* /etc/apparmor.d/
-# TODO
+for file in *.dovecot*; do touch local/$file; done
+
+aa-status || false
+
 
 ## Harden the kernel.
 echo "        #### Set by root at $(date) ####
