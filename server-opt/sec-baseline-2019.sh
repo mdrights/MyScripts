@@ -47,6 +47,9 @@ apt-get install -y jq python3-requests locales tmux vim curl fail2ban nodejs npm
 
 npm install npm -g
 
+usermod -aG users www-data
+rm /etc/nginx/sites-enabled/default 
+
 # Set locale
 echo "LANG=en_US.UTF-8
 export LANG
