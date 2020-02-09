@@ -43,7 +43,7 @@ apt remove -y gcc locales-all linux-compiler-gcc-8-x86 g++ g++-8 libstdc++-8-dev
 chmod 750 /usr/bin/x86_64-linux-gnu-gcc-*
 
 # Use some basic tools.
-apt-get install -y jq python3-requests locales tmux vim curl fail2ban nodejs npm nginx git wget w3m atop htop tmux gpg software-properties-common
+apt-get install -y jq python3-requests locales tmux vim curl fail2ban nodejs npm nginx git wget w3m atop htop tmux gpg software-properties-common apt-listbugs apt-listchanges needrestart debsecan debsums libpam-tmpdir
 
 npm install npm -g
 
@@ -183,3 +183,5 @@ systemctl disable containerd
 # Add hostname #TODO:
 echo "127.0.0.1       XXX" > /etc/hosts
 
+# Set locales
+dpkg-reconfigure locales
