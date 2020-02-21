@@ -49,6 +49,7 @@ npm install npm -g
 
 usermod -aG users www-data
 rm /etc/nginx/sites-enabled/default 
+chmod -R gitlab-runner:users /srv/
 
 # Set locale
 echo "LANG=en_US.UTF-8
