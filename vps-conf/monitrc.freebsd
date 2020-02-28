@@ -16,7 +16,7 @@
 ##
 ## Start Monit in the background (run as a daemon):
 #
-  set daemon 60            # check services at 2-minute intervals
+set daemon  60              # check services at 30 seconds intervals
 #   with start delay 240    # optional: delay the first check by 4-minutes (by
 #                           # default Monit check immediately after Monit start)
 #
@@ -24,7 +24,8 @@
 ## Set syslog logging. If you want to log to a standalone log file instead,
 ## specify the full path to the log file
 #
-  set log /var/log/monit.log
+# set log syslog
+set log /var/log/monit/monit.log
 
 #
 #
@@ -38,7 +39,6 @@
 ## default the file is placed in $HOME/.monit.id.
 #
 # set idfile /var/.monit.id
-  set idfile /var/lib/monit/id
 #
 ## Set the location of the Monit state file which saves monitoring states
 ## on each cycle. By default the file is placed in $HOME/.monit.state. If
@@ -46,14 +46,14 @@
 ## the monitoring state across reboots. If it is on temporary filesystem, the
 ## state will be lost on reboot which may be convenient in some situations.
 #
-  set statefile /var/lib/monit/state
+# set statefile /var/.monit.state
 #
 #
 
 ## Set limits for various tests. The following example shows the default values:
 ##
 # set limits {
-#     programOutput:     512 B,      # check program's output truncate limit
+#     programOutput:     5120 B,      # check program's output truncate limit
 #     sendExpectBuffer:  256 B,      # limit for send/expect protocol test
 #     fileContentBuffer: 512 B,      # limit for file content test
 #     httpContentBuffer: 1 MB,       # limit for HTTP content test
@@ -91,8 +91,8 @@
 ## available in the back end filesystem).
 #
 # set eventqueue
-#      basedir /var/lib/monit/events # set the base directory where events will be stored
-#      slots 100                     # optionally limit the queue size
+#     basedir /var/monit  # set the base directory where events will be stored
+#     slots 100           # optionally limit the queue size
 #
 #
 ## Send status and events to M/Monit (for more informations about M/Monit
@@ -175,31 +175,27 @@ check process ipfs matching go-ipfs
     #start program = "/home/user/bin/go-ipfs/ipfs daemon" as uid 1001 as gid 1001 with timeout 60 seconds
 
 check process tiny-matrix with matching tiny-matrix-bot.py
-    if does not exist then alert	# use systemd
-#	start program = "/home/user/bin/run-tiny-matrix.sh" as uid 1001 as gid 1001 with timeout 60 seconds
+    if does not exist then start
+    start program = "/home/user/bin/run-tiny-matrix.sh" as uid 1001 as gid 1001 with timeout 60 seconds
 
 check process csobot with matching csobot-matrix.py
-    if does not exist then  alert	# use systemd
-#    start program = "/home/user/bin/run-csobot-matrix.sh" as uid 1001 as gid 1001 with timeout 60 seconds
+    if does not exist then start
+    start program = "/home/user/bin/run-csobot-matrix.sh" as uid 1001 as gid 1001 with timeout 60 seconds
 
 check process tor with pidfile /var/run/tor/tor.pid
     if does not exist then start
-    start program = "/usr/local/etc/init.d/tor start"
-    stop program = "/usr/local/etc/init.d/tor stop"
+    start program = "/usr/local/etc/rc.d/tor start"
+    stop program = "/usr/local/etc/rc.d/tor stop"
 
 check process atop with pidfile /var/run/atop.pid
     if does not exist then start
-    start program = "/usr/local/etc/init.d/atop start"
-    stop program = "/usr/local/etc/init.d/atop stop"
-
-check process gitlab-runner matching gitlab-runner
-    if does not exist then start
-	start program = "/root/bin/start-gitlab-runner.sh"
+    start program = "/usr/local/etc/rc.d/atop start"
+    stop program = "/usr/local/etc/rc.d/atop stop"
 
 check process ss-server with pidfile /var/run/shadowsocks-libev.pid
     if does not exist then start
-    start program = "/usr/local/etc/init.d/shadowsocks_libev start"
-    stop program = "/usr/local/etc/init.d/shadowsocks_libev stop"
+    start program = "/usr/local/etc/rc.d/shadowsocks_libev start"
+    stop program = "/usr/local/etc/rc.d/shadowsocks_libev stop"
 
 ## Check general system resources such as load average, cpu and memory
 ## usage. Each test specifies a resource, conditions and the action to be
@@ -336,6 +332,5 @@ check system $HOST
 ## It is possible to include additional configuration parts from other files or
 ## directories.
 #
-   include /etc/monit/conf.d/*
-   include /etc/monit/conf-enabled/*
+#  include /etc/monit.d/*
 #
