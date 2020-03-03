@@ -9,7 +9,7 @@ mkdir -p ~/bin ~/tmp
 
 # Add a Limited User Account
 USER='linus'
-useradd -m -G sudo,users -s /bin/bash $USER
+useradd -m -G sudo,users -s /bin/bash $USER || true
 
 chmod -R 700 /home/$USER/
 mkdir -p -m 0700 /home/$USER/.ssh
@@ -21,7 +21,7 @@ chown -R ${USER}. /home/$USER/
 
 SSHD_CFG="/etc/ssh/sshd_config"
 echo -e "\n ## My settings ## 
-\nPermitRootLogin no-password \nPasswordAuthentication no \nX11Forwarding no \nAllowAgentForwarding no
+\nPermitRootLogin no \nPasswordAuthentication no \nX11Forwarding no \nAllowAgentForwarding no
 AllowTcpForwarding no
 MaxAuthTries 2
 LogLevel VERBOSE
@@ -40,10 +40,10 @@ apt update && apt upgrade -y
 apt remove -y gcc locales-all linux-compiler-gcc-8-x86 g++ g++-8 libstdc++-8-dev linux-headers-4.19.0-6-common linux-kbuild-4.19
 
 # De-execute gcc-8 for others:
-chmod 750 /usr/bin/x86_64-linux-gnu-gcc-*
+chmod 750 /usr/bin/x86_64-linux-gnu-gcc-* || true
 
 # Use some basic tools.
-apt-get install -y jq python3-requests locales tmux vim curl fail2ban nodejs npm nginx git wget w3m atop htop tmux gpg software-properties-common apt-listbugs apt-listchanges needrestart debsecan debsums libpam-tmpdir
+apt-get install -y jq python3-requests locales tmux vim curl fail2ban nodejs npm nginx git wget w3m atop htop tmux gpg software-properties-common apt-listbugs apt-listchanges needrestart debsecan debsums libpam-tmpdir libgl1 libxi6 certbot python-certbot-nginx
 
 npm install npm -g
 
@@ -132,7 +132,9 @@ cd $CWD
 # TODO - needs human intervention to verify that all configs fit to the env.
 cp /usr/share/apparmor/extra-profiles/* /etc/apparmor.d/
 cp $HOME/Myscripts/apparmor-conf/* /etc/apparmor.d/
+cd /etc/apparmor.d/
 for file in *.dovecot*; do touch local/$file; done
+cd -
 
 aa-status || false
 
@@ -185,7 +187,8 @@ systemctl disable containerd
 # systemctl restart sshd
 
 # Add hostname #TODO:
-echo "127.0.0.1       XXX" > /etc/hosts
+read -p "Please let me know your hostname: " YOURHOST
+echo "127.0.0.1       $YOURHOST" >> /etc/hosts
 
 # Set locales
 dpkg-reconfigure locales
