@@ -1,8 +1,13 @@
 #!/bin/bash
-# BRIEF: This script is used to make a NEW instance set up to work.
-# AUTHOR: root
+# BRIEF		This script is used to make a NEW instance set up to work.
+# DATE		2020-03-05
 
 set -eu
+
+if [ $UID -ne 0 ]; then
+    echo "Oops, you are NOT root. Quit."
+    exit 1
+fi
 
 CWD=$(pwd)
 mkdir -p ~/bin ~/tmp
