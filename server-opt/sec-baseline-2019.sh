@@ -49,7 +49,6 @@ npm install npm -g
 
 usermod -aG users www-data
 rm /etc/nginx/sites-enabled/default 
-chmod -R gitlab-runner:users /srv/
 
 # Set locale
 echo "LANG=en_US.UTF-8
@@ -85,7 +84,7 @@ git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/Myscripts/
 chown -R ${USER}.  /home/$USER/repo
 
 # Configure a Firewall
-$HOME/Myscripts/iptables-scripts/iptables.vps.sh start
+#$HOME/Myscripts/iptables-scripts/iptables.vps.sh start
 
 # Install GitLab runner:
 $HOME/Myscripts/server-opt/gitlab-runner-download.deb.sh
