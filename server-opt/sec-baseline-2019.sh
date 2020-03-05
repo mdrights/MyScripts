@@ -10,6 +10,7 @@ mkdir -p ~/bin ~/tmp
 # Add a Limited User Account
 USER='linus'
 useradd -m -G sudo,users -s /bin/bash $USER || true
+useradd -m -s /bin/bash -G users ipfs || true
 
 chmod -R 700 /home/$USER/
 mkdir -p -m 0700 /home/$USER/.ssh
