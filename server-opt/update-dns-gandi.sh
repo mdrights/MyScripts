@@ -5,8 +5,9 @@
 ret=1
 APIKEY=
 UUID=
+CIDFILE=
 
-CID=$(cat /tmp/ipfs-cid 2>/dev/null)
+CID=$(cat $CIDFILE 2>/dev/null)
 if [ -z "$CID" ]; then
 	echo "> No IPFS cid obtained. Quit."
 	exit 1
@@ -23,7 +24,6 @@ fi
 
 while [ "$ret" -eq 1 ]; do
 	n=1
-
 
 	echo "> Delete a TXT record"
 	curl -s -S -X DELETE -H "Content-Type: application/json" -H "X-Api-Key: $APIKEY" https://dns.api.gandi.net/api/v5/zones/$UUID/records/_dnslink.ipfs/TXT
