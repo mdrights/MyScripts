@@ -1,13 +1,20 @@
 export ENV=$HOME/.kshrc
 
+export QT_IM_MODULE=fcitx
+export XIM=fcitx
+export XIM_PROGRAM=fcitx
+export GTK_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+if [ -f /home/user/.profile ]; then . /home/user/.profile ; fi
+
 xsetroot -solid grey &
+
+fcitx &
 
 #xterm -bg black -fg white +sb -font 9x15 &
 #urxvt -bg black -fg white +sb -font 9x15 &
 /usr/local/bin/st &
-
-# icewm
-#/usr/local/bin/icewm-session
 
 # Set monitors
 while true
@@ -29,3 +36,6 @@ done &
 
 # dwm
 /usr/local/bin/dwm
+
+# icewm
+#/usr/local/bin/icewm-session
