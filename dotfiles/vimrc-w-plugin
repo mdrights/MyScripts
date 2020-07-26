@@ -4,7 +4,6 @@ set go=
 colorscheme delek
 " set guifont=Courier_New
 set guifont=Go\ Mono\ for\ Powerline\ 11
-syntax on
 set nocompatible
 set encoding=utf-8
 set showcmd
@@ -20,8 +19,16 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set ignorecase
+set showmatch
+set hlsearch
+set incsearch
 autocmd InsertLeave * se cul		"underlining when leaving edit mode.
 autocmd InsertEnter * se nocul
+
+""Highlighting & Indenting
+syntax on
+let python_highlight_all=1
+set list lcs=tab:\|\ 
 
 
 " Punc auto-complete
@@ -34,17 +41,23 @@ autocmd InsertEnter * se nocul
 :inoremap " ""<ESC>i
 :inoremap ' ''<ESC>i
 
-" Statusline if no Powerline
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+
+
+" ==== PLUGINS ====
+"
+" Powerline
+set laststatus=2
+"
+""" Statusline if no Powerline
 " set statusline=%f\ -\ %y
 " set statusline+=\ -\ 
 " set statusline+=%l    " Current line
 " set statusline+=/    " Separator
 " set statusline+=%L   " Total lines
-
-" PLUGINS
-" Powerline
-set laststatus=2
-set rtp+=/usr/local/repo/powerline/powerline/bindings/vim
 
 " Syntastic
 ""set statusline+=%#warningmsg#
@@ -55,6 +68,17 @@ set rtp+=/usr/local/repo/powerline/powerline/bindings/vim
 ""let g:syntastic_auto_loc_list = 1
 ""let g:syntastic_check_on_open = 0
 ""let g:syntastic_check_on_wq = 0
+
+" NERDTree
+autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Taglist
+nnoremap <silent> <F9> :TlistToggle<CR>
+let Tlist_Ctags_Cmd="/usr/local/bin/ectags"
+
+" ALE
+let g:ale_linters = {'python': ['pylint'], 'sh': ['shellcheck'],}
 
 
 " Vundle
@@ -69,24 +93,23 @@ call vundle#begin()
 	" let Vundle manage Vundle, required
 	Plugin 'VundleVim/Vundle.vim'
 
-	" The following are examples of different formats supported.
-	" Keep Plugin commands between vundle#begin/end.
-	" plugin on GitHub repo
-	"Plugin 'tpope/vim-fugitive'
-	" plugin from http://vim-scripts.org/vim/scripts.html
-	" Plugin 'L9'
-	" Git plugin not hosted on GitHub
-	"Plugin 'git://git.wincent.com/command-t.git'
-	" git repos on your local machine (i.e. when working on your own plugin)
-	"Plugin 'file:///home/gmarik/path/to/plugin'
-""	Plugin 'file:///home/vagrant/.vim/bundle/syntastic'
-""	Plugin 'file:///home/vagrant/.vim/bundle/YouCompleteMe'
-	" The sparkup vim script is in a subdirectory of this repo called vim.
-	" Pass the path to set the runtimepath properly.
-	"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-	" Install L9 and avoid a Naming conflict if you've already installed a
-	" different version somewhere else.
-	" Plugin 'ascenator/L9', {'name': 'newL9'}
+	Plugin 'tmhedberg/SimpylFold'
+	Plugin 'vim-scripts/indentpython.vim'
+	"Plugin 'vim-syntastic/syntastic'
+	Plugin 'nvie/vim-flake8'
+	Plugin 'jnurmine/Zenburn'
+	Plugin 'scrooloose/nerdtree'
+	Plugin 'kien/ctrlp.vim'
+	Plugin 'tpope/vim-fugitive'
+    Plugin 'vim-scripts/taglist.vim'
+	Plugin 'vim-airline/vim-airline'
+	Plugin 'Yggdroot/indentLine'
+	Plugin 'dense-analysis/ale'
+	Plugin 'stephpy/vim-yaml'
+	Plugin 'tpope/vim-markdown'
+	Plugin 'elzr/vim-json'
+	"Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+	"Plugin 'Valloric/YouCompleteMe'
 
 	" All of your Plugins must be added before the following line
 	call vundle#end()            " required
