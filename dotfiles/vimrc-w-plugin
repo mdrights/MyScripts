@@ -1,9 +1,9 @@
 " My customizations
 "set nu
 set go=
-colorscheme delek
+colorscheme slate
 " set guifont=Courier_New
-set guifont=Go\ Mono\ for\ Powerline\ 11
+" set guifont=Go\ Mono\ for\ Powerline\ 11
 set nocompatible
 set encoding=utf-8
 set showcmd
@@ -36,6 +36,7 @@ let g:markdown_syntax_conceal=0
 let g:indentLine_char_list=['|', '¦', '┆', '┊']
 au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
 " au BufRead,BufNewFile *rc set filetype=sh
+au BufRead,BufNewFile *.conf set filetype=dosini
 au BufRead,BufNewFile .textlintrc set filetype=json
 let g:vim_markdown_frontmatter=1
 "let g:vim_markdown_folding_disabled=1
@@ -67,6 +68,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#ale#enabled = 1
 
 
 """ Statusline if no Powerline
@@ -88,15 +90,29 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " NERDTree
 autocmd vimenter * NERDTree
-map <C-n> :NERDTreeToggle<CR>
+" map <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
 " Taglist
-nnoremap <silent> <F9> :TlistToggle<CR>
+nnoremap <silent> <F4> :TlistToggle<CR>
 " let Tlist_Ctags_Cmd="/usr/local/homebrew/bin/ctags"
 let Tlist_Ctags_Cmd="/usr/local/bin/ectags"
 
 " ALE
-let g:ale_linters = {'python': ['pylint'], 'sh': ['shellcheck'], 'markdown': ['textlint', 'write-good', 'proselint'], 'text': ['textlint', 'write-good', 'proselint'],}
+nnoremap <silent> <F2> :ALEInfo<CR>
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+let g:ale_linters = {
+            \ 'python': ['pylint'],
+            \ 'yaml': ['swaglint'],
+            \ 'sh': ['shellcheck'],
+            \ 'markdown': ['textlint', 'write-good', 'proselint'],
+            \ 'text': ['textlint', 'write-good', 'proselint'],}
+let g:alw_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'],}
+" call deoplete#custom#option('sources', {'_': ['ale'],})
+let g:ale_completion_enabled = 1
+set omnifunc=ale#completion#OmniFunc
+
 
 
 " Vundle
