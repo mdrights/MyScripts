@@ -5,7 +5,7 @@
   "rules": {
     "no-todo": true,
     "@textlint-rule/no-unmatched-pair": true,
-    "en-spell": true,
+    "en-spell": false,
 
     "common-misspellings": {
       "ignore": []
@@ -26,6 +26,7 @@
       "skip": ["Blockquote"],
       "terms": [
         "JavaScript",
+        "Internet",
         "ESLint",
         "npm",
         ["front[- ]end(\\w*)", "frontend$1"],
@@ -35,7 +36,7 @@
         ["CLI tool(s?)", "command line tool$1"],
         ["id['’]?s", "IDs"],
         ["(\\w+[^.?!]\\)? )webpack", "$1webpack"],
-        ["(\\w+[^.?!]\\)? )internet", "$internet"]
+        ["(\\w+[^.?!]\\)? )internet", "$1Internet"]
       ],
       "exclude": [
         "CSS"
