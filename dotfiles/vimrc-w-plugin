@@ -108,7 +108,10 @@ let g:ale_linters = {
             \ 'sh': ['shellcheck'],
             \ 'markdown': ['textlint', 'write-good', 'proselint'],
             \ 'text': ['textlint', 'write-good', 'proselint'],}
-let g:alw_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace'],}
+let g:ale_fixers = {
+            \ '*': ['remove_trailing_lines', 'trim_whitespace'],
+            \ 'markdown': ['textlint', 'remove_trailing_lines', 'trim_whitespace'],}
+
 " call deoplete#custom#option('sources', {'_': ['ale'],})
 let g:ale_completion_enabled = 1
 set omnifunc=ale#completion#OmniFunc
