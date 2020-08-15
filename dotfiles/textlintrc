@@ -4,8 +4,9 @@
   },
   "rules": {
     "no-todo": true,
-    "@textlint-rule/no-unmatched-pair": true,
     "en-spell": false,
+    "@textlint-rule/no-unmatched-pair": true,
+    "@textlint-rule/preset-google": true,
 
     "common-misspellings": {
       "ignore": []

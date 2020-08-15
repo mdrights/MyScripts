@@ -106,8 +106,8 @@ let g:ale_linters = {
             \ 'python': ['pylint'],
             \ 'yaml': ['swaglint'],
             \ 'sh': ['shellcheck'],
-            \ 'markdown': ['textlint', 'write-good', 'proselint'],
-            \ 'text': ['textlint', 'write-good', 'proselint'],}
+            \ 'markdown': ['textlint', 'write-good', 'proselint', 'alex'],
+            \ 'text': ['textlint', 'write-good', 'proselint', 'alex'],}
 let g:ale_fixers = {
             \ '*': ['remove_trailing_lines', 'trim_whitespace'],
             \ 'markdown': ['textlint', 'remove_trailing_lines', 'trim_whitespace'],}
