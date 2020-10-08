@@ -1,6 +1,6 @@
 #!/bin/bash
 # BRIEF		This script is used to make a NEW instance set up to work.
-# DATE		2020-03-05
+# DATE		2020-10-08
 
 set -eu
 
@@ -54,7 +54,7 @@ apt-get install -y jq python3-pip python3-requests locales tmux vim curl fail2ba
 npm install npm -g
 
 usermod -aG users www-data
-rm /etc/nginx/sites-enabled/default 
+rm /etc/nginx/sites-enabled/default || true
 
 # Set locale
 echo "LANG=en_US.UTF-8
@@ -85,7 +85,7 @@ apt install -y docker-ce docker-ce-cli containerd.io
 usermod -aG docker $USER
 
 # Pull my dotfiles
-git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/Myscripts/
+git clone https://github.com/mdrights/Myscripts.git /home/$USER/repo/Myscripts/ || true
 
 chown -R ${USER}.  /home/$USER/repo
 
@@ -103,7 +103,7 @@ Pin-Priority: 1001
 EOF
 
 apt update
-apt install -y gitlab-runner
+apt install -y gitlab-runner || true
 
 # gitlab-runner startup script:
 echo '#!/bin/sh
@@ -122,6 +122,7 @@ chmod -R 775 /srv/
 # echo "deb https://updates.atomicorp.com/channels/atomic/debian buster main" >>  /etc/apt/sources.list.d/atomic.list
 # apt update && apt install -y ossec-hids-server
 
+
 # Install the monitoring and security stuff:
 apt -t buster-backports install -y monit exim4-daemon-light apparmor-profiles apparmor-profiles-extra apparmor-utils auditd lynis
 
@@ -131,7 +132,7 @@ cp 10-base-config.rules 30-stig.rules.gz 99-finalize.rules /etc/audit/rules.d/
 cd  /etc/audit/rules.d/
 gzip -d 30-stig.rules.gz
 sh $HOME/Myscripts/auditd-conf/31-privileges.sh 
-augenrules --load
+augenrules --load || true
 cd $CWD
 
 # TODO - needs human intervention to verify that all configs fit to the env.
@@ -141,7 +142,7 @@ cd /etc/apparmor.d/
 for file in *.dovecot*; do touch local/$file; done
 cd -
 
-aa-status || false
+aa-status || true
 
 
 ## Harden the kernel.
@@ -188,12 +189,18 @@ systemctl disable tor
 systemctl stop containerd
 systemctl disable containerd
 
-# Restart it when you import your SSH key:
-# systemctl restart sshd
 
 # Add hostname #TODO:
-read -p "Please let me know your hostname: " YOURHOST
+echo
+read -p ">> Please let me know your hostname: " YOURHOST
 echo "127.0.0.1       $YOURHOST" >> /etc/hosts
 
 # Set locales
 dpkg-reconfigure locales
+
+echo
+echo "  Restart SSH when you setup a user a/c + import your SSH key + clean your sshd_config: "  
+echo  ">> systemctl restart sshd"
+# systemctl restart sshd    #TODO  
+
+exit
