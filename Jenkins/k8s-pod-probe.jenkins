@@ -1,9 +1,9 @@
 pipeline {
-  agent { node { label 'dind' } }
-  stages {
-      
-    stage('Work on AKS') {
+  agent { node { label 'base' } }
+  triggers { cron('H 9-18 * * 1-5') }
 
+  stages {
+    stage('Work on AKS') {
       steps {
         script {   
         properties([
@@ -16,11 +16,6 @@ pipeline {
         ])
         }
 
-        checkout(
-            [$class: 'GitSCM', branches: [[name: '*/master']], 
-            doGenerateSubmoduleConfigurations: false, 
-            extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'tmsconfigmap']], 
-            submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'ee23c98b-bfb2-470b-b137-26c5d3be65ef', url: 'ssh://git@code.pruconnect.net:7999/pcatms/tmsconfigmap.git']]])
 
         // INSERT ANOTHER REPO HERE IF YOU NEED TO CHECKOUT.
 
@@ -94,20 +89,27 @@ pipeline {
 
                 PODST=$(kc get pods)
                 echo "$PODST" |grep -v 'Running' | tee /tmp/rtms-pod-probe.log
-                #RES="$(echo "$PODST" |grep -v 'Running')"
                  
 #### NOTE: WRITE YOUR OWN COMMANDS ABOVE ####
 
                 echo "---- Clean the kubeconfig ----"
                 rm ${WORKSPACE}/kubeconfig
                 echo "---- Done ----"
-              '''
 
-              env.RES = sh(script: "cat /tmp/rtms-pod-probe.log", returnStdout: true).trim()
-              emailext body: "${env.RES}", subject: 'Oooooops', to: 'chouniu.yang@prudential.com.cn'
+                # Fail this stage if all pods are running.
+                echo "$PODST" |sed '1 d' |grep -v 'Running'
+              '''
             }
         }
       }
     }   
+  }
+  post {
+    success {
+      script {
+        env.RES = sh(script: "cat /tmp/rtms-pod-probe.log", returnStdout: true).trim()
+        emailext body: "${env.RES}", subject: "Oops, You have UNUSUAL pods in ${DESTENV}!", to: 'chouniu.yang@prudential.com.cn'
+      }
+    }
   }
 }
