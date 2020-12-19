@@ -3,7 +3,7 @@
 
 set -e
 
-IPT="/sbin/iptables"
+IPT="/usr/sbin/iptables"
 #lan="10.1.0.0/16"
 #dmz="192.168.100.0/24"
 #dns1="192.168.100.2/32"
@@ -60,7 +60,9 @@ case "$1" in
         #      Set rates with burst for new conns, then log/drop the excess
         #$IPT -A inbound -p tcp --syn -m limit --limit 4/s --limit-burst 10 -j ACCEPT
         $IPT -A inbound -p tcp --dport 22 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
-	$IPT -A inbound -p tcp -m tcp --dport 443 -j LOG --log-prefix "[SS-in] "
+		$IPT -A inbound -p tcp -m tcp --dport 80 -j LOG --log-prefix "[WEB-in] "
+		$IPT -A inbound -p tcp -m tcp --dport 443 -j LOG --log-prefix "[WEB-in] "
+        $IPT -A inbound -p tcp --dport 80 -m limit --limit 4/s --limit-burst 10       -j ACCEPT
         $IPT -A inbound -p tcp --dport 443 -m limit --limit 4/s --limit-burst 10      -j ACCEPT
         $IPT -A inbound -p tcp --syn -j LOG
         $IPT -A inbound -p tcp --syn -j DROP
